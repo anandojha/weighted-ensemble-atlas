@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weighted Ensemble, Audited · 3D Literature &amp; Physics Atlas</title>
+  <link rel="stylesheet" href="vendor/katex.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand">
+      <span class="brand-title">Weighted Ensemble, Audited</span>
+      <span class="brand-sub">1951 splitting &amp; 1980s Brownian roots to 2026 citation cylinder</span>
+    </div>
+    <nav class="topnav">
+      <button class="nav-btn" id="btn-story" data-mode="story">Story</button>
+      <button class="nav-btn" data-drawer="audits">Audits</button>
+      <button class="nav-btn active" id="btn-explore" data-drawer="">Explore</button>
+      <button class="nav-btn" data-drawer="subfields">Subfields</button>
+      <button class="nav-btn" data-drawer="review">Review</button>
+      <button class="nav-btn" data-drawer="opportunities">AI opportunities</button>
+      <button class="nav-btn" data-drawer="method">Method</button>
+      <button class="nav-btn" id="theme-btn" title="Switch color theme">◐</button>
+    </nav>
+  </header>
+
+  <aside id="story-panel"></aside>
+
+  <aside id="hud">
+    <div class="search-wrap">
+      <input
+        id="search-input"
+        class="hud-input"
+        type="search"
+        placeholder="Search an author, paper title, or DOI"
+        autocomplete="off"
+      />
+      <div id="search-results"></div>
+    </div>
+
+    <select id="subfield-select" class="hud-select">
+      <option value="-1">All 12 subfields</option>
+    </select>
+
+    <select id="color-select" class="hud-select">
+      <option value="core">Colour core Weighted Ensemble papers</option>
+      <option value="subfield">Colour by research subfield</option>
+      <option value="coverage">Colour Flatiron PDF &amp; Open Access status</option>
+      <option value="year">Colour by publication year</option>
+    </select>
+
+    <div>
+      <div class="hud-section-label">
+        <span>Years</span>
+        <span id="year-label">start to 2026</span>
+      </div>
+      <div class="slider-pair" style="margin-top:6px;">
+        <input id="year-min" type="range" min="1950" max="2026" value="1950" step="1" />
+        <input id="year-max" type="range" min="1950" max="2026" value="2026" step="1" />
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button id="play-btn" class="hud-btn">▶ Play 1955 to 2026</button>
+      <button id="reset-btn" class="hud-btn">Reset view</button>
+    </div>
+
+    <div>
+      <div class="hud-section-label"><span>Audits</span></div>
+      <div class="check-list" style="margin-top:5px;">
+        <label class="check-row">
+          <input id="chk-audits" type="checkbox" />
+          <span id="lbl-audits-count">Highlight verified audits &amp; propagation</span>
+        </label>
+      </div>
+    </div>
+
+    <div>
+      <div class="hud-section-label"><span>Map</span></div>
+      <div class="check-list" style="margin-top:5px;">
+        <label class="check-row">
+          <input id="chk-all" type="checkbox" />
+          <span id="lbl-all-papers">All papers including full context shell</span>
+        </label>
+        <label class="check-row">
+          <input id="chk-edges" type="checkbox" checked />
+          <span>Citation filaments</span>
+        </label>
+        <label class="check-row">
+          <input id="chk-labels" type="checkbox" checked />
+          <span>Subfield names &amp; year rings</span>
+        </label>
+        <label class="check-row">
+          <input id="chk-spin" type="checkbox" checked />
+          <span>Slow rotation</span>
+        </label>
+      </div>
+    </div>
+
+    <div id="hud-stats" class="hud-stats">
+      Loading citation cylinder...
+    </div>
+  </aside>
+
+  <div id="canvas-wrap"></div>
+  <div id="labels"></div>
+  <div id="legend"></div>
+  <div id="tooltip"></div>
+
+  <section id="node-card">
+    <button id="card-close" class="card-close" title="Close">✕</button>
+    <h3 id="card-title" class="card-title"></h3>
+    <div id="card-authors" class="card-authors"></div>
+    <div id="card-badges" class="badge-row"></div>
+    <div id="card-stats" class="card-stats"></div>
+    <div id="card-links" class="card-links"></div>
+    <div id="card-code" style="font-size:11.5px;color:var(--accent);margin-top:4px;"></div>
+    <div id="card-eq" style="margin-top:6px;"></div>
+    <div id="card-abstract" class="card-abstract"></div>
+    <div id="card-neighbors" class="neighbor-list"></div>
+  </section>
+
+  <div id="side-tabs">
+    <button class="side-tab" data-drawer="audits">Audits</button>
+    <button class="side-tab" data-drawer="subfields">Subfields</button>
+    <button class="side-tab" data-drawer="review">Review</button>
+    <button class="side-tab" data-drawer="opportunities">AI targets</button>
+    <button class="side-tab" data-drawer="method">Method</button>
+  </div>
+
+  <aside id="drawer">
+    <div class="drawer-head">
+      <h2 id="drawer-title" class="drawer-title"></h2>
+      <button id="drawer-close" class="card-close" title="Close">✕</button>
+    </div>
+    <div id="drawer-body" class="drawer-body"></div>
+  </aside>
+
+  <script src="vendor/three.min.js"></script>
+  <script src="vendor/katex.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

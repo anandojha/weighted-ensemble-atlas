@@ -1,0 +1,1162 @@
+[
+  {
+    "system": "FKBP12 with three low affinity ligands",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "WExplore (first application to ligand release)",
+    "outcome": "Ligand residence times and exit pathways from unbiased WE unbinding ensembles, WExplore more efficient than conventional MD even for ns scale unbinding, numbers not verified (full text not accessible)",
+    "reference": "Dickson 2016, J Phys Chem B 120, 5377, 10.1021/acs.jpcb.6b04012"
+  },
+  {
+    "system": "Trypsin and benzamidine (PDB 3PTB)",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "WExplore (5 runs of 48 walkers), CHARMM with OpenMM 6.3, CGenFF ligand",
+    "outcome": "Unbinding MFPT 180 \u03bcs from 4.1 \u03bcs of total sampling versus experimental 1700 \u03bcs (within an order of magnitude), multiple exit pathways",
+    "reference": "Dickson 2017, Biophys J 112, 620, 10.1016/j.bpj.2017.01.006"
+  },
+  {
+    "system": "T4 lysozyme L99A with benzene (PDB 1L83), benzene exit from the buried cavity, CHARMM36 with GB implicit solvent",
+    "category": "protein ligand",
+    "lab": "Arantes and Zuckerman (S\u00e3o Paulo, OHSU)",
+    "protocol": "WESTPA with Voronoi bins (23 to 26 centers per pathway), 4 to 5 walkers per bin, \u03c4 2 ps at 300 K or 10 ps at 400 K, GROMACS 4.5, about 29 \u00b5s aggregate",
+    "outcome": "Four benzene exit pathways found, preliminary per pathway rates (values only in a figure, not verified) with two pathways close to the experimental k_off of 950 per s at 303 K and two faster",
+    "reference": "Nunes Alves 2018, Biophys J 114, 1058, doi 10.1016/j.bpj.2018.01.014"
+  },
+  {
+    "system": "Soluble epoxide hydrolase with inhibitor TPPU",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "WExplore, engine not verified",
+    "outcome": "Residence time 42 s (standard error range 23 to 280 s) from 6 \u03bcs of sampling and 75 unbinding events, versus experimental 11 min (660 s)",
+    "reference": "Lotz 2018, J Am Chem Soc 140, 618, 10.1021/jacs.7b08572"
+  },
+  {
+    "system": "Baz2B bromodomain with ICR7 (PDB 4XUB)",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "WExplore (3 runs of 48 walkers per pose, two docked poses), CHARMM with OpenMM interface, CHARMM36 and CGenFF",
+    "outcome": "Pose A k_off 2.4 \u00d7 10\u2076 s\u207b\u00b9 (MFPT 420 ns) versus pose B 6.6 \u00d7 10\u2076 s\u207b\u00b9 (150 ns), exit rate ranking agrees with the crystal pose, 8.4 \u03bcs total over both bromodomains",
+    "reference": "Dickson 2018, Biophys J 115, 1707, 10.1016/j.bpj.2018.09.021"
+  },
+  {
+    "system": "Brd4 first bromodomain with MS436 (PDB 4NUD)",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "WExplore (3 runs of 48 walkers per pose, two docked poses), CHARMM with OpenMM interface, CHARMM36 and CGenFF",
+    "outcome": "Pose A k_off 3.6 s\u207b\u00b9 (MFPT 280 ms) versus pose B 2.2 \u00d7 10\u00b3 s\u207b\u00b9 (0.46 ms), about 600 fold slower exit from pose A, ranking agrees with the crystal pose, 81% of transitions between deeply bound states pass through the unbound state (both systems)",
+    "reference": "Dickson 2018, Biophys J 115, 1707, 10.1016/j.bpj.2018.09.021"
+  },
+  {
+    "system": "Trypsin and benzamidine (PDB 3PTB)",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "REVO (regionless WE, introduced here) compared with WExplore, wepy with OpenMM 7.2.2",
+    "outcome": "Residence time 3.76 ms with REVO (WExplore 1.19, unit not printed) versus experimental 1.6 ms, from 8.75 \u03bcs per method, and a new fourth exit pathway",
+    "reference": "Donyapour 2019, J Chem Phys 150, 244112, 10.1063/1.5100521"
+  },
+  {
+    "system": "BPTF bromodomain with inhibitor (S) 1, the active AU1 enantiomer",
+    "category": "protein ligand",
+    "lab": "Pomerantz, Dickson",
+    "protocol": "WExplore from multiple docked poses with a weighted network model of poses, engine not verified",
+    "outcome": "Predicted pose ensemble places the methyl ester as an acetyl lysine mimic hydrogen bonded to conserved N2881, aryl stacking on F2887 and urea bonded to D2834, consistent with SAR (racemate K_d 2.8 \u03bcM), no rate reported",
+    "reference": "Kirberger 2019, Org Biomol Chem 17, 2020, 10.1039/c8ob02599a"
+  },
+  {
+    "system": "T4 lysozyme L99A with p xylene (OBC GBSA implicit solvent)",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "wepy (introduced here) with REVO and WExplore resamplers, OpenMM, Amber ff96 and GAFF",
+    "outcome": "Over 4 \u00d7 1 \u03bcs per group REVO gave 4337 and WExplore 486 unbinding events versus 39 for unresampled ensembles, all WE replicates exited within 100 ns versus about 300 ns for the first straightforward exit, straightforward reference rate 3.25 \u03bcs\u207b\u00b9",
+    "reference": "Lotz 2020, ACS Omega 5, 31608, 10.1021/acsomega.0c03892"
+  },
+  {
+    "system": "Soluble epoxide hydrolase catalytic domain (PDB 4OD0) with TPPU analog ligand 1",
+    "category": "protein ligand",
+    "lab": "Dickson, Lee",
+    "protocol": "REVO with wepy and OpenMM, CHARMM36 (48 walkers), WE MSM",
+    "outcome": "WE MSM residence time 3.1 min (best model) versus experimental 14.25 min, 34 unbinding events in 14.72 \u03bcs",
+    "reference": "Bose 2023, J Am Chem Soc 145, 25318, 10.1021/jacs.3c08940"
+  },
+  {
+    "system": "HIF 2\u03b1 PAS B domain and THS 017 ligand escaping a buried cavity (PDB 3H7W), ff19SB and GAFF2",
+    "category": "protein ligand",
+    "lab": "Chong (with Gardner)",
+    "protocol": "Steady state WE, three stage MAB, 3D coordinate (cavity SASA, unbinding RMSD, ligand receptor distance), \u03c4 100 ps, 8 walkers per bin, WESS reweighting, three runs, WESTPA 2.0 on 16 A100 GPUs",
+    "outcome": "k_off 1.3 \u00d7 10^4 to 8.7 \u00d7 10^4 s\u22121 against ZZ exchange NMR 1.4 \u00b1 0.3 s\u22121 (MFPT 0.71 s), so far too fast. More than 4000 pathways from 35.1 to 41.5 \u03bcs per run in 14 to 16 days, two exit routes (63% and 37%), gating residue N288 confirmed by NMR on N288A and N288Q",
+    "reference": "Silvestrini, 2024, Protein Sci, 33, e5198, 10.1002/pro.5198"
+  },
+  {
+    "system": "Kinesin Eg5 motor domain and ADP (PDB 1II6), ADP release, explicit water, 100 mM NaCl",
+    "category": "protein ligand",
+    "lab": "Chong (with LeBard)",
+    "protocol": "MABL (minimal adaptive binless WE) against multi MAB, progress score from ligand receptor interaction energy, unbinding RMSD and distance, \u03c4 50 ps, WESTPA 2.0 with Amber 22 pmemd.cuda and ff19SB",
+    "outcome": "First unbinding event after 2.0 \u03bcs aggregate with MABL against 4.7 \u03bcs with multi MAB, more than 50% more efficient, 43.8 \u03bcs over 44 protocols. No rate constant estimated (seconds timescale process)",
+    "reference": "Bogetti, 2025, ACS Omega, 10, 27617, 10.1021/acsomega.5c03809"
+  },
+  {
+    "system": "Soluble epoxide hydrolase (PDB 4OD0) with an isobutyrylpiperidinyl trifluoromethoxyphenyl urea TPPU analog",
+    "category": "protein ligand",
+    "lab": "Dickson",
+    "protocol": "Merging bias corrected MSMs (MBC MSM, introduced here) built on REVO wepy unbinding data (17.03 \u03bcs, reused from Bose 2023)",
+    "outcome": "Long lag MBC MSM median MFPT about 50 min and standard MSM at \u03c4 = \u03c4_WE median 0.96 min, direct WE flux 3.5 min, versus experimental 27.1 min",
+    "reference": "Bose 2025, J Chem Theory Comput 21, 1805, 10.1021/acs.jctc.4c01141"
+  },
+  {
+    "system": "HIF 2\u03b1 PAS B and THS 017 unbinding, existing ensemble of 4177 WE pathways from Silvestrini 2024",
+    "category": "protein ligand",
+    "lab": "Chong (with Miranda Quintana)",
+    "protocol": "Reanalysis only, three stage MAB WE runs from Silvestrini 2024 (WESTPA 2.0, 35.1 to 41.5 \u03bcs per run), pathways clustered with PRISM in MDANCE",
+    "outcome": "PRISM split the two exit routes 53.4% and 46.6% (SHINE 52.0% and 48.0%). No new simulation",
+    "reference": "Woody Santos, 2026, Digital Discovery, volume and page not verified, 10.1039/D6DD00288A"
+  },
+  {
+    "system": "Hepatitis B virus capsid assembly from dimeric subunits (PDB 1QGT), rigid \u03b1 carbon Go model with energy tables, 120 dimer capsid with 300 dimers in total",
+    "category": "protein protein",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "WESTPA 1.0.0 beta driving tabulated Monte Carlo, 2D progress coordinate (dimers in the largest partial capsid, distance of the nearest free dimer to an empty site), 16 or 4 walkers per bin",
+    "outcome": "WE produced pathways for the final about 25 percent of assembly, reaching a complete 120 dimer capsid from a 110 dimer start (113 to 117 dimers from a 90 dimer start), tabulation sped up Monte Carlo by up to 6700 times",
+    "reference": "Spiriti 2015, J Chem Phys 143, 243159, doi 10.1063/1.4938479"
+  },
+  {
+    "system": "Barnase and barstar (wild type, R59A, uncharged isosteres), PDB 1BRS",
+    "category": "protein protein",
+    "lab": "Chong",
+    "protocol": "Steady state WE in the NAM framework, WESTPA with UIOWA_BD Brownian dynamics, coarse grained",
+    "outcome": "Basal k_on (2.85 \u00b1 1.30) \u00d7 10\u2076 M\u207b\u00b9 s\u207b\u00b9 with HI, R59A k_on agrees with experiment, WE 6 to 131 fold more efficient than brute force",
+    "reference": "Saglam 2016, J Phys Chem B 120, 117, 10.1021/acs.jpcb.5b10747"
+  },
+  {
+    "system": "MDM2 (25 to 109) and p53 peptide (17 to 29)",
+    "category": "protein protein",
+    "lab": "Chong, Zuckerman",
+    "protocol": "WE with fixed bins on 2D RMSD, WESTPA, ff99SB ILDN with GB/SA",
+    "outcome": "k_on (7 \u00b1 4) \u00d7 10\u2077 M\u207b\u00b9 s\u207b\u00b9 against experiment 9.2 \u00d7 10\u2076 (8 fold), 182 binding pathways, about 6 fold more efficient than brute force",
+    "reference": "Zwier 2016, J Phys Chem Lett 7, 3440, 10.1021/acs.jpclett.6b01502"
+  },
+  {
+    "system": "MDM2 and p53 peptide with four preorganization analogues, PDB 1YCR",
+    "category": "protein protein",
+    "lab": "Chong",
+    "protocol": "Steady state WE in the NAM framework, WESTPA with UIOWA_BD, C\u03b1 G\u014d models with HI",
+    "outcome": "k_on (5.7 \u00b1 0.6) \u00d7 10\u2077 M\u207b\u00b9 s\u207b\u00b9 disordered against (5.1 \u00b1 0.8) \u00d7 10\u2077 preorganized, within error",
+    "reference": "Saglam 2017, J Phys Chem B 121, 10046, 10.1021/acs.jpcb.7b08486"
+  },
+  {
+    "system": "Barnase and barstar, PDB 1BRS",
+    "category": "protein protein",
+    "lab": "Chong",
+    "protocol": "Equilibrium WE on a 2D coordinate, WESTPA with GROMACS 4.6.7, ff03* and TIP3P explicit solvent",
+    "outcome": "k_on (2.3 \u00b1 1.0) \u00d7 10\u2078 M\u207b\u00b9 s\u207b\u00b9 against experiment (2.86 \u00b1 0.7) \u00d7 10\u2078, 203 binding pathways from 18 \u03bcs aggregate",
+    "reference": "Saglam 2019, Chem Sci 10, 2360, 10.1039/C8SC04811H"
+  },
+  {
+    "system": "Barnase and barstar association (PDB 1BRS), explicit TIP3P water, about 100 000 atoms",
+    "category": "protein protein",
+    "lab": "Chong",
+    "protocol": "RED scheme applied to the single equilibrium WE run of Saglam 2019 (650 iterations, \u03c4 20 ps, 1600 walkers, 18 \u03bcs), GROMACS 4.6.7 with ff03*",
+    "outcome": "RED at least 25% more effective than the original estimate, most probable event duration 6 ns, k_on compared with experiment in Fig. 4. Numeric k_on not verified",
+    "reference": "DeGrave, 2021, J Chem Phys, 154, 114111, 10.1063/5.0041278"
+  },
+  {
+    "system": "Barnase and barstar association",
+    "category": "protein protein",
+    "lab": "Chong, Zuckerman",
+    "protocol": "RED analysis through the new w_red tool applied to the earlier atomistic WE run, WESTPA 2.0",
+    "outcome": "RED more than 25% more efficient than the original WE estimate of k_on (Fig. 7B, same data as DeGrave 2021). Numeric k_on not verified",
+    "reference": "Russo, 2022, J Chem Theory Comput, 18, 638, 10.1021/acs.jctc.1c01154"
+  },
+  {
+    "system": "SMARCA2 bromodomain, VHL and degrader PROTAC 2 ternary complex (PDB 6HAX)",
+    "category": "protein protein",
+    "lab": "Dickson, Izaguirre, Sherman, Xu",
+    "protocol": "WE HDX, REVO (OpenMM 7.5.0) and binned WE (WESTPA) along HDX MS derived contact collective variables",
+    "outcome": "Minimum interface RMSD reached 2.5 \u00c5 within 0.5 \u03bcs of aggregate WE versus 10 \u00c5 after 1.4 \u03bcs of conventional MD, 3278 uniquely bound ternary complexes in 6 of 7 runs, predicted binding rate significantly slower than the other degraders (no experimental value)",
+    "reference": "Dixon 2022, Nat Commun 13, 5884, 10.1038/s41467-022-33575-4"
+  },
+  {
+    "system": "AM2 receptor (CLR and RAMP3, membrane embedded) with adrenomedullin 2/intermedin peptide (rebuilt cryo EM PDB 6UVA)",
+    "category": "protein protein",
+    "lab": "Dickson, Pioszak",
+    "protocol": "REVO with wepy and OpenMM, CHARMM36 (3 \u00d7 48 walkers, 5.76 \u03bcs per system), G protein mimicked by restraints",
+    "outcome": "AM2/IMD hinge hydrogen bonds (R33 to D90, R23 to D96 salt bridge) held with higher probability and lower CLR ECD loop RMSD than AM, a more stable bound complex consistent with the measured slower off rate, kinetic numbers not given for simulations",
+    "reference": "Babin 2023, J Biol Chem 299, 104785, 10.1016/j.jbc.2023.104785"
+  },
+  {
+    "system": "HIV 1 capsid protein C terminal domain dimer (CA CTD, reference NMR PDB 2KOD), explicit water, pH 6.5",
+    "category": "protein protein",
+    "lab": "Chong",
+    "protocol": "WE with fixed bins on heavy atom RMSD (0.5 \u00c5 spacing from 0 to 8 \u00c5), \u03c4 100 ps, 4 walkers per bin, 200 iterations, WESTPA, data plotted with WEDAP",
+    "outcome": "Plotting showcase only, 0.8 \u03bcs of WE and a 1 \u03bcs standard MD run, no kinetic number reported",
+    "reference": "Yang, 2024, J Chem Inf Model, 64, 5749, 10.1021/acs.jcim.4c00867"
+  },
+  {
+    "system": "HIV 1 capsid protein C terminal domain dimer interconversion, discrete state synthetic MD (SynD) from an MSM built on about 90 \u03bcs of standard MD, 100 ps lag",
+    "category": "protein protein",
+    "lab": "Chong",
+    "protocol": "Reinforcement learning WE (WE RL) that reweights four candidate coordinates (two orientation angles, T188 to T188 distance, C2 angle) during the run, against least counts binless WE and binned WE (10 bins on T188 distance, 8 walkers per bin), 80 walkers, five runs of 2000 iterations, WESTPA 2.0",
+    "outcome": "MSM reference MFPT 3.83 \u03bcs. WE RL sampled transitions slightly faster than binned WE but needed marginally more time to converge the rate, T188 distance learned as the key coordinate, about 0.24 ms of synthetic time. Numeric rates and gains only in figures, not verified. Preprint",
+    "reference": "Yang, 2024, bioRxiv preprint, no volume or page, 10.1101/2024.10.09.617475"
+  },
+  {
+    "system": "HIV 1 capsid protein C terminal domain dimer (CA CTD), interconversion of the major D1 dimer (NMR PDB 2KOD) and hidden D2 dimer, AMBER ff15ipq",
+    "category": "protein protein",
+    "lab": "Chong (with Gronenborn)",
+    "protocol": "Equilibrium WE then steady state WE (three runs per direction) with MAB (25 to 30 bins, 4 walkers per bin) on helix orientation angles, MSM on WE seeded MD, WESTPA 2.0 with AMBER 22 pmemd on A100 GPUs, 120 \u03bcs of WE in all",
+    "outcome": "D1 to D2 (k12) and D2 to D1 (k21) rates from steady state WE within the same order of magnitude as 19F EXSY NMR, with k12 slower than k21 as in experiment, while MSM rates were about tenfold too fast. Numeric rates only in Fig. 5 and Table S1, not verified",
+    "reference": "Yang, 2025, Proc Natl Acad Sci USA, 122, e2420371122, 10.1073/pnas.2420371122"
+  },
+  {
+    "system": "4 fluoro W184 labeled HIV 1 CA CTD dimer, D1 and D2 interconversion, ff15ipq fluorinated aromatic parameters",
+    "category": "protein protein",
+    "lab": "Chong (with Gronenborn)",
+    "protocol": "Independent replicate conventional MD, equilibrium WE and steady state WE, same MAB protocol, WESTPA 2.0 with AMBER 22",
+    "outcome": "Steady state WE rates close to the 19F NMR values measured on this same labeled construct. Numeric rates not verified",
+    "reference": "Yang, 2025, Proc Natl Acad Sci USA, 122, e2420371122, 10.1073/pnas.2420371122"
+  },
+  {
+    "system": "DCAF15 and RBM39 with molecular glue E7820 (PDB 6PAI)",
+    "category": "protein protein",
+    "lab": "Dickson",
+    "protocol": "REVO with wepy and OpenMM 8.0 on a weakened interface (interprotein nonbonded terms scaled by \u03bb = 0.15), 48 walkers \u00d7 500 cycles, 10 replicates",
+    "outcome": "High potency glue kept stable interface contacts, interface distance at the 10\u207b\u2078 probability threshold tracks experimental EC50 across the glue series with R\u00b2 = 0.92",
+    "reference": "Atik 2026, J Chem Theory Comput 22, 7801, 10.1021/acs.jctc.6c00319"
+  },
+  {
+    "system": "CLR and RAMP1 extracellular domain complex with CGRP(27 37) peptide (template PDB 4RWG)",
+    "category": "protein protein",
+    "lab": "Dickson, Pioszak",
+    "protocol": "REVO with wepy and OpenMM, CHARMM36 (12 runs \u00d7 48 walkers), WE MSM",
+    "outcome": "89 unbinding events, MSM MFPT 7.5 \u00d7 10\u207b\u2076 s versus 0.02 s for ssCGRP(27 37), about 2700 fold slowing versus the 430 fold longer experimental residence time of ssCGRP (numbers from bioRxiv preprint 10.1101/2025.06.13.659569, journal full text not accessible)",
+    "reference": "Kilinc 2026, Biophys J 125, 1737, 10.1016/j.bpj.2026.03.008"
+  },
+  {
+    "system": "Calmodulin N terminal domain (residues 4 to 75), apo (PDB 1CFD) to holo (PDB 1CLL) transition, united residue bistable Go model",
+    "category": "protein alone",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "WE (Huber and Kim) with 1D DRMSD bins and M = 40 per bin, dynamical Metropolis Monte Carlo, in house code",
+    "outcome": "k_WE (1.9 \u00b1 0.4) \u00d7 10^\u221210 per MC step against brute force (2.1 \u00b1 0.2) \u00d7 10^\u221210 per MC step at kBT/\u03b5 0.5, efficiency gain about 5, 15 and 100 at kBT/\u03b5 0.5, 0.45 and 0.4",
+    "reference": "Zhang 2007, Proc Natl Acad Sci USA 104, 18043, doi 10.1073/pnas.0706349104"
+  },
+  {
+    "system": "Adenylate kinase (E. coli, 214 residues), open apo (PDB 4AKE) to closed holo (PDB 1AKE), three semiatomistic models with all atom backbone and \u03b2 carbons",
+    "category": "protein alone",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "WE path sampling on a DRMSD progress coordinate, 25 bins with 20 trajectories per bin, library based Monte Carlo dynamics, in house code",
+    "outcome": "Model 3 closed to open rate 2.5 \u00d7 10^\u22126 per \u03c4, 50 equal weight transitions after resampling in about 2 weeks of one CPU against an estimated 4 years per brute force transition, two distinct pathways found",
+    "reference": "Bhatt 2010, J Chem Theory Comput 6, 3527, doi 10.1021/ct100406t"
+  },
+  {
+    "system": "Chignolin (PDB 1UAO)",
+    "category": "protein alone",
+    "lab": "Dickson, Brooks",
+    "protocol": "WExplore (hierarchical Voronoi WE, introduced here), CHARMM with CHARMM22/CMAP",
+    "outcome": "522 configuration states from folded to fully unfolded found in 96 ns of WExplore sampling, a much smaller set found by a 1.2 \u03bcs conventional GPU trajectory, 10.2 \u03bcs total WE sampling",
+    "reference": "Dickson 2014, J Phys Chem B 118, 3532, 10.1021/jp411479c"
+  },
+  {
+    "system": "HIV 1 reverse transcriptase RNase H domain (residues 427 to 556 of PDB 1DLO), wild type and F440A, F440A/T477A mutants",
+    "category": "protein alone",
+    "lab": "Ishima and Zuckerman (Pittsburgh)",
+    "protocol": "WE simulations run as a check on 200 ns NAMD MD (WE details only in the SI, not verified)",
+    "outcome": "WE supported that RNH F440A is less stable than the T477A compensated double mutant and wild type (qualitative, number not verified)",
+    "reference": "Slack 2015, Proteins 83, 1526, doi 10.1002/prot.24843"
+  },
+  {
+    "system": "WasCFP cyan fluorescent protein variant (built from mCerulean PDB 2WSO)",
+    "category": "protein alone",
+    "lab": "Brooks, Dickson",
+    "protocol": "WE along a chromophore hydration coordinate (48 walkers, 470 ns), CHARMM with OpenMM 5.2, then CPHMD MS\u03bbD",
+    "outcome": "Transient partially open \u03b2 barrel state with chromophore pKa 6.8 versus 31.7 for the closed form, population 12% at pH 6.1 rising to 53% at pH 8.1",
+    "reference": "Laricheva 2015, J Am Chem Soc 137, 2892, 10.1021/ja509233r"
+  },
+  {
+    "system": "Chignolin (PDB 5AWL), folding and unfolding, 106 \u00b5s DESRES Anton MD",
+    "category": "protein alone",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "Non Markovian history labeled MSM (later named haMSM) at lag 0.2 ns, reanalysis of existing MD, no WE resampling",
+    "outcome": "History labeled MFPTs matched the long MD reference while history independent Markov MFPTs were shorter by one or more orders of magnitude (per protein values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, J Chem Theory Comput 12, 3473, doi 10.1021/acs.jctc.6b00339"
+  },
+  {
+    "system": "Trp cage (PDB 2JOF), folding and unfolding, 208 \u00b5s DESRES Anton MD",
+    "category": "protein alone",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "Non Markovian history labeled MSM (later named haMSM) at lag 0.2 ns, reanalysis of existing MD, no WE resampling",
+    "outcome": "History labeled MFPTs matched the long MD reference while history independent Markov MFPTs were shorter by one or more orders of magnitude (per protein values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, J Chem Theory Comput 12, 3473, doi 10.1021/acs.jctc.6b00339"
+  },
+  {
+    "system": "Villin headpiece (PDB 2F4K), folding and unfolding, 125 \u00b5s DESRES Anton MD",
+    "category": "protein alone",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "Non Markovian history labeled MSM (later named haMSM) at lag 0.2 ns, reanalysis of existing MD, no WE resampling",
+    "outcome": "History labeled MFPTs matched the long MD reference while history independent Markov MFPTs were shorter by one or more orders of magnitude (per protein values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, J Chem Theory Comput 12, 3473, doi 10.1021/acs.jctc.6b00339"
+  },
+  {
+    "system": "NTL9 (PDB 2HBA), folding and unfolding, 1100 \u00b5s DESRES Anton MD",
+    "category": "protein alone",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "Non Markovian history labeled MSM (later named haMSM) at lag 0.2 ns, reanalysis of existing MD, no WE resampling",
+    "outcome": "History labeled MFPTs matched the long MD reference while history independent Markov MFPTs were shorter by one or more orders of magnitude (per protein values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, J Chem Theory Comput 12, 3473, doi 10.1021/acs.jctc.6b00339"
+  },
+  {
+    "system": "Calbindin AFF Ca\u00b2\u207a sensor (113 residues) and mutants",
+    "category": "protein alone (folding or conformational change)",
+    "lab": "Chong (with Loh)",
+    "protocol": "Equilibrium then steady state WE, WESTPA with Brownian dynamics of a native centric model",
+    "outcome": "WE pathways predicted Phe to Ala mutations that raised measured switching rates up to 32 fold, negative control L31A changed rates 1.03 and 1.57 fold",
+    "reference": "DeGrave 2018, Nat Commun 9, 1013, 10.1038/s41467-018-03228-6"
+  },
+  {
+    "system": "Chignolin, PDB 1UAO",
+    "category": "protein alone (folding or conformational change)",
+    "lab": "Chong, Zuckerman, Dickson",
+    "protocol": "Steady state WE with fixed RMSD bins, WESTPA with sander, ff14SBonlysc and GB at 275 K",
+    "outcome": "Folding and unfolding rates roughly agree with a 4 \u03bcs brute force reference (figures only), threefold spread among runs",
+    "reference": "Bogetti 2019, Living J Comput Mol Sci 1, 10607, 10.33011/livecoms.1.2.10607"
+  },
+  {
+    "system": "NTL9 (PDB 2HBB) folding, implicit solvent, 15 WESTPA runs from the Adhikari 2019 study",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "Reanalysis of steady state WESTPA folding runs (about 60 \u00b5s aggregate) with standard and Bayesian bootstrap, no new simulation",
+    "outcome": "Arithmetic mean folding rate 5.868 \u00d7 10^2 per s with standard error 4.928 \u00d7 10^2 per s from 15 values spanning about 20 orders of magnitude, nominal 95 percent intervals of both bootstraps underestimate the true mean in about 30 percent of synthetic tests",
+    "reference": "Mostofian 2019, J Chem Theory Comput 15, 3499, doi 10.1021/acs.jctc.9b00015"
+  },
+  {
+    "system": "Protein G B1 domain (PDB 1PGA) folding, implicit solvent, 13 WESTPA runs from the Adhikari 2019 study",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "Reanalysis of steady state WESTPA folding runs (about 200 \u00b5s aggregate) with standard and Bayesian bootstrap, no new simulation",
+    "outcome": "Arithmetic mean folding rate 1.870 \u00d7 10^\u22122 per s with standard error 1.857 \u00d7 10^\u22122 per s from 13 values spanning about 70 orders of magnitude, Bayesian bootstrap preferred when the log10 standard deviation exceeds 1",
+    "reference": "Mostofian 2019, J Chem Theory Comput 15, 3499, doi 10.1021/acs.jctc.9b00015"
+  },
+  {
+    "system": "NTL9 folding, AMBER ff14SB with implicit solvent at low (\u03b3 5 per ps) and water like (\u03b3 80 per ps) friction",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "Steady state WE with recycling, WESTPA with GPU AMBER, 10 and 30 independent runs (115 and 252 \u00b5s aggregate), direct flux and haMSM (10,000 microstates) with Bayesian bootstrap",
+    "outcome": "Folding time 0.8 to 9.0 \u00b5s (haMSM) at \u03b3 5 per ps and 0.2 to 1.9 ms (haMSM, direct WE 0.01 to 0.80 ms) at \u03b3 80 per ps, experiment about 1 ms, nominal 95 percent credibility regions",
+    "reference": "Adhikari 2019, J Am Chem Soc 141, 6519, doi 10.1021/jacs.8b10735 (correction 2021, J Am Chem Soc 143, 7588, doi 10.1021/jacs.0c02854)"
+  },
+  {
+    "system": "Protein G B1 domain folding, AMBER ff14SB with implicit solvent at low friction (\u03b3 5 per ps)",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "Steady state WE with recycling, WESTPA with GPU AMBER, 15 independent runs (225 \u00b5s aggregate), direct flux and haMSM with Bayesian bootstrap",
+    "outcome": "Folding time 3.3 to 200 ms by WE haMSM (direct WE 4 to 210 s), corrected experimental value 2 to 40 ms, obtained with far less than 1 ms of aggregate simulation",
+    "reference": "Adhikari 2019, J Am Chem Soc 141, 6519, doi 10.1021/jacs.8b10735 (correction 2021, J Am Chem Soc 143, 7588, doi 10.1021/jacs.0c02854)"
+  },
+  {
+    "system": "NTL9 folding, implicit solvent atomistic model at water like friction, 30 WE runs harvested from Adhikari 2019",
+    "category": "protein alone",
+    "lab": "Zuckerman, Aristoff, Makarov and Simpson (OHSU, Colorado State, UT Austin, Drexel)",
+    "protocol": "Transient current bounds on the steady state current (Smoluchowski theory) applied to existing WE flux profiles, no new simulation",
+    "outcome": "Flux profile approached steady state monotonically out to 45 ns molecular time (about 225 \u00b5s aggregate), Hill relation folding time 0.2 to 2.0 ms consistent with experiment",
+    "reference": "Copperman 2019, J Chem Phys 151, 174108, doi 10.1063/1.5120511"
+  },
+  {
+    "system": "p53 N terminal 15 residue peptide from the MDM2 bound crystal structure (intermediate tutorial)",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman, Dickson",
+    "protocol": "WESTPA with a two dimensional progress coordinate, Amber sander, ff14SBonlysc with GB implicit solvent at 275 K",
+    "outcome": "Conformational sampling tutorial starting from the bound \u03b1 helix, no quantitative result reported in text (not verified)",
+    "reference": "Bogetti 2019, Living J Comput Mol Sci 1, 10607, 10.33011/livecoms.1.2.10607"
+  },
+  {
+    "system": "Chignolin folding and unfolding (advanced tutorial 1)",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman, Dickson",
+    "protocol": "Steady state WE in WESTPA on an RMSD coordinate (4 walkers per bin), Amber, ff14SBonlysc with GB implicit solvent at 275 K",
+    "outcome": "WE folding and unfolding rate constants roughly agree with brute force MD values of 0.71 \u00d7 10\u2077 s\u207b\u00b9 (folding) and 0.13 \u00d7 10\u2078 s\u207b\u00b9 (unfolding), threefold spread among WE runs equals about 0.6 kcal/mol in barrier",
+    "reference": "Bogetti 2019, Living J Comput Mol Sci 1, 10607, 10.33011/livecoms.1.2.10607"
+  },
+  {
+    "system": "NTL9 folding, implicit solvent atomistic model at low friction (\u03b3 5 per ps)",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "haMSM on fine k means microbins (pyEMMA, all atom RMSD, PCA or VAMP features) built from transient 2D WE data (WESTPA protocol of Adhikari 2019), lag equal to WE \u03c4 10 ps",
+    "outcome": "haMSM gave an order of magnitude steady state flux within 1 ns of molecular time (about 1/5 of the 5 ns relaxation, 3.7 \u00b5s aggregate) and a flux inside the validation interval within 2.5 ns (11.8 \u00b5s aggregate)",
+    "reference": "Copperman 2020, J Chem Theory Comput 16, 6763, doi 10.1021/acs.jctc.0c00273"
+  },
+  {
+    "system": "Protein G (streptococcal IgG binding domain) folding, implicit solvent atomistic model at low friction (\u03b3 5 per ps)",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "haMSM microbins on 15 2D WE runs (225 \u00b5s aggregate), then WE restarted twice from the haMSM steady state (rw1 76 \u00b5s aggregate)",
+    "outcome": "haMSM steady state flux about 3 orders of magnitude above the direct flux, restarted WE gave a folding time of 0.3 to 4.3 ms against experimental 3.1 ms (pH 4.0) to 39 ms (pH 11.2)",
+    "reference": "Copperman 2020, J Chem Theory Comput 16, 6763, doi 10.1021/acs.jctc.0c00273"
+  },
+  {
+    "system": "Trp cage folding, 208 \u00b5s DESRES atomistic trajectory",
+    "category": "protein alone",
+    "lab": "Zuckerman (OHSU)",
+    "protocol": "Iterative reweighting of short unbiased trajectory segments for stationary distributions and committors (precursor of RiteWeight), no WE resampling",
+    "outcome": "Stationary distribution and committor estimates from short segments (numbers not verified, abstract only). Preprint, no journal version found",
+    "reference": "Russo 2020, arXiv preprint 2006.09451"
+  },
+  {
+    "system": "SARS CoV 2 spike head, glycosylated, RBD closed to open, explicit water (stated as about 500 000 atoms, and about 600 000 in another passage)",
+    "category": "protein alone",
+    "lab": "Chong (with Amaro)",
+    "protocol": "WE with \u03c4 100 ps, 8 walkers per bin, 24 basis states, bins adjusted by hand, WESTPA with AMBER 18 on GPUs, WE data later used to train a variational autoencoder",
+    "outcome": "First run about 7.5 \u03bcs in 8.77 days on 80 P100 GPUs, then about 70.0 \u03bcs after 1099 iterations in 26.74 days on 100 V100 GPUs. Second independent run about 51.5 \u03bcs in 19.64 days with opening and further RBD peeling. No rate constant (Gordon Bell special prize work)",
+    "reference": "Casalino, 2021, Int J High Perform Comput Appl, 35, 432, 10.1177/10943420211006452"
+  },
+  {
+    "system": "Calbindin alternate frame folding Ca2+ sensor switch (E65\u2032Q calbindin AFF construct, N\u2032 to N), residue level G\u014d type model",
+    "category": "protein alone",
+    "lab": "Chong",
+    "protocol": "RED scheme against the original steady state flux estimate, ten WE runs reanalyzed from DeGrave 2018 (2D RMSD coordinate, \u03c4 100 ps, 65 \u03bcs each), WESTPA with UIOWA BD",
+    "outcome": "RED reproduced the switching rate of 50 standard 2 \u03bcs runs with the first 25% of the WE data, almost 50% more efficient than the original estimate, which underestimated the rate twofold. Rate value itself in Table S1, not verified",
+    "reference": "DeGrave, 2021, J Chem Phys, 154, 114111, 10.1063/5.0041278"
+  },
+  {
+    "system": "SARS CoV 2 spike head, residues 16 to 1140, fully glycosylated, RBD down (PDB 6VXX) to up (6VSB) and open, explicit water, almost half a million atoms",
+    "category": "protein alone",
+    "lab": "Chong (with Amaro)",
+    "protocol": "Equilibrium WE, 2D coordinate (spike core to RBD center of mass distance and RBD RMSD), two independent runs, WESTPA 2020.02 with AMBER 18 on 100 GPUs",
+    "outcome": "More than 130 \u03bcs and 310 pathways (204 down to up, 106 down to open), N343 glycan gates opening, N343A cut ACE2 binding by about 56% in biolayer interferometry. No rate constant",
+    "reference": "Sztain, 2021, Nat Chem, 13, 963, 10.1038/s41557-021-00758-3"
+  },
+  {
+    "system": "p53 N terminal peptide, residues 17 to 29 (from PDB 1YCR), GB implicit solvent",
+    "category": "protein alone",
+    "lab": "Chong",
+    "protocol": "Equilibrium WE with MAB against manual bins, 2D coordinate (RMSD to the MDM2 bound helix and end to end distance), WESTPA with AMBER18",
+    "outcome": "MAB occupied 66% of its bins (29 of 44) against 17% (50 of 294) for manual bins with 2.0 \u03bcs per scheme, and reached a low probability region of left handed helix and PPII conformations missed by manual bins",
+    "reference": "Torrillo, 2021, J Phys Chem A, 125, 1642, 10.1021/acs.jpca.0c10724"
+  },
+  {
+    "system": "Chignolin, folding and unfolding, DESRES equilibrium MD",
+    "category": "protein alone",
+    "lab": "Zuckerman, Chodera and No\u00e9 (OHSU, MSKCC, FU Berlin)",
+    "protocol": "haMSM against variationally validated MSMs (PyEMMA), reanalysis of existing MD, no WE resampling",
+    "outcome": "MSM MFPTs accurate only at lag times of about 100 ns or more, haMSM MFPTs and pathway statistics accurate at the MD frame interval with 1 to 10 ns of history (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2021, J Chem Theory Comput 17, 3119, doi 10.1021/acs.jctc.0c01154"
+  },
+  {
+    "system": "Trp cage, folding and unfolding, DESRES equilibrium MD",
+    "category": "protein alone",
+    "lab": "Zuckerman, Chodera and No\u00e9 (OHSU, MSKCC, FU Berlin)",
+    "protocol": "haMSM against variationally validated MSMs (PyEMMA), reanalysis of existing MD, no WE resampling",
+    "outcome": "MSM MFPTs accurate only at lag times of about 100 ns or more, haMSM MFPTs and pathway statistics accurate at the MD frame interval (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2021, J Chem Theory Comput 17, 3119, doi 10.1021/acs.jctc.0c01154"
+  },
+  {
+    "system": "NTL9, folding and unfolding, DESRES equilibrium MD (one trajectory removed)",
+    "category": "protein alone",
+    "lab": "Zuckerman, Chodera and No\u00e9 (OHSU, MSKCC, FU Berlin)",
+    "protocol": "haMSM against variationally validated MSMs (PyEMMA), reanalysis of existing MD, no WE resampling",
+    "outcome": "MSM MFPTs accurate only at lag times of about 100 ns or more, haMSM MFPTs accurate at the MD frame interval, NTL9 transition path times about ten times longer than the other proteins (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2021, J Chem Theory Comput 17, 3119, doi 10.1021/acs.jctc.0c01154"
+  },
+  {
+    "system": "Villin headpiece, folding and unfolding, DESRES equilibrium MD",
+    "category": "protein alone",
+    "lab": "Zuckerman, Chodera and No\u00e9 (OHSU, MSKCC, FU Berlin)",
+    "protocol": "haMSM against variationally validated MSMs (PyEMMA), reanalysis of existing MD, no WE resampling",
+    "outcome": "MSM MFPTs accurate only at lag times of about 100 ns or more, haMSM MFPTs and pathway statistics accurate at the MD frame interval (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2021, J Chem Theory Comput 17, 3119, doi 10.1021/acs.jctc.0c01154"
+  },
+  {
+    "system": "p53 peptide, residues 17 to 29, GB implicit solvent",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman",
+    "protocol": "One WE run with per iteration HDF5 storage, RMSD to the MDM2 bound conformation as coordinate, WESTPA 2.0 with OpenMM 7.5",
+    "outcome": "85% average reduction in trajectory file size against WESTPA 1.0. Storage test only",
+    "reference": "Russo, 2022, J Chem Theory Comput, 18, 638, 10.1021/acs.jctc.1c01154"
+  },
+  {
+    "system": "NTL9 protein folding (millisecond process)",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman",
+    "protocol": "WE with the haMSM restarting plugin (msm_we) and non Markovian FPT distribution (NonMarkovFPT), WESTPA 2.0 with AMBER 16",
+    "outcome": "haMSM restarts accelerated convergence of the folding rate constant toward the direct WE flux (Fig. 9B), FPT distribution and MFPT from the final haMSM (Fig. 9C). Numeric rate and MFPT not verified",
+    "reference": "Russo, 2022, J Chem Theory Comput, 18, 638, 10.1021/acs.jctc.1c01154"
+  },
+  {
+    "system": "BdpA G29A natural backbone, unfolding and unfolded state at 25 \u00b0C (NMR structure from this paper, reference PDB 1BDC)",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Two stage WE (unfolding from the folded NMR structure, then sampling from unfolded conformations), haMSM reweighting to equilibrium populations, WESTPA 2.0 with the ff15ipq protein mimetic force field",
+    "outcome": "Unfolded state most probable R_g 12.7 \u00c5, unfolded ensembles keep 67 to 80% native contacts across the series but only 2 to 13% between helices. Experimental \u0394G\u00b0 of unfolding 5.2 \u00b1 0.3 kcal/mol (not computed by WE)",
+    "reference": "Santhouse, 2022, Chem Sci, 13, 11798, 10.1039/D2SC04427G"
+  },
+  {
+    "system": "BdpA \u03b23 H2 variant, four \u03b23 residues in helix 2",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same two stage WE and haMSM protocol",
+    "outcome": "Unfolded state R_g 14.5 \u00c5, about 15% more expanded than the natural backbone. Experimental \u0394G\u00b0 1.9 \u00b1 0.4 kcal/mol",
+    "reference": "Santhouse, 2022, Chem Sci, 13, 11798, 10.1039/D2SC04427G"
+  },
+  {
+    "system": "BdpA \u03b23 H3 variant, four \u03b23 residues in helix 3",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same two stage WE and haMSM protocol",
+    "outcome": "Unfolded state R_g 14.8 \u00c5. Experimental \u0394G\u00b0 1.1 \u00b1 0.4 kcal/mol",
+    "reference": "Santhouse, 2022, Chem Sci, 13, 11798, 10.1039/D2SC04427G"
+  },
+  {
+    "system": "BdpA Aib H2 variant, four Aib residues in helix 2",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same two stage WE and haMSM protocol",
+    "outcome": "Unfolded state shows an extra compact misfolded population at R_g about 11.5 \u00c5. Experimental \u0394G\u00b0 3.4 \u00b1 0.2 kcal/mol",
+    "reference": "Santhouse, 2022, Chem Sci, 13, 11798, 10.1039/D2SC04427G"
+  },
+  {
+    "system": "BdpA Aib H3 variant, four Aib residues in helix 3",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same two stage WE and haMSM protocol",
+    "outcome": "Unfolded state R_g distribution and long range contacts closest to the natural backbone, matching its near native experimental \u0394G\u00b0 of 5.1 \u00b1 0.3 kcal/mol",
+    "reference": "Santhouse, 2022, Chem Sci, 13, 11798, 10.1039/D2SC04427G"
+  },
+  {
+    "system": "p53 peptide conformational sampling",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman",
+    "protocol": "Tutorial 7.2, 2D progress coordinate with bins adjusted on the fly and auxiliary data tracking, WESTPA 2.0",
+    "outcome": "Teaching example, no new benchmark number reported",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Chignolin \u03b2 hairpin (PDB 1UAO) folding and unfolding, GB implicit solvent, ff14SBonlysc, 275 K",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman",
+    "protocol": "Tutorial 7.3, steady state WE on C\u03b1 RMSD, three runs per direction, WESTPA 2.0 with Amber",
+    "outcome": "WE unfolding and folding rate constants roughly comparable to a 4 \u03bcs brute force run, folding slower to converge. Numeric rates shown only in Figs. 10 and 11, not verified",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "NTL9 protein folding (millisecond process)",
+    "category": "protein alone",
+    "lab": "Chong, Zuckerman",
+    "protocol": "Tutorial 7.7, haMSM restarting plugin (msm_we) with flux and committor analysis, WESTPA 2.0 with Amber 16",
+    "outcome": "Teaching example, no new rate number verified",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Human glutathione S transferase A1 1 homodimer (hGSTA1 1), ligand free, from PDB 1K3L with ligand removed",
+    "category": "protein alone",
+    "lab": "Chong (with Saxena)",
+    "protocol": "WE with MAB (5 bins), \u03c4 50 ps, 5 walkers per bin, \u03b19 helix RMSD coordinate, three runs, WESTPA 2.0 on 16 A100 GPUs, validated by Cu(II) EPR distances",
+    "outcome": "Pathways for the alternate state transition of helix \u03b19 (a seconds timescale process per prior work) from 690 ns in 1.6 days and 309 ns in 16.8 h, showing mutually exclusive \u03b19 docking (negative cooperativity). No rate constant",
+    "reference": "Bogetti X, 2023, Protein Sci, 32, e4770, 10.1002/pro.4770"
+  },
+  {
+    "system": "SARS CoV 2 Delta variant spike head (residues 13 to 1140), glycosylated, RBD down to up and open, explicit water",
+    "category": "protein alone",
+    "lab": "Chong (with Amaro)",
+    "protocol": "WE coupled to DeepDriveMD (AI driven progress coordinate stratification), haMSM analysis, WESTPA 2.0 with AMBER20 on 192 V100 GPUs",
+    "outcome": "More than 800 opening pathways from 72 \u03bcs in 14 days, 83 reaching an ACE2 bound like open state and 18 a dramatically open state. First opening (up) after 14 \u03bcs in 4 days, coupling claimed to give a 100 fold gain in phase space exploration. Numeric opening rate not verified",
+    "reference": "Dommer, 2023, Int J High Perform Comput Appl, 37, 28, 10.1177/10943420221128233"
+  },
+  {
+    "system": "SARS CoV 2 wild type spike opening, existing WE data",
+    "category": "protein alone",
+    "lab": "Amaro, Chong, Zuckerman and consortium (UC San Diego led)",
+    "protocol": "Parallelized, memory optimized haMSM analysis of TB scale WE data, no new WE run reported for this system",
+    "outcome": "haMSM gave steady state opening rate constants from transient WE data, improving prior estimates by many orders of magnitude (values only in a figure, not verified)",
+    "reference": "Dommer 2023, Int J High Perform Comput Appl 37, 28, doi 10.1177/10943420221128233"
+  },
+  {
+    "system": "BdpA (B domain of staphylococcal protein A) G29A, natural backbone (PDB 7TIO), explicit SPC/Eb water",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Steady state WE folding, MAB with 15 bins, \u03c4 100 ps, 5 walkers per bin, five runs, iterative haMSM reweighting and restart (msm_we), WESTPA 2.0 with AMBER 20 and the ff15ipq protein mimetic force field, 66 \u03bcs on 24 V100 GPUs",
+    "outcome": "k_f (1.1 \u00b1 0.9) \u00d7 10^5 s\u22121 at 25 \u00b0C against 8.3 \u00d7 10^4 s\u22121 by temperature jump (F13W, 10 \u00b0C)",
+    "reference": "Santhouse, 2024, Chem Sci, 15, 675, 10.1039/D3SC03976E"
+  },
+  {
+    "system": "BdpA \u03b23 H2 variant, four \u03b1 to \u03b23 residue swaps in helix 2 (PDB 7TIP)",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same WE protocol as the natural backbone, 114 \u03bcs aggregate",
+    "outcome": "k_f (3.4 \u00b1 2.9) \u00d7 10^3 s\u22121 at 25 \u00b0C against NMR line shape (0.39 \u00b1 0.13) \u00d7 10^3 s\u22121 at 10 \u00b0C (\u03c4_f 2.5 ms)",
+    "reference": "Santhouse, 2024, Chem Sci, 15, 675, 10.1039/D3SC03976E"
+  },
+  {
+    "system": "BdpA \u03b23 H3 variant, four \u03b1 to \u03b23 residue swaps in helix 3 (PDB 7TIR)",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same WE protocol, 176 \u03bcs aggregate",
+    "outcome": "k_f (3.2 \u00b1 0.6) \u00d7 10^4 s\u22121 at 25 \u00b0C against NMR (4.37 \u00b1 0.43) \u00d7 10^4 s\u22121 at 10 \u00b0C (\u03c4_f 23 \u03bcs)",
+    "reference": "Santhouse, 2024, Chem Sci, 15, 675, 10.1039/D3SC03976E"
+  },
+  {
+    "system": "BdpA \u03b23/\u03b2cyc H2 variant with two cyclic ACPC residues in helix 2 (PDB 7URJ, NMR structure from this paper)",
+    "category": "protein alone",
+    "lab": "Chong, Horne",
+    "protocol": "Same WE protocol, 62 \u03bcs aggregate",
+    "outcome": "k_f (2.1 \u00b1 2.5) \u00d7 10^3 s\u22121 at 25 \u00b0C against NMR (1.1 \u00b1 0.1) \u00d7 10^3 s\u22121 at 10 \u00b0C (\u03c4_f 900 \u03bcs), simulation could not resolve its ranking against \u03b23 H2",
+    "reference": "Santhouse, 2024, Chem Sci, 15, 675, 10.1039/D3SC03976E"
+  },
+  {
+    "system": "ARNT PAS B domain, ligand free, opening of the internal water filled cavity",
+    "category": "protein alone",
+    "lab": "Chong (with Gardner)",
+    "protocol": "WE on a 1D coordinate (SASA of cavity lining residues), 600 iterations, WESTPA 2.0 with AMBER 22 and ff19SB, WE pathway conformations used for HADDOCK ensemble docking of KG 655 and KG 279",
+    "outcome": "8 \u03bcs of WE gave cavity open receptor conformations with cavity SASA 220 to 290 \u00c5\u00b2, supporting NOE restrained internal binding poses. No rate constant",
+    "reference": "Xu, 2024, J Biol Chem, 300, 107606, 10.1016/j.jbc.2024.107606"
+  },
+  {
+    "system": "NTL9 folding (PDB 2HBB reference), discrete state synthetic MD from an MSM built on 2.5 \u03bcs of GB implicit solvent MD (ff14SB, low viscosity)",
+    "category": "protein alone",
+    "lab": "Chong, Ramanathan",
+    "protocol": "Deep learning enhanced binless WE, convolutional VAE latent space of C\u03b1 contact maps retrained on the fly, local outlier factor plus RMSD picks walkers to split, M = 72 walkers, compared with binless RMSD and MAB binned controls",
+    "outcome": "k_fold 3.0 \u00d7 10^5 s\u22121 (on the fly DL) and 6.7 \u00d7 10^5 s\u22121 (pretrained DL) against an MSM ground truth (value shown only in a figure, not verified). Efficiency S_k 2.2 and 3.0 against the binless control, 1.3 and 1.8 against MAB, so more than 3 fold at best",
+    "reference": "Leung, 2025, J Chem Theory Comput, 21, 3691, 10.1021/acs.jctc.4c01136"
+  },
+  {
+    "system": "SARS CoV 2 Ancestral (D614) spike, glycosylated, RBD closed to up and open, CHARMM36m and TIP3P",
+    "category": "protein alone",
+    "lab": "Chong (with Amaro)",
+    "protocol": "Equilibrium WE with MAB, 2D coordinate (RBD to core distance and RMSD to PDB 6VSB), 50 starting structures, WESTPA 2020.02 with Amber 18 on 64 to 112 A100 GPUs, pathways clustered with LPATH",
+    "outcome": "79 \u03bcs over 600 iterations. Mean pathway sampling time closed to up 40.59 \u00b1 3.17 ns and closed to open 45.45 \u00b1 1.69 ns, a relative readiness measure and not a rate. D614 to K854 salt bridge must break before opening",
+    "reference": "Kearns, 2026, Proc Natl Acad Sci USA, 123, e2504793123, 10.1073/pnas.2504793123"
+  },
+  {
+    "system": "SARS CoV 2 Delta spike, glycosylated (no N17 glycan), RBD opening",
+    "category": "protein alone",
+    "lab": "Chong (with Amaro)",
+    "protocol": "Same MAB WE protocol as the Ancestral spike",
+    "outcome": "34 \u03bcs over 270 iterations. Mean pathway sampling time closed to up 11.68 \u00b1 2.78 ns and closed to open 16.53 \u00b1 2.73 ns, faster than the Ancestral spike. Not a rate",
+    "reference": "Kearns, 2026, Proc Natl Acad Sci USA, 123, e2504793123, 10.1073/pnas.2504793123"
+  },
+  {
+    "system": "SARS CoV 2 Omicron BA.1 spike, glycosylated, RBD opening",
+    "category": "protein alone",
+    "lab": "Chong (with Amaro)",
+    "protocol": "Same MAB WE protocol as the Ancestral spike",
+    "outcome": "36 \u03bcs over 400 iterations. Mean pathway sampling time closed to up 17.70 \u00b1 6.54 ns and closed to open 20.17 \u00b1 4.55 ns, unique \"peel\" state beyond super open. Not a rate",
+    "reference": "Kearns, 2026, Proc Natl Acad Sci USA, 123, e2504793123, 10.1073/pnas.2504793123"
+  },
+  {
+    "system": "Human adenylate kinase, unliganded, GB implicit solvent (GBNeck2, ff14SBonlysc), WE seeded from AI generated ensembles (AFsample2 and ESMFlow, 20 to 80 structures each)",
+    "category": "protein alone",
+    "lab": "Chong (with Zuckerman)",
+    "protocol": "WE on the first two principal components (400 bins, \u03c4 10 ps, 8 walkers per bin, WESTPA, A100 GPUs), then RiteWeight reweighting of WE segments to equilibrium (WE plus RW)",
+    "outcome": "Differences among the AI seeded ensembles were largely erased, with all final distributions favoring open structures, which the authors call consistent with single molecule FRET. No open or closed populations or other numbers reported in the text. Preprint",
+    "reference": "Otten, 2026, bioRxiv preprint, no volume or page, 10.64898/2026.03.24.714034"
+  },
+  {
+    "system": "Lysine, arginine and ornithine binding protein (LAOBP) with modeled Cu(II) NTA spin labels on I56H/K60H/D144H/S148H, ligand removed closed state (PDB 1LST) to open state (PDB 2LAO)",
+    "category": "protein alone",
+    "lab": "Chong (with Saxena)",
+    "protocol": "WE with MAB (6 bins per dimension), 2D coordinate (Cu to Cu distance and domain opening angle), \u03c4 50 ps, 4 walkers per bin, WESTPA 2.0, then 15 \u03bcs of standard MD seeded from WE end states",
+    "outcome": "381 continuous closed to open pathways, open state Cu to Cu distances bimodal as in Q band DEER (peaks 3.5 and 4.6 nm). No rate constant, left for future work",
+    "reference": "Palit, 2026, Chem Sci, 17, 9747, 10.1039/D5SC08971A"
+  },
+  {
+    "system": "Trp cage synthetic MD (SynMD, 10,500 state MSM from 208 \u00b5s atomistic MD, kinetic Monte Carlo)",
+    "category": "protein alone",
+    "lab": "Zuckerman, Aristoff, Simpson and Webber (OHSU, Colorado State, Drexel, UC San Diego)",
+    "protocol": "RiteWeight (randomized iterative trajectory reweighting, 10 or 1,000 random clusters per iteration) on 10,000 short segments started far from equilibrium, no WE resampling",
+    "outcome": "RiteWeight recovered the exactly computable equilibrium distribution from strongly misdistributed data (error values only in figures, not verified)",
+    "reference": "Kania 2026, Proc Natl Acad Sci USA 123, e2529246123, doi 10.1073/pnas.2529246123"
+  },
+  {
+    "system": "Trp cage atomistic, segments from the 208 \u00b5s DESRES explicit solvent trajectory",
+    "category": "protein alone",
+    "lab": "Zuckerman, Aristoff, Simpson and Webber (OHSU, Colorado State, Drexel, UC San Diego)",
+    "protocol": "RiteWeight with equilibrium and source sink (NESS) boundary conditions, lag 0.2 to 100 ns, PyEMMA MSM comparison, no WE resampling",
+    "outcome": "RiteWeight recovered the reference folding MFPT and net fluxes even at lag 1 ns or less, where MSMs underestimated the MFPT by an order of magnitude or more (MFPT value only in figures, not verified)",
+    "reference": "Kania 2026, Proc Natl Acad Sci USA 123, e2529246123, doi 10.1073/pnas.2529246123"
+  },
+  {
+    "system": "Trp cage (PDB 2JOF) folding and unfolding, synthetic MD (10,500 state SynMD model of the DESRES trajectory)",
+    "category": "protein alone",
+    "lab": "Zuckerman, Aristoff, Simpson, Webber and OpenEye (OHSU, Colorado State, Drexel, UC San Diego, Cadence)",
+    "protocol": "WE with variance optimized bins (equal \u03c0v in the discrepancy h) learned from an haMSM on 20 unoptimized runs, 20 walkers per bin, WESTPA 2.0 with a synMD module, compared with exact microstate and exact coarse grained bins",
+    "outcome": "Optimized bins reduced run to run flux variance against RMSD bins for both directions, reference MFPTs from the SynMD matrix 2.04 \u00b5s (unfolding) and 9.03 \u00b5s (folding)",
+    "reference": "Ryu 2026, J Chem Phys 164, 094110, doi 10.1063/5.0311015"
+  },
+  {
+    "system": "NTL9 (PDB 2HBB) folding, AMBER ff14SB with GB implicit solvent at \u03b3 5 per ps and \u03b3 80 per ps",
+    "category": "protein alone",
+    "lab": "Zuckerman, Aristoff, Simpson, Webber and OpenEye (OHSU, Colorado State, Drexel, UC San Diego, Cadence)",
+    "protocol": "WE with haMSM learned optimized bins (stratified clustering within RMSD bins, VAMP features), \u03c4 100 ps, WESTPA 2.0 with AMBER16 on GPUs",
+    "outcome": "High friction, all 10 optimized runs folded with fluxes spanning 12 orders of magnitude against 14 of 20 unoptimized runs spanning 35 orders, low friction optimization not clearly better (2 or 3 of 5 optimized runs folded against 4 of 5)",
+    "reference": "Ryu 2026, J Chem Phys 164, 094110, doi 10.1063/5.0311015"
+  },
+  {
+    "system": "Trp cage, downsampled trajectory data from the RiteWeight study",
+    "category": "protein alone",
+    "lab": "Zuckerman and Aristoff (OHSU, Colorado State)",
+    "protocol": "Regularized (smoothed) RiteWeight interpolating raw and cluster average weights, no WE resampling",
+    "outcome": "Smoothing stabilized convergence and improved stationary density estimates on small data sets at the cost of a small tunable bias (numbers not verified, abstract only). Preprint",
+    "reference": "Otten 2026, chemRxiv preprint, doi 10.26434/chemrxiv.15001337/v1"
+  },
+  {
+    "system": "Benzylhydantoin transporter Mhp1 (Microbacterium liquefaciens), outward open (PDB 2JLN) to inward open (PDB 2X79) transition, coarse grained double Go model",
+    "category": "membrane or channel",
+    "lab": "Grabe, Chong and Zuckerman (Pittsburgh)",
+    "protocol": "WE path sampling on four progress coordinates (DRMSD and three gate distances), \u03c4 20 ps, Langevin dynamics on GPU OpenMM through PyOpenMM, custom WE package",
+    "outcome": "Outward to inward rate 23.9 \u00b1 1.7 per ms from two WE runs (model value, not compared to experiment), 68 percent of transitions follow strict alternating access at the first gate analysis line",
+    "reference": "Adelman 2011, Biophys J 101, 2399, doi 10.1016/j.bpj.2011.09.061"
+  },
+  {
+    "system": "Rhodobacter sphaeroides TSPO A139T (PDB 4UC1) with PK 11195 in a lipid bilayer",
+    "category": "membrane or channel",
+    "lab": "Dickson, Ferguson Miller",
+    "protocol": "REVO (48 walkers, 3 runs per docked pose), OpenMM 7.1.1, CHARMM36 and CGenFF, plus MSMs",
+    "outcome": "PK 11195 exits into the membrane between transmembrane helices rather than into solvent, 2285 exit events in over 40 \u03bcs total, MFPT 28 min and 260 min for two poses versus experimental residence time 34 min (human TSPO)",
+    "reference": "Dixon 2021, Biophys J 120, 158, 10.1016/j.bpj.2020.11.015"
+  },
+  {
+    "system": "Tacrine permeation through a neat POPC bilayer",
+    "category": "membrane or channel",
+    "lab": "Chong, Zuckerman",
+    "protocol": "WE with MAB against fixed bins, WESTPA 2.0",
+    "outcome": "MAB gave the first tacrine flux at about 5 ns against about 7 ns with fixed bins, and a flux 2 orders of magnitude higher for the length of the test. No permeability value reported here",
+    "reference": "Russo, 2022, J Chem Theory Comput, 18, 638, 10.1021/acs.jctc.1c01154"
+  },
+  {
+    "system": "Butanol permeation through a neat POPC bilayer",
+    "category": "membrane or channel",
+    "lab": "Chong, Zuckerman",
+    "protocol": "WE through the WESTPA 2.0 Python API on OpenEye Orion (AWS g4dn instances), OpenMM 7.5",
+    "outcome": "Scaling demonstration, per iteration use reached thousands of GPUs within a few hours. No kinetic value reported",
+    "reference": "Russo, 2022, J Chem Theory Comput, 18, 638, 10.1021/acs.jctc.1c01154"
+  },
+  {
+    "system": "Tacrine permeation through a POPC bilayer (50 lipids per leaflet), TIP3P water, OpenFF Parsley and LIPID17",
+    "category": "membrane or channel",
+    "lab": "Chong (with LeBard)",
+    "protocol": "Steady state WE on the membrane normal z, \u03c4 100 ps, four protocols (fixed bins or MAB with 30 bins, with or without WESS reweighting), WESTPA in the OpenEye Orion Permeability Floe with OpenMM 7.5 on AWS GPUs",
+    "outcome": "log P_m \u22124.27 \u00b1 0.24 (cm/s) with MAB plus WESS against MDCK LE \u22124.64 and PAMPA about \u22125.0, MFPT 4.6 ms from 8.1 \u03bcs of WE. MAB plus WESS cut the needed simulation time about threefold",
+    "reference": "Zhang, 2022, J Chem Inf Model, 62, 1891, 10.1021/acs.jcim.1c01540"
+  },
+  {
+    "system": "(R) zacopride permeation through a POPC bilayer",
+    "category": "membrane or channel",
+    "lab": "Chong (with LeBard)",
+    "protocol": "MAB plus WESS WE protocol as for tacrine, WESTPA in Orion with OpenMM 7.5",
+    "outcome": "log P_m \u22126.35 \u00b1 0.22 (cm/s) against MDCK LE \u22125.23, MFPT 559.2 ms from 6.0 \u03bcs of WE",
+    "reference": "Zhang, 2022, J Chem Inf Model, 62, 1891, 10.1021/acs.jcim.1c01540"
+  },
+  {
+    "system": "Sotalol permeation through a POPC bilayer",
+    "category": "membrane or channel",
+    "lab": "Chong (with LeBard)",
+    "protocol": "MAB plus WESS WE protocol as for tacrine, WESTPA in Orion with OpenMM 7.5",
+    "outcome": "log P_m \u22125.32 \u00b1 0.22 (cm/s) against MDCK LE \u22126.02 and PAMPA \u22125.58 or \u22126.74, MFPT 52.1 ms from 6.3 \u03bcs of WE",
+    "reference": "Zhang, 2022, J Chem Inf Model, 62, 1891, 10.1021/acs.jcim.1c01540"
+  },
+  {
+    "system": "1 butanol permeation across a double POPC bilayer, LIPID17",
+    "category": "membrane or channel",
+    "lab": "Chong, Zuckerman",
+    "protocol": "Tutorial 7.6, MAB with recursive outer bins and the HDF5 trajectory framework, WESTPA 2.0 with OpenMM",
+    "outcome": "Teaching example, no permeability value verified",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "HIV 1 TAR RNA (PDB 1ANR)",
+    "category": "nucleic acid",
+    "lab": "Dickson, Brooks",
+    "protocol": "WExplore with Euler angle order parameters, CHARMM via OpenMM 5.0, CHARMM36",
+    "outcome": "652.8 ns of WExplore (about 8% of an 8.2 \u03bcs Anton run) sampled interhelical states the Anton run missed, with better a priori agreement with experimental NMR RDCs",
+    "reference": "Dickson 2014, Nucleic Acids Res 42, 12126, 10.1093/nar/gku799"
+  },
+  {
+    "system": "Alanine dipeptide in implicit solvent, multiple reaction channels at two temperatures",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "WE path sampling of the full transition path ensemble, compared with transition path sampling on 2D model potentials",
+    "outcome": "Fractional importance of each channel quantified including at 300 K where brute force is prohibitive (channel fractions not verified, abstract only). Preprint, no journal version found",
+    "reference": "Zhang 2009, arXiv preprint 0902.2772"
+  },
+  {
+    "system": "Toy models only, Brownian particle in a 1D double well with colored noise, myopic self avoiding walk, 2D double well with two pathways",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "WE as path space resampling, static, randomly fluctuating (50 to 100) and adaptive Voronoi bins, in house code",
+    "outcome": "Self avoiding walk success fraction (10.865 \u00b1 0.015) percent by WE against (10.854 \u00b1 0.004) percent brute force, adaptive Voronoi bins find the target after about 200\u03c4",
+    "reference": "Zhang 2010, J Chem Phys 132, 054107, doi 10.1063/1.3306345"
+  },
+  {
+    "system": "Alanine dipeptide, C7eq to C7ax isomerization, CHARMM19 with ACE implicit solvent",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "Steady state WE with recycling and enhanced WE (bin to bin rate matrix reweighting, the WESS idea), 30\u00b0 \u00d7 30\u00b0 dihedral bins, 20 walkers per bin, \u03c4 100 fs, Langevin dynamics in CHARMM",
+    "outcome": "Enhanced WE reached steady state flux in 150 ns total simulation against about 5 \u00b5s brute force at 300 K (60 ns against 70 ns at 500 K), first transitions after 10 ns against a brute force MFPT of 5 \u00b5s",
+    "reference": "Bhatt 2010, J Chem Phys 133, 014110, doi 10.1063/1.3456985"
+  },
+  {
+    "system": "K+ and 18 crown 6 ether (with methane and methane, Na+ and Cl\u2212, methane and benzene, values not verified)",
+    "category": "small molecule or toy",
+    "lab": "Chong",
+    "protocol": "WE, explicit solvent MD",
+    "outcome": "Efficiency gain over brute force at least 300 fold for the association rate constant and 1100 fold for the transition path time distribution",
+    "reference": "Zwier 2011, J Chem Theory Comput 7, 1189, 10.1021/ct100626x"
+  },
+  {
+    "system": "Alanine dipeptide, transitions between two stable states in both directions, atomistic model",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman (Pittsburgh)",
+    "protocol": "Steady state WE path sampling (Bhatt 2010 protocol), error bars from eight independent simulations at 500 K",
+    "outcome": "Fractions of four pathway types equal in forward and reverse steady states within error although rates differ by almost two orders of magnitude, 1.5 per ns A to B against 123 per ns B to A",
+    "reference": "Bhatt 2011, J Chem Theory Comput 7, 2520, doi 10.1021/ct200086k"
+  },
+  {
+    "system": "Alanine tetrapeptide (Ala4), AMBER ff99SB with GB implicit solvent (igb 1)",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Chong (Pittsburgh)",
+    "protocol": "Equilibrium WE with \u03b1/\u03b2 history labels and the non Markovian labeled rate matrix, 10 \u00d7 10 bins on dihedral distance and helix RMSD, \u03c4 5 ps, AMBER 11 Langevin dynamics (WE driver not named)",
+    "outcome": "Populations and MFPTs for two state pairs from five WE runs of 3.0 \u00b5s each agreed with 95 percent intervals of a 3.0 \u00b5s brute force run, each ns of molecular time cost about 200 ns of total WE simulation (MFPT values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2014, J Chem Theory Comput 10, 2658, doi 10.1021/ct401065r"
+  },
+  {
+    "system": "Methane pair association and dissociation in TIP3P water (about 900 waters), GROMOS 45a3",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Chong (Pittsburgh)",
+    "protocol": "Equilibrium WE on the methane separation (1 \u00c5 bins), \u03c4 0.5 ps, GROMACS 4.5, direct, labeled non Markovian and Markov matrix estimators",
+    "outcome": "Direct and non Markovian matrix MFPTs agreed with a 0.4 \u00b5s brute force interval for a range of state boundaries, while the plain Markov matrix estimate fell outside it (MFPT values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2014, J Chem Theory Comput 10, 2658, doi 10.1021/ct401065r"
+  },
+  {
+    "system": "Bistable dimer in a dense WCA fluid (216 particles)",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman (with Grabe)",
+    "protocol": "WE with fixed bins, WESTPA with OpenMM 6.1",
+    "outcome": "Extension distribution matches a 2.5 \u00d7 10\u2078 step brute force run, rates within brute force 95% intervals (figures only)",
+    "reference": "Zwier 2015, J Chem Theory Comput 11, 800, 10.1021/ct5010615"
+  },
+  {
+    "system": "Alanine tetrapeptide (Ala4), AMBER ff99SB with GB implicit solvent (igb 1)",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Chong (Pittsburgh)",
+    "protocol": "WE with WESTPA (2D bins, at most 5 walkers per bin, \u03c4 5 ps, AMBER 11) followed by non Markovian labeled matrix FPT distribution analysis",
+    "outcome": "Non Markovian FPT distribution agreed with the interval from about 3 \u00b5s of MD with 1038 events (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, Protein Sci 25, 67, doi 10.1002/pro.2738"
+  },
+  {
+    "system": "Methane pair association in SPC/E water, GROMOS 45a3",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Chong (Pittsburgh)",
+    "protocol": "WE with WESTPA (10 bins, \u03c4 0.5 ps, GROMACS 4.6.3) and non Markovian FPT distribution analysis",
+    "outcome": "Non Markovian FPT distribution agreed with the interval from 1.0 \u00b5s of MD with about 1200 events, also recovered from a short MD trajectory with 30 events (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, Protein Sci 25, 67, doi 10.1002/pro.2738"
+  },
+  {
+    "system": "Na+/Cl\u2212 ion pair association in SPC/E water",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Chong (Pittsburgh)",
+    "protocol": "WE with WESTPA (21 bins, \u03c4 5 ps, GROMACS 4.6.3) and non Markovian FPT distribution analysis",
+    "outcome": "Non Markovian FPT distribution agreed with the interval from 1.0 \u00b5s of MD with about 1600 events (values only in figures, not verified)",
+    "reference": "Su\u00e1rez 2016, Protein Sci 25, 67, doi 10.1002/pro.2738"
+  },
+  {
+    "system": "Cucurbit[8]uril with quinine (SAMPL6 CB8 G3)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "REVO (first use, named here Reweighting of Ensembles by Variance Optimization), OpenMM 7.1.1",
+    "outcome": "k_off 0.012 s\u207b\u00b9 and k_on 4.7 \u00d7 10\u2078 M\u207b\u00b9 s\u207b\u00b9, \u0394G from rate ratio \u221216.0 kcal/mol versus alchemical reference \u221210.90 and experimental \u22126.45 kcal/mol",
+    "reference": "Dixon 2018, J Comput Aided Mol Des 32, 1001, 10.1007/s10822-018-0149-3"
+  },
+  {
+    "system": "Octa acid with 5 hexenoic acid (SAMPL6 OA G3)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "REVO, OpenMM 7.1.1",
+    "outcome": "k_off 160 s\u207b\u00b9 and k_on 1.2 \u00d7 10\u2078 M\u207b\u00b9 s\u207b\u00b9, \u0394G \u22129.5 kcal/mol versus reference \u22126.70 and experimental \u22125.18 kcal/mol",
+    "reference": "Dixon 2018, J Comput Aided Mol Des 32, 1001, 10.1007/s10822-018-0149-3"
+  },
+  {
+    "system": "Octa acid with 4 methyl pentanoic acid (SAMPL6 OA G6)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "REVO, OpenMM 7.1.1",
+    "outcome": "k_off 0.48 s\u207b\u00b9 and k_on 2.8 \u00d7 10\u2078 M\u207b\u00b9 s\u207b\u00b9, \u0394G \u221212.1 kcal/mol versus reference \u22127.18 and experimental \u22124.97 kcal/mol",
+    "reference": "Dixon 2018, J Comput Aided Mol Des 32, 1001, 10.1007/s10822-018-0149-3"
+  },
+  {
+    "system": "Na+ and Cl\u2212 association in water (basic tutorial)",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman, Dickson",
+    "protocol": "Steady state WE in WESTPA, OpenMM 7.3",
+    "outcome": "Tutorial showing flux based rate estimation from WE, no rate value reported in text (not verified)",
+    "reference": "Bogetti 2019, Living J Comput Mol Sci 1, 10607, 10.33011/livecoms.1.2.10607"
+  },
+  {
+    "system": "K+/18 crown 6 ether dissociation (advanced tutorial 2)",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman, Dickson",
+    "protocol": "WExplore plugin for WESTPA (Dickson lab), GROMACS 2016.2",
+    "outcome": "Tutorial on hierarchical Voronoi WE with a user defined distance metric, 50 iterations, no rate reported in text (not verified)",
+    "reference": "Bogetti 2019, Living J Comput Mol Sci 1, 10607, 10.33011/livecoms.1.2.10607"
+  },
+  {
+    "system": "Toy model only, 1D overdamped Langevin particle (\u03b2 5) on a rugged two superbasin potential, MFPT estimation",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Aristoff (OHSU, Colorado State)",
+    "protocol": "Steady state WE with variance optimized allocation and binning from a microbin Markov estimate of the discrepancy h (Algorithms 5.1 and 5.2), in house code",
+    "outcome": "Order of magnitude lower standard deviation of the steady state flux (MFPT) than direct Monte Carlo with only M = 4 bins, further reduction with 16 bins",
+    "reference": "Aristoff 2020, Multiscale Model Simul 18, 646, doi 10.1137/18M1212100"
+  },
+  {
+    "system": "Octa acid with 4 methyl pentanoic acid (SAMPL6 OA G6)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "REVO unbinding and rebinding ensembles at three Langevin friction coefficients, OpenMM 7.2.1, GAFF",
+    "outcome": "Derived correction terms cut the rate ratio free energy error versus the alchemical benchmark from 3.4 to 0.76 kcal/mol, corrected \u0394G \u22128.13 kcal/mol at \u03b3 = 1 ps\u207b\u00b9 versus computed \u22127.0 and experimental \u22124.97 kcal/mol, k_off 16.4 s\u207b\u00b9",
+    "reference": "Hall 2020, Front Mol Biosci 7, 106, 10.3389/fmolb.2020.00106"
+  },
+  {
+    "system": "Lennard Jones atom pairs with well depths 2 to 20 kcal/mol (sole system)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "WE nonequilibrium Jarzynski pulling with REVO, also importance resampling and diffusion Monte Carlo, wepy with OpenMM 7.4.0",
+    "outcome": "At \u03b5 = 20 kcal/mol REVO final free energy RMSE 0.49 kJ/mol, about half of straightforward pulling (0.78 kJ/mol), and REVO significantly better than straightforward after 400 trajectories at \u03b5 = 10 kcal/mol",
+    "reference": "Roussey 2020, J Chem Phys 153, 134116, 10.1063/5.0020600"
+  },
+  {
+    "system": "Cucurbit[8]uril with quinine (SAMPL6 CB8 G3)",
+    "category": "small molecule or toy",
+    "lab": "Chodera, Mobley, Shirts, Gilson, Dickson and others (SAMPL6 SAMPLing)",
+    "protocol": "OpenMM/REVO entry, REVO in wepy with OpenMM, compared with alchemical and PMF methods",
+    "outcome": "REVO \u0394G \u221216.0 \u00b1 1.0 kcal/mol, systematically more negative than the other methods by about 5 to 6 kcal/mol, and the rate ratio route was about an order of magnitude less efficient than direct free energy methods",
+    "reference": "Rizzi 2020, J Comput Aided Mol Des 34, 601, 10.1007/s10822-020-00290-5"
+  },
+  {
+    "system": "Octa acid with 5 hexenoic acid (SAMPL6 OA G3)",
+    "category": "small molecule or toy",
+    "lab": "Chodera, Mobley, Shirts, Gilson, Dickson and others (SAMPL6 SAMPLing)",
+    "protocol": "OpenMM/REVO entry, REVO in wepy with OpenMM",
+    "outcome": "REVO \u0394G \u221211.0 \u00b1 2.0 kcal/mol, the only entry whose five replicates were not within 0.1 to 0.4 kcal/mol, ligand ranking agreed with the other methods",
+    "reference": "Rizzi 2020, J Comput Aided Mol Des 34, 601, 10.1007/s10822-020-00290-5"
+  },
+  {
+    "system": "Octa acid with 4 methyl pentanoic acid (SAMPL6 OA G6)",
+    "category": "small molecule or toy",
+    "lab": "Chodera, Mobley, Shirts, Gilson, Dickson and others (SAMPL6 SAMPLing)",
+    "protocol": "OpenMM/REVO entry, REVO in wepy with OpenMM",
+    "outcome": "REVO \u0394G \u221212.0 \u00b1 1.0 kcal/mol, systematically more negative than the alchemical entries (for example AMBER/APR \u22126.8 \u00b1 0.1 kcal/mol)",
+    "reference": "Rizzi 2020, J Comput Aided Mol Des 34, 601, 10.1007/s10822-020-00290-5"
+  },
+  {
+    "system": "Na+ and Cl\u2212 ion pair association, explicit TIP3P water",
+    "category": "small molecule or toy",
+    "lab": "Chong",
+    "protocol": "RED scheme against the original flux estimate, five steady state WE runs (\u03c4 2 ps, 0.2 \u03bcs each), WESTPA with AMBER18",
+    "outcome": "No ramp up in flux, so RED gave little efficiency gain over the original estimate, both compared with ten 1 \u03bcs standard MD runs. Rate values in Table S1, not verified",
+    "reference": "DeGrave, 2021, J Chem Phys, 154, 114111, 10.1063/5.0041278"
+  },
+  {
+    "system": "Na+ and Cl\u2212 ion pair association, explicit TIP3P water",
+    "category": "small molecule or toy",
+    "lab": "Chong",
+    "protocol": "WE with MAB against manual fixed bins (28 bins), RED rate estimate, WESTPA with AMBER18",
+    "outcome": "k_on (3.9 \u00b1 0.3) \u00d7 10^10 M\u22121 s\u22121 with MAB and (4.1 \u00b1 0.4) \u00d7 10^10 with manual bins against (3.9 \u00b1 0.3) \u00d7 10^10 from five 1 \u03bcs standard MD runs. Efficiency S_k 5.1 (MAB) and 3.1 (manual), a 1.6 fold gain, 2498 against 1226 pathways",
+    "reference": "Torrillo, 2021, J Phys Chem A, 125, 1642, 10.1021/acs.jpca.0c10724"
+  },
+  {
+    "system": "Na+ and Cl\u2212 ion pair association, explicit water",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman",
+    "protocol": "Three WE runs with the new per iteration HDF5 trajectory storage, WESTPA 2.0 with OpenMM 7.5",
+    "outcome": "27% average reduction in trajectory file size against WESTPA 1.0, with no significant runtime cost. Storage test only, no rate reported",
+    "reference": "Russo, 2022, J Chem Theory Comput, 18, 638, 10.1021/acs.jctc.1c01154"
+  },
+  {
+    "system": "Octa acid with 5 hexenoic acid (SAMPL6 OA G3)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "Reanalysis of REVO unbinding trajectories (wepy) from Dixon 2018 and Hall 2020",
+    "outcome": "Low Na+ density above the binding pocket along transition paths is associated with up to 10\u2076 fold higher unbinding path probabilities",
+    "reference": "Roussey 2022, Front Mol Biosci 9, 858316, 10.3389/fmolb.2022.858316"
+  },
+  {
+    "system": "Octa acid with 4 methyl pentanoic acid (SAMPL6 OA G6)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "Reanalysis of REVO unbinding trajectories (wepy) from Dixon 2018 and Hall 2020",
+    "outcome": "Low Na+ density above the binding pocket along transition paths is associated with up to 10\u2076 fold higher unbinding path probabilities",
+    "reference": "Roussey 2022, Front Mol Biosci 9, 858316, 10.3389/fmolb.2022.858316"
+  },
+  {
+    "system": "Alanine dipeptide in gas phase",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman",
+    "protocol": "M WEM plugin, WESTPA 2.0 with NAMD 2.14",
+    "outcome": "MFPT about 1.2 ns against about 1.6 ns from conventional MD (read from a figure)",
+    "reference": "Bogetti 2023, Living J Comput Mol Sci 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Na+ and Cl\u2212 ion pair association, explicit water",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman",
+    "protocol": "Tutorials 7.1 (basic fixed bins) and 7.5 (binless resampler grouping walkers by k means), WESTPA 2.0",
+    "outcome": "Teaching example, no new benchmark number reported",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Alanine dipeptide conformational change, gas phase",
+    "category": "small molecule or toy",
+    "lab": "Chong, Zuckerman (with Andricioaei)",
+    "protocol": "Tutorial 7.9, Markovian WE milestoning (M WEM) with WESTPA 2.0 and NAMD 2.14 (Colvars)",
+    "outcome": "Teaching example, free energy landscape and transition kinetics demonstrated, no number verified",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Alanine dipeptide C7eq to C7ax transition, GB implicit solvent, ff14SBonlysc",
+    "category": "small molecule or toy",
+    "lab": "Chong",
+    "protocol": "Five WE runs with fixed bins on \u03c8 (20\u00b0 spacing) and a \u03c6/\u03c8 coordinate, \u03c4 100 ps, WESTPA, pathways clustered with LPATH",
+    "outcome": "80 pathways from 14.6 \u03bcs of WE against 30 from 14.6 \u03bcs of standard MD. Two pathway classes, upper route 87.5% and lower route 12.5%",
+    "reference": "Bogetti, 2023, J Chem Inf Model, 63, 7610, 10.1021/acs.jcim.3c01318"
+  },
+  {
+    "system": "Toy model only, 2D Smoluchowski particle (\u03b2 30) in a model potential, MFPT estimation",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman, Aristoff, Simpson and Webber (OHSU, Colorado State, Drexel, Caltech)",
+    "protocol": "Steady state WE with MFPT bins in the flux discrepancy h and allocation proportional to \u03c0v, microbin estimates on a 49 \u00d7 49 Voronoi grid, WeightedEnsemble.jl, \u03c4 0.01",
+    "outcome": "MFPT binning gave 3 to 5 orders of magnitude lower normalized variance than radial bins and about 2.5 orders below brute force with 40 bins, radial bins were worse than brute force",
+    "reference": "Aristoff 2023, J Chem Phys 158, 014108, doi 10.1063/5.0110873"
+  },
+  {
+    "system": "\u03b2 cyclodextrin with promazine (SAMPL9 \u03b2 CD PMZ)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "Cutoff REVO (cloning blocked in quasi unbound states, introduced here) versus standard REVO, wepy with OpenMM",
+    "outcome": "Prospective \u0394G \u22125.00 \u00b1 0.66 kcal/mol with cutoff REVO (\u22125.05 with REVO) versus experimental \u22124.97 kcal/mol as printed in Table 4",
+    "reference": "Roussey 2023, J Comput Chem 44, 935, 10.1002/jcc.27054"
+  },
+  {
+    "system": "Octa acid with 4 methyl pentanoic acid (SAMPL6 OA G6)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "Cutoff REVO versus standard REVO, wepy with OpenMM",
+    "outcome": "\u0394G \u22125.21 kcal/mol with cutoff REVO (\u22126.55 with REVO) versus computational reference \u22127.18 and experimental \u22124.97 kcal/mol",
+    "reference": "Roussey 2023, J Comput Chem 44, 935, 10.1002/jcc.27054"
+  },
+  {
+    "system": "Octa acid with 5 hexenoic acid (SAMPL6 OA G3)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "Cutoff REVO versus standard REVO, wepy with OpenMM",
+    "outcome": "\u0394G \u22126.49 kcal/mol with cutoff REVO (\u22127.69 with REVO) versus computational reference \u22126.71 and experimental \u22125.18 kcal/mol",
+    "reference": "Roussey 2023, J Comput Chem 44, 935, 10.1002/jcc.27054"
+  },
+  {
+    "system": "Cucurbit[8]uril with quinine (SAMPL6 CB8 G3)",
+    "category": "small molecule or toy",
+    "lab": "Dickson",
+    "protocol": "Cutoff REVO versus standard REVO, wepy with OpenMM",
+    "outcome": "\u0394G \u221211.17 \u00b1 0.13 kcal/mol with cutoff REVO (\u221211.35 \u00b1 1.01 with REVO) versus computational reference \u221210.80 and experimental \u22126.45 kcal/mol",
+    "reference": "Roussey 2023, J Comput Chem 44, 935, 10.1002/jcc.27054"
+  },
+  {
+    "system": "Alanine dipeptide C7eq to C7ax transition, GB implicit solvent, ff14SBonlysc",
+    "category": "small molecule or toy",
+    "lab": "Chong (with Miranda Quintana)",
+    "protocol": "Same five WE run dataset as LPATH (2D \u03c6/\u03c8 coordinate, \u03c4 100 ps, WESTPA 2.0 with Amber 22, 21 h on 8 CPU cores per run), pathways clustered with SHINE in MDANCE",
+    "outcome": "80 pathways from 14.6 \u03bcs, SHINE classes consistent with LPATH's two pathway classes. Adenylate kinase pathways in the same paper came from FRODA and DIMS, not WE",
+    "reference": "Chen, 2025, J Chem Inf Model, 65, 4775, 10.1021/acs.jcim.5c00240"
+  },
+  {
+    "system": "Alanine dipeptide C7eq to C7ax transition, existing ensemble of 80 WE pathways",
+    "category": "small molecule or toy",
+    "lab": "Chong (with Miranda Quintana)",
+    "protocol": "Reanalysis only, the five WE runs of the LPATH and SHINE papers (\u03c4 100 ps, \u03c6/\u03c8 coordinate, WESTPA 2.0, 14.6 \u03bcs), clustered with PRISM",
+    "outcome": "All three PRISM options recovered the known minor pathway class at k = 80. No new simulation",
+    "reference": "Woody Santos, 2026, Digital Discovery, volume and page not verified, 10.1039/D6DD00288A"
+  },
+  {
+    "system": "Toy models only, simple examples of biased dynamics (systems not verified)",
+    "category": "small molecule or toy",
+    "lab": "Zuckerman and Aristoff (OHSU, Colorado State)",
+    "protocol": "bRiteWeight, RiteWeight with Girsanov weights for trajectory snippets from biased dynamics, equilibrium and NESS",
+    "outcome": "Recovered the stationary distribution of the unbiased system from biased trajectory data (numbers not verified, abstract only). Preprint",
+    "reference": "Aristoff 2026, chemRxiv preprint, doi 10.26434/chemrxiv.15001675/v1"
+  },
+  {
+    "system": "Enzymatic futile cycle reaction network",
+    "category": "other",
+    "lab": "Zuckerman and Faeder (Pittsburgh)",
+    "protocol": "WE on chemical species counts with Gillespie direct SSA (BioNetGen), custom C WE code and WESTPA",
+    "outcome": "Tail probability p>90 = 2.47 \u00d7 10^\u221218 \u00b1 3.4 \u00d7 10^\u221219, efficiency gain about 10^18 over brute force SSA for the distribution tails",
+    "reference": "Donovan 2013, J Chem Phys 139, 115105, doi 10.1063/1.4821167"
+  },
+  {
+    "system": "Schl\u00f6gl reaction network (bistable)",
+    "category": "other",
+    "lab": "Zuckerman and Faeder (Pittsburgh)",
+    "protocol": "WE with Gillespie direct SSA (BioNetGen), steady state WE with feedback for MFPT",
+    "outcome": "P(X \u2265 700, t = 5 s) = 1.143 \u00d7 10^\u22129 \u00b1 4.7 \u00d7 10^\u221211 with efficiency gain about 7 \u00d7 10^5, MFPT efficiency gain about 500 (brute force MFPT scale about 5 \u00d7 10^4 s)",
+    "reference": "Donovan 2013, J Chem Phys 139, 115105, doi 10.1063/1.4821167"
+  },
+  {
+    "system": "Yeast polarization reaction network",
+    "category": "other",
+    "lab": "Zuckerman and Faeder (Pittsburgh)",
+    "protocol": "WE with Gillespie direct SSA (BioNetGen)",
+    "outcome": "Rare state probability 1.20 \u00d7 10^\u22126 \u00b1 0.04 \u00d7 10^\u22126 by WE against 1.35 \u00d7 10^\u22126 \u00b1 0.13 \u00d7 10^\u22126 brute force, efficiency gain about 1.6 \u00d7 10^3",
+    "reference": "Donovan 2013, J Chem Phys 139, 115105, doi 10.1063/1.4821167"
+  },
+  {
+    "system": "Epigenetic switch gene network",
+    "category": "other",
+    "lab": "Zuckerman and Faeder (Pittsburgh)",
+    "protocol": "Steady state WE with feedback, Gillespie direct SSA (BioNetGen)",
+    "outcome": "MFPT 1.3 \u00d7 10^6 \u00b1 3 \u00d7 10^4 s by WE against 1.3 \u00d7 10^6 s brute force, efficiency gain about 10^4",
+    "reference": "Donovan 2013, J Chem Phys 139, 115105, doi 10.1063/1.4821167"
+  },
+  {
+    "system": "Fc\u03b5RI mediated signaling network (354 species, 3680 reactions)",
+    "category": "other",
+    "lab": "Zuckerman and Faeder (Pittsburgh)",
+    "protocol": "WE with Gillespie direct SSA (BioNetGen)",
+    "outcome": "Probabilities down to about 10^\u22128 resolved with an estimated efficiency gain about 10^5",
+    "reference": "Donovan 2013, J Chem Phys 139, 115105, doi 10.1063/1.4821167"
+  },
+  {
+    "system": "Cross compartment signal transduction network (receptor, endosome, transcription factor, two mRNAs, proteins P1 and P2) in a realistic cell geometry from CellOrganizer",
+    "category": "other",
+    "lab": "Zuckerman, Faeder, Murphy and Dittrich (Pittsburgh and Carnegie Mellon)",
+    "protocol": "Steady state WE with recycling, WESTPA driving MCell 3.2.1 particle based kinetic Monte Carlo, BioNetGen network",
+    "outcome": "Mean time to produce five P2 molecules on the order of 5,000 s estimated from short WE trajectories (brute force would need about 25,000 to 50,000 s for 5 to 10 events)",
+    "reference": "Donovan 2016, PLoS Comput Biol 12, e1004611, doi 10.1371/journal.pcbi.1004611"
+  },
+  {
+    "system": "Frog neuromuscular junction active zone model (26 synaptic vesicles, 26 voltage gated calcium channels, synaptotagmin sensors)",
+    "category": "other",
+    "lab": "Zuckerman, Faeder, Murphy and Dittrich (Pittsburgh and Carnegie Mellon)",
+    "protocol": "WE on a 2D progress coordinate (calcium ions bound, activated synaptotagmins), resampling every 6 \u00b5s, WESTPA with MCell",
+    "outcome": "First fusion time distributions and fusion probabilities sampled in the low calcium regime, reproducing the experimental power law dependence of release probability on calcium (exponent not verified)",
+    "reference": "Donovan 2016, PLoS Comput Biol 12, e1004611, doi 10.1371/journal.pcbi.1004611"
+  },
+  {
+    "system": "ExMISA two gene switch, rule based model",
+    "category": "other",
+    "lab": "Chong, Zuckerman",
+    "protocol": "WE with adaptive Voronoi bins, WEBNG plugin",
+    "outcome": "Four states resolved with transitions sampled, no rate constants",
+    "reference": "Bogetti 2023, Living J Comput Mol Sci 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Two gene switch motif with mutually exclusive activation and inhibition, rule based model",
+    "category": "other",
+    "lab": "Chong, Zuckerman (with Faeder)",
+    "protocol": "Tutorial 7.10, WESTPA/BNG plugin with adaptive Voronoi bins, BioNetGen",
+    "outcome": "Teaching example, no number verified",
+    "reference": "Bogetti, 2023, Living J Comput Mol Sci, 5, 1655, 10.33011/livecoms.5.1.1655"
+  },
+  {
+    "system": "Azide anion addition to the unsubstituted trityl cation (T+), 1 to 2 acetonitrile water, QM region 37 atoms",
+    "category": "other",
+    "lab": "Chong",
+    "protocol": "Steady state WE with hybrid QM/MM (PM6 D for the reactants), 2D azide to cation distance coordinate, \u03c4 0.5 ps, 5 walkers per bin, five runs of 500 iterations then WESS reweighting and 100 more, WESTPA 2.0 with AMBER 18 sander on 280 CPU cores",
+    "outcome": "8704 reaction pathways, overall k_rxn within error of laser flash photolysis, k\u22121 \u226b k2 so the activation step is rate limiting. Numeric k_rxn shown only in Fig. 2 and Table S1, not verified",
+    "reference": "Bogetti, 2024, J Am Chem Soc, 146, 12828, 10.1021/jacs.4c03360"
+  }
+]

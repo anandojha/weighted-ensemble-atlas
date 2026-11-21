@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "A01",
+    "src_idx": 249,
+    "target_idx": 278,
+    "doi": "10.1107/s0567739478001680",
+    "year": 1978,
+    "severity": "Published correction",
+    "category": "Proper rotational RMSD alignment",
+    "title": "Unconstrained orthogonal Kabsch alignment returns improper inversion rotations unless determinant sign is enforced",
+    "paper_label": "Kabsch (1978) Acta Crystallogr. Sect. A 34, 827",
+    "claimed": "Minimizing weighted squared coordinate deviations over all orthogonal matrices via Kabsch (1976) is sometimes implemented without checking covariance determinant sign when computing macromolecular RMSD collective variables.",
+    "corrected": "Stationary orthogonal solutions of U(S + L) = R in Kabsch (1976) produce improper orthogonal transformations with determinant minus one whenever the cross covariance matrix R has negative determinant, inverting chiral biomolecular structures. Kabsch (1978) negates the singular vector contribution paired with the smallest eigenvalue of R transpose R whenever det(R) < 0, guaranteeing a proper unit determinant 3D rotation.",
+    "math_tex": "U^{\\star} = V \\,\\mathrm{diag}\\bigl(1,\\, 1,\\, \\mathrm{sgn}(\\det(V W^{\\top}))\\bigr) W^{\\top}, \\qquad \\det(U^{\\star}) = +1",
+    "events": [
+      {
+        "citing_idx": 269,
+        "year": 2004,
+        "author": "Evangelos A. Coutsias",
+        "kind": "extends",
+        "text": "Coutsias, Seok and Dill (2004) reformulate proper weighted macromolecular RMSD minimization via quaternions and compare singular value sign conventions against Kabsch (1976) and Kabsch (1978)."
+      },
+      {
+        "citing_idx": 429,
+        "year": 2019,
+        "author": "Jim Lawrence",
+        "kind": "extends",
+        "text": "Lawrence, Bernal and Witzgall (2019) establish an algebraic justification of the Kabsch Umeyama proper rotation singular value decomposition correcting improper reflections across arbitrary dimensions."
+      }
+    ]
+  },
+  {
+    "id": "A02",
+    "src_idx": 94,
+    "target_idx": 109,
+    "doi": "10.1063/1.446900",
+    "year": 1984,
+    "severity": "Estimator bias",
+    "category": "Brownian dynamics q-sphere escape",
+    "title": "Finite q-sphere trajectory truncation biases bimolecular k_on without the Northrup-Allison-McCammon re-entry correction",
+    "paper_label": "Northrup, Allison & McCammon (1984) J. Chem. Phys. 80, 1517",
+    "claimed": "Terminating Brownian association trajectories at a finite outer radius q > b and equating simulated capture fraction beta_1 with infinite-volume reaction probability beta_infinity omits diffusive walkers reaching radius q that re-cross the inner b-sphere prior to escaping to infinity.",
+    "corrected": "Exact Smoluchowski flux matching beyond the centrosymmetric b-sphere corrects finite-q truncation through beta_infinity = beta_1 / [1-(1-beta_1)Omega] with re-entry probability Omega = k(b)/k(q) = b/q for isotropic outer diffusion, recovering k_on = k(b) beta_infinity.",
+    "math_tex": "k_{\\mathrm{on}} = k(b)\\,\\beta_{\\infty} = \\frac{4\\pi D_{\\mathrm{rel}} b\\,\\beta_1}{1 - (1 - \\beta_1)\\,(b/q)}",
+    "events": [
+      {
+        "citing_idx": 109,
+        "year": 1996,
+        "author": "Gary Huber",
+        "kind": "extends",
+        "text": "Embeds unbiased Weighted Ensemble walker splitting and merging between the Northrup-Allison-McCammon b and q spheres to resolve rare electrostatically steered protein encounters."
+      },
+      {
+        "citing_idx": 126,
+        "year": 2000,
+        "author": "Atipat Rojnuckarin",
+        "kind": "extends",
+        "text": "Implements Weighted Ensemble Brownian dynamics within University of Houston Brownian Dynamics across Northrup-Allison-McCammon reaction surfaces."
+      },
+      {
+        "citing_idx": 312,
+        "year": 2015,
+        "author": "Ali Sinan Saglam",
+        "kind": "extends",
+        "text": "Couples steady-state Northrup-Allison-McCammon Weighted Ensemble with flexible coarse-grained barnase-barstar Brownian dynamics and hydrodynamic interactions to compute basal k_on = (2.85 +- 1.30) x 10^6 M^-1 s^-1."
+      },
+      {
+        "citing_idx": 463,
+        "year": 2020,
+        "author": "Robert Hall",
+        "kind": "extends",
+        "text": "Contrasts Northrup-Allison-McCammon outer-sphere unbound sampling against finite periodic-box rebinding corrections in explicit-solvent host-guest simulations."
+      }
+    ]
+  },
+  {
+    "id": "A03",
+    "src_idx": 183,
+    "target_idx": 400,
+    "doi": "10.1021/jp0477147",
+    "year": 2004,
+    "severity": "Validity condition",
+    "category": "Hydrodynamic PBC diffusion & box volume",
+    "title": "Finite-box periodic Oseen drag and low TIP3P viscosity introduce opposing biases in explicit-solvent bimolecular k_on",
+    "paper_label": "Yeh & Hummer (2004) J. Phys. Chem. B 108, 15873",
+    "claimed": "Explicit-solvent bimolecular k_on Weighted Ensemble simulations report raw periodic-box association rates without adding the Yeh-Hummer Ewald hydrodynamic self-diffusion term, while Saglam & Chong (2019) misprinted the 1.7 mM barnase-barstar box volume in units of 956 A^3 rather than 956 nm^3.",
+    "corrected": "Periodic lattice hydrodynamic interactions retard each diffusing partner by k_B T xi / (6 pi eta L) with cubic Ewald constant xi = 2.837297, partially masking the 2.5-fold excess diffusivity of TIP3P water, while 1.7 mM single-pair concentration corresponds to V_box = 956 nm^3 (L = 9.85 nm).",
+    "math_tex": "D_{\\infty} = D_{\\mathrm{PBC}}(L) + \\frac{k_B T \\xi}{6\\pi \\eta L}, \\qquad \\xi \\approx 2.837297",
+    "events": [
+      {
+        "citing_idx": 403,
+        "year": 2018,
+        "author": "Efrem Braun",
+        "kind": "extends",
+        "text": "Codifies analytical Yeh-Hummer periodic box diffusivity corrections and Green-Kubo viscosity checks for molecular transport simulations."
+      },
+      {
+        "citing_idx": 607,
+        "year": 2023,
+        "author": "Tadashi Ando",
+        "kind": "extends",
+        "text": "Applies Yeh-Hummer system-size scaling alongside Green-Kubo shear viscosity calculations across OPC and OPC3 water models from 273 K to 373 K."
+      },
+      {
+        "citing_idx": 649,
+        "year": 2024,
+        "author": "Ashlin James Poruthoor",
+        "kind": "extends",
+        "text": "Evaluates periodic box-dimension artifacts on free-energy barriers and lateral dynamics in phase-separating lipid bilayers."
+      }
+    ]
+  },
+  {
+    "id": "A04",
+    "src_idx": 273,
+    "target_idx": 216,
+    "doi": "10.1109/ispa.2005.195385",
+    "year": 2005,
+    "severity": "Validity condition",
+    "category": "Resampling variance & ordering",
+    "title": "Unordered systematic resampling fails unconditional variance dominance and large sample error decay",
+    "paper_label": "Douc, Cappe & Moulines (2005) Proc. ISPA, 64",
+    "claimed": "Sequential Monte Carlo and trajectory stratification workflows frequently treat systematic single uniform resampling like a universally lower variance replacement for multinomial and stratified resampling regardless of walker ordering.",
+    "corrected": "Douc, Cappe and Moulines (2005) prove that residual and Kitagawa (1996) stratified resampling strictly dominate multinomial resampling in conditional variance for every measurable observable, whereas systematic resampling admits explicit particle ordering counterexamples exceeding multinomial variance and failing to vanish in the large particle limit unless walkers are pre ordered along state coordinates or a Hilbert curve.",
+    "math_tex": "\\mathrm{Var}\\bigl[\\rho_{\\mathrm{res\\text{-}strat}}(\\varphi)\\bigr] \\le \\mathrm{Var}\\bigl[\\rho_{\\mathrm{res\\text{-}mult}}(\\varphi)\\bigr] \\le \\mathrm{Var}\\bigl[\\rho_{\\mathrm{mult}}(\\varphi)\\bigr], \\qquad \\mathrm{Var}\\bigl[\\rho_{\\mathrm{Hilbert}}(\\varphi)\\bigr] = o\\bigl(N^{-(1+1/d)}\\bigr)",
+    "events": [
+      {
+        "citing_idx": 364,
+        "year": 2019,
+        "author": "Mathieu Gerber",
+        "kind": "extends",
+        "text": "Gerber, Chopin and Whiteley (2019) note that unordered systematic resampling variance can fail to converge to zero per Douc et al. (2005), while proving almost sure weak convergence for Kitagawa (1996) stratified resampling and o(N^{-(1+1/d)}) variance under d dimensional Hilbert curve ordering."
+      },
+      {
+        "citing_idx": 647,
+        "year": 2024,
+        "author": "John Strahan",
+        "kind": "extends",
+        "text": "Strahan, Lorpaiboon, Weare and Dinner (2024) incorporate variance reduced resampling protocols analyzed by Douc, Cappe and Moulines (2005) within BAD NEUS trajectory stratification."
+      }
+    ]
+  },
+  {
+    "id": "A05",
+    "src_idx": 245,
+    "target_idx": 67,
+    "doi": "10.1063/1.2434966",
+    "year": 2007,
+    "severity": "Validity condition",
+    "category": "Transition event duration physics",
+    "title": "Transition event duration density requires splitting probability normalization and global barrier shape",
+    "paper_label": "Zhang, Jasnow & Zuckerman (2007) J. Chem. Phys. 126, 074504",
+    "claimed": "Barrier crossing event durations are frequently approximated from harmonic barrier top curvature alone or confounded with unconditioned absorbing boundary exit currents.",
+    "corrected": "Under two sided absorbing boundaries on [a, b], nearly all trajectories released at a + epsilon absorb back at a, requiring conditional normalization of exit current J(b, t) by the vanishing splitting probability Pi_b(a + epsilon). Mean event duration depends on global anharmonic potential shape through the path integral effective potential V(x) rather than barrier top curvature alone.",
+    "math_tex": "\\rho_b(t) = \\lim_{\\epsilon \\to 0^{+}} \\frac{J(b, t)}{\\Pi_b(a + \\epsilon)}, \\qquad V(x) = \\frac{F(x)^2}{4 k_B T \\gamma} + \\frac{1}{2\\gamma}\\frac{dF}{dx}",
+    "events": [
+      {
+        "citing_idx": 242,
+        "year": 2007,
+        "author": "Zhang, Jasnow & Zuckerman",
+        "kind": "extends",
+        "text": "Connects finite transition event durations to Weighted Ensemble path sampling of united residue calmodulin conformational switching."
+      },
+      {
+        "citing_idx": 67,
+        "year": 2013,
+        "author": "Donovan Maiye et al.",
+        "kind": "extends",
+        "text": "Designates the intrinsic transition event duration t_b of Zhang, Jasnow and Zuckerman 2007 a hard lower timescale bound on accelerated nonequilibrium sampling."
+      },
+      {
+        "citing_idx": 499,
+        "year": 2021,
+        "author": "DeGrave, Bogetti & Chong",
+        "kind": "extends",
+        "text": "Incorporates the empirical event duration distribution into pre steady state Weighted Ensemble rate estimation via the RED scheme."
+      }
+    ]
+  },
+  {
+    "id": "A06",
+    "src_idx": 252,
+    "target_idx": -1,
+    "doi": "10.1063/1.3306345",
+    "year": 2010,
+    "severity": "Citation & metadata",
+    "category": "Preprint authorship & path resampling",
+    "title": "Duplicate citation and author order reversal between arXiv 0810.1963 and 2010 JCP exactness theorem",
+    "paper_label": "Zhang, Jasnow & Zuckerman (2010) J. Chem. Phys. 132, 054107",
+    "claimed": "Downstream documentation and bibliographies cite arXiv 0810.1963 Section II.F alongside Zhang, Jasnow and Zuckerman (2010) under two separate entries, and invoke path space resampling exactness under adaptive bins without stating the stochastic trajectory divergence requirement.",
+    "corrected": "Preprint arXiv 0810.1963 and J. Chem. Phys. 132, 054107 (2010) represent one work whose author sequence changed from Zhang, Zuckerman, Jasnow on arXiv to Zhang, Jasnow, Zuckerman in print, proving exact path ensemble preservation across Markovian, non Markovian, and adaptive bin protocols whenever daughter walkers evolve under independent stochastic increments and resampling conserves conditional weight expectation.",
+    "math_tex": "\\mathbb{E}\\Bigl[\\sum_{i=1}^{\\hat{N}_t} \\hat{w}_t^i \\, \\delta_{\\hat{X}_{0\\dots t}^i} \\,\\Bigm|\\, \\mathcal{F}_t\\Bigr] = \\sum_{j=1}^{N_t} w_t^j \\, \\delta_{X_{0\\dots t}^j}",
+    "events": [
+      {
+        "citing_idx": 67,
+        "year": 2013,
+        "author": "Rory Donovan Maiye",
+        "kind": "extends",
+        "text": "Donovan Maiye et al. (2013) apply exact path space resampling with non overlapping static and dynamic tessellations to Gillespie chemical reaction networks without altering underlying stochastic path probabilities."
+      },
+      {
+        "citing_idx": 51,
+        "year": 2016,
+        "author": "David Aristoff",
+        "kind": "extends",
+        "text": "Aristoff, Bello Rivas and Elber (2016) group Weighted Ensemble path resampling alongside Exact Milestoning, Transition Interface Sampling, Forward Flux Sampling, and Non Equilibrium Umbrella Sampling among unbiased rare event stratification frameworks."
+      }
+    ]
+  },
+  {
+    "id": "A07",
+    "src_idx": 182,
+    "target_idx": 133,
+    "doi": "10.1063/1.3456985",
+    "year": 2010,
+    "severity": "Validity condition",
+    "category": "Markovian bin reweighting assumption",
+    "title": "Steady state bin reweighting requires fast orthogonal intra bin relaxation",
+    "paper_label": "Bhatt, Zhang & Zuckerman (2010) J. Chem. Phys. 133, 014110",
+    "claimed": "Enhanced steady state Weighted Ensemble reweighting (WESS) replaces exact regional flux conservation sum_j f_ji = sum_j f_ij with a first order Markov bin rate balance sum_j k_ji P_j = sum_j k_ij P_i to rescale walker weights.",
+    "corrected": "Markovian bin rescaling accelerates convergence strictly when simulation bins capture all slow reaction coordinates. Unresolved orthogonal barriers or hidden metastable intermediates inside coarse bins corrupt inter bin rate estimates k_ij, contributing to multi decade rate discrepancies in internal cavity unbinding.",
+    "math_tex": "\\sum_j \\bigl(f_{ji}^{\\mathrm{SS}} - f_{ij}^{\\mathrm{SS}}\\bigr) = 0 \\;\\xRightarrow{\\text{Markov bin closure}}\\; \\sum_j \\bigl(k_{ji} P_j^{\\mathrm{SS}} - k_{ij} P_i^{\\mathrm{SS}}\\bigr) = 0",
+    "events": [
+      {
+        "citing_idx": 67,
+        "year": 2013,
+        "author": "Donovan Maiye et al.",
+        "kind": "copies",
+        "text": "Adopts Bhatt et al. 2010 inter bin rate matrix reweighting under the assumption that f_ij = k_ij w_j holds both in and out of steady state."
+      },
+      {
+        "citing_idx": 390,
+        "year": 2020,
+        "author": "Aristoff & Zuckerman",
+        "kind": "extends",
+        "text": "Derives first principles variance minimizing bin partitions and walker allocations for steady state Weighted Ensemble sampling."
+      },
+      {
+        "citing_idx": 475,
+        "year": 2020,
+        "author": "Copperman & Zuckerman",
+        "kind": "criticizes",
+        "text": "Points out that practical Weighted Ensemble runs sustain tens to hundreds of bins, remaining too coarse for unbiased Markov rate closure prior to relaxation."
+      },
+      {
+        "citing_idx": 733,
+        "year": 2026,
+        "author": "Kania et al.",
+        "kind": "criticizes",
+        "text": "Eliminates the fixed bin Markovian closure of WESS by rotating random hyperplane tessellations across RiteWeight iterations."
+      }
+    ]
+  },
+  {
+    "id": "A08",
+    "src_idx": 407,
+    "target_idx": 106,
+    "doi": "10.1021/acs.jctc.9b00015",
+    "year": 2019,
+    "severity": "Estimator bias",
+    "category": "High log variance bootstrap",
+    "title": "Standard nonparametric bootstrap downward biases lower confidence bounds on heavy tailed replicate rates",
+    "paper_label": "Mostofian & Zuckerman (2019) J. Chem. Theory Comput. 15, 3499",
+    "claimed": "Rate uncertainties across Weighted Ensemble runs are often reported via sample mean plus or minus standard error or standard Efron nonparametric bootstrap intervals on 5 to 15 replicates.",
+    "corrected": "Genealogical walker correlations necessitate independent Weighted Ensemble runs, and atomistic folding rates across 13 Protein G or 15 NTL9 runs span 20 to 70 orders of magnitude. Whenever base 10 log standard deviation exceeds unity, symmetric standard error intervals cross below zero, standard nonparametric bootstrap over weights resamples omitting rare high flux runs to produce an artificial downward log space lower bound cliff, and nominal 95 percent intervals of both standard and Dirichlet Bayesian bootstraps miss the true mean in roughly 30 percent of synthetic benchmarks.",
+    "math_tex": "\\hat{\\mu}_{\\mathrm{BB}}^{*} = \\sum_{r=1}^{n} g_r k_r, \\qquad (g_1,\\dots,g_n) \\sim \\mathrm{Dirichlet}(1,\\dots,1), \\qquad \\sigma_{\\log_{10} k} > 1",
+    "events": [
+      {
+        "citing_idx": 481,
+        "year": 2021,
+        "author": "Daniel M. Zuckerman",
+        "kind": "extends",
+        "text": "Zuckerman and Russo (2021) incorporate the small sample high log variance uncertainty cautions of Mostofian and Zuckerman (2019) into pedagogical guidance on non equilibrium trajectory ensemble rate estimation."
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "src_idx": 399,
+    "target_idx": 411,
+    "doi": "10.1063/1.5120511",
+    "year": 2019,
+    "severity": "Validity condition",
+    "category": "Transient current bounds & inertia",
+    "title": "Monotonic Smoluchowski current bounds break in multidimensional or inertial Langevin dynamics",
+    "paper_label": "Copperman, Aristoff, Makarov, Simpson & Zuckerman (2019) J. Chem. Phys. 151, 214108",
+    "claimed": "Spatial extrema of transient probability currents are invoked to bracket steady state flux monotonically from above and below and to diagnose convergence from a flat reaction coordinate flux profile.",
+    "corrected": "The parabolic maximum principle guaranteeing monotonic contraction of min_x J(x,t) and max_x J(x,t) holds for one dimensional overdamped Smoluchowski diffusion. Explicit two dimensional potentials violate monotonic decay of maximum current magnitude, and inertial Langevin dynamics require momentum relaxation before overdamped Smoluchowski recycling bounds apply.",
+    "math_tex": "\\min_{0 \\le x \\le x_{\\mathrm{src}}} J(x, t_1) \\le \\min_{0 \\le x \\le x_{\\mathrm{src}}} J(x, t_2) \\le J_{\\mathrm{SS}} \\le \\max_{0 \\le x \\le x_{\\mathrm{src}}} J(x, t_2) \\le \\max_{0 \\le x \\le x_{\\mathrm{src}}} J(x, t_1)",
+    "events": [
+      {
+        "citing_idx": 390,
+        "year": 2020,
+        "author": "Aristoff & Zuckerman",
+        "kind": "extends",
+        "text": "Replaces continuum 1D Smoluchowski heuristics with discrete time Doob martingale variance minimization on general Borel Markov kernels."
+      },
+      {
+        "citing_idx": 411,
+        "year": 2020,
+        "author": "Copperman & Zuckerman",
+        "kind": "copies",
+        "text": "Propagates inertial second order 2D Langevin trajectories while approximating continuum recycling via the overdamped Smoluchowski PDE."
+      },
+      {
+        "citing_idx": 475,
+        "year": 2020,
+        "author": "Copperman & Zuckerman",
+        "kind": "extends",
+        "text": "Motivates microbin haMSM steady state extraction from slow pre steady state current relaxation across multidimensional biomolecular coordinates."
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "src_idx": 400,
+    "target_idx": 499,
+    "doi": "10.1039/c8sc04811h",
+    "year": 2019,
+    "severity": "Citation & metadata",
+    "category": "Bimolecular concentration & protocol record",
+    "title": "Barnase barstar box volume printed in cubic Angstroms rather than cubic nanometers at 1.7 mM",
+    "paper_label": "Saglam & Chong (2019) Chem. Sci. 10, 2360",
+    "claimed": "The published article prints the explicit solvent simulation box volume at 956 A^3 next to a reactant concentration of 1.7 mM, and downstream citations classify the calculation under steady state Weighted Ensemble sampling.",
+    "corrected": "One protein pair at 1.7 mM requires roughly 977 nm^3, confirming that 956 A^3 (0.956 nm^3, corresponding to 1.74 M) is a thousandfold unit typo for 956 nm^3. Subsequent Chong lab reanalysis in DeGrave, Bogetti and Chong 2021 documents a single 650 iteration (18 us) unrecycled equilibrium Weighted Ensemble run.",
+    "math_tex": "C = \\frac{1}{N_{\\mathrm{A}} V} = \\frac{1}{6.022 \\times 10^{23}\\;\\mathrm{mol}^{-1} \\times 956\\;\\mathrm{nm}^3} \\approx 1.74\\;\\mathrm{mM}, \\qquad 956\\;\\text{\\AA}^3 = 0.956\\;\\mathrm{nm}^3",
+    "events": [
+      {
+        "citing_idx": 443,
+        "year": 2020,
+        "author": "Ray & Andricioaei",
+        "kind": "extends",
+        "text": "Benchmarks Weighted Ensemble Milestoning against the explicit solvent barnase barstar association rate constant of Saglam and Chong 2019."
+      },
+      {
+        "citing_idx": 468,
+        "year": 2020,
+        "author": "Ray et al.",
+        "kind": "copies",
+        "text": "Classifies Saglam and Chong 2019 under steady state Weighted Ensemble rate calculations, whereas DeGrave et al. 2021 documents a single equilibrium run."
+      },
+      {
+        "citing_idx": 499,
+        "year": 2021,
+        "author": "DeGrave, Bogetti & Chong",
+        "kind": "criticizes",
+        "text": "Reanalyzes the single 650 iteration (tau = 20 ps, 18 us) equilibrium Weighted Ensemble dataset of Saglam and Chong 2019 via RED across a 6 ns event duration."
+      },
+      {
+        "citing_idx": 563,
+        "year": 2022,
+        "author": "Dommer et al.",
+        "kind": "extends",
+        "text": "Cites Saglam and Chong 2019 atomistic protein protein association pathways when scaling Weighted Ensemble workflows to viral spike assemblies."
+      }
+    ]
+  },
+  {
+    "id": "A11",
+    "src_idx": 427,
+    "target_idx": 328,
+    "doi": "10.1063/1.5100521",
+    "year": 2019,
+    "severity": "Estimator bias",
+    "category": "Variation optimization (REVO)",
+    "title": "REVO pairwise variation optimization removes Voronoi region walls while requiring quasi unbound cloning cutoffs and merging bias corrections",
+    "paper_label": "Donyapour, Roussey & Dickson (2019) J. Chem. Phys. 150, 244112",
+    "claimed": "Hierarchical Voronoi tessellations in WExplore enforce hard multi level distance thresholds that trigger discontinuous walker cloning across region walls, whereas unconstrained pairwise distance variation maximization continues splitting quasi unbound ligand trajectories into tiny weight exits.",
+    "corrected": "Resampling of Ensembles by Variation Optimization (REVO) optimizes global pairwise trajectory distance variation weighted by logarithmic walker novelty phi_i(w_i), recovering a 3.76 ms trypsin benzamidine residence time (experiment 1.6 ms) and a fourth exit pathway, while subsequent audits add finite volume rate ratio corrections, quasi unbound cloning cutoffs, and merging bias corrected Markov models.",
+    "math_tex": "V = \\sum_{i=1}^{N} V_i = \\sum_{i=1}^{N} \\sum_{j \\neq i} \\left(\\frac{d_{ij}}{d_0}\\right)^{\\alpha} \\phi_i(w_i)\\,\\phi_j(w_j)",
+    "events": [
+      {
+        "citing_idx": 450,
+        "year": 2020,
+        "author": "Andrea Rizzi",
+        "kind": "criticizes",
+        "text": "SAMPL6 blind challenge comparisons report standard REVO rate ratio binding free energies 5 to 6 kcal/mol more negative than alchemical benchmarks with elevated replicate spread on OA G3."
+      },
+      {
+        "citing_idx": 463,
+        "year": 2020,
+        "author": "Robert Hall",
+        "kind": "silent_fix",
+        "text": "Derives finite simulation box volume and state boundary free energy correction terms for REVO transition path rate ratios, cutting SAMPL6 OA G6 discrepancy relative to alchemical benchmarks from 3.4 to 0.76 kcal/mol."
+      },
+      {
+        "citing_idx": 569,
+        "year": 2022,
+        "author": "Nicole M. Roussey",
+        "kind": "criticizes",
+        "text": "Identifies variation inflation from large pairwise distances in quasi unbound states and blocks quasi unbound cloning in Cutoff REVO, lowering SAMPL6 CB8 G3 free energy uncertainty from 1.01 to 0.13 kcal/mol."
+      },
+      {
+        "citing_idx": 661,
+        "year": 2025,
+        "author": "Samik Bose",
+        "kind": "criticizes",
+        "text": "Identifies trajectory merging bias in Markov state models constructed from REVO ensembles at lag intervals exceeding the Weighted Ensemble resampling step and introduces MBC MSMs."
+      }
+    ]
+  },
+  {
+    "id": "A12",
+    "src_idx": 414,
+    "target_idx": 505,
+    "doi": "10.1021/jacs.8b10735",
+    "year": 2019,
+    "severity": "Published correction",
+    "category": "Protein folding benchmark & pre-steady-state flux",
+    "title": "Misreported Protein G experimental folding time and unrelaxed flux corrected in 2021 JACS erratum",
+    "paper_label": "Adhikari et al. (2019) J. Am. Chem. Soc. 141, 6519",
+    "claimed": "Table 1 and Figure 4 reported an experimental Protein G B1 domain folding time near 1 s after misinterpreting denaturant and pH conditions, alongside unrelaxed raw Weighted Ensemble flux estimates of 4 to 210 s across 15 implicit-solvent runs.",
+    "corrected": "Adhikari et al. (2021) J. Am. Chem. Soc. 143, 7588 corrected the zero-denaturant experimental Protein G folding time to 2 to 40 ms (3.1 ms at pH 4.0 to 39 ms at pH 11.2), matching the history-augmented Markov state model estimate of 3.3 to 200 ms and the restarted Weighted Ensemble interval of 0.3 to 4.3 ms.",
+    "math_tex": "\\tau_f = \\frac{1}{k_{UF}} = \\frac{\\sum_{i \\in U} w_i^{\\mathrm{ss}}}{\\mathrm{Flux}_{\\mathrm{ss}}(U \\to F)}",
+    "events": [
+      {
+        "citing_idx": 407,
+        "year": 2019,
+        "author": "Barmak Mostofian",
+        "kind": "criticizes",
+        "text": "Reanalysis of the 13 Protein G Weighted Ensemble runs documents flux estimates spanning 70 orders of magnitude where nominal 95 percent bootstrap intervals miss the true mean in roughly 30 percent of synthetic trials."
+      },
+      {
+        "citing_idx": 443,
+        "year": 2020,
+        "author": "Dhiman Ray",
+        "kind": "copies",
+        "text": "Repeats the framing that microsecond Weighted Ensemble trajectories captured millisecond to second atomistic folding kinetics for NTL9 and Protein G prior to the 2021 experimental benchmark erratum."
+      },
+      {
+        "citing_idx": 411,
+        "year": 2020,
+        "author": "Jeremy Copperman",
+        "kind": "criticizes",
+        "text": "Flags the experimental Protein G folding time printed in Adhikari et al. (2019) to be erroneous while diagnosing slow steady-state relaxation across long-lived folding intermediates."
+      },
+      {
+        "citing_idx": 475,
+        "year": 2020,
+        "author": "Jeremy Copperman",
+        "kind": "extends",
+        "text": "Restarts Weighted Ensemble trajectories from microbin history-augmented Markov steady-state weights, raising Protein G folding flux three orders of magnitude to a 0.3 to 4.3 ms folding time consistent with pH 4.0 to 11.2 measurements."
+      },
+      {
+        "citing_idx": 705,
+        "year": 2026,
+        "author": "Won Hee Ryu",
+        "kind": "extends",
+        "text": "Constructs discrepancy and local variance optimized bins from history-augmented Markov models on high-friction NTL9 folding, narrowing run-to-run flux spread from 35 orders of magnitude down to 12 orders."
+      }
+    ]
+  },
+  {
+    "id": "A13",
+    "src_idx": 443,
+    "target_idx": 194,
+    "doi": "10.1063/5.0008028",
+    "year": 2020,
+    "severity": "Validity condition",
+    "category": "Milestone flux & surface seeding",
+    "title": "Milestone transition kernel eigenvectors require lifetime weighting and equilibrated hypersurface ensembles",
+    "paper_label": "Ray & Andricioaei (2020) J. Chem. Phys.",
+    "claimed": "Naive milestoning implementations interpret the principal stationary eigenvector of the milestone to milestone transition kernel to be equilibrium milestone probability and launch Weighted Ensemble Milestoning runs from a single structure per milestone.",
+    "corrected": "In Weighted Ensemble Milestoning building upon Faradjian and Elber (2004), the unit eigenvalue row eigenvector of the milestone transition kernel K represents stationary milestone hitting flux rather than equilibrium probability, requiring element wise multiplication by mean milestone lifetime T_i. Launching independent runs from a single configuration per milestone undersamples orthogonal degrees of freedom on multidimensional protein ligand milestones and inflates dissociation rate and free energy spread.",
+    "math_tex": "\\mathbf{q}_{\\mathrm{stat}}^{\\top}\\mathbf{K} = \\mathbf{q}_{\\mathrm{stat}}^{\\top}, \\qquad P_{\\mathrm{eq},i} = q_{\\mathrm{stat},i}\\,\\overline{T}_i, \\qquad \\tau_{\\mathrm{MFPT}} = \\mathbf{p}_0(\\mathbf{I}-\\tilde{\\mathbf{K}})^{-1}\\overline{\\mathbf{T}}",
+    "events": [
+      {
+        "citing_idx": 468,
+        "year": 2020,
+        "author": "Dhiman Ray",
+        "kind": "criticizes",
+        "text": "Ray, Gokey, Mobley and Andricioaei (2020) report high variability in FKBP butyl ligand dissociation free energies and off rates under single structure milestone seeding in standard Weighted Ensemble Milestoning, introducing harmonic restraint release milestone ensembles."
+      }
+    ]
+  },
+  {
+    "id": "A14",
+    "src_idx": 475,
+    "target_idx": 308,
+    "doi": "10.1021/acs.jctc.0c00273",
+    "year": 2020,
+    "severity": "Estimator bias",
+    "category": "Non Markovian history labeled rates",
+    "title": "Unmarked coarse Markov matrices mix directional ensembles resolved by history labeled microbins",
+    "paper_label": "Copperman & Zuckerman (2020) J. Chem. Theory Comput. 16, 6763",
+    "claimed": "Unmarked Markov transition matrices built on tens or hundreds of simulation bins pool trajectories last in reactant state A with trajectories last in product state B, biasing first passage rate estimates prior to full steady state relaxation.",
+    "corrected": "Decomposing populations into two color history labeled alpha and beta ensembles and post clustering short pre steady state Weighted Ensemble segments into fine microbin haMSM operators T_ij^alpha with sink to source recycling T_ba = 1 recovers unbiased steady state k_AB before ensemble relaxation.",
+    "math_tex": "p_i^{\\mathrm{eq}} = p_i^{\\alpha} + p_i^{\\beta}, \\qquad k_{AB} = \\sum_{i \\notin B,\\, j \\in B} p_i^{\\alpha} T_{ij}^{\\alpha}, \\quad T_{ij}^{\\alpha} = \\mathbb{P}(X_{t+\\tau}^{\\alpha} = j \\mid X_t^{\\alpha} = i)",
+    "events": [
+      {
+        "citing_idx": 417,
+        "year": 2019,
+        "author": "Pratt et al.",
+        "kind": "extends",
+        "text": "Demonstrates across methane, Na+/Cl-, and K+/18 crown 6 benchmarks that history tracking and post simulation haMSM analysis accelerate k_on, k_off, and K_D convergence."
+      },
+      {
+        "citing_idx": 411,
+        "year": 2020,
+        "author": "Copperman & Zuckerman",
+        "kind": "extends",
+        "text": "Formulates the one way alpha ensemble transition submatrix with explicit sink to source boundary recycling T_ba = 1 on fine microstate partitions."
+      },
+      {
+        "citing_idx": 563,
+        "year": 2022,
+        "author": "Dommer et al.",
+        "kind": "extends",
+        "text": "Implements parallelized streaming haMSM microbin rate estimation for terabyte scale glycosylated Delta spike opening trajectories."
+      },
+      {
+        "citing_idx": 647,
+        "year": 2024,
+        "author": "Strahan et al.",
+        "kind": "extends",
+        "text": "Builds upon Copperman and Zuckerman 2020 unbiased splitting segment haMSM construction when formulating BAD NEUS stratification."
+      }
+    ]
+  },
+  {
+    "id": "A15",
+    "src_idx": 390,
+    "target_idx": 109,
+    "doi": "10.1137/18m1212100",
+    "year": 2020,
+    "severity": "Validity condition",
+    "category": "Discrepancy walker allocation",
+    "title": "Variance optimal steady state allocation scales with bin weight times discrepancy standard deviation rather than uniform walkers per bin",
+    "paper_label": "Aristoff & Zuckerman (2020) Multiscale Model. Simul. 18, 646",
+    "claimed": "Classical Weighted Ensemble protocols allocate an identical walker count N_t(u) = M to every occupied bin, expending parallel trajectories in off pathway or flat committor basins where splitting fails to reduce target flux variance.",
+    "corrected": "Martingale variance decomposition across selection and mutation steps proves via Lagrange multipliers that asymptotic steady state flux variance is minimized when bin allocation scales with bin weight omega_t(u) times intrabin one step flux discrepancy standard deviation sigma_t(u), corresponding to continuous steady state trajectory density proportional to pi(x) v(x).",
+    "math_tex": "N_t(u) \\propto \\sqrt{\\omega_t(u) \\sum_{\\xi_t^i \\in u} \\omega_t^i \\,\\mathrm{Var}_{K(\\xi_t^i,\\cdot)} h} = \\omega_t(u)\\,\\sigma_t(u), \\qquad n(x) \\propto \\pi(x)\\,v(x)",
+    "events": [
+      {
+        "citing_idx": 488,
+        "year": 2020,
+        "author": "Robert J. Webber",
+        "kind": "extends",
+        "text": "Transfers discrepancy based variance minimization from Weighted Ensemble bin allocation to splitting accelerated Markov chain Monte Carlo."
+      },
+      {
+        "citing_idx": 493,
+        "year": 2021,
+        "author": "Paul A. Torrillo",
+        "kind": "extends",
+        "text": "Contrasts coarse model variance minimization binning against zero prior heuristic bottleneck isolation in Minimal Adaptive Binning."
+      },
+      {
+        "citing_idx": 570,
+        "year": 2023,
+        "author": "David Aristoff",
+        "kind": "extends",
+        "text": "Expresses flux discrepancy via local mean first passage times and demonstrates on a two dimensional Smoluchowski surface that equal pi*v discrepancy bins cut normalized flux variance by 3 to 5 orders of magnitude over radial bins while radial bins underperform brute force."
+      },
+      {
+        "citing_idx": 705,
+        "year": 2026,
+        "author": "Won Hee Ryu",
+        "kind": "extends",
+        "text": "Applies haMSM estimated equal pi*v discrepancy bins to atomistic NTL9 protein folding at water like friction, compressing replicate flux spread from 35 orders of magnitude to 12 orders of magnitude."
+      }
+    ]
+  },
+  {
+    "id": "A16",
+    "src_idx": 487,
+    "target_idx": 351,
+    "doi": "10.1021/acsomega.0c03892",
+    "year": 2020,
+    "severity": "Estimator bias",
+    "category": "wepy lineage & REVO cloning",
+    "title": "Unconstrained REVO cloning in quasi unbound states and walker merge pruning in wepy bias naive rate ratio affinities",
+    "paper_label": "Lotz & Dickson (2020) ACS Omega 5, 31608",
+    "claimed": "Regionless REVO and WExplore simulations in wepy generate thousands of ligand exit trajectories whose raw transition counts and steady state rate ratios k_off / k_on are sometimes plugged straight into Markov state models or free energy formulas.",
+    "corrected": "WepyHDF5 records explicit cloning and merging lineage graphs where pruned walkers transfer weight w_i + w_j to surviving clones with probability w_i / (w_i + w_j), truncating losing branches in unweighted transition counts. In addition, unconstrained REVO cloning inside quasi unbound regions inflates SAMPL6 host guest binding free energy errors until boundary committor corrections and Cutoff REVO cloning thresholds are applied.",
+    "math_tex": "\\mathbb{P}(\\text{retain } i \\mid \\text{merge } i,j) = \\frac{w_i}{w_i + w_j}, \\qquad w_{\\mathrm{surv}} = w_i + w_j",
+    "events": [
+      {
+        "citing_idx": 532,
+        "year": 2022,
+        "author": "Nicole M. Roussey",
+        "kind": "extends",
+        "text": "Reconstructs continuous reactive exit lineages from WepyHDF5 trees to demonstrate six order of magnitude higher SAMPL6 unbinding path probabilities under depleted pocket Na+ density."
+      },
+      {
+        "citing_idx": 569,
+        "year": 2022,
+        "author": "Nicole M. Roussey",
+        "kind": "criticizes",
+        "text": "Identifies excess cloning in quasi unbound states of standard REVO inside wepy and introduces Cutoff REVO to improve SAMPL6 and SAMPL9 binding free energies."
+      },
+      {
+        "citing_idx": 536,
+        "year": 2022,
+        "author": "John D. Russo",
+        "kind": "extends",
+        "text": "Incorporates a generalized binless resampler interface in WESTPA 2.0 modeled on modular resampler abstractions in wepy."
+      }
+    ]
+  },
+  {
+    "id": "A17",
+    "src_idx": 463,
+    "target_idx": 388,
+    "doi": "10.3389/fmolb.2020.00106",
+    "year": 2020,
+    "severity": "Estimator bias",
+    "category": "Rate-ratio binding free energy",
+    "title": "Uncorrected rate-ratio binding free energies omit finite-box volume, state-boundary, and residual electrostatic terms",
+    "paper_label": "Hall, Dixon & Dickson (2020) Front. Mol. Biosci. 7, 106",
+    "claimed": "SAMPL6 host-guest REVO submissions computed standard binding free energies from raw k_off over k_on ratios without accounting for finite periodic box volume, unbound state definition volume, or residual host-guest electrostatic coupling at the 1 nm cutoff, overbinding OA-G6 at -12.1 kcal/mol against the -7.0 kcal/mol alchemical reference.",
+    "corrected": "Deriving analytical volume, state-boundary, and screened electrostatic corrections for reactive trajectory ensembles cuts the OA-G6 binding free energy error relative to computational benchmarks from 3.4 kcal/mol down to 0.76 kcal/mol.",
+    "math_tex": "\\Delta G^\\circ_{\\mathrm{corr}} = k_B T \\ln\\!\\left(\\frac{k_{\\mathrm{off}}\\,V_{\\mathrm{unbound}}}{k_{\\mathrm{on}}^{\\mathrm{flux}}\\,V^\\circ}\\right) + \\Delta G_{\\mathrm{elec}}(r_{\\mathrm{cut}})",
+    "events": [
+      {
+        "citing_idx": 538,
+        "year": 2021,
+        "author": "Dhiman Ray",
+        "kind": "extends",
+        "text": "Computes trypsin-benzamidine association rate, dissociation rate, and standard binding free energy simultaneously through continuous Voronoi-cell Markovian Weighted Ensemble Milestoning."
+      },
+      {
+        "citing_idx": 532,
+        "year": 2022,
+        "author": "Nicole M. Roussey",
+        "kind": "extends",
+        "text": "Reanalyzes OA-G3 and OA-G6 REVO transition paths from Dixon et al. (2018) and Hall et al. (2020), finding up to 10^6-fold higher unbinding path weights when sodium ion density drops above the host pocket."
+      },
+      {
+        "citing_idx": 569,
+        "year": 2022,
+        "author": "Nicole M. Roussey",
+        "kind": "extends",
+        "text": "Introduces Cutoff-REVO to halt walker cloning in quasi-unbound regions, bringing OA-G6 to -5.21 kcal/mol and prospective SAMPL9 beta-cyclodextrin promazine affinity to -5.00 +- 0.66 kcal/mol against -4.97 kcal/mol experiment."
+      },
+      {
+        "citing_idx": 661,
+        "year": 2025,
+        "author": "Samik Bose",
+        "kind": "extends",
+        "text": "Eliminates asymmetric walker merging bias when building Markov state models from REVO ligand unbinding ensembles."
+      }
+    ]
+  },
+  {
+    "id": "A18",
+    "src_idx": 468,
+    "target_idx": 125,
+    "doi": "10.1063/5.0021953",
+    "year": 2020,
+    "severity": "Estimator bias",
+    "category": "Standard-state concentration normalization",
+    "title": "Extraneous molar factor in k_on and inverted thermodynamic signs in printed standard binding free energy equations",
+    "paper_label": "Ray et al. (2020) J. Chem. Phys. 153, 065101",
+    "claimed": "Equation 10 multiplies inverse binding mean first-passage time by dimensionless v c^0 N_av rather than molar box volume v N_av, while Equations 12 and 15 print Delta G^0 = -k_B T ln K_D for dissociation constant K_D and Delta G^0 = +k_B T ln(K_bind C^0) for association constant K_bind, inverting both standard-state signs.",
+    "corrected": "Under the 1 M standard state (C^0 = 1 M, V^0 = 1 / (C^0 N_A) = 1661 A^3) established by Gilson et al. (1997) and Boresch et al. (2003), bimolecular k_on is V_box N_A / <tau>_on in M^-1 s^-1 and favorable complexation satisfies Delta G^0 = +k_B T ln(K_D / C^0) = -k_B T ln(K_bind C^0).",
+    "math_tex": "k_{\\mathrm{on}} = \\frac{V_{\\mathrm{box}} N_A}{\\langle \\tau \\rangle_{\\mathrm{on}}}, \\qquad \\Delta G^\\circ = k_B T \\ln\\!\\left(\\frac{k_{\\mathrm{off}}\\,C^\\circ}{k_{\\mathrm{on}}}\\right) = -k_B T \\ln\\!\\left(\\frac{K_{\\mathrm{bind}}}{V^\\circ}\\right)",
+    "events": [
+      {
+        "citing_idx": 538,
+        "year": 2021,
+        "author": "Dhiman Ray",
+        "kind": "silent_fix",
+        "text": "Replaces milestone-reset Weighted Ensemble Milestoning with Markovian Weighted Ensemble Milestoning (M-WEM) to recover consistent negative binding free energies and millisecond residence times on trypsin-benzamidine."
+      },
+      {
+        "citing_idx": 579,
+        "year": 2023,
+        "author": "Anthony T. Bogetti",
+        "kind": "extends",
+        "text": "Packages Markovian Weighted Ensemble Milestoning into WESTPA 2.0 Tutorial 7.9 alongside Colvars collective-variable restraints."
+      },
+      {
+        "citing_idx": 654,
+        "year": 2024,
+        "author": "Marion Silvestrini",
+        "kind": "extends",
+        "text": "Compares milestoning dissociation strategies against three-stage Minimal Adaptive Binning steady-state Weighted Ensemble for THS-017 escape from the interior HIF-2alpha PAS-B cavity."
+      }
+    ]
+  },
+  {
+    "id": "A19",
+    "src_idx": 499,
+    "target_idx": 400,
+    "doi": "10.1063/5.0041278",
+    "year": 2021,
+    "severity": "Estimator bias",
+    "category": "Pre steady state flux & event durations",
+    "title": "RED event duration conditioning corrects twofold pre steady state flux underestimation",
+    "paper_label": "DeGrave, Bogetti & Chong (2021) J. Chem. Phys. 154, 114111",
+    "claimed": "Conventional pre steady state Weighted Ensemble flux estimators divide cumulative target arrival weight by total elapsed wall time t_max, implicitly assuming unit cumulative barrier crossing probability from t = 0 and overrepresenting anomalously fast crossings.",
+    "corrected": "Replacing raw observation time with the time integrated cumulative event duration distribution H_AB(t) in the Rate from Event Durations (RED) estimator eliminates twofold transient underestimation in calbindin switching from the initial 25 percent of simulation data and improves barnase barstar k_on efficiency by at least 25 percent.",
+    "math_tex": "\\hat{k}_{AB}^{\\mathrm{RED}} = \\frac{\\Phi_{AB}(t_{\\max})}{\\int_{0}^{t_{\\max}} \\hat{H}_{AB}(t)\\,dt} > \\frac{\\Phi_{AB}(t_{\\max})}{\\int_{0}^{t_{\\max}} 1\\,dt}, \\qquad 0 \\le \\hat{H}_{AB}(t) < 1",
+    "events": [
+      {
+        "citing_idx": 245,
+        "year": 2007,
+        "author": "Zhang, Jasnow & Zuckerman",
+        "kind": "extends",
+        "text": "Derives the absorbing boundary Fokker Planck distribution rho_b(t) of finite barrier crossing event durations much shorter than first passage times."
+      },
+      {
+        "citing_idx": 399,
+        "year": 2019,
+        "author": "Copperman et al.",
+        "kind": "criticizes",
+        "text": "Proves via a parabolic maximum principle on Smoluchowski currents that source initiated transient flux bounds true steady state flux from below during ramp up."
+      },
+      {
+        "citing_idx": 400,
+        "year": 2019,
+        "author": "Saglam & Chong",
+        "kind": "copies",
+        "text": "Estimates explicit solvent barnase barstar association rates from cumulative Weighted Ensemble flux prior to RED event duration correction across a 6 ns crossing timescale."
+      },
+      {
+        "citing_idx": 647,
+        "year": 2024,
+        "author": "Strahan et al.",
+        "kind": "extends",
+        "text": "Cites DeGrave, Bogetti and Chong 2021 when comparing pre steady state rate extraction against nonequilibrium trajectory stratification."
+      }
+    ]
+  },
+  {
+    "id": "A20",
+    "src_idx": 493,
+    "target_idx": 332,
+    "doi": "10.1021/acs.jpca.0c10724",
+    "year": 2021,
+    "severity": "Validity condition",
+    "category": "Adaptive binning (MAB)",
+    "title": "Minimal Adaptive Binning isolates uphill bottlenecks and avoids unoccupied manual rectilinear grid bins",
+    "paper_label": "Torrillo, Bogetti & Chong (2021) J. Phys. Chem. A 125, 1642",
+    "claimed": "Manual rectilinear grids partition d progress coordinates into M_1 x ... x M_d static hyperrectangles. On the two dimensional p53 peptide benchmark, manual grids populated 50 of 294 bins (17 percent occupancy) with 244 unoccupied cells, starving uphill barrier slopes and missing rare alpha_L helix and polyproline II conformations.",
+    "corrected": "Minimal Adaptive Binning (MAB) brackets active outer progress extrema each iteration, subdivides the occupied interior into N_lin linear intervals, and assigns dedicated single walker bins to lagging, leading, and uphill bottleneck trajectories maximizing the log weight forward sum gap, raising p53 bin occupancy to 66 percent (29 of 44 bins) and Na+/Cl- association rate efficiency S_k from 3.1 to 5.1.",
+    "math_tex": "i_{\\mathrm{bottleneck}} = \\arg\\max_{i} \\left( \\log w_i - \\log \\sum_{j \\succ i} w_j \\right), \\qquad N_{\\mathrm{grid}}(d) = \\prod_{k=1}^{d} M_k",
+    "events": [
+      {
+        "citing_idx": 536,
+        "year": 2022,
+        "author": "John D. Russo",
+        "kind": "extends",
+        "text": "Integrates MAB into WESTPA 2.0 and achieves tacrine POPC membrane permeation flux two orders of magnitude higher than fixed rectilinear bins."
+      },
+      {
+        "citing_idx": 563,
+        "year": 2022,
+        "author": "Abigail C. Dommer",
+        "kind": "extends",
+        "text": "Applies automated MAB uphill bottleneck isolation to accelerate Delta coronaviral spike opening across multimillion atom GPU ensembles."
+      },
+      {
+        "citing_idx": 678,
+        "year": 2025,
+        "author": "Anthony T. Bogetti",
+        "kind": "criticizes",
+        "text": "Documents exponential coordinate product scaling and rule breaking trajectory merges in multidimensional rectilinear MAB during kinesin Eg5 ADP dissociation, motivating binless MABL scoring."
+      },
+      {
+        "citing_idx": 759,
+        "year": 2026,
+        "author": "Jacky Chen",
+        "kind": "extends",
+        "text": "Formalizes MAB uphill bottleneck selection alongside semigroup consistent neural committor learning inside Weighted Ensemble loops."
+      }
+    ]
+  },
+  {
+    "id": "A21",
+    "src_idx": 495,
+    "target_idx": 222,
+    "doi": "10.1021/acs.jctc.0c01154",
+    "year": 2021,
+    "severity": "Estimator bias",
+    "category": "haMSM vs reversible MSM",
+    "title": "Reversible Markov state models bias folding MFPTs below 100 ns lag whereas haMSMs hold at frame interval",
+    "paper_label": "Suarez, Wiewiora, Wehmeyer, Noe, Chodera & Zuckerman (2021) J. Chem. Theory Comput. 17, 3119",
+    "claimed": "Standard Markov state model workflows validate state partitions through implied relaxation timescales and enforce reversible detailed balance across pooled forward and backward transitions, assuming nanosecond lag matrices reproduce path observables.",
+    "corrected": "Across Chignolin, Trp cage, Villin, and NTL9 folding trajectories, variationally validated PyEMMA models require lag times near 100 ns before mean first passage times converge, whereas history augmented Markov state models separate alpha and beta last macrostate ensembles without detailed balance symmetrization and recover reference mean first passage times at the molecular dynamics frame interval.",
+    "math_tex": "\\frac{1}{\\mathrm{MFPT}_{A \\to B}} = \\frac{1}{p(\\alpha)\\,\\Delta t}\\sum_{i \\notin B}\\sum_{j \\in B} \\pi_i^{\\alpha} T_{ij}^{\\alpha}, \\qquad \\pi_i^{\\alpha} T_{ij}^{\\alpha} \\neq \\pi_j^{\\alpha} T_{ji}^{\\alpha}",
+    "events": [
+      {
+        "citing_idx": 510,
+        "year": 2021,
+        "author": "John D. Russo",
+        "kind": "extends",
+        "text": "Proves analytically that coarse transition matrices recover exact microscopic mean first passage times when source sink recycling boundary conditions precede transition counting."
+      },
+      {
+        "citing_idx": 668,
+        "year": 2025,
+        "author": "Darian T. Yang",
+        "kind": "criticizes",
+        "text": "Finds standard Markov state model interconversion rates for the HIV 1 capsid CTD dimer roughly tenfold faster than 19F EXSY NMR whereas steady state Weighted Ensemble rates match experimental magnitude."
+      },
+      {
+        "citing_idx": 756,
+        "year": 2026,
+        "author": "Daniel M. Zuckerman",
+        "kind": "extends",
+        "text": "Contrasts equilibrium correlation timescales against boundary conditioned first passage estimators in the two decade LiveCoMS Markov state model roundtable."
+      }
+    ]
+  },
+  {
+    "id": "A22",
+    "src_idx": 510,
+    "target_idx": 51,
+    "doi": "10.48550/arxiv.2105.13402",
+    "year": 2021,
+    "severity": "Citation & metadata",
+    "category": "Preprint status & coarse MSM",
+    "title": "Russo et al. 2021 remains an unpublished arXiv preprint establishing source sink coarse MSM and committor conditions",
+    "paper_label": "Russo, Copperman, Aristoff, Simpson & Zuckerman (2021) arXiv 2105.13402",
+    "claimed": "Downstream documentation and rate chapters cite Russo et al. 2021 like a peer reviewed journal article and invoke coarse first step committor equations Q_m = sum_n T_mn Q_n or equilibrium transition matrices for mean first passage times.",
+    "corrected": "Crossref records no journal version for arXiv 2105.13402. Mathematically, coarse first step committor equations remain biased under state aggregation, whereas exact coarse committors require the ratio of alpha source sink to equilibrium coarse stationary probabilities Q_m = Pi_m^alpha / (c Pi_m) once finite sliding window weights bar_w_i(S, lambda) relax to stationarity.",
+    "math_tex": "\\bar{w}_i(S,\\lambda) = \\frac{1}{S - \\lambda + 1}\\sum_{s=0}^{S-\\lambda} w_i(s\\Delta t), \\qquad Q_m = \\frac{\\Pi_m^{\\alpha}}{c\\,\\Pi_m} = \\frac{\\sum_{i \\in m}\\pi_i q_i}{\\sum_{i \\in m}\\pi_i}",
+    "events": [
+      {
+        "citing_idx": 756,
+        "year": 2026,
+        "author": "Daniel M. Zuckerman",
+        "kind": "extends",
+        "text": "Expresses coarse transition probabilities explicitly through integrals weighted by the empirical within bin initial density p^init(x_t) in the LiveCoMS roundtable."
+      },
+      {
+        "citing_idx": 749,
+        "year": 2026,
+        "author": "John Strahan",
+        "kind": "silent_fix",
+        "text": "Pairs coarse Markov state model chain rule sensitivity equations with iterative RiteWeight trajectory reweighting to remove finite lag coarse graining error."
+      }
+    ]
+  },
+  {
+    "id": "A23",
+    "src_idx": 517,
+    "target_idx": 563,
+    "doi": "10.1038/s41557-021-00758-3",
+    "year": 2021,
+    "severity": "Validity condition",
+    "category": "Equilibrium spike pathways vs k_open",
+    "title": "Equilibrium Weighted Ensemble spike runs sample 310 opening pathways without converging macroscopic k_open",
+    "paper_label": "Sztain et al. (2021) Nat. Chem. 13, 963",
+    "claimed": "Over 130 microseconds of unrecycled equilibrium Weighted Ensemble on the glycosylated SARS-CoV-2 spike ectodomain generated 310 continuous RBD opening pathways and identified the N343 glycan gate, tempting downstream readers to treat pathway counts or sampling durations like converged opening rates.",
+    "corrected": "Equilibrium Weighted Ensemble over tens of nanoseconds of molecular time stays inside the pre-steady-state transient regime for seconds-timescale spike activation. Estimating steady-state k_open requires terabyte-scale history-augmented Markov postprocessing (Dommer et al. 2022), whereas mean pathway sampling times quantify relative variant readiness rather than rate constants (Kearns et al. 2026).",
+    "math_tex": "\\mathrm{Flux}_{\\mathrm{eq}}(t_{\\mathrm{mol}} \\ll \\tau_{\\mathrm{relax}}) \\neq k_{\\mathrm{open}}, \\qquad k_{\\mathrm{open}} = \\frac{\\mathrm{Flux}_{\\mathrm{ss}}(\\mathrm{down} \\to \\mathrm{open} \\mid \\mathbf{T}_{\\mathrm{haMSM}})}{p_{\\mathrm{down}}^{\\mathrm{ss}}}",
+    "events": [
+      {
+        "citing_idx": 536,
+        "year": 2022,
+        "author": "John D. Russo",
+        "kind": "extends",
+        "text": "Introduces per-iteration HDF5 trajectory storage and the history-augmented Markov restarting plugin in WESTPA 2.0 for terabyte macromolecular ensembles."
+      },
+      {
+        "citing_idx": 563,
+        "year": 2022,
+        "author": "Abigail C. Dommer",
+        "kind": "extends",
+        "text": "Applies parallelized memory-optimized history-augmented Markov models to the wild-type spike Weighted Ensemble data of Sztain et al. (2021) to recover steady-state opening rates while coupling DeepDriveMD for Delta spike sampling."
+      },
+      {
+        "citing_idx": 691,
+        "year": 2025,
+        "author": "Lillian T. Chong",
+        "kind": "extends",
+        "text": "Distinguishes unbiased pathway ensemble harvesting in viral glycoproteins from steady-state rate convergence across Weighted Ensemble protocols."
+      },
+      {
+        "citing_idx": 670,
+        "year": 2026,
+        "author": "Fiona L. Kearns",
+        "kind": "silent_fix",
+        "text": "Reports mean pathway sampling times across Ancestral (40.59 ns), Delta (11.68 ns), and Omicron BA.1 (17.70 ns) spikes explicitly to measure relative kinetic readiness rather than macroscopic opening rate constants."
+      }
+    ]
+  },
+  {
+    "id": "A24",
+    "src_idx": 503,
+    "target_idx": 347,
+    "doi": "10.1017/jpr.2021.38",
+    "year": 2022,
+    "severity": "Validity condition",
+    "category": "Walker allocation & variance",
+    "title": "Uniform walker counts per bin fail to guarantee variance reduction below brute force Monte Carlo",
+    "paper_label": "Aristoff (2022) J. Appl. Probab.",
+    "claimed": "Conventional Weighted Ensemble simulations assign an equal target count of walkers to every occupied bin along heuristic progress coordinates under the presumption that uniform stratification lowers estimator variance.",
+    "corrected": "Exact finite population martingale decompositions prove that time average mutation variance scales with squared bin weight divided by bin walker count times intrabin one step Poisson discrepancy variance. Uniform walker counts along poorly aligned bins can exceed brute force Monte Carlo variance, whereas allocating walkers proportional to bin weight times local discrepancy standard deviation approaches the sharp asymptotic lower bound.",
+    "math_tex": "N_t^{\\star}(u) = \\frac{N\\,\\omega_t(u)\\sqrt{\\eta_t^u(\\mathrm{Var}_K h_{t+1,T})}}{\\sum_{v} \\omega_t(v)\\sqrt{\\eta_t^v(\\mathrm{Var}_K h_{t+1,T})}}, \\qquad \\liminf_{T \\to \\infty} T\\,\\mathrm{Var}(\\hat{\\mu}_T) \\ge \\frac{\\mu(v_f)^2}{N}",
+    "events": [
+      {
+        "citing_idx": 488,
+        "year": 2020,
+        "author": "Robert J. Webber",
+        "kind": "extends",
+        "text": "Webber, Aristoff and Simpson (2020) build upon Aristoff's unbiasedness, ergodic convergence, and variance optimization framework to establish matching upper and lower asymptotic variance bounds quantified by the Optimal Improvement Factor."
+      },
+      {
+        "citing_idx": 470,
+        "year": 2022,
+        "author": "Manon Baudel",
+        "kind": "criticizes",
+        "text": "Baudel, Guyader and Lelievre (2022) contrast continuous time boundary reinjection sink source formulations of the Hill relation against discrete time recycling conventions in Appendix A of Aristoff (2018)."
+      }
+    ]
+  },
+  {
+    "id": "A25",
+    "src_idx": 536,
+    "target_idx": 435,
+    "doi": "10.1021/acs.jctc.1c01154",
+    "year": 2022,
+    "severity": "Validity condition",
+    "category": "WESTPA 2.0 & haMSM restarts",
+    "title": "WESTPA 2.0 HDF5 lineage consolidation and haMSM microbin restarts require odd even block cross validation and burn in removal",
+    "paper_label": "Russo, Zhang, Leung, Bogetti, Zuckerman & Chong (2022) J. Chem. Theory Comput. 18, 638",
+    "claimed": "Per segment trajectory files in WESTPA 1.0 bottleneck million walker filesystems, while single pass k means microbin haMSM steady state estimates on transient Weighted Ensemble runs exhibit multi order of magnitude variance across sparse barrier clusters.",
+    "corrected": "WESTPA 2.0 consolidates walker coordinates and parent child lineage into per iteration HDF5 containers, cutting disk footprints by 27 percent for explicit solvent Na+/Cl- and 85 percent for implicit solvent p53 peptide without runtime penalty, while production haMSM restarting protocols split 10 iteration blocks into odd and even halves for cross validation and discard initial post restart burn in iterations.",
+    "math_tex": "\\hat{\\pi}^{\\alpha}_{\\mathrm{ens}} = \\frac{1}{2}\\Bigl(\\hat{\\pi}^{\\alpha,(\\mathrm{odd})} + \\hat{\\pi}^{\\alpha,(\\mathrm{even})}\\Bigr), \\qquad t_{\\mathrm{eval}} > t_{\\mathrm{restart}} + N_{\\mathrm{burn}}\\tau",
+    "events": [
+      {
+        "citing_idx": 563,
+        "year": 2022,
+        "author": "Abigail C. Dommer",
+        "kind": "extends",
+        "text": "Applies parallelized memory optimized WESTPA 2.0 haMSM postprocessing to terabyte scale Delta spike opening trajectories generated across 192 V100 GPUs."
+      },
+      {
+        "citing_idx": 579,
+        "year": 2023,
+        "author": "Anthony T. Bogetti",
+        "kind": "extends",
+        "text": "Codifies Tutorial 7.6 for per iteration HDF5 storage and Tutorial 7.7 for haMSM steady state restarting and committor estimation on millisecond NTL9 folding."
+      },
+      {
+        "citing_idx": 573,
+        "year": 2023,
+        "author": "Seungho Choe",
+        "kind": "copies",
+        "text": "Cites Russo et al. 2022 alongside WESTPA 1.0 tutorials while executing Arg9 membrane translocation runs on legacy WESTPA v2020.05."
+      }
+    ]
+  },
+  {
+    "id": "A26",
+    "src_idx": 537,
+    "target_idx": 702,
+    "doi": "10.1021/acs.jcim.1c01540",
+    "year": 2022,
+    "severity": "Validity condition",
+    "category": "Passive membrane permeability P_m",
+    "title": "Steady-state flux permeability P_m = k_DA l_D removes 1D Smoluchowski bias while requiring bulk-water boundaries and dynamic protonation",
+    "paper_label": "Zhang et al. (2022) J. Chem. Inf. Model. 62, 1891",
+    "claimed": "Inhomogeneous solubility-diffusion integrals assume memoryless 1D z-diffusion across bilayers, whereas fixed-charge steady-state Weighted Ensemble permeation (P_m = k_DA l_D with acceptor concentration C_A = 0) requires donor and acceptor boundaries outside lipid headgroup wells and freezes ionizable drug charge across the nonpolar membrane core.",
+    "corrected": "Positioning absorbing acceptor and donor compartments inside flat-potential bulk water ensures k_DA scales inversely with donor slab thickness l_D, and coupling Weighted Ensemble with continuous constant-pH dynamics (Clayton et al. 2026) captures neutral-to-charged protonation shifts absent from fixed-topology tacrine, sotalol, and zacopride runs.",
+    "math_tex": "P_m = k_{D \\to A}\\,l_D = \\frac{\\mathrm{Flux}_{\\mathrm{ss}}(D \\to A)}{p_D}\\,l_D \\neq \\left[\\int_{-z_0}^{+z_0} \\frac{e^{\\beta \\Delta G(z)}}{D_z(z)}\\,dz\\right]^{-1}",
+    "events": [
+      {
+        "citing_idx": 579,
+        "year": 2023,
+        "author": "Anthony T. Bogetti",
+        "kind": "extends",
+        "text": "Implements double-POPC-bilayer 1-butanol permeation in WESTPA 2.0 Tutorial 7.6 with Minimal Adaptive Binning and recursive outer bulk-water bins."
+      },
+      {
+        "citing_idx": 690,
+        "year": 2025,
+        "author": "Marcelo D. Pol\u00eato",
+        "kind": "extends",
+        "text": "Integrates Drude polarizable force fields into Weighted Ensemble to capture explicit electronic polarization shifts across low-dielectric barriers."
+      },
+      {
+        "citing_idx": 702,
+        "year": 2026,
+        "author": "Joseph Clayton",
+        "kind": "extends",
+        "text": "Couples Weighted Ensemble with continuous constant-pH molecular dynamics to sample coupled deprotonation and membrane permeation governing fentanyl potency."
+      }
+    ]
+  },
+  {
+    "id": "A27",
+    "src_idx": 470,
+    "target_idx": 182,
+    "doi": "10.1016/j.spa.2022.10.014",
+    "year": 2023,
+    "severity": "Validity condition",
+    "category": "Hill relation & boundary recycling",
+    "title": "Exact Hill relation for equilibrium reaction time requires reactive boundary entry recycling",
+    "paper_label": "Baudel, Guyader & Lelievre (2023) Stoch. Process. Appl. 155, 393",
+    "claimed": "Steady state Weighted Ensemble rate derivations invoke 1/MFPT = Flux(A to B | SS) under an unstated assumption of boundary entry independence inside reactant state A, and downstream code cites the 2020 arXiv preprint year rather than the 2023 journal theorem while omitting a primary Hill citation in flux modules.",
+    "corrected": "For a return process reinjected on boundary A with measure pi, inverse stationary sink flux matches the hitting time initiated from pi. Recovering the equilibrium mean reaction time T_AB requires reinjection from the reactive boundary entry distribution nu_E on boundary A rather than a Boltzmann slice or single basis state, and citations belong to Stoch. Process. Appl. 155, 393 (2023).",
+    "math_tex": "T_{AB} = \\mathbb{E}_{\\nu_{\\mathrm{E}}}[\\mathcal{T}_{\\mathcal{B}}] = \\frac{1}{\\mathbb{P}_{\\pi_{0|\\mathcal{A}}}(Y_1 \\in \\mathcal{B})}, \\qquad R(\\nu_{\\mathrm{E}}) = \\pi_{0|\\mathcal{A}}",
+    "events": [
+      {
+        "citing_idx": 67,
+        "year": 2013,
+        "author": "Donovan Maiye et al.",
+        "kind": "copies",
+        "text": "Applies MFPT = 1 / Flux_ss with point state feedback citing Bhatt et al. 2010 without stating dependence on the boundary entry distribution."
+      },
+      {
+        "citing_idx": 399,
+        "year": 2019,
+        "author": "Copperman et al.",
+        "kind": "copies",
+        "text": "States after Eq. (1) that dependence on the initializing distribution inside macrostate A remains implicit and does not alter the Hill relation."
+      },
+      {
+        "citing_idx": 443,
+        "year": 2020,
+        "author": "Ray & Andricioaei",
+        "kind": "copies",
+        "text": "Regenerates trajectories reaching the product state from a fixed starting point to sustain steady state probability flow under Bhatt et al. 2010."
+      },
+      {
+        "citing_idx": 647,
+        "year": 2024,
+        "author": "Strahan et al.",
+        "kind": "extends",
+        "text": "Cites Baudel, Guyader and Lelievre alongside steady state splitting stratification to formalize boundary flux and return process stationarity."
+      }
+    ]
+  },
+  {
+    "id": "A28",
+    "src_idx": 609,
+    "target_idx": 512,
+    "doi": "10.1073/pnas.2304302120",
+    "year": 2023,
+    "severity": "Citation & metadata",
+    "category": "AlphaFold pLDDT & disordered ensembles",
+    "title": "Elevated AlphaFold2 pLDDT scores occur in conditionally folded disordered regions that remain unfolded in apo solution",
+    "paper_label": "Alderson, Pritisanac, Kolaric, Moses & Forman Kay (2023) Proc. Natl. Acad. Sci. USA 120, e2304302120",
+    "claimed": "Structure preparation pipelines frequently interpret elevated AlphaFold2 residue confidence (pLDDT >= 70) to mean constitutive apo folding and cite an unnamed PNAS 2023 reference without authors or DOI, while AlphaFold3 generative diffusion hallucinates spurious helices in disordered segments.",
+    "corrected": "Alderson et al. (2023) establish across the human proteome that AlphaFold2 assigns high pLDDT scores to conditionally folded intrinsically disordered regions stabilized upon partner binding or modification despite apo disorder, requiring solvent accessibility checks, cross distillation, and physics based Boltzmann reweighting.",
+    "math_tex": "P_{\\mathrm{apo}}(\\mathrm{folded}) = \\frac{1}{1 + \\exp\\!\\left(\\beta\\,\\Delta G_{\\mathrm{fold}}^{\\mathrm{apo}}\\right)} \\ll 1 \\quad \\text{with} \\quad \\mathrm{pLDDT} \\ge 70",
+    "events": [
+      {
+        "citing_idx": 596,
+        "year": 2023,
+        "author": "Bodhi P. Vani",
+        "kind": "criticizes",
+        "text": "Notes that MSA subsampled AlphaFold2 structures lack thermodynamic probabilities and introduces AlphaFold2 RAVE to recover Boltzmann ranked conformational ensembles."
+      },
+      {
+        "citing_idx": 635,
+        "year": 2024,
+        "author": "Josh Abramson",
+        "kind": "extends",
+        "text": "Introduces diffusion based AlphaFold3 complex prediction while applying AlphaFold Multimer v2.3 cross distillation to curb hallucinated secondary structure in disordered regions."
+      },
+      {
+        "citing_idx": 698,
+        "year": 2025,
+        "author": "Mahta Mehdiabadi",
+        "kind": "extends",
+        "text": "Demonstrates bimodal AlphaFold2 pLDDT distributions on conditionally folded disordered segments and documents residual AlphaFold3 secondary structure hallucinations relative to solvent accessibility."
+      },
+      {
+        "citing_idx": 725,
+        "year": 2026,
+        "author": "Lisa Otten",
+        "kind": "criticizes",
+        "text": "Demonstrates strong disagreement among AFSample2 and ESMFlow adenylate kinase ensembles and rectifies stationary populations via Weighted Ensemble simulation plus RiteWeight."
+      }
+    ]
+  },
+  {
+    "id": "A29",
+    "src_idx": 570,
+    "target_idx": 318,
+    "doi": "10.1063/5.0110873",
+    "year": 2023,
+    "severity": "Validity condition",
+    "category": "Variance bounds & stratification",
+    "title": "Weighted Ensemble flux variance bounds require discrepancy variation bins whereas naive coordinates exceed brute force variance",
+    "paper_label": "Aristoff, Copperman, Simpson, Webber & Zuckerman (2023) J. Chem. Phys. 158, 014108",
+    "claimed": "Geometric progress coordinates and uniform walker counts per bin are frequently assumed to guarantee lower steady state flux variance and faster transient relaxation than brute force molecular dynamics.",
+    "corrected": "Asymptotic flux variance reaches the universal lower bound proportional to (int v(x) pi(x) dx)^2 strictly when bins form fine rectangles in flux discrepancy h(x) and local variation v(x) with walker allocation proportional to pi(x)v(x). On the 2D Smoluchowski benchmark, radial bins produce higher variance than brute force dynamics whereas discrepancy bins cut normalized variance by 3 to 5 orders of magnitude.",
+    "math_tex": "\\mathrm{Var}\\,\\hat{J}_t \\ge \\frac{1 - \\epsilon}{Nt}\\left(\\int v(x)\\,\\pi(x)\\,dx\\right)^2, \\qquad v(x)^2 = \\tau^{-1}\\,\\mathrm{Var}_x\\bigl[h_0(X_{\\tau})\\bigr]",
+    "events": [
+      {
+        "citing_idx": 647,
+        "year": 2024,
+        "author": "John Strahan",
+        "kind": "criticizes",
+        "text": "Observes that transient errors in standard Weighted Ensemble decay no faster than unbiased dynamics and introduces Galerkin spectral stratification in BAD NEUS."
+      },
+      {
+        "citing_idx": 645,
+        "year": 2024,
+        "author": "Dennis Plotnikov",
+        "kind": "extends",
+        "text": "Optimizes within bin sorting and cumulative weight pruning inside WESTPA to lower stochastic resampling noise."
+      },
+      {
+        "citing_idx": 659,
+        "year": 2025,
+        "author": "Sudipta Mitra",
+        "kind": "extends",
+        "text": "Replaces static coordinate grids with binless walker splitting along TICA eigenvectors in WeTICA for Trp cage and Protein G unfolding."
+      }
+    ]
+  },
+  {
+    "id": "A30",
+    "src_idx": 616,
+    "target_idx": 398,
+    "doi": "10.1021/acs.jcim.3c01318",
+    "year": 2023,
+    "severity": "Estimator bias",
+    "category": "Pathway string clustering",
+    "title": "LPATH text string pathway matching remains sensitive to diffusive recrossing loops and shared Weighted Ensemble ancestor branches",
+    "paper_label": "Bogetti, Leung & Chong (2023) J. Chem. Inf. Model. 63, 7610",
+    "claimed": "Converting discretized reactive trajectories into character strings and clustering pairwise sequence similarity scores is frequently assumed invariant to stochastic dwell loops and branching correlations.",
+    "corrected": "Suarez & Zuckerman 2018 established that diffusive recrossings inflate raw state sequence lengths whereas pure state set distances discard temporal ordering, motivating shortest path fundamental sequences on round trip log transition probabilities. LPATH condenses consecutive state repeats after two stage clustering to separate alanine dipeptide C7eq to C7ax routes (87.5 percent and 12.5 percent), though shared parent segments in Weighted Ensemble trees and non consecutive recrossing loops still perturb route splits.",
+    "math_tex": "\\mathrm{FS}^*(\\mathbf{s}) = \\arg\\min_{\\mathbf{q} \\in \\Gamma(G(\\mathbf{s}))} \\sum_{i=1}^{|\\mathbf{q}|-1} -\\log\\bigl(T_{q_i,q_{i+1}}\\,T_{q_{i+1},q_i}\\bigr)",
+    "events": [
+      {
+        "citing_idx": 691,
+        "year": 2025,
+        "author": "Lillian T. Chong",
+        "kind": "extends",
+        "text": "Synthesizes LPATH linguistics assisted pathway clustering alongside history labeled pathway histograms for mechanistic analysis of Weighted Ensemble path ensembles."
+      }
+    ]
+  },
+  {
+    "id": "A31",
+    "src_idx": 579,
+    "target_idx": 435,
+    "doi": "10.33011/livecoms.5.1.1655",
+    "year": 2023,
+    "severity": "Citation & metadata",
+    "category": "Extreme weights & tutorial citation",
+    "title": "Extreme walker weight diagnostic 10^-100 belongs to LiveCoMS 2023 WESTPA 2.0 tutorials rather than JCIM 2023 LPATH",
+    "paper_label": "Bogetti, Leung, Russo, Zhang, Zuckerman & Chong (2023) Living J. Comput. Mol. Sci. 5, 1655",
+    "claimed": "Simulation analysis code and documentation cite bare Bogetti et al. 2023 for the 10^-100 extreme low weight missed barrier warning, while Crossref metadata for the 2019 v1.0 tutorial omits J. L. Adelman and misspells M. C. Zwier.",
+    "corrected": "Two first author Bogetti et al. 2023 articles exist in Subfield 4, namely LiveCoMS 5, 1655 (WESTPA 2.0 tutorials) and J. Chem. Inf. Model. 63, 7610 (LPATH). The 10^-100 weight underflow diagnostic appears in the Extremely Low Trajectory Weights section of LiveCoMS 5, 1655, and the 2019 LiveCoMS v1.0 PDF confirms all 14 coauthors.",
+    "math_tex": "w_{\\min} < 10^{-100} \\ll \\frac{P_i}{n_t}, \\qquad w_{\\mathrm{child}} = \\frac{w_{\\mathrm{parent}}}{m} \\in \\left[\\frac{P_i}{n_t},\\,\\frac{2P_i}{n_t}\\right]",
+    "events": [
+      {
+        "citing_idx": 645,
+        "year": 2024,
+        "author": "Dennis Plotnikov",
+        "kind": "extends",
+        "text": "Audits the Huber Kim 2P_i/n_t splitting rule and ascending weight merge procedure documented in WESTPA 2.0 tutorials and introduces an optimized low variance resampler."
+      }
+    ]
+  },
+  {
+    "id": "A32",
+    "src_idx": 607,
+    "target_idx": 224,
+    "doi": "10.1063/5.0161476",
+    "year": 2023,
+    "severity": "Citation & metadata",
+    "category": "Solvent shear viscosity scaling",
+    "title": "OPC water shear viscosity 10 percent underestimate holds at 298 K rather than cold or physiological temperatures",
+    "paper_label": "Ando (2023) J. Chem. Phys. 159, 101102",
+    "claimed": "Simulation design protocols cited J. Chem. Phys. 159, 101102 (2023) without author attribution and quoted an unqualified 10 percent shear viscosity underestimate for OPC water across all simulation temperatures.",
+    "corrected": "Ando (2023) establishes via Green-Kubo calculations that four-point OPC water sits roughly 10 percent below experimental shear viscosity at 298 K and 20 percent below at 273 K while matching experiment above 310 K, requiring temperature-matched Stokes-Einstein kinetic scaling.",
+    "math_tex": "k_{\\mathrm{corr}}(T) = k_{\\mathrm{MD}}(T)\\,\\frac{\\eta_{\\mathrm{OPC}}(T)}{\\eta_{\\mathrm{expt}}(T)}, \\qquad \\frac{\\eta_{\\mathrm{OPC}}(273\\;\\mathrm{K})}{\\eta_{\\mathrm{expt}}(273\\;\\mathrm{K})} \\approx 0.80",
+    "events": []
+  },
+  {
+    "id": "A33",
+    "src_idx": 640,
+    "target_idx": 252,
+    "doi": "10.1021/acs.jctc.4c00919",
+    "year": 2024,
+    "severity": "Validity condition",
+    "category": "Online deep collective variables (SPIB)",
+    "title": "Hybrid SPIB and online deep collective variables preserve trajectory weight exactness during bin updates while avoiding unvisited basin collapse",
+    "paper_label": "Wang & Tiwary (2024) J. Chem. Theory Comput.",
+    "claimed": "Purely data driven State Predictive Information Bottleneck (SPIB) encoders trained on early Weighted Ensemble segments compress transitions among already sampled basins while collapsing unvisited target channels.",
+    "corrected": "Pairing SPIB learned slow variables in sampled regions with expert coordinates in unsampled regions guides barrier crossing and lowers run to run rate variance on alanine dipeptide and chignolin, while individual replica weight conservation guarantees unbiased non equilibrium statistics across on the fly neural collective variable and bin updates (Zhang, Jasnow & Zuckerman 2010).",
+    "math_tex": "\\max_{\\theta}\\left[I(Z_t, y_{t+\\Delta t}) - \\beta\\,I(X_t, Z_t)\\right], \\qquad \\mathbb{E}\\!\\left[\\tilde{w}_i^{(t)} \\,\\middle|\\, \\mathcal{F}_t, \\mathcal{B}_{\\theta_t}\\right] = w_i^{(t)}",
+    "events": [
+      {
+        "citing_idx": 672,
+        "year": 2025,
+        "author": "Jeremy M. G. Leung",
+        "kind": "extends",
+        "text": "Retrains a convolutional variational autoencoder on C alpha contact maps on the fly during binless Weighted Ensemble NTL9 folding, combining latent Local Outlier Factor with RMSD for a threefold rate efficiency gain."
+      },
+      {
+        "citing_idx": 678,
+        "year": 2025,
+        "author": "Anthony T. Bogetti",
+        "kind": "extends",
+        "text": "Connects online progress coordinate updates and weight independent bin changes to binless MABL ligand dissociation protocols."
+      },
+      {
+        "citing_idx": 725,
+        "year": 2026,
+        "author": "Lisa Otten",
+        "kind": "extends",
+        "text": "Combines Weighted Ensemble trajectory propagation with discretization free RiteWeight reweighting to equilibrate AI seeded protein ensembles."
+      },
+      {
+        "citing_idx": 759,
+        "year": 2026,
+        "author": "Jacky Chen",
+        "kind": "extends",
+        "text": "Trains neural committor coordinates online via stopped process semigroup identities inside Weighted Ensemble loops."
+      }
+    ]
+  },
+  {
+    "id": "A34",
+    "src_idx": 661,
+    "target_idx": 422,
+    "doi": "10.1021/acs.jctc.4c01141",
+    "year": 2025,
+    "severity": "Estimator bias",
+    "category": "Trajectory merging bias",
+    "title": "Coarse Markov state models at lag times exceeding the resampling step suffer trajectory merging bias",
+    "paper_label": "Bose, Kilinc & Dickson (2025) J. Chem. Theory Comput. 21, 1805",
+    "claimed": "Building discrete time Markov state models from Weighted Ensemble trajectories at lag times longer than the resampling interval presumes standard multi step transition counting monotonically reduces non Markovian error.",
+    "corrected": "Whenever the Markov lag exceeds the Weighted Ensemble resampling interval, intermediate pruning merges killed walker weights onto non identical surviving conformations inside coarse bins and biases multi step transition counts. Merging bias corrected Markov state models remove pruned weight distortion, shifting the median soluble epoxide hydrolase inhibitor residence time from 0.96 min at single step lag to roughly 50 min against the 27.1 min experimental benchmark.",
+    "math_tex": "C_{ab}^{\\mathrm{MBC}}(m\\tau_0) = \\sum_{t} \\sum_{\\gamma \\in \\Gamma_{m\\tau_0}(t)} w_{\\gamma}^{\\mathrm{corr}}(t, t+m\\tau_0)\\,\\mathbf{1}_{\\{X_{\\gamma}(t) \\in S_a,\\, X_{\\gamma}(t+m\\tau_0) \\in S_b\\}}, \\qquad m > 1",
+    "events": []
+  },
+  {
+    "id": "A35",
+    "src_idx": 678,
+    "target_idx": 493,
+    "doi": "10.1021/acsomega.5c03809",
+    "year": 2025,
+    "severity": "Estimator bias",
+    "category": "Binless resampling (MABL)",
+    "title": "Kinesin Eg5 ADP dissociation benchmark uncovers rule breaking merges in multidimensional MAB and introduces binless MABL scoring",
+    "paper_label": "Bogetti, Yang, Piston, LeBard & Chong (2025) ACS Omega 10, 27617",
+    "claimed": "Stacking adaptive MAB intervals across interaction energy, unbinding RMSD, and receptor ligand distance assumes Cartesian hyperrectangles isolate forward dissociation progress without destructive cross coordinate trajectory merges.",
+    "corrected": "Evaluating 44 protocols totaling 43.8 microseconds on seconds timescale ADP dissociation from kinesin Eg5 documents rule breaking merges (Figure 5) and high dimensional grid proliferation in multi MAB, motivating Minimal Adaptive Binless (MABL) resampling on a scalar composite progress score that reaches first dissociation in 2.0 microseconds versus 4.7 microseconds for multi MAB while conserving unbiased merge weights.",
+    "math_tex": "w_{\\mathrm{merged}} = w_i + w_j, \\qquad \\mathbb{P}(\\mathrm{select}\\ i) = \\frac{w_i}{w_i + w_j}, \\qquad \\mathbb{E}[\\tilde{w}_i] = w_i",
+    "events": [
+      {
+        "citing_idx": 691,
+        "year": 2025,
+        "author": "Lillian T. Chong",
+        "kind": "extends",
+        "text": "Synthesizes MABL scalar progress scoring and high barrier ligand dissociation lessons within the 2025 Weighted Ensemble methodological review."
+      },
+      {
+        "citing_idx": 693,
+        "year": 2025,
+        "author": "Dibyendu Maity",
+        "kind": "extends",
+        "text": "Builds upon the Eg5 ADP dissociation benchmark when formulating direction guided adaptive sampling with ultrashort monitored trajectories in PathGennie."
+      },
+      {
+        "citing_idx": 741,
+        "year": 2026,
+        "author": "Dibyendu Maity",
+        "kind": "extends",
+        "text": "Extends binless neural network guided Weighted Ensemble resampling to compute pathway resolved dissociation kinetics."
+      }
+    ]
+  },
+  {
+    "id": "A36",
+    "src_idx": 661,
+    "target_idx": 611,
+    "doi": "10.1021/acs.jctc.4c01141",
+    "year": 2025,
+    "severity": "Estimator bias",
+    "category": "Markov state model merging bias",
+    "title": "Standard Markov state models built across Weighted Ensemble resampling cycles suffer trajectory merging bias",
+    "paper_label": "Bose, Kilinc & Dickson (2025) J. Chem. Theory Comput. 21, 1805",
+    "claimed": "Building conventional count-based Markov state models across REVO resampling steps treats pruned low-weight walkers identically to surviving clones, compressing the predicted residence time of a soluble epoxide hydrolase TPPU analog to a 0.96 min median at the resampling lag tau_resamp against 27.1 min experiment.",
+    "corrected": "Merging-Bias-Corrected Markov state models (MBC-MSM) correct transition matrices for asymmetric walker termination on the identical 17.03 microsecond REVO dataset, shifting the long-lag median unbinding mean first-passage time to roughly 50 min versus 3.5 min raw Weighted Ensemble flux and 27.1 min experiment.",
+    "math_tex": "T_{ij}^{\\mathrm{MBC}}(n\\tau_{\\mathrm{resamp}}) = \\frac{\\sum_{k \\in S_i} w_k(0)\\,\\mathbb{P}_{\\mathrm{surv}}\\!\\left(X_{n\\tau_{\\mathrm{resamp}}} \\in S_j \\mid X_0 = x_k\\right)}{\\sum_{k \\in S_i} w_k(0)}",
+    "events": [
+      {
+        "citing_idx": 673,
+        "year": 2026,
+        "author": "Seref Berk Atik",
+        "kind": "extends",
+        "text": "Applies REVO dissociation ensembles on scaled protein-protein interfaces (lambda = 0.15) to rank DCAF15-RBM39 molecular glue potencies with R^2 = 0.92 against cellular EC50."
+      },
+      {
+        "citing_idx": 707,
+        "year": 2026,
+        "author": "Ceren K\u0131l\u0131n\u00e7",
+        "kind": "extends",
+        "text": "Combines REVO unbinding path ensembles with Markov committor analysis on CLR-RAMP1 peptide complexes, capturing a 2700-fold computed residence-time slowing and intermediate recapture for engineered ssCGRP(27-37)."
+      },
+      {
+        "citing_idx": 733,
+        "year": 2026,
+        "author": "Sagar Kania",
+        "kind": "extends",
+        "text": "Removes deterministic Markov state discretization bias by averaging iterative stationary reweighting across rotating random clusterings in RiteWeight."
+      }
+    ]
+  },
+  {
+    "id": "A37",
+    "src_idx": 742,
+    "target_idx": 422,
+    "doi": "10.48550/arxiv.2607.19452",
+    "year": 2026,
+    "severity": "Estimator bias",
+    "category": "Coarse state non Markovianity",
+    "title": "Exact equilibrium coarse Markov transition matrices bias directional steady state fluxes and populations",
+    "paper_label": "Aristoff, Webber & Zuckerman (2026) arXiv 2607.19452",
+    "claimed": "Coarse grained transition matrices parameterized from equilibrium microstate weights are frequently recycled with source sink boundary conditions to compute directional mean first passage times and steady state populations.",
+    "corrected": "Microscopic Markovianity fails to hold on coarse clusters whenever intrabin relaxation is comparable to cluster exit timescales. On an exact 8 microstate chain lumped into 4 two state bins, imposing sink to source recycling on the exact equilibrium coarse matrix produces steady state bin weights (18, 12, 6, 1)/37 rather than the exact lumped non equilibrium steady state (30, 21, 9, 1)/61, requiring history labeled or directional steady state conditioning.",
+    "math_tex": "\\tilde{\\pi}^{\\mathrm{macro}} = \\frac{1}{61}(30, 21, 9, 1)^{\\top} \\neq \\tilde{\\pi}^{\\mathrm{MSM}} = \\frac{1}{37}(18, 12, 6, 1)^{\\top}, \\qquad p_i^{\\mathrm{eq}} = p_i^{\\alpha} + p_i^{\\beta}",
+    "events": [
+      {
+        "citing_idx": 463,
+        "year": 2020,
+        "author": "Robert Hall",
+        "kind": "extends",
+        "text": "Hall, Dixon and Dickson (2020) apply color labeled history dependent conformational ensembles separating most recent bound and unbound basin visits from Suarez et al. (2014) to derive rate ratio binding free energy corrections."
+      }
+    ]
+  },
+  {
+    "id": "A38",
+    "src_idx": 733,
+    "target_idx": 182,
+    "doi": "10.1073/pnas.2529246123",
+    "year": 2026,
+    "severity": "Estimator bias",
+    "category": "Steady state trajectory reweighting",
+    "title": "RiteWeight randomized hyperplane tessellations remove coarse bin reweighting discretization bias",
+    "paper_label": "Kania, Webber, Simpson, Aristoff & Zuckerman (2026) Proc. Natl. Acad. Sci. USA 123, e2529246123",
+    "claimed": "Deterministic coarse bin steady state reweighting solves a single fixed partition transition matrix T_IJ at lag tau and rescales walker weights uniformly per bin, introducing discretization bias whenever slow orthogonal modes fail to equilibrate within bins.",
+    "corrected": "Randomized Iterative Trajectory Reweighting (RiteWeight) draws fresh random hyperplane clusters at each iteration and updates segment weights toward a fixed point matching the exact stationary measure of the microstate transition operator P without cluster level Markovianity, while OpenAlex metadata omits fifth author Daniel M. Zuckerman.",
+    "math_tex": "w_i^{\\mathrm{new}} = (1 - r) w_i + r \\frac{\\pi_I}{w_I} w_i, \\qquad \\boldsymbol{\\mu}^{\\top} \\boldsymbol{P} = \\boldsymbol{\\mu}^{\\top} \\;\\Longleftrightarrow\\; \\mu_{\\alpha} = \\sum_{i_1 \\in \\alpha} w_i",
+    "events": [
+      {
+        "citing_idx": 67,
+        "year": 2013,
+        "author": "Donovan Maiye et al.",
+        "kind": "copies",
+        "text": "Factors inter bin probability flux into constant bin transition rate times total bin weight f_ij = k_ij w_j across fixed state space partitions."
+      },
+      {
+        "citing_idx": 725,
+        "year": 2026,
+        "author": "Otten et al.",
+        "kind": "extends",
+        "text": "Applies RiteWeight to 10 ps Weighted Ensemble segments of human adenylate kinase seeded from AFSample2 and ESMFlow, erasing initial AI ensemble bias."
+      },
+      {
+        "citing_idx": 752,
+        "year": 2026,
+        "author": "Kania",
+        "kind": "extends",
+        "text": "Benchmarks DeepTICA and SPIB VAE against linear TICA coordinates to accelerate RiteWeight convergence on 208 us atomistic Trp cage trajectories."
+      }
+    ]
+  },
+  {
+    "id": "A39",
+    "src_idx": 751,
+    "target_idx": 616,
+    "doi": "10.1039/d6dd00288a",
+    "year": 2026,
+    "severity": "Estimator bias",
+    "category": "Pathway ensemble clustering (PRISM)",
+    "title": "PRISM structural medoid Hausdorff distances overcome LPATH string discretization and SHINE frame cloud topology loss",
+    "paper_label": "Woody Santos, Leung, Chong & Miranda Quintana (2026) Digital Discovery",
+    "claimed": "Pairwise sequence alignment in LPATH (Bogetti et al. 2023, J. Chem. Inf. Model. 63, 7610) requires manual state discretization, whereas linear time n ary frame set MSD clustering in SHINE treats each Weighted Ensemble pathway like an unordered structure cloud.",
+    "corrected": "Pathway Representation via Intrinsic Structural Medoids (PRISM) projects each trajectory T_i onto visited conformational medoids A_i and evaluates symmetric medoid Hausdorff distance H_w(A, B), recovering the 12.5 percent minor alanine dipeptide route and partitioning 4,177 HIF 2alpha PAS B THS 017 Weighted Ensemble dissociation pathways into 53.4 percent and 46.6 percent exit families.",
+    "math_tex": "H_w(A, B) = \\frac{1}{2 n_A}\\sum_{p=1}^{n_A} \\min_{1 \\le q \\le n_B} d(a_p, b_q) + \\frac{1}{2 n_B}\\sum_{q=1}^{n_B} \\min_{1 \\le p \\le n_A} d(b_q, a_p)",
+    "events": [
+      {
+        "citing_idx": 654,
+        "year": 2024,
+        "author": "Marion Silvestrini",
+        "kind": "extends",
+        "text": "Generates over 4,000 three stage MAB Weighted Ensemble unbinding pathways for HIF 2alpha PAS B and THS 017 resolving two gating controlled exit channels."
+      },
+      {
+        "citing_idx": 674,
+        "year": 2025,
+        "author": "Lexin Chen",
+        "kind": "extends",
+        "text": "Replaces quadratic pairwise string alignment in LPATH with linear time n ary frame set pathway dissimilarities in SHINE across alanine dipeptide Weighted Ensemble runs."
+      }
+    ]
+  }
+]
