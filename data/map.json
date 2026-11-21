@@ -1,6 +1,6 @@
 {
   "title": "Weighted Ensemble, Audited",
-  "generated_on": "2026-11-20",
+  "generated_on": "2026-11-21",
   "root_idx": 109,
   "n_total": 3154,
   "n_base": 763,
@@ -9,8 +9,8 @@
   "n_local_works": 215,
   "n_core_local": 45,
   "n_core_oa": 283,
-  "n_core_covered": 286,
-  "n_core_missing": 64,
+  "n_core_covered": 300,
+  "n_core_missing": 50,
   "edges_total": 51535,
   "edges_base": 8152,
   "year_min": 1916,
@@ -1054,5 +1054,23 @@
       ]
     }
   ],
-  "n_audits": 39
+  "n_audits": 39,
+  "n_fulltexts": 2129,
+  "n_equations": 6144,
+  "n_latex_equations": 2359,
+  "n_citation_contexts": 3507,
+  "n_total_words": 23496045,
+  "n_core_fulltext": 300,
+  "tier_counts": {
+    "flatiron_local": 204,
+    "journal_ucsd_pdf": 233,
+    "journal_oa_pdf": 724,
+    "preprint_fallback_pdf": 329,
+    "arxiv_tex": 29,
+    "preprint_only_pdf": 93,
+    "accepted_pmc_xml": 279,
+    "journal_tdm_pdf": 149,
+    "accepted_postprint_pdf": 80,
+    "journal_pmc_xml": 9
+  }
 }

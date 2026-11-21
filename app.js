@@ -1545,8 +1545,8 @@
     }
 
     if (name === "review") {
-      titleEl.textContent = "13 Chapter Field Review (Hover or Click Citations)";
       var chs = state.reviewChapters;
+      titleEl.textContent = "Field Review & Grand Unified Equation (" + (chs ? chs.length : 13) + " Chapters)";
       if (!chs || !chs.length) {
         bodyEl.innerHTML = "<p>Review chapters compiling.</p>";
         return;
@@ -1567,11 +1567,26 @@
         })
         .join("");
 
-      var parasHtml = (ch.paragraphs || [])
-        .map(function (p) {
-          return "<p>" + renderCitationsInline(p) + "</p>";
-        })
-        .join("");
+      var parasHtml = "";
+      if (ch.blocks && ch.blocks.length) {
+        parasHtml = ch.blocks
+          .map(function (blk) {
+            if (blk.kind === "h4") {
+              return '<h4 style="margin:14px 0 6px 0;color:var(--fg);">' + blk.text + "</h4>";
+            }
+            if (blk.kind === "math") {
+              return '<div class="math-box">' + renderMath(blk.tex, true) + "</div>";
+            }
+            return "<p>" + renderCitationsInline(blk.text || "") + "</p>";
+          })
+          .join("");
+      } else {
+        parasHtml = (ch.paragraphs || [])
+          .map(function (p) {
+            return "<p>" + renderCitationsInline(p) + "</p>";
+          })
+          .join("");
+      }
 
       bodyEl.innerHTML =
         '<div class="pill-strip">' + chPills + "</div>" +
@@ -1667,9 +1682,14 @@
 
     if (name === "method") {
       titleEl.textContent = "Methodology, Coverage & Benchmark Systems";
+      var ftN = state.map.n_fulltexts || Object.keys(state.ftMeta).length || 311;
+      var eqN = state.map.n_equations || 2990;
+      var ctxN = state.map.n_citation_contexts || 1922;
+      var coreCov = state.map.n_core_fulltext || state.map.n_core_covered || 286;
+      var coreMiss = typeof state.map.n_core_missing === "number" ? state.map.n_core_missing : Math.max(0, state.map.n_core - coreCov);
       var mTabs = [
         { id: "corpus", lbl: "Corpus & 4 Audit Depths" },
-        { id: "coverage", lbl: "Coverage & 22 Missing Papers" },
+        { id: "coverage", lbl: "Coverage (" + ftN.toLocaleString() + " Full Texts)" },
         { id: "systems", lbl: "145 Benchmark Systems" }
       ];
       var tHtml = mTabs
@@ -1688,31 +1708,30 @@
 
       var inner = "";
       if (state.methodTab === "corpus") {
-        var ftN = Object.keys(state.ftMeta).length || 311;
         inner =
           '<div class="stat-grid">' +
           '<div class="stat-box"><div class="stat-val">' + state.nTotal.toLocaleString() + '</div><div class="stat-lbl">Mapped works (1916 to 2026)</div></div>' +
           '<div class="stat-box"><div class="stat-val">' + state.map.edges_total.toLocaleString() + '</div><div class="stat-lbl">Citation graph edges</div></div>' +
-          '<div class="stat-box"><div class="stat-val" style="color:var(--green)">' + ftN + '</div><div class="stat-lbl">Ingested full texts</div></div>' +
+          '<div class="stat-box"><div class="stat-val" style="color:var(--green)">' + ftN.toLocaleString() + '</div><div class="stat-lbl">Ingested full texts</div></div>' +
           '<div class="stat-box"><div class="stat-val" style="color:var(--accent)">' + state.audits.length + '</div><div class="stat-lbl">Verified audit records</div></div>' +
           "</div>" +
           '<div class="audit-card">' +
           "<h4>Four Depth Literature &amp; Physics Audit Architecture</h4>" +
           "<p><strong>Depth 1 · Seed &amp; Citation Graph Construction</strong> Anchored on the 1951 to 1989 splitting and Brownian dynamics ancestors, Huber &amp; Kim (1996), 29 landmark Weighted Ensemble method and software works, and an institutional reference archive of 257 Weighted Ensemble files, expanded via OpenAlex to 3,154 works and 51,535 citation edges.</p>" +
-          "<p><strong>Depth 2 · Multi Channel Full Text &amp; Equation Ingestion</strong> Extracted 311 full texts (84 lossless arXiv <code>.tex</code> source packages, 37 Europe PMC JATS XML articles, 28 open repository PDFs, and 162 digital Flatiron PDFs and text files), indexing 2,990 equations and 1,922 citing sentences inside <code>corpus.sqlite</code>.</p>" +
+          "<p><strong>Depth 2 · Multi Channel Full Text &amp; Equation Ingestion</strong> Extracted " + ftN.toLocaleString() + " full texts across lossless arXiv <code>.tex</code> source packages, Europe PMC and NIH PMC JATS XML articles, Open Access publisher PDFs, TDM licensed full texts, and institutional journal PDFs, indexing " + eqN.toLocaleString() + " equations and " + ctxN.toLocaleString() + " citing sentences inside <code>corpus.sqlite</code>.</p>" +
           "<p><strong>Depth 3 · Two Pass Equation, Estimator &amp; Propagation Verification</strong> Five domain auditors inspected equations, published errata, and estimator validity conditions, paired with cross verification of every node index, DOI, and citing sentence excerpt.</p>" +
-          "<p><strong>Depth 4 · Synthesis Into Subfield Dossiers, 13 Chapter Review &amp; Research Briefs</strong> Compiled into 12 subfield dossiers, a 13 chapter hover cited review, a 7 step 3D Story camera tour, and downloadable Markdown research briefs.</p>" +
+          "<p><strong>Depth 4 · Synthesis Into Subfield Dossiers, Field Review, Unified Equation &amp; Research Briefs</strong> Compiled into 12 subfield dossiers, a Grand Unified Weighted Ensemble Equation synthesis plus 13 hover cited chapters, a 6 stage 3D Story camera tour, and 16 downloadable Markdown research briefs.</p>" +
           "</div>" +
           '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;">' +
           '<a class="card-link" href="data/audits.json" download>Download audits.json</a>' +
           '<a class="card-link" href="data/systems.json" download>Download systems.json</a>' +
           '<a class="card-link" href="data/missing_high_impact.csv" download>Download missing_high_impact.csv</a>' +
-          '<a class="card-link" href="ucsd_22_papers.html" target="_blank">Open 22 Closed Access Journal Launcher</a>' +
           "</div>";
       } else if (state.methodTab === "coverage") {
-        var pct = ((100.0 * state.map.n_core_covered) / Math.max(1, state.map.n_core)).toFixed(1);
+        var pct = ((100.0 * coreCov) / Math.max(1, state.map.n_core)).toFixed(1);
+        var totalPct = ((100.0 * ftN) / Math.max(1, state.nTotal)).toFixed(1);
         var rowsHtml = state.missingTop
-          .slice(0, 40)
+          .slice(0, 50)
           .map(function (r) {
             return (
               '<tr data-doi="' + (r.doi || "") + '"><td>' + r.year + "</td><td>" + r.first_author + "</td><td>" + r.title + "</td><td>" + r.journal + "</td><td>" + r.global_citations + "</td></tr>"
@@ -1721,14 +1740,13 @@
           .join("");
         inner =
           '<div class="stat-grid">' +
-          '<div class="stat-box"><div class="stat-val">' + state.map.n_core + '</div><div class="stat-lbl">Core Weighted Ensemble</div></div>' +
-          '<div class="stat-box"><div class="stat-val" style="color:var(--green)">' + pct + '%</div><div class="stat-lbl">Covered by Flatiron or OA</div></div>' +
-          '<div class="stat-box"><div class="stat-val">311</div><div class="stat-lbl">Ingested in SQLite</div></div>' +
-          '<div class="stat-box"><div class="stat-val" style="color:var(--red)">22</div><div class="stat-lbl">Closed access journal gap</div></div>' +
+          '<div class="stat-box"><div class="stat-val" style="color:var(--green)">' + ftN.toLocaleString() + '</div><div class="stat-lbl">Ingested full texts (' + totalPct + '%)</div></div>' +
+          '<div class="stat-box"><div class="stat-val" style="color:var(--green)">' + coreCov + ' / ' + state.map.n_core + '</div><div class="stat-lbl">Core Weighted Ensemble (' + pct + '%)</div></div>' +
+          '<div class="stat-box"><div class="stat-val">' + eqN.toLocaleString() + '</div><div class="stat-lbl">Indexed equations</div></div>' +
+          '<div class="stat-box"><div class="stat-val" style="color:var(--red)">' + (state.nTotal - ftN).toLocaleString() + '</div><div class="stat-lbl">Remaining context gap (' + coreMiss + ' core)</div></div>' +
           "</div>" +
           '<div style="margin:8px 0 12px;display:flex;gap:8px;flex-wrap:wrap;">' +
           '<button class="card-link" id="btn-color-cov">Colour 3D cylinder by coverage status</button>' +
-          '<a class="card-link" href="ucsd_22_papers.html" target="_blank">Open 22 Journal PDF Launcher</a>' +
           "</div>" +
           '<table class="data-table"><thead><tr><th>Year</th><th>Author</th><th>Title</th><th>Journal</th><th>Cites</th></tr></thead><tbody>' +
           rowsHtml +

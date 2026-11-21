@@ -1,65 +1,1026 @@
-rank_score,global_citations,year,first_author,title,journal,doi,subfield,openalex_id
-0.5315,476,2004,William C. Swope,Describing Protein Folding Kinetics by Molecular Dynamics Simulations. 1. Theory,The Journal of Physical Chemistry B,10.1021/jp037421y,Protein Folding & Disordered Ensembles,W2111339528
-0.3354,91,2020,Divesh Bhatt,Steady–state simulations using weighted ensemble path sampling,,,"Steady State, Hill Flux & Non Markovian Rates",W3100276353
-0.2995,85,2009,Alex Dickson,Nonequilibrium umbrella sampling in spaces of many order parameters,The Journal of Chemical Physics,10.1063/1.3070677,"Steady State, Hill Flux & Non Markovian Rates",W2038444670
-0.2461,53,2011,Matthew C. Zwier,"Efficient Explicit-Solvent Molecular Dynamics Simulations of Molecular Association Kinetics: Methane/Methane, Na+/Cl−, Methane/Benzene, and K+/18-Crown-6 Ether",Journal of Chemical Theory and Computation,10.1021/ct100626x,"Steady State, Hill Flux & Non Markovian Rates",W2080521412
-0.2453,93,2004,Daniel M. Zuckerman,Simulation of an Ensemble of Conformational Transitions in a United-Residue Model of Calmodulin,The Journal of Physical Chemistry B,10.1021/jp0370730,"Large Assemblies, Viral Spikes & Allostery",W2086865609
-0.2019,50,2016,Alex Dickson,Ligand Release Pathways Obtained with WExplore: Residence Times and Mechanisms,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6b04012,"Ligand Binding, Unbinding & Residence Time",W2401930083
-0.1736,103,2010,Alex Dickson,Enhanced Sampling of Nonequilibrium Steady States,Annual Review of Physical Chemistry,10.1146/annurev.physchem.012809.103433,"Steady State, Hill Flux & Non Markovian Rates",W2103379032
-0.1578,203,2010,Matthew C. Zwier,Reaching biological timescales with all-atom molecular dynamics simulations,Current Opinion in Pharmacology,10.1016/j.coph.2010.09.008,Foundations & Exact Resampling,W1981747417
-0.1,6,2000,Eric W. Fisher,Evaluation of the kinetics of electrostatically steered protein dimerization using Weighted-Ensemble Brownian dynamics,Journal of Molecular Structure THEOCHEM,10.1016/s0166-1280(00)00545-5,History Augmented MSMs & Koopman Models,W1971651772
-0.0573,174,2007,Markus Christen,"On searching in, sampling of, and dynamically moving through conformational space of biomolecular systems: A review",Journal of Computational Chemistry,10.1002/jcc.20725,Foundations & Exact Resampling,W2016856091
-0.0527,35,1997,Gary Huber,Weighted-ensemble simulated annealing: Faster optimization on hierarchical energy surfaces,"Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",10.1103/physreve.55.4822,Adaptive Binning & Allocation,W2073151980
-0.0411,23,2018,Hiroshi Fujisaki,Conformational change of a biomolecule studied by the weighted ensemble method: Use of the diffusion map method to extract reaction coordinates,The Journal of Chemical Physics,10.1063/1.5049420,"Large Assemblies, Viral Spikes & Allostery",W2895622221
-0.0342,16,2023,E. E. Brossard,Molecular Mechanism of Ligand Binding to the Minor Groove of DNA,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.3c00635,"Ligand Binding, Unbinding & Residence Time",W4376109697
-0.0321,110,2003,Sean X. Sun,Equilibrium free energies from path sampling of nonequilibrium trajectories,The Journal of Chemical Physics,10.1063/1.1555845,Foundations & Exact Resampling,W1981751182
-0.0292,6,2021,Kei Moritsugu,Path Ensembles for Pin1-Catalyzed Cis–Trans Isomerization of a Substrate Calculated by Weighted Ensemble Simulations,Journal of Chemical Theory and Computation,10.1021/acs.jctc.0c01280,"Steady State, Hill Flux & Non Markovian Rates",W3135934134
-0.0184,7,2025,Yanxiao Han,Ligand Dissociation Pathways from Membrane Receptors Revealed by Weighted Ensemble Simulations,The Journal of Physical Chemistry B,10.1021/acs.jpcb.5c04545,"Ligand Binding, Unbinding & Residence Time",W4415126138
-0.018,8,2018,Kei Moritsugu,Multiscale enhanced sampling of glucokinase: Regulation of the enzymatic reaction via a large scale domain motion,The Journal of Chemical Physics,10.1063/1.5027444,Protein Folding & Disordered Ensembles,W2803476211
-0.0152,9,2024,Seungho Choe,Insights into Translocation of Arginine-Rich Cell-Penetrating Peptides across a Model Membrane,The Journal of Physical Chemistry B,10.1021/acs.jpcb.4c04266,"Membranes, Permeation & Channels",W4403732704
-0.0123,5,2021,Tom J. Dixon,Creating Maps of the Ligand Binding Landscape for Kinetics-Based Drug Discovery,Methods in molecular biology,10.1007/978-1-0716-1767-0_15,"Ligand Binding, Unbinding & Residence Time",W4200444192
-0.0093,66,1995,Jens Fennen,Structure refinement with molecular dynamics and a Boltzmann-weighted ensemble,Journal of Biomolecular NMR,10.1007/bf00211780,Foundations & Exact Resampling,W1974784840
-0.0089,3,2002,Eric W. Fisher,"Exhaustive Enumeration of the Effects of Point Charge Mutations on the Electrostatically Driven Association of Hemoglobin Subunits, Using Weighted-Ensemble Brownian Dynamics Simulations",Structural Chemistry,10.1023/a:1015764801223,History Augmented MSMs & Koopman Models,W312751389
-0.0066,1,2026,Won Hee Ryu,"Publisher’s Note: “Reducing weighted ensemble variance with optimal trajectory management” [J. Chem. Phys. 164, 094110 (2026)]",The Journal of Chemical Physics,10.1063/5.0334644,Foundations & Exact Resampling,W7147676000
-0.0032,1,2021,Hiroshi Fujisaki,Weighted ensemble simulations for conformational changes of proteins,AIP conference proceedings,10.1063/5.0047730,"Large Assemblies, Viral Spikes & Allostery",W3147715831
-0.0014,1,2026,Shaheerah Shahid,CoWERA: A temporal coherence guided binless resampling algorithm for weighted-ensemble based estimation of rare-event kinetics,The Journal of Chemical Physics,10.1063/5.0320586,Foundations & Exact Resampling,W7150946929
-0.0,96,2012,Zia-ur-Rehman,Identifying GPCRs and their Types with Chou's Pseudo Amino Acid Composition: An Approach from Multi-scale Energy Representation and Position Specific Scoring Matrix,Protein and Peptide Letters,10.2174/092986612801619589,"Large Assemblies, Viral Spikes & Allostery",W2077022308
-0.0,61,2011,Loïc Salmon,Nuclear Magnetic Resonance Provides a Quantitative Description of Protein Conformational Flexibility on Physiologically Important Time Scales,Biochemistry,10.1021/bi200177v,History Augmented MSMs & Koopman Models,W2321182289
-0.0,35,2017,Wubin Pan,WENC: HTTPS Encrypted Traffic Classification Using Weighted Ensemble Learning and Markov Chain,"IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",10.1109/trustcom/bigdatase/icess.2017.219,Foundations & Exact Resampling,W2754353227
-0.0,31,2006,Vojtech Szőcs,Two-dimensional electronic spectra of symmetric dimers: Intermolecular coupling and conformational states,The Journal of Chemical Physics,10.1063/1.2180783,History Augmented MSMs & Koopman Models,W2079916483
-0.0,14,1991,Z. Li,A Numerical Study on the Effects of Apex Seal Leakage on Wankel Engine Flow Fields,SAE technical papers on CD-ROM/SAE technical paper series,10.4271/910703,Foundations & Exact Resampling,W1586145477
-0.0,11,2021,Fan Lü,EnTSSR: A Weighted Ensemble Learning Method to Impute Single-Cell RNA Sequencing Data,IEEE Transactions on Computational Biology and Bioinformatics,10.1109/tcbb.2021.3110850,Collective Variables & Deep Learning,W3196572827
-0.0,11,2024,Xuejun He,NeuTox: A weighted ensemble model for screening potential neuronal cytotoxicity of chemicals based on various types of molecular representations,Journal of Hazardous Materials,10.1016/j.jhazmat.2024.133443,Foundations & Exact Resampling,W4390620009
-0.0,8,2024,E. E. Brossard,Mechanism of Daunomycin Intercalation into DNA from Enhanced Sampling Simulations,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.4c00961,History Augmented MSMs & Koopman Models,W4398201053
-0.0,5,2022,Yanjie Fan,Improving variant prioritization in exome analysis by entropy‐weighted ensemble of multiple tools,Clinical Genetics,10.1111/cge.14257,Foundations & Exact Resampling,W4307974897
-0.0,3,2014,Varun Ojha,Feature selection and ensemble of regression models for predicting the protein macromolecule dissolution profile,World Congress on Nature and Biologically Inspired Computing (NaBIC),10.1109/nabic.2014.6921864,History Augmented MSMs & Koopman Models,W2031193093
-0.0,2,1998,Irina A. Shkel,TWO-DIMENSIONAL REACTION OF BIOLOGICAL MOLECULES STUDIED BY WEIGHTED-ENSEMBLE BROWNIAN DYNAMICS,Pacific Symposium on Biocomputing (PSB),10.1142/9789814447300_0046,Protein Association & Brownian Dynamics,W1994561006
-0.0,2,2021,Patrick Echtenbruck,Optimally Weighted Ensembles in Model-Based Regression for Drug Discovery,IEEE Congress on Evolutionary Computation (CEC),10.1109/cec45853.2021.9504835,"Ligand Binding, Unbinding & Residence Time",W3190711024
-0.0,2,2026,Yusuke Enomoto,Statistical Protein–Protein Interaction Analysis of HER2 ‐Pertuzumab Complex by the Fragment Molecular Orbital Method,Journal of Computational Chemistry,10.1002/jcc.70382,Adaptive Binning & Allocation,W7155515030
-0.0,1,2008,Bin W. Zhang,Theory and simulation of rare events in stochastic systems,D-Scholarship@Pitt (University of Pittsburgh),,Foundations & Exact Resampling,W1538225192
-0.0,1,1998,Nathan Baker,Weighted-Ensemble Brownian Dynamics for Charged Ligand Diffusion onto Acetylcholinesterase,Springer eBooks,10.1007/978-1-4899-1540-5_99,"Ligand Binding, Unbinding & Residence Time",W2394495051
-0.0,0,2013,Matthew C. Zwier,Efficient Computer Simulations of Protein-Peptide Binding Using Weighted Ensemble Sampling,D-Scholarship@Pitt (University of Pittsburgh),,Protein Folding & Disordered Ensembles,W16115499
-0.0,0,2001,Amanda McCoy,One Dimensional Weighted-Ensemble Brownian (WEB) Dynamics Simulation,,,Foundations & Exact Resampling,W2187824368
-0.0,0,2015,Vijay Vammi,Representing protein native states using weighted conformation ensembles,Iowa State University Digital Repository (Iowa State University),10.31274/etd-180810-4012,Foundations & Exact Resampling,W2194698391
-0.0,0,2016,Rory Donovan-Maiye,Efficient sampling in stochastic biological models,D-Scholarship@Pitt (University of Pittsburgh),,History Augmented MSMs & Koopman Models,W2516126500
-0.0,0,2018,Ali Sinan Saglam,Molecular Simulations of Pathways and Kinetics for Protein-protein Binding Processes,D-Scholarship@Pitt (University of Pittsburgh),,Protein Association & Brownian Dynamics,W2895481813
-0.0,0,2019,Hiroshi Fujisaki,Weighted ensemble simulations of biomolecules: Applications to peptides and proteins,Bulletin of the American Physical Society,,Protein Folding & Disordered Ensembles,W2921094828
-0.0,0,2014,Joshua L. Adelman,Quantitative Characterization of Membrane Protein-Lipid Interactions,,,"Membranes, Permeation & Channels",W3152025996
-0.0,0,2021,Warin Wattanapornprom,Weighted Ensemble for Plant Protein Subcellular Localization Using Particle Swarm Optimization,"International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)",10.1109/ecti-con51831.2021.9454763,Foundations & Exact Resampling,W3173558139
-0.0,0,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.0c04725,Foundations & Exact Resampling,W4251684826
-0.0,0,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.0c04724,Foundations & Exact Resampling,W4253853565
-0.0,0,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.3c01206,Foundations & Exact Resampling,W4372037588
-0.0,0,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.3c00791,Foundations & Exact Resampling,W4372058621
-0.0,0,2023,Terra Sztain,A Glycan Gate Controls Opening of the SARS-CoV-2 Spike Protein,,10.1201/9781003456100-13,"Large Assemblies, Viral Spikes & Allostery",W4385345985
-0.0,0,2025,Unknown,Untitled work,Journal of Computational Chemistry,10.1002/jcc.v46.30,"Software, GPU Engines & Workflows",W4416025691
-0.0,0,2026,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/review2,Foundations & Exact Resampling,W7140389010
-0.0,0,2026,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/review1,Foundations & Exact Resampling,W7140549363
-0.0,0,2025,Unknown,"Decision letter for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v1/decision1,Foundations & Exact Resampling,W7140603832
-0.0,0,2026,Unknown,"Decision letter for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/decision1,Foundations & Exact Resampling,W7140718389
-0.0,0,2025,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v1/review1,Foundations & Exact Resampling,W7140753699
-0.0,0,2026,Shramana Palit,"Author response for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/response1,Foundations & Exact Resampling,W7140856922
-0.0,0,2025,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v1/review2,Foundations & Exact Resampling,W7140870272
-0.0,0,2026,Seungho Choe,Spontaneous Penetration of Carbon Nanotubes through Lipid Bilayers: A Computational Perspective,The Journal of Physical Chemistry B,10.1021/acs.jpcb.5c08432,"Membranes, Permeation & Channels",W7141478632
-0.0,0,2026,Jiaying Jin,Computational Framework for Multi-Dimensional Parameter Prediction and Complex System Optimization Based on Weighted Ensemble Learning and NSGA-II Algorithm,"IEEE International Conference on Power, Electronics and Green Energy (ICPEGE)",10.1109/icpege67691.2026.11451435,Foundations & Exact Resampling,W7141487659
-0.0,0,2026,Shivani Singh,Enhanced american sign language recognition using weighted ensemble of custom CNN models,Neural Computing and Applications,10.1007/s00521-026-12294-7,Foundations & Exact Resampling,W7165029693
-0.0,0,2026,Krishna Praneet Mulukutla,DIME: Dynamics Inferred from Monte Carlo Ensembles via Continuous-Time Markov Chains,Journal of Chemical Information and Modeling,10.1021/acs.jcim.6c01396,"Ligand Binding, Unbinding & Residence Time",W7211917005
+node_idx,is_core,year,first_author,title,journal,doi,global_citations
+109,1,1996,Gary Huber,Weighted-ensemble Brownian dynamics simulations for protein association reactions,Biophysical Journal,10.1016/s0006-3495(96)79552-8,525
+215,1,2012,Zia-ur-Rehman,Identifying GPCRs and their Types with Chou's Pseudo Amino Acid Composition: An Approach from Multi-scale Energy Representation and Position Specific Scoring Matrix,Protein and Peptide Letters,10.2174/092986612801619589,96
+482,1,2020,Divesh Bhatt,Steady–state simulations using weighted ensemble path sampling,,,91
+366,1,2017,Wubin Pan,WENC: HTTPS Encrypted Traffic Classification Using Weighted Ensemble Learning and Markov Chain,"IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",10.1109/trustcom/bigdatase/icess.2017.219,35
+477,1,2020,Gui-Rong You,A Weighted Ensemble Learning Algorithm Based on Diversity Using a Novel Particle Swarm Optimization Approach,Algorithms,10.3390/a13100255,18
+46,1,1991,Z. Li,A Numerical Study on the Effects of Apex Seal Leakage on Wankel Engine Flow Fields,SAE technical papers on CD-ROM/SAE technical paper series,10.4271/910703,14
+518,1,2021,Fan Lü,EnTSSR: A Weighted Ensemble Learning Method to Impute Single-Cell RNA Sequencing Data,IEEE Transactions on Computational Biology and Bioinformatics,10.1109/tcbb.2021.3110850,11
+568,1,2022,Yanjie Fan,Improving variant prioritization in exome analysis by entropy‐weighted ensemble of multiple tools,Clinical Genetics,10.1111/cge.14257,5
+143,1,2014,Varun Ojha,Feature selection and ensemble of regression models for predicting the protein macromolecule dissolution profile,World Congress on Nature and Biologically Inspired Computing (NaBIC),10.1109/nabic.2014.6921864,3
+515,1,2021,Patrick Echtenbruck,Optimally Weighted Ensembles in Model-Based Regression for Drug Discovery,IEEE Congress on Evolutionary Computation (CEC),10.1109/cec45853.2021.9504835,2
+102,1,1998,Irina A. Shkel,TWO-DIMENSIONAL REACTION OF BIOLOGICAL MOLECULES STUDIED BY WEIGHTED-ENSEMBLE BROWNIAN DYNAMICS,Pacific Symposium on Biocomputing (PSB),10.1142/9789814447300_0046,2
+724,1,2026,Won Hee Ryu,"Publisher’s Note: “Reducing weighted ensemble variance with optimal trajectory management” [J. Chem. Phys. 164, 094110 (2026)]",The Journal of Chemical Physics,10.1063/5.0334644,1
+679,1,2025,Haoyu Zheng,Optimization for Mars Rotorcraft Blade: Weighted Ensemble Neural Networks and Spatial Discretization,Space Science & Technology,10.34133/space.0309,1
+633,1,2023,Laura Esteban Hofer,Ensemble Structure of the N-terminal Domain (1-267) of FUS in a Biomolecular Condensate,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.8214048,1
+38,1,2008,Bin W. Zhang,Theory and simulation of rare events in stochastic systems,D-Scholarship@Pitt (University of Pittsburgh),,1
+336,1,1998,Nathan Baker,Weighted-Ensemble Brownian Dynamics for Charged Ligand Diffusion onto Acetylcholinesterase,Springer eBooks,10.1007/978-1-4899-1540-5_99,1
+704,1,2026,Gideon Simpson,Reducing Weighted Ensemble Variance With Optimal Trajectory Management,AIP Publishing,10.60893/figshare.jcp.c.8293348,0
+712,1,2026,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/review2,0
+713,1,2026,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/review1,0
+715,1,2026,Unknown,"Decision letter for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/decision1,0
+718,1,2026,Shramana Palit,"Author response for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v2/response1,0
+722,1,2026,Jiaying Jin,Computational Framework for Multi-Dimensional Parameter Prediction and Complex System Optimization Based on Weighted Ensemble Learning and NSGA-II Algorithm,"IEEE International Conference on Power, Electronics and Green Energy (ICPEGE)",10.1109/icpege67691.2026.11451435,0
+727,1,2026,Dibyendu Maity,CoWERA: A temporal coherence guided binless resampling algorithm for weighted-ensemble based estimation of rare-event kinetics,AIP Publishing,10.60893/figshare.jcp.c.8369341,0
+729,1,2026,Satyaki Saha,Weighted Ensemble Molecular Dynamics Dataset of β2-Adrenergic Receptor Activation Pathways,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.19617081,0
+739,1,2026,Shivani Singh,Enhanced american sign language recognition using weighted ensemble of custom CNN models,Neural Computing and Applications,10.1007/s00521-026-12294-7,0
+743,1,2026,Marion Silvestrini,Featurized sucessful trajectories from ligand-unbinding kinetics from the buried cavity in HIF2a PAS-B,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.21685085,0
+747,1,2026,Partho Partho Bosu,Peptide T-Cell Epitope Immunogenicity Prediction Pipeline,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.22301491,0
+758,1,2026,Nell Ewa Karpinski,Weighted Ensemble-Enhanced DNA Ligand Simulations and Deep Learning Committor Function Approaches,University of Notre Dame,10.7274/34821393,0
+689,1,2025,Unknown,Untitled work,Journal of Computational Chemistry,10.1002/jcc.v46.30,0
+714,1,2025,Unknown,"Decision letter for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v1/decision1,0
+717,1,2025,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v1/review1,0
+719,1,2025,Unknown,"Review for ""Large-scale protein conformational transitions revealed by weighted ensemble simulations and EPR""",Publons reviews and discussion,10.1039/d5sc08971a/v1/review2,0
+600,1,2023,Terra Sztain,A Glycan Gate Controls Opening of the SARS-CoV-2 Spike Protein,,10.1201/9781003456100-13,0
+632,1,2023,Samik Bose,Supplementary information: How robust is the ligand binding transition state?,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.8252970,0
+511,1,2021,Warin Wattanapornprom,Weighted Ensemble for Plant Protein Subcellular Localization Using Particle Swarm Optimization,"International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)",10.1109/ecti-con51831.2021.9454763,0
+485,1,2020,Andrew Bellesis,Atomistic simulations of a protein unfolding process at room temperature using the weighted ensemble path sampling strategy,D-Scholarship@Pitt (University of Pittsburgh),,0
+551,1,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.0c04725,0
+553,1,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.0c04724,0
+593,1,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.3c01206,0
+594,1,2020,Erich Hellemann,Sub-Pocket EXplorer (SubPEx): Leveraging weighted ensemble simulations to enhance the conformational search of binding-pocket conformations,,10.1021/scimeetings.3c00791,0
+631,1,2020,Ali Sinan Saglam,Barnase-Barstar Binding Pathways,Figshare,10.5281/zenodo.3885770,0
+410,1,2019,Hiroshi Fujisaki,Weighted ensemble simulations of biomolecules: Applications to peptides and proteins,Bulletin of the American Physical Society,,0
+394,1,2018,Ali Sinan Saglam,Molecular Simulations of Pathways and Kinetics for Protein-protein Binding Processes,D-Scholarship@Pitt (University of Pittsburgh),,0
+630,1,2017,Alex Dickson,Representative Structures For Trypsin-Benzamidine Conformation-Space Network,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.260154,0
+345,1,2016,Rory Donovan-Maiye,Efficient sampling in stochastic biological models,D-Scholarship@Pitt (University of Pittsburgh),,0
+522,1,2016,Alex Dickson,Conformational Network And Residence Time Estimation Of Trypsin-Benzamidine Unbinding Pathways,Zenodo (CERN European Organization for Nuclear Research),10.5281/zenodo.161574,0
+501,1,2014,Joshua L. Adelman,Quantitative Characterization of Membrane Protein-Lipid Interactions,,,0
+49,1,2013,Matthew C. Zwier,Efficient Computer Simulations of Protein-Peptide Binding Using Weighted Ensemble Sampling,D-Scholarship@Pitt (University of Pittsburgh),,0
+762,1,2012,David Wen Rui Wang,Flexibility vs. preorganization: molucular simulations of MDM2-p53 peptide binding events,D-Scholarship@Pitt (University of Pittsburgh),,0
+310,1,2001,Amanda McCoy,One Dimensional Weighted-Ensemble Brownian (WEB) Dynamics Simulation,,,0
+1687,0,2001,Leo Breiman,Random Forests,Machine Learning,10.1023/a:1010933404324,167170
+1399,0,2002,James Kennedy,Particle swarm optimization,IEEE International Conference on Neural Networks/IEEE ... International Conference on Neural Networks,10.1109/icnn.1995.488968,65724
+1441,0,2008,Laurens J. P. van der Maaten,Visualizing Data using t-SNE,Journal of Machine Learning Research,,60519
+972,0,2007,John D. Hunter,Matplotlib: A 2D Graphics Environment,Computing in Science & Engineering,10.1109/mcse.2007.55,46644
+797,0,2001,Jerome H. Friedman,Greedy function approximation: A gradient boosting machine.,The Annals of Statistics,10.1214/aos/1013203451,39330
+796,0,1996,Martin Ester,A density-based algorithm for discovering clusters in large spatial Databases with Noise,Knowledge Discovery and Data Mining,,22727
+1853,0,1993,Bradley Efron,An Introduction to the Bootstrap,Springer eBooks,10.1007/978-1-4899-4541-9,22178
+159,0,2017,Michael Patrick Allen,Computer Simulation of Liquids,,10.1093/oso/9780198803195.001.0001,21991
+264,0,1979,Bradley Efron,Bootstrap Methods: Another Look at the Jackknife,The Annals of Statistics,10.1214/aos/1176344552,21735
+1536,0,2002,Warren L. DeLano,The PyMOL Molecular Graphics System,,,20371
+2149,0,1945,Frank Wilcoxon,Individual Comparisons by Ranking Methods,Biometrics Bulletin,10.2307/3001968,19912
+68,0,1947,H. B. Mann,On a Test of Whether one of Two Random Variables is Stochastically Larger than the Other,The Annals of Mathematical Statistics,10.1214/aoms/1177730491,18125
+1008,0,1968,Pranab Kumar Sen,Estimates of the Regression Coefficient Based on Kendall's Tau,Journal of the American Statistical Association,10.1080/01621459.1968.10480934,16575
+2134,0,1988,S. P,Computer Simulation of Liquids,Journal of Molecular Liquids,10.1016/0167-7322(88)80022-9,16076
+306,0,1994,William H. Press,Numerical recipes in C,,,15554
+774,0,1990,Leonard Kaufman,Finding Groups in Data: An Introduction to Cluster Analysis,Wiley series in probability and statistics,10.1002/9780470316801,12297
+31,0,1955,Robert Sanderson Mulliken,Electronic Population Analysis on LCAO–MO Molecular Wave Functions. I,The Journal of Chemical Physics,10.1063/1.1740588,12208
+1079,0,2007,Eugene Krissinel,Inference of Macromolecular Assemblies from Crystalline State,Journal of Molecular Biology,10.1016/j.jmb.2007.05.022,10552
+1375,0,2000,Daniel D. Lee,ALGORITHMS FOR NON-NEGATIVE MATRIX FACTORIZATION,neural information processing systems,,9875
+2144,0,2002,Daan Frenkel,Understanding Molecular Simulation,Elsevier eBooks,10.1016/b978-0-12-267351-1.x5000-7,9633
+259,0,1984,Hannes Risken,Fokker-Planck Equation,Springer series in synergetics,10.1007/978-3-642-96807-5,9401
+1059,0,2002,Gerard Manning,The Protein Kinase Complement of the Human Genome,Science,10.1126/science.1075762,9297
+1315,0,2007,Unknown,Stochastic Processes in Physics and Chemistry,Elsevier eBooks,10.1016/b978-0-444-52965-7.x5000-4,9199
+2137,0,2017,Bruce Alberts,Molecular Biology of the Cell,W.W. Norton eBooks,10.1201/9781315735368,8090
+1415,0,2013,Sander Pronk,GROMACS 4.5: a high-throughput and highly parallel open source molecular simulation toolkit,Bioinformatics,10.1093/bioinformatics/btt055,7976
+771,0,2001,Arnaud Doucet,Sequential Monte Carlo Methods in Practice,Springer eBooks,10.1007/978-1-4757-3437-9,7630
+1330,0,1986,Bradley Efron,"Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy",Statistical Science,10.1214/ss/1177013815,7147
+2129,0,1992,Peter E. Kloeden,Numerical Solution of Stochastic Differential Equations,Springer eBooks,10.1007/978-3-662-12616-5,6781
+822,0,2010,Marat Valiev,NWChem: A comprehensive and scalable open-source solution for large scale molecular simulations,Computer Physics Communications,10.1016/j.cpc.2010.04.018,6368
+1433,0,2002,Michael B. Elowitz,Stochastic Gene Expression in a Single Cell,Science,10.1126/science.1070919,6126
+989,0,2006,Junmei Wang,Automatic atom type and bond type perception in molecular mechanical calculations,Journal of Molecular Graphics and Modelling,10.1016/j.jmgm.2005.12.005,5895
+1806,0,2020,Frank Neese,The ORCA quantum chemistry program package,The Journal of Chemical Physics,10.1063/5.0004608,5784
+1083,0,1997,Daan Frenkel,Understanding Molecular Simulation,Computers in Physics,10.1063/1.4822570,5504
+791,0,1995,Anne B. Koehler,Journal of the American Statistical Association,International Journal of Forecasting,10.1016/0169-2070(95)90067-5,5358
+982,0,1997,Mark A. Ratner,Understanding Molecular Simulation: From Algorithms to Applications,Physics Today,10.1063/1.881812,5185
+1596,0,2017,Christopher J. Williams,MolProbity: More and better reference data for improved all‐atom structure validation,Protein Science,10.1002/pro.3330,4776
+1089,0,1995,Scott E. Feller,Constant pressure molecular dynamics simulation: The Langevin piston method,The Journal of Chemical Physics,10.1063/1.470648,4672
+1779,0,1992,Van Kampen,Stochastic Processes in Physics and Chemistry,,,4394
+3151,0,1997,J. R. Norris,Markov Chains,Cambridge University Press eBooks,10.1017/cbo9780511810633,3909
+999,0,1992,Mark E. Tuckerman,Reversible multiple time scale molecular dynamics,The Journal of Chemical Physics,10.1063/1.463137,3904
+1087,0,2002,Araz Jakalian,"Fast, efficient generation of high‐quality atomic charges. AM1‐BCC model: II. Parameterization and validation",Journal of Computational Chemistry,10.1002/jcc.10128,3805
+541,0,2004,Crispin W. Gardiner,Handbook of Stochastic Methods,Springer series in synergetics,10.1007/978-3-662-05389-8,3779
+1298,0,1991,Hans Frauenfelder,The Energy Landscapes and Motions of Proteins,Science,10.1126/science.1749933,3632
+1707,0,2001,S. Redner,A Guide to First-Passage Processes,Cambridge University Press eBooks,10.1017/cbo9780511606014,3534
+168,0,1989,Hans Rudolf Künsch,The Jackknife and the Bootstrap for General Stationary Observations,The Annals of Statistics,10.1214/aos/1176347265,3269
+442,0,1987,David Chandler,Introduction to modern statistical mechanics.,Oxford University Press eBooks,,3071
+1905,0,2006,Kevin J. Bowers,Scalable Algorithms for Molecular Dynamics Simulations on Commodity Clusters,ACM/IEEE Conference on Supercomputing (SC),10.1109/sc.2006.54,3059
+1317,0,2012,Romelia Salomón–Ferrer,An overview of the Amber biomolecular simulation package,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.1121,2959
+1127,0,2007,Katherine A. Henzler‐Wildman,Dynamic personalities of proteins,Nature,10.1038/nature06522,2921
+1220,0,2004,Jun S. Liu,Monte Carlo Strategies in Scientific Computing,Springer series in statistics,10.1007/978-0-387-76371-2,2860
+1397,0,2001,Kathleen M. Sakamoto,Protacs: Chimeric molecules that target proteins to the Skp1–Cullin–F box complex for ubiquitination and degradation,Proceedings of the National Academy of Sciences,10.1073/pnas.141230798,2798
+27,0,1918,Marian Smoluchowski,Versuch einer mathematischen Theorie der Koagulationskinetik kolloider Lösungen,Zeitschrift für Physikalische Chemie,10.1515/zpch-1918-9209,2768
+994,0,1985,H. Risken,The Fokker-Planck Equation: Methods of Solution and Applications,,10.1007/978-3-642-61544-3,2735
+886,0,1998,Frederick Reif,Fundamentals of Statistical and Thermal Physics,American Journal of Physics,10.1119/1.19073,2672
+165,0,1986,Thomas E. Creighton,Proteins: Structures and Molecular Properties,,,2656
+344,0,2016,Richard J. Gowers,MDAnalysis: A Python Package for the Rapid Analysis of Molecular Dynamics Simulations,Proceedings of the Python in Science Conferences,10.25080/majora-629e541a-00e,2538
+865,0,1996,Paul H. Kussie,Structure of the MDM2 Oncoprotein Bound to the p53 Tumor Suppressor Transactivation Domain,Science,10.1126/science.274.5289.948,2511
+1411,0,1997,José N. Onuchic,THEORY OF PROTEIN FOLDING: The Energy Landscape Perspective,Annual Review of Physical Chemistry,10.1146/annurev.physchem.48.1.545,2489
+1428,0,2006,Daniel T. Gillespie,Stochastic Simulation of Chemical Kinetics,Annual Review of Physical Chemistry,10.1146/annurev.physchem.58.032806.104637,2460
+781,0,1996,Andrew R. Leach,Molecular Modelling: Principles and Applications,,,2429
+1796,0,1967,Amos De-Shalit,The feynman lectures on physics,Journal of the Franklin Institute,10.1016/0016-0032(67)90572-8,2366
+1035,0,2004,Hans W. Horn,Development of an improved four-site water model for biomolecular simulations: TIP4P-Ew,The Journal of Chemical Physics,10.1063/1.1683075,2340
+1412,0,2003,Jay W. Ponder,Force Fields for Protein Simulations,Advances in protein chemistry,10.1016/s0065-3233(03)66002-x,2315
+1270,0,2001,Daniel T. Gillespie,Approximate accelerated stochastic simulation of chemically reacting systems,The Journal of Chemical Physics,10.1063/1.1378322,2195
+212,0,2010,David Elliot Shaw,Atomic-Level Characterization of the Structural Dynamics of Proteins,Science,10.1126/science.1187409,2180
+983,0,2012,Ken A. Dill,"The Protein-Folding Problem, 50 Years On",Science,10.1126/science.1219021,2034
+89,0,1988,David Chandler,Introduction to Modern Statistical Mechanics,Physics Today,10.1063/1.2811680,2004
+785,0,2004,Carol A. Rohl,Protein Structure Prediction Using Rosetta,Methods in enzymology on CD-ROM/Methods in enzymology,10.1016/s0076-6879(04)83004-0,1984
+459,0,1989,Morton Hamermesh,Group Theory and Its Application to Physical Problems,,,1934
+1228,0,1997,Nico Tjandra,Direct Measurement of Distances and Angles in Biomolecules by NMR in a Dilute Liquid Crystalline Medium,Science,10.1126/science.278.5340.1111,1892
+1752,0,2002,Daan Frenkel,Understanding molecular simulation : from algorithms to applications. 2nd ed.,UvA-DARE (University of Amsterdam),,1848
+792,0,1996,Hannes Risken,Fokker-Planck Equation,Springer series in synergetics,10.1007/978-3-642-61544-3_4,1833
+42,0,1991,Sangtae Kim,Microhydrodynamics: Principles and Selected Applications,,,1825
+1233,0,1974,J. J. Hopfield,Kinetic Proofreading: A New Mechanism for Reducing Errors in Biosynthetic Processes Requiring High Specificity,Proceedings of the National Academy of Sciences,10.1073/pnas.71.10.4135,1821
+1210,0,2008,Alessandro Laio,"Metadynamics: a method to simulate rare events and reconstruct the free energy in biophysics, chemistry and material science",Reports on Progress in Physics,10.1088/0034-4885/71/12/126601,1777
+1221,0,1996,Monique M. Tirion,"Large Amplitude Elastic Motions in Proteins from a Single-Parameter, Atomic Analysis",Physical Review Letters,10.1103/physrevlett.77.1905,1759
+1849,0,2020,Koji Hukushima,Exchange Monte Carlo method and application to spin glass simulations,,,1705
+562,0,1987,James Andrew McCammon,Dynamics of Proteins and Nucleic Acids,Cambridge University Press eBooks,10.1017/cbo9781139167864,1693
+1279,0,2002,S. Redner,A Guide to First-Passage Processes,American Journal of Physics,10.1119/1.1509421,1671
+98,0,2004,Donald Hamelberg,Accelerated molecular dynamics: A promising and efficient simulation method for biomolecules,The Journal of Chemical Physics,10.1063/1.1755656,1669
+1622,0,2011,Johannes Kästner,Umbrella sampling,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.66,1643
+111,0,1981,Donald B. Rubin,The Bayesian Bootstrap,The Annals of Statistics,10.1214/aos/1176345338,1618
+2154,0,1983,James A. Hanley,"If Nothing Goes Wrong, Is Everything All Right? Interpreting Zero Numerators",JAMA,10.1001/jama.1983.03330370053031,1560
+1337,0,1999,J. Michael Word,Asparagine and glutamine: using hydrogen atom contacts in the choice of side-chain amide orientation 1 1Edited by J. Thornton,Journal of Molecular Biology,10.1006/jmbi.1998.2401,1542
+2132,0,2005,Unknown,JOURNAL OF CHEMICAL INFORMATION AND MODELING,Chemical & Engineering News,10.1021/cen-v083n019.p031,1534
+1417,0,2004,José N. Onuchic,Theory of protein folding,Current Opinion in Structural Biology,10.1016/j.sbi.2004.01.009,1469
+480,0,1967,Frederick Reif,Fundamentals of Statistical and Thermal Physics,Physics Today,10.1063/1.3034084,1468
+880,0,1993,Martin W. Feyereisen,Use of approximate integrals in ab initio theory. An application in MP2 energy calculations,Chemical Physics Letters,10.1016/0009-2614(93)87156-w,1429
+125,0,1997,Michael K. Gilson,The statistical-thermodynamic basis for computation of binding affinities: a critical review,Biophysical Journal,10.1016/s0006-3495(97)78756-3,1360
+1435,0,1996,Sanzo Miyazawa,"Residue – Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading",Journal of Molecular Biology,10.1006/jmbi.1996.0114,1321
+1407,0,2007,Yujian Li,A Normalized Levenshtein Distance Metric,IEEE Transactions on Pattern Analysis and Machine Intelligence,10.1109/tpami.2007.1078,1318
+1164,0,2005,Martin Karplus,Molecular dynamics and protein function,Proceedings of the National Academy of Sciences,10.1073/pnas.0408930102,1293
+923,0,1992,Richard J. Loncharich,Langevin dynamics of peptides: The frictional dependence of isomerization rates of N ‐acetylalanyl‐ N ′‐methylamide,Biopolymers,10.1002/bip.360320508,1284
+770,0,1998,Gavin E. Crooks,Nonequilibrium Measurements of Free Energy Differences for Microscopically Reversible Markovian Systems,Journal of Statistical Physics,10.1023/a:1023208217925,1274
+1547,0,2017,Giulia Guidotti,Cell-Penetrating Peptides: From Basic Research to Clinics,Trends in Pharmacological Sciences,10.1016/j.tips.2017.01.003,1272
+974,0,2004,Pierre Del Moral,Feynman-Kac Formulae,Probability and its applications,10.1007/978-1-4684-9393-1,1265
+1248,0,2006,Yi Liu,Rational design of inhibitors that bind to inactive kinase conformations,Nature Chemical Biology,10.1038/nchembio799,1260
+64,0,1988,James Andrew McCammon,Dynamics of Proteins and Nucleic Acids,Physics Today,10.1063/1.2811564,1256
+2148,0,2008,Unknown,Journal of Chemical Theory and Computation,Journal of Chemical Theory and Computation,10.1021/issn.1549-9618,1193
+1335,0,1976,Michael Levitt,A simplified representation of protein conformations for rapid simulation of protein folding,Journal of Molecular Biology,10.1016/0022-2836(76)90004-8,1185
+1307,0,2001,Barry Isralewitz,Steered molecular dynamics and mechanical functions of proteins,Current Opinion in Structural Biology,10.1016/s0959-440x(00)00194-9,1160
+1053,0,2007,Katherine A. Henzler‐Wildman,A hierarchy of timescales in protein dynamics is linked to enzyme catalysis,Nature,10.1038/nature06407,1154
+1334,0,2012,Scott LeGrand,SPFP: Speed without compromise—A mixed precision model for GPU accelerated molecular dynamics simulations,Computer Physics Communications,10.1016/j.cpc.2012.09.022,1136
+1299,0,1994,Dmitrii B. Beglov,Finite representation of an infinite bulk system: Solvent boundary potential for computer simulations,The Journal of Chemical Physics,10.1063/1.466711,1123
+1075,0,2000,Benjamin A. Shoemaker,Speeding molecular recognition by using the folding funnel: The fly-casting mechanism,Proceedings of the National Academy of Sciences,10.1073/pnas.160259697,1094
+782,0,1998,Unknown,Physical chemistry: a molecular approach,Choice Reviews Online,10.5860/choice.35-2708,1090
+802,0,2007,Christophe J. Chipot,Free Energy Calculations: Theory and Applications in Chemistry and Biology,Springer series in chemical physics,10.1007/978-3-540-38448-9,1062
+1409,0,2000,Vickie Tsui,Theory and applications of the generalized born solvation model in macromolecular simulations,Biopolymers,10.1002/1097-0282(2000)56:4<275::aid-bip10024>3.0.co;2-e,1047
+268,0,1992,Daniel E. Lenoski,The Stanford Dash multiprocessor,Computer,10.1109/2.121510,1031
+1146,0,2004,Sanghyun Park,Calculating potentials of mean force from steered molecular dynamics simulations,The Journal of Chemical Physics,10.1063/1.1651473,1017
+1361,0,2001,Lukas D. Schuler,An improved GROMOS96 force field for aliphatic hydrocarbons in the condensed phase,Journal of Computational Chemistry,10.1002/jcc.1078,1008
+1362,0,1987,Jay W. Ponder,An efficient newton‐like method for molecular mechanics energy minimization of large molecules,Journal of Computational Chemistry,10.1002/jcc.540080710,989
+546,0,1977,Unknown,Statistical Mechanics: Part B: Time-Dependent Processes,Springer eBooks,10.1007/978-1-4615-7906-9,988
+1153,0,1994,Lutz Molgedey,Separation of a mixture of independent signals using time delayed correlations,Physical Review Letters,10.1103/physrevlett.72.3634,986
+1276,0,2000,M. R. So rensen,Temperature-accelerated dynamics for simulation of infrequent events,The Journal of Chemical Physics,10.1063/1.481576,958
+161,0,2008,Eric Darve,Adaptive biasing force method for scalar and vector free energy calculations,The Journal of Chemical Physics,10.1063/1.2829861,949
+138,0,2008,David Elliot Shaw,"Anton, a special-purpose machine for molecular dynamics simulation",Communications of the ACM,10.1145/1364782.1364802,940
+970,0,2008,Yang Shen,Consistent blind protein structure generation from NMR chemical shift data,Proceedings of the National Academy of Sciences,10.1073/pnas.0800256105,939
+1462,0,2006,Unknown,"Proteins: Structure, Function, and Bioinformatics",Proteins Structure Function and Bioinformatics,10.1002/(issn)1097-0134,937
+1384,0,2005,Valentina Tozzini,Coarse-grained models for proteins,Current Opinion in Structural Biology,10.1016/j.sbi.2005.02.005,924
+1238,0,2005,Matjaž Zorko,Cell-penetrating peptides: mechanism and kinetics of cargo delivery,Advanced Drug Delivery Reviews,10.1016/j.addr.2004.10.010,908
+1126,0,2006,Norbert Kučerka,Structure of Fully Hydrated Fluid Phase Lipid Bilayers with Monounsaturated Chains,The Journal of Membrane Biology,10.1007/s00232-005-7006-8,888
+484,0,1997,Ulrich H. E. Hansmann,Parallel Tempering Algorithm for Conformational Studies of Biological Molecules,CERN Document Server (European Organization for Nuclear Research),,883
+818,0,1997,Oren M. Becker,The topology of multidimensional potential energy surfaces: Theory and application to peptide structure and kinetics,The Journal of Chemical Physics,10.1063/1.473299,877
+1389,0,2005,Pu Liu,Replica exchange with solute tempering: A method for sampling biological systems in explicit water,Proceedings of the National Academy of Sciences,10.1073/pnas.0506346102,862
+1634,0,1937,E. J. G. Pitman,Significance Tests Which May be Applied to Samples from Any Populations,Journal of the Royal Statistical Society Series B (Statistical Methodology),10.2307/2984124,861
+1151,0,2002,Hiroaki Fukunishi,On the Hamiltonian replica exchange method for efficient sampling of biomolecular systems: Application to protein structure prediction,The Journal of Chemical Physics,10.1063/1.1472510,859
+1131,0,2011,Ron O. Dror,Pathway and mechanism of drug binding to G-protein-coupled receptors,Proceedings of the National Academy of Sciences,10.1073/pnas.1104614108,806
+314,0,2015,Robert A. Copeland,The drug–target residence time model: a 10-year retrospective,Nature Reviews Drug Discovery,10.1038/nrd.2015.18,800
+1044,0,2014,David Elliot Shaw,Anton 2: Raising the Bar for Performance and Programmability in a Special-Purpose Molecular Dynamics Supercomputer,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1109/sc.2014.9,783
+787,0,1975,Hiroshi Taketomi,"STUDIES ON PROTEIN FOLDING, UNFOLDING AND FLUCTUATIONS BY COMPUTER SIMULATION: I. The effect of specific amino acid sequence represented by specific inter‐unit interactions",International journal of peptide & protein research,10.1111/j.1399-3011.1975.tb02465.x,733
+1132,0,2006,Luca Maragliano,String method in collective variables: Minimum free energy paths and isocommittor surfaces,The Journal of Chemical Physics,10.1063/1.2212942,726
+1031,0,2008,Henrik Flyvbjerg,Error estimates on averages of correlated data,Springer eBooks,10.1007/bfb0105461,721
+1331,0,1999,Chung‐Jung Tsai,"Folding funnels, binding funnels, and protein function",Protein Science,10.1110/ps.8.6.1181,712
+1267,0,2007,Chris Field,Bootstrapping Clustered Data,Journal of the Royal Statistical Society Series B (Statistical Methodology),10.1111/j.1467-9868.2007.00593.x,711
+1123,0,2003,Michael R. Shirts,Extremely precise free energy calculations of amino acid side chain analogs: Comparison of common molecular mechanics force fields for proteins,The Journal of Chemical Physics,10.1063/1.1587119,711
+1082,0,2005,Hyung‐June Woo,Calculation of absolute protein–ligand binding free energy from computer simulations,Proceedings of the National Academy of Sciences,10.1073/pnas.0409005102,710
+1011,0,2013,Marc W. van der Kamp,Combined Quantum Mechanics/Molecular Mechanics (QM/MM) Methods in Computational Enzymology,Biochemistry,10.1021/bi400215w,700
+2151,0,2013,Robert G. Gallager,Stochastic Processes: Theory for Applications,Cambridge University Press eBooks,10.1017/cbo9781139626514,696
+935,0,2007,Davide Branduardi,From A to B in free energy space,The Journal of Chemical Physics,10.1063/1.2432340,692
+45,0,1997,Alan D. Sokal,Monte Carlo Methods in Statistical Mechanics: Foundations and New Algorithms,NATO ASI series. Series B : Physics,10.1007/978-1-4899-0319-8_6,680
+1277,0,2011,James S. Fraser,Accessing protein conformational ensembles using room-temperature X-ray crystallography,Proceedings of the National Academy of Sciences,10.1073/pnas.1111325108,679
+209,0,1985,Freedman Rb,Proteins: Structures and molecular properties,Trends in Biochemical Sciences,10.1016/0968-0004(85)90239-7,672
+483,0,2013,Guillermo Perez-hern,Identification of slow molecular order parameters for Markov model construction,Max Planck Institute for Plasma Physics,,656
+697,0,2013,Gregory R. Bowman,An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation,Advances in experimental medicine and biology,10.1007/978-94-007-7606-7,640
+1096,0,2009,Gordon G. Hammes,Conformational selection or induced fit: A flux description of reaction mechanism,Proceedings of the National Academy of Sciences,10.1073/pnas.0907195106,638
+986,0,1996,Gideon Schreiber,"Rapid, electrostatically assisted association of proteins",Nature Structural Biology,10.1038/nsb0596-427,631
+877,0,2007,Andrea Cavalli,Protein structure determination from NMR chemical shifts,Proceedings of the National Academy of Sciences,10.1073/pnas.0610313104,629
+1336,0,1983,Markus Marquart,"The geometry of the reactive site and of the peptide groups in trypsin, trypsinogen and its complexes with inhibitors",Acta Crystallographica Section B Structural Science,10.1107/s010876818300275x,607
+1120,0,1994,Francisco J. Blanco,A short linear peptide that folds into a native stable β-hairpin in aqueous solution,Nature Structural & Molecular Biology,10.1038/nsb0994-584,605
+362,0,1927,Ladislas Farkas,Keimbildungsgeschwindigkeit in übersättigten Dämpfen,Zeitschrift für Physikalische Chemie,10.1515/zpch-1927-12513,601
+872,0,2003,Johan Åqvist,Molecular dynamics simulations of water and biomolecules with a Monte Carlo constant pressure algorithm,Chemical Physics Letters,10.1016/j.cplett.2003.12.039,600
+1272,0,1997,Peter Grassberger,Pruned-enriched Rosenbluth method: Simulations of θ polymers of chain length up to 1 000 000,"Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",10.1103/physreve.56.3682,594
+176,0,1994,Vladimir N. Maiorov,Significance of Root-Mean-Square Deviation in Comparing Three-dimensional Structures of Globular Proteins,Journal of Molecular Biology,10.1006/jmbi.1994.1017,591
+2135,0,2002,Christoph Dellago,Transition Path Sampling,Advances in chemical physics,10.1002/0471231509.ch1,585
+806,0,2000,Michael R. Shirts,Screen Savers of the World Unite!,Science,10.1126/science.290.5498.1903,581
+1071,0,1999,Sergei Izrailev,Steered Molecular Dynamics,Lecture notes in computational science and engineering,10.1007/978-3-642-58360-5_2,575
+843,0,1994,J. Schlitter,Targeted molecular dynamics: A new approach for searching pathways of conformational transitions,Journal of Molecular Graphics,10.1016/0263-7855(94)80072-3,562
+1393,0,2006,Luca Maragliano,A temperature accelerated method for sampling free energy and determining reaction pathways in rare events simulations,Chemical Physics Letters,10.1016/j.cplett.2006.05.062,557
+1013,0,2004,Christian Wiesmann,Allosteric inhibition of protein tyrosine phosphatase 1B,Nature Structural & Molecular Biology,10.1038/nsmb803,554
+1252,0,2009,Jonathan E. Guyer,FiPy: Partial Differential Equations with Python,Computing in Science & Engineering,10.1109/mcse.2009.52,547
+1807,0,2020,Christian Devereux,Extending the Applicability of the ANI Deep Learning Molecular Potential to Sulfur and Halogens,Journal of Chemical Theory and Computation,10.1021/acs.jctc.0c00121,540
+927,0,2007,Henry David Herce,Molecular dynamics simulations suggest a mechanism for translocation of the HIV-1 TAT peptide across lipid membranes,Proceedings of the National Academy of Sciences,10.1073/pnas.0706574105,522
+1329,0,1992,Stefan Fischer,Conjugate peak refinement: an algorithm for finding reaction paths and accurate transition states in systems with many degrees of freedom,Chemical Physics Letters,10.1016/0009-2614(92)85543-j,516
+1321,0,2001,Ruhong Zhou,The free energy landscape for β hairpin folding in explicit water,Proceedings of the National Academy of Sciences,10.1073/pnas.201543998,505
+899,0,2008,Robert B. Best,Are Current Molecular Dynamics Force Fields too Helical?,Biophysical Journal,10.1529/biophysj.108.132696,501
+235,0,1992,H. Power,Microhydrodynamics: Principles and selected applications,Engineering Analysis with Boundary Elements,10.1016/0955-7997(92)90082-i,487
+1090,0,2003,Xiongwu Wu,Self-guided Langevin dynamics simulation method,Chemical Physics Letters,10.1016/j.cplett.2003.10.013,486
+2145,0,2009,David Elliot Shaw,Millisecond-scale molecular dynamics simulations on Anton,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1145/1654059.1654126,484
+1420,0,2004,Michael L. Blinov,BioNetGen: software for rule-based modeling of signal transduction based on the interactions of molecular domains,Bioinformatics,10.1093/bioinformatics/bth378,476
+2142,0,2000,Unknown,STATISTICAL MECHANICS,WORLD SCIENTIFIC eBooks,10.1142/9789812792624_0002,475
+1066,0,2006,Virginia A. Jarymowycz,"Fast Time Scale Dynamics of Protein Backbones: NMR Relaxation Methods, Applications, and Functional Consequences",Chemical Reviews,10.1021/cr040421p,466
+943,0,2013,Vittorio Limongelli,Funnel metadynamics as accurate binding free-energy method,Proceedings of the National Academy of Sciences,10.1073/pnas.1303186110,465
+971,0,2006,Baron Peters,Obtaining reaction coordinates by likelihood maximization,The Journal of Chemical Physics,10.1063/1.2234477,461
+1436,0,2009,James R. Faeder,Rule-Based Modeling of Biochemical Systems with BioNetGen,Methods in molecular biology,10.1007/978-1-59745-525-1_5,460
+966,0,2007,Gary S. Ayton,Multiscale modeling of biomolecular systems: in serial and in parallel,Current Opinion in Structural Biology,10.1016/j.sbi.2007.03.004,458
+191,0,1982,David Shoup,Role of diffusion in ligand binding to macromolecules and cell-bound receptors,Biophysical Journal,10.1016/s0006-3495(82)84455-x,457
+1729,0,2019,Yi Yang,Enhanced sampling in molecular dynamics,The Journal of Chemical Physics,10.1063/1.5109531,449
+1245,0,2007,Chun Tang,Open-to-closed transition in apo maltose-binding protein observed by paramagnetic NMR,Nature,10.1038/nature06232,449
+1029,0,1993,J. Schlitter,Targeted Molecular Dynamics Simulation of Conformational Change-Application to the T ↔ R Transition in Insulin,Molecular Simulation,10.1080/08927029308022170,445
+1642,0,2018,Adelajda Zorba,Delineating the role of cooperativity in the design of potent PROTACs for BTK,Proceedings of the National Academy of Sciences,10.1073/pnas.1803662115,442
+1113,0,1999,Ch. Schütte,A Direct Approach to Conformational Dynamics Based on Hybrid Monte Carlo,Journal of Computational Physics,10.1006/jcph.1999.6231,440
+1190,0,2013,Susanna Röblitz,Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification,Advances in Data Analysis and Classification,10.1007/s11634-013-0134-6,427
+861,0,2013,Albert C. Pan,Molecular determinants of drug–receptor binding kinetics,Drug Discovery Today,10.1016/j.drudis.2013.02.007,414
+1311,0,2008,Markus Zweckstetter,NMR: prediction of molecular alignment from structure using the PALES software,Nature Protocols,10.1038/nprot.2008.36,412
+1097,0,2002,David J. Wales,Discrete path sampling,Molecular Physics,10.1080/00268970210162691,410
+1166,0,2002,Oliver Schon,Molecular Mechanism of the Interaction between MDM2 and p53,Journal of Molecular Biology,10.1016/s0022-2836(02)00852-5,407
+925,0,2009,Jan Řezáč,Semiempirical Quantum Chemical PM6 Method Augmented by Dispersion and H-Bonding Correction Terms Reliably Describes Various Types of Noncovalent Complexes,Journal of Chemical Theory and Computation,10.1021/ct9000922,401
+2050,0,2013,Unknown,Journal of Computer-Aided Molecular Design,Journal of Computer-Aided Molecular Design,10.1007/10822.1573-4951,400
+1354,0,2012,Valéry Ozenne,Flexible-meccano: a tool for the generation of explicit ensemble descriptions of intrinsically disordered proteins and their associated experimental observables,Bioinformatics,10.1093/bioinformatics/bts172,398
+996,0,2008,Lydia Freddolino,Ten-Microsecond Molecular Dynamics Simulation of a Fast-Folding WW Domain,Biophysical Journal,10.1529/biophysj.108.131565,382
+108,0,2015,Pratyush Tiwary,"Kinetics of protein–ligand unbinding: Predicting pathways, rates, and rate-limiting steps",Proceedings of the National Academy of Sciences,10.1073/pnas.1424461112,381
+1281,0,1983,Michael Levitt,Protein folding by restrained energy minimization and molecular dynamics,Journal of Molecular Biology,10.1016/s0022-2836(83)80129-6,381
+1036,0,1997,Adam Liwo,A united-residue force field for off-lattice protein-structure simulations. I. Functional forms and parameters of long-range side-chain interaction potentials from protein crystal data,Journal of Computational Chemistry,10.1002/(sici)1096-987x(199705)18:7<849::aid-jcc1>3.0.co;2-r,379
+1377,0,1994,M. I. Dykman,Large fluctuations and optimal paths in chemical kinetics,The Journal of Chemical Physics,10.1063/1.467139,377
+1569,0,2017,Nuria Plattner,Complete protein–protein association kinetics in atomic detail revealed by molecular dynamics simulations and Markov modelling,Nature Chemistry,10.1038/nchem.2785,370
+1135,0,2005,Wolfgang Rieping,Inferential Structure Determination,Science,10.1126/science.1110428,370
+1189,0,1936,F. Garwood,(i) Fiducial Limits for the Poisson Distribution,Biometrika,10.1093/biomet/28.3-4.437,338
+985,0,2006,Paul C. Whitford,Conformational Transitions of Adenylate Kinase: Switching by Cracking,Journal of Molecular Biology,10.1016/j.jmb.2006.11.085,337
+1026,0,2010,Loïc Salmon,NMR Characterization of Long-Range Order in Intrinsically Disordered Proteins,Journal of the American Chemical Society,10.1021/ja101645g,336
+1363,0,2007,David L. Mobley,Predicting Absolute Ligand Binding Free Energies to a Simple Model Site,Journal of Molecular Biology,10.1016/j.jmb.2007.06.002,336
+915,0,2007,İvet Bahar,Intrinsic dynamics of enzymes in the unbound state and relation to allosteric regulation,Current Opinion in Structural Biology,10.1016/j.sbi.2007.09.011,329
+934,0,2006,Kei-ichi Okazaki,Multiple-basin energy landscapes for large-amplitude conformational motions of proteins: Structure-based molecular dynamics simulations,Proceedings of the National Academy of Sciences,10.1073/pnas.0604375103,328
+1049,0,2012,Stefano Piana,Protein folding kinetics and thermodynamics from atomistic simulation,Proceedings of the National Academy of Sciences,10.1073/pnas.1201811109,324
+1288,0,2011,Yusuke Naritomi,Slow dynamics in protein fluctuations revealed by time-structure based independent component analysis: The case of domain motions,The Journal of Chemical Physics,10.1063/1.3554380,322
+898,0,2008,Lianqing Zheng,Random walk in orthogonal space to achieve efficient free-energy simulation of complex systems,Proceedings of the National Academy of Sciences,10.1073/pnas.0810631106,322
+1948,0,2017,Baron Peters,Reaction Rate Theory and Rare Events,,,319
+1115,0,1959,Frederick T. Wall,New Method for the Statistical Computation of Polymer Dimensions,The Journal of Chemical Physics,10.1063/1.1730021,311
+2908,0,2010,Tony Lelièvre,Free Energy Computations: A Mathematical Perspective,,10.1142/p579#t=toc,309
+1009,0,2007,Young C. Kim,Coarse-grained Models for Simulations of Multiprotein Complexes: Application to Ubiquitin Binding,Journal of Molecular Biology,10.1016/j.jmb.2007.11.063,309
+181,0,1988,Scott H. Northrup,Brownian Dynamics of Cytochrome c and Cytochrome c Peroxidase Association,Science,10.1126/science.2838904,307
+1104,0,2012,Gregory R. Bowman,Equilibrium fluctuations of a single folded protein reveal a multitude of potential cryptic allosteric sites,Proceedings of the National Academy of Sciences,10.1073/pnas.1209309109,305
+823,0,2002,Paul William Manley,Imatinib: a selective tyrosine kinase inhibitor,European Journal of Cancer,10.1016/s0959-8049(02)80599-8,296
+1040,0,1996,Joel R. Stiles,Miniature endplate current rise times less than 100 microseconds from improved dual recordings can be modeled with passive acetylcholine diffusion from a synaptic vesicle.,Proceedings of the National Academy of Sciences,10.1073/pnas.93.12.5747,293
+1414,0,1978,Yuzo Ueda,"Studies on protein folding, unfolding, and fluctuations by computer simulation. II. A. Three‐dimensional lattice model of lysozyme",Biopolymers,10.1002/bip.1978.360170612,291
+850,0,1990,Alex Ulitsky,A new technique to calculate steepest descent paths in flexible polyatomic systems,The Journal of Chemical Physics,10.1063/1.458112,286
+863,0,2007,Karunesh Arora,Large-scale allosteric conformational transitions of adenylate kinase appear to involve a population-shift mechanism,Proceedings of the National Academy of Sciences,10.1073/pnas.0706443104,285
+1257,0,1996,Robert L. Jernigan,Structure-derived potentials and protein simulations,Current Opinion in Structural Biology,10.1016/s0959-440x(96)80075-3,285
+1170,0,1992,A.E. Sauer-Eriksson,A cavity-containing mutant of T4 lysozyme is stabilized by buried benzene,Nature,10.1038/355371a0,277
+1416,0,2010,Christian Martin Hennig,Methods for merging Gaussian mixture components,Advances in Data Analysis and Classification,10.1007/s11634-010-0058-3,274
+900,0,2007,Qi Zhang,Visualizing spatially correlated dynamics that directs RNA conformational transitions,Nature,10.1038/nature06389,270
+1173,0,1969,AMYAN MACFADYEN,Energy Flow in Biology: Biological Organization as a Problem in Thermal Physics.,Journal of Applied Ecology,10.2307/2401522,266
+1212,0,1995,Kim-Hung Chow,Isothermal-isobaric molecular dynamics simulations with Monte Carlo volume sampling,Computer Physics Communications,10.1016/0010-4655(95)00059-o,263
+980,0,1998,Michael Schaefer,Solution conformations and thermodynamics of structured peptides: molecular dynamics simulation with an implicit solvation model,Journal of Molecular Biology,10.1006/jmbi.1998.2172,262
+891,0,2014,Ali Dashti,Trajectories of the ribosome as a Brownian nanomachine,Proceedings of the National Academy of Sciences,10.1073/pnas.1419276111,261
+1422,0,2006,Jarek Juraszek,Sampling the multiple folding mechanisms of Trp-cage in explicit solvent,Proceedings of the National Academy of Sciences,10.1073/pnas.0606692103,261
+521,0,2021,David Elliot Shaw,Anton 3: twenty microseconds of molecular dynamics simulation before lunch,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1145/3458817.3487397,260
+1380,0,2012,David L. Mobley,Perspective: Alchemical free energy calculations for drug discovery,The Journal of Chemical Physics,10.1063/1.4769292,253
+1355,0,2005,Douglas L. Theobald,Rapid calculation of RMSDs using a quaternion-based characteristic polynomial,Acta Crystallographica Section A Foundations of Crystallography,10.1107/s0108767305015266,251
+788,0,1950,Herman Kahn,Random sampling (Monte Carlo) techniques in neutron attenuation problems--I.,PubMed,,249
+794,0,2001,Jeffrey K. Myers,Preorganized secondary structure as an important determinant of fast protein folding.,Nature Structural Biology,10.1038/88626,248
+1043,0,2008,Benoît Roux,The Membrane Potential and its Representation by a Constant Electric Field in Computer Simulations,Biophysical Journal,10.1529/biophysj.108.136499,246
+80,0,2011,Christof Schütte,Markov state models based on milestoning,The Journal of Chemical Physics,10.1063/1.3590108,245
+1430,0,1999,Jeffrey M. Rosen,REGULATION OF MILK PROTEIN GENE EXPRESSION,Annual Review of Nutrition,10.1146/annurev.nutr.19.1.407,241
+894,0,2012,Shoji Takada,Coarse-grained molecular simulations of large biomolecules,Current Opinion in Structural Biology,10.1016/j.sbi.2012.01.010,238
+873,0,2009,Eric Vanden‐Eijnden,Revisiting the finite temperature string method for the calculation of reaction tubes and free energies,The Journal of Chemical Physics,10.1063/1.3130083,237
+1296,0,2015,Gregory R. Bowman,Discovery of multiple hidden allosteric sites by combining Markov state models and experiments,Proceedings of the National Academy of Sciences,10.1073/pnas.1417811112,236
+769,0,2013,Frédéric Leroy,"Molecular Driving Forces. Statistical Thermodynamics in Biology, Chemistry, Physics, and Nanoscience",Soft Materials,10.1080/1539445x.2011.619612,232
+832,0,2006,Philipp Metzner,Illustration of transition path theory on a collection of simple examples,The Journal of Chemical Physics,10.1063/1.2335447,230
+163,0,2006,John D. Chodera,Long‐Time Protein Folding Dynamics from Short‐Time Molecular Dynamics Simulations,Multiscale Modeling and Simulation,10.1137/06065146x,229
+995,0,1999,Joannis Apostolakis,Calculation of conformational transitions and barriers in solvated systems: Application to the alanine dipeptide in water,The Journal of Chemical Physics,10.1063/1.477819,229
+1371,0,2014,Jean Y. J. Wang,The Capable ABL: What Is Its Biological Function?,Molecular and Cellular Biology,10.1128/mcb.01454-13,227
+1491,0,2016,Hao Wu,Multiensemble Markov models of molecular thermodynamics and kinetics,Proceedings of the National Academy of Sciences,10.1073/pnas.1525092113,225
+1325,0,2008,Bipasha Barua,The Trp-cage: optimizing the stability of a globular miniprotein,Protein Engineering Design and Selection,10.1093/protein/gzm082,225
+941,0,2010,Cameron F. Abrams,Large-scale conformational sampling of proteins using temperature-accelerated molecular dynamics,Proceedings of the National Academy of Sciences,10.1073/pnas.0914540107,222
+1386,0,2010,Walter A. Baase,Lessons from the lysozyme of phage T4,Protein Science,10.1002/pro.344,222
+1348,0,2010,Gregory R. Bowman,Protein folded states are kinetic hubs,Proceedings of the National Academy of Sciences,10.1073/pnas.1003962107,221
+1382,0,2005,Weiqing Ren,Transition pathways in complex systems: Application of the finite-temperature string method to the alanine dipeptide,The Journal of Chemical Physics,10.1063/1.2013256,220
+2131,0,2014,Randal Douc,Nonlinear Time Series,Chapman & Hall/CRC eBooks,10.1201/b16331,219
+1908,0,2020,Kristof T. Schütt,Machine Learning Meets Quantum Physics,Lecture notes in physics,10.1007/978-3-030-40245-7,218
+968,0,1995,James B. Clarage,A sampling problem in molecular dynamics simulations of macromolecules.,Proceedings of the National Academy of Sciences,10.1073/pnas.92.8.3288,216
+1109,0,2007,Baron Peters,Extensions to the likelihood maximization approach for finding reaction coordinates,The Journal of Chemical Physics,10.1063/1.2748396,215
+177,0,1987,Sangyoub Lee,Kinetics of diffusion-influenced bimolecular reactions in solution. I. General formalism and relaxation kinetics of fast reversible reactions,The Journal of Chemical Physics,10.1063/1.452140,208
+65,0,2009,Eric Vanden‐Eijnden,Markovian milestoning with Voronoi tessellations,The Journal of Chemical Physics,10.1063/1.3129843,206
+909,0,2010,Marco Sarich,On the Approximation Quality of Markov State Models,Multiscale Modeling and Simulation,10.1137/090764049,205
+1302,0,2000,Unknown,Computational Neuroscience: Realistic Modeling for Experimentalists,CRC Press eBooks,10.1201/9781420039290,204
+1223,0,2005,Hideaki Fujitani,Direct calculation of the binding free energies of FKBP ligands,The Journal of Chemical Physics,10.1063/1.1999637,203
+1236,0,1997,Adam Liwo,A united-residue force field for off-lattice protein-structure simulations. II. Parameterization of short-range interactions and determination of weights of energy terms by Z-score optimization,Journal of Computational Chemistry,10.1002/(sici)1096-987x(199705)18:7<874::aid-jcc2>3.0.co;2-o,203
+950,0,1998,Razif R. Gabdoulline,Brownian Dynamics Simulation of Protein–Protein Diffusional Encounter,Methods,10.1006/meth.1998.0588,200
+1381,0,2008,Christoph Dellago,Transition Path Sampling and Other Advanced Simulation Techniques for Rare Events,Advances in polymer science,10.1007/12_2008_3,199
+937,0,1998,Felix B. Sheinerman,Calculations on folding of segment B1 of streptococcal protein G 1 1Edited by F. Cohen,Journal of Molecular Biology,10.1006/jmbi.1998.1688,199
+2138,0,2010,Dawei Li,NMR‐Based Protein Potentials,Angewandte Chemie International Edition,10.1002/anie.201001898,198
+1217,0,2002,Razif R. Gabdoulline,Biomolecular diffusional association,Current Opinion in Structural Biology,10.1016/s0959-440x(02)00311-1,196
+1088,0,2014,Robert Bryn Fenwick,Integrated description of protein dynamics from room-temperature X-ray crystallography and NMR,Proceedings of the National Academy of Sciences,10.1073/pnas.1323440111,195
+1765,0,2020,Vittorio Limongelli,Ligand binding free energy and kinetics calculation in 2020,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.1455,192
+1264,0,2007,Luca Maragliano,On-the-fly string method for minimum free energy paths calculation,Chemical Physics Letters,10.1016/j.cplett.2007.08.017,190
+836,0,1997,Tao Yang,Rapid Inactivation Determines the Rectification and [K+]oDependence of the Rapid Component of the Delayed Rectifier K+Current in Cardiac Cells,Circulation Research,10.1161/01.res.80.6.782,190
+949,0,2002,Jung‐Hsin Lin,The relaxed complex method: Accommodating receptor flexibility for drug design with an improved scoring scheme,Biopolymers,10.1002/bip.10218,189
+97,0,2007,Anthony M. A. West,Extending molecular dynamics time scales with milestoning: Example of complex kinetics in a solvated peptide,The Journal of Chemical Physics,10.1063/1.2716389,186
+359,0,2017,Frank Noé,Collective variables for the study of long-time kinetics from molecular trajectories: theory and methods,Current Opinion in Structural Biology,10.1016/j.sbi.2017.02.006,185
+1495,0,2015,Anatoly B. Kolomeisky,Motor Proteins and Molecular Motors,CRC Press eBooks,10.1201/b18426,181
+2066,0,2013,Christof Schütte,Metastability and Markov State Models in Molecular Dynamics,Courant lecture notes in mathematics,10.1090/cln/024,181
+1427,0,2002,Jun Shimada,The ensemble folding kinetics of protein G from an all-atom Monte Carlo simulation,Proceedings of the National Academy of Sciences,10.1073/pnas.162268099,181
+1453,0,2015,Justin L. MacCallum,Determining protein structures by combining semireliable data with atomistic physical models by Bayesian inference,Proceedings of the National Academy of Sciences,10.1073/pnas.1506788112,177
+882,0,2008,Albert C. Pan,Building Markov state models along pathways to determine free energies and rates of transitions,The Journal of Chemical Physics,10.1063/1.2959573,177
+1359,0,2015,Alex Morriss-Andrews,Computational Studies of Protein Aggregation: Methods and Applications,Annual Review of Physical Chemistry,10.1146/annurev-physchem-040513-103738,174
+1405,0,2005,Ron Elber,Long-timescale simulation methods,Current Opinion in Structural Biology,10.1016/j.sbi.2005.02.004,174
+789,0,1999,Soon-Ho Park,Folding dynamics of the B1 domain of protein G explored by ultrarapid mixing.,Nature Structural Biology,10.1038/13311,174
+777,0,2005,Christoph Dellago,Transition Path Sampling,Springer eBooks,10.1007/1-4020-3286-2_79,173
+437,0,2019,Haohao Fu,Taming Rugged Free Energy Landscapes Using an Average Force,Accounts of Chemical Research,10.1021/acs.accounts.9b00473,172
+1157,0,1997,Yaoqi Zhou,Folding thermodynamics of a model three-helix-bundle protein,Proceedings of the National Academy of Sciences,10.1073/pnas.94.26.14429,172
+1193,0,1999,Shoji Takada,Gō -ing for the prediction of protein folding mechanisms,Proceedings of the National Academy of Sciences,10.1073/pnas.96.21.11698,171
+895,0,2007,Alexei M. Nikitin,New six‐site acetonitrile model for simulations of liquid acetonitrile and its aqueous mixtures,Journal of Computational Chemistry,10.1002/jcc.20721,170
+1269,0,2010,Shiquan Ren,Nonparametric bootstrapping for hierarchical data,Journal of Applied Statistics,10.1080/02664760903046102,169
+1112,0,2009,Xuhui Huang,Rapid equilibrium sampling initiated from nonequilibrium data,Proceedings of the National Academy of Sciences,10.1073/pnas.0909088106,168
+1094,0,2005,Ming-Tao Lee,Many-Body Effect of Antimicrobial Peptides: On the Correlation Between Lipid’s Spontaneous Curvature and Pore Formation,Biophysical Journal,10.1529/biophysj.105.068080,168
+889,0,2008,Dan Sindhikara,Exchange frequency in replica exchange molecular dynamics,The Journal of Chemical Physics,10.1063/1.2816560,165
+1215,0,2012,Kyle A. Beauchamp,Simple few-state models reveal hidden complexity in protein folding,Proceedings of the National Academy of Sciences,10.1073/pnas.1201810109,164
+888,0,2005,Jodi E. Basner,How Enzyme Dynamics Helps Catalyze a Reaction in Atomic Detail: A Transition Path Sampling Study,Journal of the American Chemical Society,10.1021/ja043320h,163
+1338,0,1998,James Andrew McCammon,Theory of biomolecular recognition,Current Opinion in Structural Biology,10.1016/s0959-440x(98)80046-8,163
+1057,0,2008,Feng Liu,An experimental survey of the transition between two-state and downhill protein folding scenarios,Proceedings of the National Academy of Sciences,10.1073/pnas.0711908105,162
+284,0,1982,Peter G. Debrunner,Dynamics of Proteins,Annual Review of Physical Chemistry,10.1146/annurev.pc.33.100182.001435,162
+1658,0,2018,Florian Sittel,Perspective: Identification of collective variables and metastable states of protein dynamics,The Journal of Chemical Physics,10.1063/1.5049637,161
+219,0,1993,Mark D. Hill,Cooperative shared memory: software and hardware for scalable multiprocessors,ACM Transactions on Computer Systems,10.1145/161541.161544,161
+826,0,1991,Chyung Choi,Reaction path study of helix formation in tetrapeptides: Effect of side chains,The Journal of Chemical Physics,10.1063/1.460343,159
+1076,0,2004,Dietmar Paschek,Reversible Temperature and Pressure Denaturation of a Protein Fragment: A Replica Exchange Molecular Dynamics Simulation Study,Physical Review Letters,10.1103/physrevlett.93.238105,157
+368,0,2017,Wei Wang,Constructing Markov State Models to elucidate the functional conformational changes of complex biomolecules,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.1343,155
+1186,0,2008,Frank Noé,Probability distributions of molecular observables computed from Markov models,The Journal of Chemical Physics,10.1063/1.2916718,152
+793,0,2001,Sefika Banu Ozkan,Transition states and the meaning of Phi-values in protein folding kinetics.,Nature Structural Biology,10.1038/nsb0901-765,152
+834,0,2001,Jun Shimada,The folding thermodynamics and kinetics of crambin using an all-atom monte carlo simulation11Edited by A. R. Fersht,Journal of Molecular Biology,10.1006/jmbi.2001.4586,152
+951,0,2007,Jhih‐Wei Chu,Coarse-Grained Free Energy Functions for Studying Protein Conformational Changes: A Double-Well Network Model,Biophysical Journal,10.1529/biophysj.107.112060,149
+1028,0,2012,Thomas Kiefhaber,Dynamics and mechanisms of coupled protein folding and binding reactions,Current Opinion in Structural Biology,10.1016/j.sbi.2011.09.010,148
+353,0,1990,P. Gräber,Free Energy Transduction and Biochemical Cycle Kinetics.,Bioelectrochemistry and Bioenergetics,10.1016/0302-4598(80)85013-6,148
+1101,0,2007,Vance Wong,Evaluating Rotational Diffusion from Protein MD Simulations,The Journal of Physical Chemistry B,10.1021/jp0761564,147
+1600,0,2017,Neil J. Bruce,New approaches for computing ligand–receptor binding kinetics,Current Opinion in Structural Biology,10.1016/j.sbi.2017.10.001,146
+1620,0,2018,Dmitri Beglov,Exploring the structural origins of cryptic sites on proteins,Proceedings of the National Academy of Sciences,10.1073/pnas.1711490115,145
+1246,0,1989,ROBERT ALLAN MCCLELLAND,Flash-photolysis generation and reactivities of triarylmethyl and diarylmethyl cations in aqueous solutions,Journal of the American Chemical Society,10.1021/ja00193a031,145
+1205,0,1997,Shuanghong Huo,The MaxFlux algorithm for calculating variationally optimized reaction paths for conformational transitions in many body systems at finite temperature,The Journal of Chemical Physics,10.1063/1.474863,144
+32,0,1994,Jeffry D. Madura,Biological Applications of Electrostatic Calculations and Brownian Dynamics Simulations,Reviews in computational chemistry,10.1002/9780470125823.ch4,143
+1545,0,2017,Paul C. Bressloff,Stochastic switching in biology: from genotype to phenotype,Journal of Physics A Mathematical and Theoretical,10.1088/1751-8121/aa5db4,142
+1303,0,2004,Satoshi Sato,Testing protein-folding simulations by experiment: B domain of protein A,Proceedings of the National Academy of Sciences,10.1073/pnas.0401396101,142
+1901,0,2008,J.C. Phillips,Adapting a message-driven parallel application to GPU-accelerated clusters,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1109/sc.2008.5214716,141
+1442,0,2001,Kaichiro Kamiya,Open Channel Block of HERG K+ Channels by Vesnarinone,Molecular Pharmacology,10.1016/s0026-895x(24)23126-6,141
+1714,0,1991,ROBERT ALLAN MCCLELLAND,Reactivities of triarylmethyl and diarylmethyl cations with azide ion investigated by laser flash photolysis. Diffusion-controlled reactions,Journal of the American Chemical Society,10.1021/ja00003a040,141
+79,0,2007,Aryeh Warmflash,Umbrella sampling for nonequilibrium processes,The Journal of Chemical Physics,10.1063/1.2784118,139
+932,0,2014,Jordane Preto,Fast recovery of free energy landscapes via diffusion-map-directed molecular dynamics,Physical Chemistry Chemical Physics,10.1039/c3cp54520b,137
+1139,0,1999,Johan Evenäs,Backbone dynamics and energetics of a Calmodulin domain mutant exchanging between closed and open conformations,Journal of Molecular Biology,10.1006/jmbi.1999.2770,137
+550,0,2015,Juan M. Bello‐Rivas,Exact milestoning,The Journal of Chemical Physics,10.1063/1.4913399,136
+602,0,2023,Dhiman Ray,"Kinetics from Metadynamics: Principles, Applications, and Outlook",Journal of Chemical Theory and Computation,10.1021/acs.jctc.3c00660,134
+1251,0,2011,Jan-Hendrik Prinz,"Probing molecular kinetics with Markov models: metastable states, transition pathways and spectroscopic observables",Physical Chemistry Chemical Physics,10.1039/c1cp21258c,133
+1018,0,2007,Nina Singhal,Calculation of the distribution of eigenvalues and eigenvectors in Markovian state models for molecular dynamics,The Journal of Chemical Physics,10.1063/1.2740261,133
+1194,0,2005,Wei Zhang,Convergence of replica exchange molecular dynamics,The Journal of Chemical Physics,10.1063/1.2056540,133
+1306,0,2006,Jonathan N. Sachs,"Introduction to the Membrane Protein Reviews: The Interplay of Structure, Dynamics, and Environment in Membrane Protein Function",Annual Review of Biochemistry,10.1146/annurev.biochem.75.110105.142336,131
+40,0,2010,Daniel M. Zuckerman,Statistical Physics of Biomolecules: An Introduction,CRC Press eBooks,10.1201/b18849,129
+1466,0,2014,Michael Tong,Targeting Conformational Plasticity of Protein Kinases,ACS Chemical Biology,10.1021/cb500870a,127
+543,0,1972,Eugene J. Saletan,Theoretical Mechanics,American Journal of Physics,10.1119/1.1986841,125
+1526,0,2007,Eric Vanden‐Eijnden,Transition Path Theory,Springer eBooks,10.1007/3-540-35273-2_13,124
+938,0,2001,Michael R. Shirts,Mathematical Analysis of Coupled Parallel Simulations,Physical Review Letters,10.1103/physrevlett.86.4983,123
+1240,0,2006,Sergei V. Krivov,One-Dimensional Free-Energy Profiles of Complex Systems: Progress Variables that Preserve the Barriers,The Journal of Physical Chemistry B,10.1021/jp060039b,122
+1316,0,1998,Martin Austin Walsh,Refinement of Triclinic Hen Egg-White Lysozyme at Atomic Resolution,Acta Crystallographica Section D Biological Crystallography,10.1107/s0907444997013656,117
+1406,0,2009,Halvor S. Hansen,Using the local elevation method to construct optimized umbrella sampling potentials: Calculation of the relative free energies and interconversion barriers of glucopyranose ring conformers in water,Journal of Computational Chemistry,10.1002/jcc.21253,116
+1447,0,2015,Matthias Ernst,Contact- and distance-based principal component analysis of protein dynamics,The Journal of Chemical Physics,10.1063/1.4938249,114
+1237,0,1992,Richard E. Gillilan,"Shadowing, rare events, and rubber bands. A variational Verlet algorithm for molecular dynamics",The Journal of Chemical Physics,10.1063/1.463163,114
+206,0,2009,Fernando A. Escobedo,Transition path sampling and forward flux sampling. Applications to biological systems,Journal of Physics Condensed Matter,10.1088/0953-8984/21/33/333101,112
+993,0,2006,Markus Christen,Multigraining: An algorithm for simultaneous fine-grained and coarse-grained simulation of molecular systems,The Journal of Chemical Physics,10.1063/1.2187488,112
+1184,0,2012,Brian Olson,Basin Hopping as a General and Versatile Optimization Framework for the Characterization of Biological Macromolecules,Advances in Artificial Intelligence,10.1155/2012/674832,110
+956,0,2007,Weihua Zheng,Simulating replica exchange simulations of protein folding with a kinetic network model,Proceedings of the National Academy of Sciences,10.1073/pnas.0704418104,109
+990,0,2009,Edina Rosta,Error and efficiency of replica exchange molecular dynamics simulations,The Journal of Chemical Physics,10.1063/1.3249608,108
+230,0,1980,Hermann Grabert,Microdynamics and nonlinear stochastic processes of gross variables,Journal of Statistical Physics,10.1007/bf01011337,106
+831,0,2007,Ron Elber,A Milestoning Study of the Kinetics of an Allosteric Transition: Atomically Detailed Simulations of Deoxy Scapharca Hemoglobin,Biophysical Journal,10.1529/biophysj.106.101899,104
+1592,0,2017,Giulio Tesei,Self-association of a highly charged arginine-rich cell-penetrating peptide,Proceedings of the National Academy of Sciences,10.1073/pnas.1712078114,103
+1152,0,2005,Adrian H. Elcock,"Molecular simulations of cotranslational protein folding: fragment stabilities, folding cooperativity and trapping in the ribosome tunnel",PLoS Computational Biology,10.1371/journal.pcbi.0020098.eor,103
+1055,0,2015,David J. Wales,Perspective: Insight into reaction coordinates and dynamics from the potential energy landscape,The Journal of Chemical Physics,10.1063/1.4916307,102
+132,0,1959,Frederick T. Wall,Statistical Computation of Radii of Gyration and Mean Internal Dimensions of Polymer Molecules,The Journal of Chemical Physics,10.1063/1.1730022,102
+807,0,2015,Peter G. Bolhuis,Practical and conceptual path sampling issues,The European Physical Journal Special Topics,10.1140/epjst/e2015-02419-6,101
+1877,0,2021,Mingyuan Xu,De Novo Molecule Design Through the Molecular Generative Model Conditioned by 3D Information of Protein Binding Sites,Journal of Chemical Information and Modeling,10.1021/acs.jcim.0c01494,99
+1027,0,2009,David J. Wales,Calculating rate constants and committor probabilities for transition networks by graph transformation,The Journal of Chemical Physics,10.1063/1.3133782,99
+847,0,2001,Peter K. Eastman,Simulation of protein folding by reaction path annealing,The Journal of Chemical Physics,10.1063/1.1342162,99
+88,0,1989,Li Hua Zheng,Computer simulation of diffusion-controlled reactions in dispersions of spherical sinks,The Journal of Chemical Physics,10.1063/1.456532,98
+1110,0,2011,David L. Mobley,Let’s get honest about sampling,Journal of Computer-Aided Molecular Design,10.1007/s10822-011-9497-y,97
+1516,0,2002,Julia Wirmer,"Angular dependence of 1J(Ni,Cα i) and 2J(Ni,Cα (i − 1)) coupling constants measured in J-modulated HSQCs",Journal of Biomolecular NMR,10.1023/a:1015384805098,97
+2265,0,2022,Li Shao,"Hierarchical Materials from High Information Content Macromolecular Building Blocks: Construction, Dynamic Interventions, and Prediction",Chemical Reviews,10.1021/acs.chemrev.2c00220,96
+1159,0,2008,Ernesto E. Borrero,Optimizing the sampling and staging for simulations of rare events via forward flux sampling schemes,The Journal of Chemical Physics,10.1063/1.2953325,96
+2195,0,2021,Zoe Cournia,Free Energy Methods in Drug Discovery—Introduction,ACS symposium series,10.1021/bk-2021-1397.ch001,95
+131,0,1984,Noam Agmon,Residence times in diffusion processes,The Journal of Chemical Physics,10.1063/1.448113,95
+1742,0,2019,Hiraku Oshima,Replica-Exchange Umbrella Sampling Combined with Gaussian Accelerated Molecular Dynamics for Free-Energy Calculation of Biomolecules,Journal of Chemical Theory and Computation,10.1021/acs.jctc.9b00761,93
+1481,0,2012,Kazuhiro Takemura,Water Model Tuning for Improved Reproduction of Rotational Diffusion and NMR Spectral Density,The Journal of Physical Chemistry B,10.1021/jp301100g,93
+1119,0,2007,Ernesto E. Borrero,Reaction coordinates and transition pathways of rare events via forward flux sampling,The Journal of Chemical Physics,10.1063/1.2776270,93
+167,0,1999,Daniel M. Zuckerman,Dynamic reaction paths and rates through importance-sampled stochastic dynamics,The Journal of Chemical Physics,10.1063/1.480278,93
+54,0,1983,Gene Lamm,"Extended Brownian dynamics. II. Reactive, nonlinear diffusion",The Journal of Chemical Physics,10.1063/1.445002,91
+2910,0,1996,Andrzej Koliński,"Lattice Models of Protein Folding, Dynamics and Thermodynamics",,,90
+2311,0,2023,Christophe J. Chipot,Free Energy Methods for the Description of Molecular Processes,Annual Review of Biophysics,10.1146/annurev-biophys-062722-093258,89
+916,0,2012,Qinglin Duan,Optimization of replenishment policies for decentralized and centralized capacitated supply chains under various demands,International Journal of Production Economics,10.1016/j.ijpe.2012.11.004,89
+1863,0,2021,Wenning Wang,Recent advances in atomic molecular dynamics simulation of intrinsically disordered proteins,Physical Chemistry Chemical Physics,10.1039/d0cp05818a,88
+460,0,2020,Ron Elber,Milestoning: An Efficient Approach for Atomically Detailed Simulations of Kinetics in Biophysics,Annual Review of Biophysics,10.1146/annurev-biophys-121219-081528,87
+1689,0,2019,Alexander M. Berezhkovskii,"Committors, first-passage times, fluxes, Markov states, milestones, and all that",The Journal of Chemical Physics,10.1063/1.5079742,87
+1577,0,2017,Lukas S. Stelzl,Kinetics from Replica Exchange Molecular Dynamics Simulations,Journal of Chemical Theory and Computation,10.1021/acs.jctc.7b00372,85
+1106,0,2004,Pooja Arora,Fast and faster: A designed variant of the B‐domain of protein A folds in 3 μsec,Protein Science,10.1110/ps.03541304,85
+188,0,2009,Alex Dickson,Separating forward and backward pathways in nonequilibrium umbrella sampling,The Journal of Chemical Physics,10.1063/1.3244561,83
+1024,0,2000,Ron Elber,Temperature dependent reaction coordinates,The Journal of Chemical Physics,10.1063/1.481131,83
+2806,0,2025,Qi Sun,Computer-Aided Drug Discovery for Undruggable Targets,Chemical Reviews,10.1021/acs.chemrev.4c00969,82
+1114,0,2015,Lijiang Yang,From Thermodynamics to Kinetics: Enhanced Sampling of Rare Events,Accounts of Chemical Research,10.1021/ar500267n,82
+2413,0,2023,Wai Shing Tang,Conformational heterogeneity and probability distributions from single-particle cryo-electron microscopy,Current Opinion in Structural Biology,10.1016/j.sbi.2023.102626,81
+1594,0,1990,Peter Gräber,Free Energy Transduction and Biochemical Cycle Kinetics.,Journal of Electroanalytical Chemistry,10.1016/0022-0728(90)87497-8,80
+1100,0,2005,Daniele Moroni,Simultaneous computation of free energies and kinetics of rare events,Physical Review E,10.1103/physreve.71.056709,78
+1630,0,2018,Simon Brandt,Machine Learning of Biomolecular Reaction Coordinates,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.8b00759,77
+1072,0,2007,Scott A. Showalter,Toward Quantitative Interpretation of Methyl Side-Chain Dynamics from NMR by Molecular Dynamics Simulations,Journal of the American Chemical Society,10.1021/ja075976r,76
+2415,0,2023,Florencia Klein,The SIRAH force field: A suite for simulations of complex biological systems at the coarse-grained and multiscale levels,Journal of Structural Biology,10.1016/j.jsb.2023.107985,75
+957,0,2010,Kei Moritsugu,Scalable free energy calculation of proteins via multiscale essential sampling,The Journal of Chemical Physics,10.1063/1.3510519,75
+1400,0,2004,Masahide Yamamoto,The two major imatinib resistance mutations E255K and T315I enhance the activity of BCR/ABL fusion kinase,Biochemical and Biophysical Research Communications,10.1016/j.bbrc.2004.05.113,75
+1275,0,1998,Félix S. Csajka,Transition pathways in a many-body system: Application to hydrogen-bond breaking in water,The Journal of Chemical Physics,10.1063/1.476656,74
+780,0,2014,Vishal Agarwal,Solute Precipitate Nucleation: A Review of Theory and Simulation Advances,Advances in chemical physics,10.1002/9781118755815.ch03,73
+1469,0,2012,Yong Wang,Exploring the Dynamic Functional Landscape of Adenylate Kinase Modulated by Substrates,Journal of Chemical Theory and Computation,10.1021/ct300720s,72
+117,0,1992,Brock A. Luty,Diffusive reaction rates from Brownian dynamics simulations: Replacing the outer cutoff surface by an analytical treatment,The Journal of Chemical Physics,10.1063/1.463777,72
+801,0,2015,Gregory R. Bowman,Accurately modeling nanosecond protein dynamics requires at least microseconds of simulation,Journal of Computational Chemistry,10.1002/jcc.23973,71
+1351,0,2008,Ming Tang,Effects of Guanidinium–Phosphate Hydrogen Bonding on the Membrane‐Bound Structure and Activity of an Arginine‐Rich Membrane Peptide from Solid‐State NMR Spectroscopy,Angewandte Chemie International Edition,10.1002/anie.200705993,71
+1450,0,2016,Ron Elber,Perspective: Computer simulations of long time dynamics,The Journal of Chemical Physics,10.1063/1.4940794,70
+1534,0,2016,Brooke E. Husic,Optimized parameter selection reveals trends in Markov state models for protein folding,The Journal of Chemical Physics,10.1063/1.4967809,69
+1394,0,2012,Yi Xue,Microsecond Time-Scale Conformational Exchange in Proteins: Using Long Molecular Dynamics Trajectory To Simulate NMR Relaxation Dispersion Data,Journal of the American Chemical Society,10.1021/ja206442c,69
+696,0,2010,Unknown,Statistical physics of biomolecules: an introduction,Choice Reviews Online,10.5860/choice.48-2065,69
+930,0,2008,Xuhui Huang,Convergence of folding free energy landscapes via application of enhanced sampling methods in a distributed computing environment,The Journal of Chemical Physics,10.1063/1.2908251,69
+1664,0,2018,Steffen Wolf,Targeted Molecular Dynamics Calculations of Free Energy Profiles Using a Nonequilibrium Friction Correction,Journal of Chemical Theory and Computation,10.1021/acs.jctc.8b00835,68
+1368,0,1997,José Fernando Díaz,Calculation of pathways for the conformational transition between the GTP- and GDP-bound states of the Ha-ras-p21 protein: Calculations with explicit solvent simulations and comparison with calculations in vacuum,Proteins Structure Function and Bioinformatics,10.1002/(sici)1097-0134(199707)28:3<434::aid-prot12>3.0.co;2-i,68
+1424,0,2015,Ryuhei Harada,"Simple, yet powerful methodologies for conformational sampling of proteins",Physical Chemistry Chemical Physics,10.1039/c4cp05262e,67
+1134,0,2011,Ryuhei Harada,"Exploring the Folding Free Energy Landscape of a β-Hairpin Miniprotein, Chignolin, Using Multiscale Free Energy Landscape Calculation Method",The Journal of Physical Chemistry B,10.1021/jp2008623,67
+142,0,1998,Atipat Rojnuckarin,Brownian dynamics simulations of protein folding: Access to milliseconds time scale and beyond,Proceedings of the National Academy of Sciences,10.1073/pnas.95.8.4288,67
+2741,0,2025,Sonam Grewal,Molecular dynamics simulations: Insights into protein and protein ligand interactions,Advances in pharmacology,10.1016/bs.apha.2025.01.007,65
+1137,0,2007,Atsushi Suenaga,Folding Dynamics of 10‐Residue β‐Hairpin Peptide Chignolin,Chemistry - An Asian Journal,10.1002/asia.200600385,65
+1227,0,2011,Bernie J. Daigle,Automated estimation of rare event probabilities in biochemical systems,The Journal of Chemical Physics,10.1063/1.3522769,64
+829,0,2003,Ramón Crehuet,A temperature-dependent nudged-elastic-band algorithm,The Journal of Chemical Physics,10.1063/1.1571817,64
+1224,0,1999,Alessandro Sgambato,"Magnesium depletion causes growth inhibition, reduced expression of cyclin D1, and increased expression of P27KIP1 in normal but not in transformed mammary epithelial cells",Journal of Cellular Physiology,10.1002/(sici)1097-4652(199908)180:2<245::aid-jcp12>3.0.co;2-r,64
+1523,0,2016,Frank Noé,Commute Maps: Separating Slowly Mixing Molecular Configurations for Kinetic Modeling,Journal of Chemical Theory and Computation,10.1021/acs.jctc.6b00762,61
+945,0,2012,Baron Peters,Inertial likelihood maximization for reaction coordinates with high transmission coefficients,Chemical Physics Letters,10.1016/j.cplett.2012.10.051,60
+917,0,2011,Jan-Hendrik Prinz,Optimal use of data in parallel tempering simulations for the construction of discrete-state Markov models of biomolecular dynamics,The Journal of Chemical Physics,10.1063/1.3592153,60
+1963,0,2021,M. Frassek,An extended autoencoder model for reaction coordinate discovery in rare event molecular dynamics datasets,The Journal of Chemical Physics,10.1063/5.0058639,59
+267,0,2014,Weina Du,Sampling the equilibrium kinetic network of Trp-cage in explicit solvent,The Journal of Chemical Physics,10.1063/1.4874299,59
+845,0,2007,Arjan van der Vaart,Minimum free energy pathways and free energy profiles for conformational transitions based on atomistic molecular dynamics simulations,The Journal of Chemical Physics,10.1063/1.2719697,58
+431,0,2019,Mattia Bernetti,An Integrated Markov State Model and Path Metadynamics Approach To Characterize Drug Binding Processes,Journal of Chemical Theory and Computation,10.1021/acs.jctc.9b00450,56
+1493,0,2004,Keyang Ding,Protein Backbone 1HN−13Cα and 15N−13Cα Residual Dipolar and J Couplings: New Constraints for NMR Structure Determination,Journal of the American Chemical Society,10.1021/ja049049l,56
+1769,0,2020,Nilesh Varadan Orupattur,Catalytic materials and chemistry development using a synergistic combination of machine learning and ab initio methods,Computational Materials Science,10.1016/j.commatsci.2019.109474,55
+1857,0,2020,Tetsuro Nagai,Position-Dependent Diffusion Constant of Molecules in Heterogeneous Systems as Evaluated by the Local Mean Squared Displacement,Journal of Chemical Theory and Computation,10.1021/acs.jctc.0c00448,55
+1657,0,2018,Carolina Pavlovsky,Ponatinib in the Treatment of Chronic Myeloid Leukemia and Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia,Future Oncology,10.2217/fon-2018-0371,55
+879,0,2005,Kresten Lindorff‐Larsen,Interpreting Dynamically-Averaged Scalar Couplings in Proteins,Journal of Biomolecular NMR,10.1007/s10858-005-8873-0,55
+166,0,1994,D Brune,Hydrodynamic steering effects in protein association.,Proceedings of the National Academy of Sciences,10.1073/pnas.91.8.2930,55
+2657,0,2024,Runtong Qian,Alchemical Transformations and Beyond: Recent Advances and Real-World Applications of Free Energy Calculations in Drug Discovery,Journal of Chemical Information and Modeling,10.1021/acs.jcim.4c01024,54
+1823,0,2020,Marc Hoemberger,Cumulative mechanism of several major imatinib-resistant mutations in Abl kinase,Proceedings of the National Academy of Sciences,10.1073/pnas.1919221117,54
+1834,0,2020,Cristina García‐Simón,"Complete Dynamic Reconstruction of C60, C70, and (C59N)2 Encapsulation into an Adaptable Supramolecular Nanocapsule",Journal of the American Chemical Society,10.1021/jacs.0c07591,54
+1370,0,2014,Pierre Del Moral,Particle methods: An introduction with applications,ESAIM Proceedings,10.1051/proc/201444001,54
+1904,0,2021,Lennart Gundelach,Protein–ligand free energies of binding from full-protein DFT calculations: convergence and choice of exchange–correlation functional,Physical Chemistry Chemical Physics,10.1039/d1cp00206f,53
+918,0,2015,Ioana Mariuca Ilie,An elementary singularity-free Rotational Brownian Dynamics algorithm for anisotropic particles,The Journal of Chemical Physics,10.1063/1.4914322,53
+866,0,2003,Jia‐Cherng Horng,Rapid Cooperative Two-state Folding of a Miniature α–β Protein and Design of a Thermostable Variant,Journal of Molecular Biology,10.1016/s0022-2836(03)00028-7,53
+890,0,2001,Alexander V. Barzykin,Kinetics of diffusion-assisted reactions in microheterogeneous systems,Advances in Colloid and Interface Science,10.1016/s0001-8686(00)00053-1,53
+1023,0,1994,Helmut Grubmüller,Molecular dynamics of conformational substates for a simplified protein model,The Journal of Chemical Physics,10.1063/1.467427,53
+1301,0,2011,Sander Pronk,Copernicus: a new paradigm for parallel adaptive molecular dynamics,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1145/2063384.2063465,52
+964,0,2002,Sefika Banu Ozkan,Computing the transition state populations in simple protein models,Biopolymers,10.1002/bip.10280,52
+625,0,2024,Haohao Fu,Collective Variable-Based Enhanced Sampling: From Human Learning to Machine Learning,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.3c03542,51
+1814,0,2020,Benjamin R. Jagger,Predicting Ligand Binding Kinetics Using a Markovian Milestoning with Voronoi Tessellations Multiscale Approach,Journal of Chemical Theory and Computation,10.1021/acs.jctc.0c00495,51
+129,0,2014,Sean Lee Seyler,Sampling large conformational transitions: adenylate kinase as a testing ground,Molecular Simulation,10.1080/08927022.2014.919497,51
+221,0,2014,Kai Kratzer,The Flexible Rare Event Sampling Harness System (FRESHS),Computer Physics Communications,10.1016/j.cpc.2014.03.013,51
+835,0,2011,David R. Glowacki,Boxed Molecular Dynamics: Decorrelation Time Scales and the Kinetic Master Equation,Journal of Chemical Theory and Computation,10.1021/ct200011e,51
+2493,0,2023,Wenhui Shen,Enhanced sampling in molecular dynamics simulations and their latest applications—A review,Nano Research,10.1007/s12274-023-6311-9,50
+2024,0,2021,Jutta Rogal,Reaction coordinates in complex systems-a perspective,The European Physical Journal B,10.1140/epjb/s10051-021-00233-5,50
+1720,0,2019,Sanjib Paul,Phase space and collective variable based simulation methods for studies of rare events,Molecular Simulation,10.1080/08927022.2019.1634268,50
+1635,0,2018,Yinglong Miao,Acceleration of biomolecular kinetics in Gaussian accelerated molecular dynamics,The Journal of Chemical Physics,10.1063/1.5024217,50
+819,0,2011,Ernesto E. Borrero,Optimizing transition interface sampling simulations,The Journal of Chemical Physics,10.1063/1.3601919,50
+1682,0,2019,Duy Phuoc Tran,Dissociation Process of a MDM2/p53 Complex Investigated by Parallel Cascade Selection Molecular Dynamics and the Markov State Model,The Journal of Physical Chemistry B,10.1021/acs.jpcb.8b10309,49
+1712,0,2019,Shasha Mao,Maximizing diversity by transformed ensemble learning,Applied Soft Computing,10.1016/j.asoc.2019.105580,49
+1561,0,2017,Alex Dickson,Kinetics of Ligand Binding Through Advanced Computational Approaches: A Review,Current Topics in Medicinal Chemistry,10.2174/1568026617666170414142908,49
+969,0,2013,Robert T. McGibbon,Learning Kinetic Distance Metrics for Markov State Models of Protein Conformational Dynamics,Journal of Chemical Theory and Computation,10.1021/ct400132h,49
+967,0,2011,Jan-Hendrik Prinz,"Efficient Computation, Sensitivity, and Error Analysis of Committor Probabilities for Complex Dynamical Processes",Multiscale Modeling and Simulation,10.1137/100789191,49
+1607,0,2017,Duy Phuoc Tran,Protein–Ligand Dissociation Simulated by Parallel Cascade Selection Molecular Dynamics,Journal of Chemical Theory and Computation,10.1021/acs.jctc.7b00504,48
+1437,0,2000,Kathleen M. Darcy,"MAMMARY FIBROBLASTS STIMULATE GROWTH, ALVEOLAR MORPHOGENESIS, AND FUNCTIONAL DIFFERENTIATION OF NORMAL RAT MAMMARY EPITHELIAL CELLS",In Vitro Cellular & Developmental Biology - Animal,10.1007/bf02577526,47
+1898,0,2021,Dean Joseph Tantillo,Dynamic effects on organic reactivity—Pathways to (and from) discomfort,Journal of Physical Organic Chemistry,10.1002/poc.4202,45
+1612,0,2018,Yuqing Zheng,Multiple Pathways and Time Scales for Conformational Transitions in apo-Adenylate Kinase,Journal of Chemical Theory and Computation,10.1021/acs.jctc.7b01064,45
+1557,0,2017,Grisell Díaz Leines,Atomistic insight into the non-classical nucleation mechanism during solidification in Ni,The Journal of Chemical Physics,10.1063/1.4980082,45
+1395,0,2011,Jarek Juraszek,Transition path sampling of protein conformational changes,Chemical Physics,10.1016/j.chemphys.2011.04.032,44
+1002,0,2008,Pu Liu,Reconstructing atomistic detail for coarse-grained models with resolution exchange,The Journal of Chemical Physics,10.1063/1.2976663,44
+1778,0,2020,Benjamin R. Jagger,Multiscale simulation approaches to modeling drug–protein binding,Current Opinion in Structural Biology,10.1016/j.sbi.2020.01.014,43
+1073,0,2014,Ryuhei Harada,Protein folding pathways extracted by OFLOOD: Outlier FLOODing method,Journal of Computational Chemistry,10.1002/jcc.23773,43
+1938,0,2021,Haochuan Chen,Overcoming Free-Energy Barriers with a Seamless Combination of a Biasing Force and a Collective Variable-Independent Boost Potential,Journal of Chemical Theory and Computation,10.1021/acs.jctc.1c00103,42
+991,0,2007,Natalia Platonova,"TBX3, the gene mutated in ulnar-mammary syndrome, promotes growth of mammary epithelial cells via repression of p19ARF, independently of p53",Cell and Tissue Research,10.1007/s00441-006-0364-4,42
+855,0,2006,Jie Hu,Bias annealing: A method for obtaining transition paths de novo,The Journal of Chemical Physics,10.1063/1.2335640,42
+2015,0,2021,Harsh Bhatia,Generalizable coordination of large multiscale workflows: challenges and learnings at scale,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1145/3458817.3476210,41
+1741,0,2019,Kevin Jose Cheng,Distinct Substrate Transport Mechanism Identified in Homologous Sugar Transporters,The Journal of Physical Chemistry B,10.1021/acs.jpcb.9b08257,41
+1559,0,2017,Gerard Martínez-Rosell,"Drug Discovery and Molecular Dynamics: Methods, Applications and Perspective Beyond the Second Timescale",Current Topics in Medicinal Chemistry,10.2174/1568026617666170414142549,41
+1145,0,1993,Stephen C. Harvey,Conformational transitions using molecular dynamics with minimum biasing,Biopolymers,10.1002/bip.360330803,41
+1156,0,2014,Woo Kyun Kim,A practical perspective on the implementation of hyperdynamics for accelerated simulation,The Journal of Chemical Physics,10.1063/1.4862269,40
+919,0,2009,Daniel L. Ensign,Bayesian Single-Exponential Kinetics in Single-Molecule Experiments and Simulations,The Journal of Physical Chemistry B,10.1021/jp903107c,40
+1006,0,2008,Yi Qin Gao,Thermodynamics and kinetics simulations of multi-time-scale processes for complex systems,International Reviews in Physical Chemistry,10.1080/01442350801920334,40
+892,0,2007,Ramón Crehuet,A Transition Path Sampling Study of the Reaction Catalyzed by the Enzyme Chorismate Mutase,The Journal of Physical Chemistry B,10.1021/jp067629u,40
+2382,0,2023,Anthony J. Dominic,Memory Unlocks the Future of Biomolecular Dynamics: Transformative Tools to Uncover Physical Insights Accurately and Efficiently,Journal of the American Chemical Society,10.1021/jacs.3c01095,39
+1426,0,2006,Hyunbum Jang,Multiple pathways in conformational transitions of the alanine dipeptide: An application of dynamic importance sampling,Journal of Computational Chemistry,10.1002/jcc.20444,39
+2294,0,2022,Jean‐Pierre Vilardaga,Molecular Mechanisms of PTH/PTHrP Class B GPCR Signaling and Pharmacological Implications,Endocrine Reviews,10.1210/endrev/bnac032,38
+1871,0,2021,Zhitao Feng,Dynamic Effects on Migratory Aptitudes in Carbocation Reactions,Journal of the American Chemical Society,10.1021/jacs.0c11850,38
+1583,0,2017,Anders Lervik,"PyRETIS: A well‐done, medium‐sized python library for rare events",Journal of Computational Chemistry,10.1002/jcc.24900,38
+1518,0,2016,Dong Ming Guo,The Added Value of Assessing Ligand–Receptor Binding Kinetics in Drug Discovery,ACS Medicinal Chemistry Letters,10.1021/acsmedchemlett.6b00273,38
+965,0,2006,Chenyue Xing,On the calculation of time correlation functions by potential scaling,The Journal of Chemical Physics,10.1063/1.2159476,38
+104,0,2005,James MacFadyen,A skewed-momenta method to efficiently generate conformational-transition trajectories,The Journal of Chemical Physics,10.1063/1.2000242,38
+2223,0,2022,Stephen Gow,A review of reinforcement learning in chemistry,Digital Discovery,10.1039/d2dd00047d,37
+1610,0,2018,Yuki Takechi‐Haraya,Current Understanding of Physicochemical Mechanisms for Cell Membrane Penetration of Arginine-rich Cell Penetrating Peptides: Role of Glycosaminoglycan Interactions,Current Protein and Peptide Science,10.2174/1389203719666180112100747,37
+1280,0,2010,Konstantin V. Klenin,Modelling proteins: Conformational sampling and reconstruction of folding kinetics,Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics,10.1016/j.bbapap.2010.09.006,37
+2696,0,2024,Jing Yan,High-fidelity 3D sonar point cloud data reconstruction of underwater bridge caisson foundation for scour inspection,Measurement,10.1016/j.measurement.2024.116480,36
+2371,0,2023,Kirill Shmilovich,Girsanov Reweighting Enhanced Sampling Technique (GREST): On-the-Fly Data-Driven Discovery of and Enhanced Sampling in Slow Collective Variables,The Journal of Physical Chemistry A,10.1021/acs.jpca.3c00505,36
+2222,0,2022,Meng Li,Deciphering the binding mechanism of inhibitors of the SARS-CoV-2 main protease through multiple replica accelerated molecular dynamics simulations and free energy landscapes,Physical Chemistry Chemical Physics,10.1039/d2cp03446h,36
+1532,0,2016,Song Liu,Adaptive partitioning by local density-peaks: An efficient density-based clustering algorithm for analyzing molecular dynamics trajectories,Journal of Computational Chemistry,10.1002/jcc.24664,36
+1376,0,2012,Mohsen Pourmousa,Molecular Dynamic Studies of Transportan Interacting with a DPPC Lipid Bilayer,The Journal of Physical Chemistry B,10.1021/jp310255r,36
+2531,0,2024,Kaihua Zhang,Machine Learning in Soft Matter: From Simulations to Experiments,Advanced Functional Materials,10.1002/adfm.202315177,35
+1957,0,2021,Harshita Rastogi,"Understanding enzyme behavior in a crowded scenario through modulation in activity, conformation and dynamics",Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics,10.1016/j.bbapap.2021.140699,34
+1476,0,2014,Albert C. Pan,Assessing the Accuracy of Two Enhanced Sampling Methods Using EGFR Kinase Transition Pathways: The Influence of Collective Variable Choice,Journal of Chemical Theory and Computation,10.1021/ct500223p,34
+893,0,2011,Min K. Roh,State-dependent doubly weighted stochastic simulation algorithm for automatic characterization of stochastic biochemical rare events,The Journal of Chemical Physics,10.1063/1.3668100,34
+2030,0,2021,Dean Joseph Tantillo,Beyond transition state theory—Non-statistical dynamic effects for organic reactions,Advances in physical organic chemistry,10.1016/bs.apoc.2021.06.001,33
+1798,0,2017,Baron Peters,Kramers theory,Elsevier eBooks,10.1016/b978-0-44-456349-1.00016-7,33
+867,0,2014,Marco Bacci,A molecular simulation protocol to avoid sampling redundancy and discover new states,Biochimica et Biophysica Acta (BBA) - General Subjects,10.1016/j.bbagen.2014.08.013,33
+1349,0,2010,Andrew J. Rader,Coarse-grained models: getting more with less,Current Opinion in Pharmacology,10.1016/j.coph.2010.09.003,33
+1869,0,2020,Ron Elber,Modeling molecular kinetics with Milestoning,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.1512,31
+1477,0,2016,Yasuhiro Matsunaga,Dimensionality of Collective Variables for Describing Conformational Changes of a Multi-Domain Protein,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.6b00317,31
+1310,0,2014,David W. H. Swenson,A replica exchange transition interface sampling method with multiple interface sets for investigating networks of rare events,The Journal of Chemical Physics,10.1063/1.4890037,31
+1445,0,2014,Sarma L. Rani,A stochastic model for the relative motion of high Stokes number particles in isotropic turbulence,Journal of Fluid Mechanics,10.1017/jfm.2014.461,30
+2886,0,2025,Yuqi Li,Efficient Medical Image Segmentation via Reinforcement Learning-Driven K-Space Sampling,IEEE Transactions on Emerging Topics in Computational Intelligence,10.1109/tetci.2025.3621221,29
+2009,0,2021,Qianqian Zhang,The prediction of protein–ligand unbinding for modern drug discovery,Expert Opinion on Drug Discovery,10.1080/17460441.2022.2002298,29
+1708,0,2019,Agostino Bruno,Unbinding of Translocator Protein 18 kDa (TSPO) Ligands: From in Vitro Residence Time to in Vivo Efficacy via in Silico Simulations,ACS Chemical Neuroscience,10.1021/acschemneuro.9b00300,29
+1613,0,2018,Ilona Christy Unarta,Molecular mechanisms of RNA polymerase II transcription elongation elucidated by kinetic network models,Current Opinion in Structural Biology,10.1016/j.sbi.2018.01.002,29
+1624,0,2018,Shriyaa Mittal,Recruiting machine learning methods for molecular simulations of proteins,Molecular Simulation,10.1080/08927022.2018.1448976,29
+1446,0,2015,Vikram Thapar,Simultaneous estimation of free energies and rates using forward flux sampling and mean first passage times,The Journal of Chemical Physics,10.1063/1.4938248,29
+1494,0,2015,Jun Zhang,Dynamics and Kinetics Study of “In-Water” Chemical Reactions by Enhanced Sampling of Reactive Trajectories,The Journal of Physical Chemistry B,10.1021/acs.jpcb.5b08690,29
+1103,0,2007,Weihan Wang,Glucocorticoid induced expression of connective tissue growth factor contributes to lactogenic differentiation of mouse mammary epithelial cells,Journal of Cellular Physiology,10.1002/jcp.21159,29
+192,0,1989,Bo G. Cartling,From short-time molecular dynamics to long-time stochastic dynamics of proteins,The Journal of Chemical Physics,10.1063/1.457476,29
+2405,0,2023,Sudip Kumar Das,How and When Does an Enzyme React? Unraveling α-Amylase Catalytic Activity with Enhanced Sampling Techniques,ACS Catalysis,10.1021/acscatal.3c01473,28
+1999,0,2021,Daniel Sharpe,Nearly reducible finite Markov chains: Theory and algorithms,The Journal of Chemical Physics,10.1063/5.0060978,28
+1520,0,2016,Ryuhei Harada,A Fast Convergent Simulated Annealing Algorithm for Protein-Folding: Simulated Annealing Outlier FLOODing (SA-OFLOOD) Method,Bulletin of the Chemical Society of Japan,10.1246/bcsj.20160244,28
+1439,0,2015,Ryuhei Harada,Sparsity‐weighted outlier FLOOD ing ( OFLOOD ) method: Efficient rare event sampling method using sparsity of distribution,Journal of Computational Chemistry,10.1002/jcc.24255,28
+1418,0,2014,Takeshi Baba,On the induced‐fit mechanism of substrate‐enzyme binding structures of nylon‐oligomer hydrolase,Journal of Computational Chemistry,10.1002/jcc.23614,28
+2088,0,2022,Soumajit Dutta,Distinct Binding Mechanisms for Allosteric Sodium Ion in Cannabinoid Receptors,ACS Chemical Neuroscience,10.1021/acschemneuro.1c00760,27
+1936,0,2021,Krzysztof Rojek,AI-Accelerated CFD Simulation Based on OpenFOAM and CPU/GPU Computing,Lecture notes in computer science,10.1007/978-3-030-77964-1_29,27
+1618,0,2018,Chung F. Wong,Steered molecular dynamics simulations for uncovering the molecular mechanisms of drug dissociation and for drug screening: A test on the focal adhesion kinase,Journal of Computational Chemistry,10.1002/jcc.25201,27
+1608,0,2017,Toru Ekimoto,Multiscale molecular dynamics simulations of rotary motor proteins,Biophysical Reviews,10.1007/s12551-017-0373-4,27
+1242,0,2014,Ioana Mariuca Ilie,Rotational Brownian Dynamics simulations of clathrin cage formation,The Journal of Chemical Physics,10.1063/1.4891306,27
+1293,0,2007,Jeremiah A. Nummela,Exact Low-Force Kinetics from High-Force Single-Molecule Unfolding Events,Biophysical Journal,10.1529/biophysj.107.111658,27
+876,0,2005,Shibasish Chowdhury,Denatured-State Ensemble and the Early-Stage Folding of the G29A Mutant of the B-Domain of Protein A,The Journal of Physical Chemistry B,10.1021/jp0449814,27
+2613,0,2024,Yunhui Ge,Exploring the Application of SiteMap and Site Finder for Focused Cryptic Pocket Identification,The Journal of Physical Chemistry B,10.1021/acs.jpcb.4c00664,26
+1933,0,2021,Ariane Nunes‐Alves,Prediction of the Drug–Target Binding Kinetics for Flexible Proteins by Comparative Binding Energy Analysis,Journal of Chemical Information and Modeling,10.1021/acs.jcim.1c00639,26
+1992,0,2021,Matthew C. Chan,Markov state modeling of membrane transport proteins,Journal of Structural Biology,10.1016/j.jsb.2021.107800,26
+337,0,2016,Aaron T. Frank,Reaction Coordinate-Free Approach to Recovering Kinetics from Potential-Scaled Simulations: Application of Kramers’ Rate Theory,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6b02654,26
+921,0,2014,Ryuhei Harada,Fluctuation Flooding Method (FFM) for accelerating conformational transitions of proteins,The Journal of Chemical Physics,10.1063/1.4869594,26
+2817,0,2025,Suraj Kumar Parhi,Interfacial Insights and Remediation Strategies through Molecular Dynamics Probing of Nanoparticle Interactions in Cementitious Matrices: A Review,Langmuir,10.1021/acs.langmuir.5c01813,25
+1287,0,2014,Victor Ovchinnikov,Investigations of α-helix↔β-sheet transition pathways in a miniprotein using the finite-temperature string method,The Journal of Chemical Physics,10.1063/1.4871685,25
+1070,0,2011,Ludovico Sutto,A Hybrid All-Atom Structure-Based Model for Protein Folding and Large Scale Conformational Transitions,Journal of Chemical Theory and Computation,10.1021/ct200547m,25
+2835,0,2025,Md. Asraful Haque,Generative artificial intelligence and large language models in smart healthcare applications: Current status and future perspectives,Computational Biology and Chemistry,10.1016/j.compbiolchem.2025.108611,24
+1508,0,2015,Juyong Lee,The Atomistic Mechanism of Conformational Transition of Adenylate Kinase Investigated by Lorentzian Structure-Based Potential,Journal of Chemical Theory and Computation,10.1021/acs.jctc.5b00268,24
+1081,0,1996,Nathalie Cella,The lysosomal-associated membrane protein LAMP-1 is a novel differentiation marker for HC11 mouse mammary epithelial cells,Differentiation,10.1046/j.1432-0436.1996.6120113.x,24
+2426,0,2023,Nawavi Naleem,An exploration of machine learning models for the determination of reaction coordinates associated with conformational transitions,The Journal of Chemical Physics,10.1063/5.0147597,23
+1896,0,2021,Arnab Mukherjee,Protamine Binding Site on DNA: Molecular Dynamics Simulations and Free Energy Calculations with Full Atomistic Details,The Journal of Physical Chemistry B,10.1021/acs.jpcb.0c09166,23
+1826,0,2020,Pablo Herrera-Nieto,Small Molecule Modulation of Intrinsically Disordered Proteins Using Molecular Dynamics Simulations,Journal of Chemical Information and Modeling,10.1021/acs.jcim.0c00381,23
+1507,0,2016,Sunhwan Jo,Leveraging the Information from Markov State Models To Improve the Convergence of Umbrella Sampling Simulations,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6b05125,23
+885,0,2013,Alexander T. Hawk,Computation of transit times using the milestoning method with applications to polymer translocation,The Journal of Chemical Physics,10.1063/1.4817200,23
+955,0,2007,Xiaobing Fu,Pseudoepitheliomatous hyperplasia formation after skin injury,Wound Repair and Regeneration,10.1111/j.1524-475x.2006.00183.x,23
+2196,0,2022,Saheb Dutta,All-Atom Simulations of Human ACE2-Spike Protein RBD Complexes for SARS-CoV-2 and Some of its Variants: Nature of Interactions and Free Energy Diagrams for Dissociation of the Protein Complexes,The Journal of Physical Chemistry B,10.1021/acs.jpcb.2c00833,22
+1788,0,2020,Duy Phuoc Tran,Kinetic Selection and Relaxation of the Intrinsically Disordered Region of a Protein upon Binding,Journal of Chemical Theory and Computation,10.1021/acs.jctc.9b01203,22
+1590,0,2017,Muhammad Jan Akhunzada,The role of Tat peptide self-aggregation in membrane pore stabilization: insights from a computational study,Physical Chemistry Chemical Physics,10.1039/c7cp05103d,22
+1506,0,2016,Lizhe Zhu,Elucidation of the conformational dynamics of multi-body systems by construction of Markov state models,Physical Chemistry Chemical Physics,10.1039/c6cp02545e,22
+2854,0,2025,Chenshuo Song,"Loop engineering in enzymes from structure to function: Mechanisms, methodologies, and engineering strategies",Biotechnology Advances,10.1016/j.biotechadv.2025.108716,21
+1926,0,2021,Matías Rodrigo Machado,"Fighting viruses with computers, right now",Current Opinion in Virology,10.1016/j.coviro.2021.04.004,21
+1663,0,2018,Steven L. Murkli,Cucurbit[8]uril•guest complexes: blinded dataset for the SAMPL6 challenge,Supramolecular chemistry,10.1080/10610278.2018.1516885,21
+1479,0,2016,Zhiqiang Tan,Locally weighted histogram analysis and stochastic solution for large-scale multi-state free energy estimation,The Journal of Chemical Physics,10.1063/1.4939768,21
+1480,0,2011,Riccardo Scalco,Equilibrium Distribution from Distributed Computing (Simulations of Protein Folding),The Journal of Physical Chemistry B,10.1021/jp2014918,21
+1179,0,2004,Maria Grazia Cerrito,Dominant negative Ras enhances lactogenic hormone‐induced differentiation by blocking activation of the Raf–Mek–Erk signal transduction pathway,Journal of Cellular Physiology,10.1002/jcp.20077,21
+2331,0,2023,Ruofan Chen,Reinforcing supramolecular hyaluronan hydrogels via kinetically interlocking multiple-units strategy,Carbohydrate Polymers,10.1016/j.carbpol.2023.120703,20
+2097,0,2022,Maryssa A. Beasley,Physicochemical Properties Altered by the Tail Group of Lipid Membranes Influence Huntingtin Aggregation and Lipid Binding,The Journal of Physical Chemistry B,10.1021/acs.jpcb.1c10254,20
+2123,0,2022,Soham Chakraborty,Connecting conformational stiffness of the protein with energy landscape by a single experiment,Nanoscale,10.1039/d1nr07582a,20
+2234,0,2022,Emma Goulard Coderc de Lacam,When the Dust Has Settled: Calculation of Binding Affinities from First Principles for SARS-CoV-2 Variants with Quantitative Accuracy,Journal of Chemical Theory and Computation,10.1021/acs.jctc.2c00604,20
+1865,0,2021,Fei Her Choong,Cell‐Penetrating Peptides: Correlation between Peptide‐Lipid Interaction and Penetration Efficiency,ChemPhysChem,10.1002/cphc.202000873,20
+2055,0,2021,Varun Kapoor,Proceedings of the 20th Python in Science Conference,Proceedings of the Python in Science Conferences,10.25080/majora-1b6fd038-02b,20
+412,0,2019,Marco Bacci,On the removal of initial state bias from simulation data,The Journal of Chemical Physics,10.1063/1.5063556,20
+936,0,1997,Zhichen Xu,Shared-memory performance profiling,ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming,10.1145/263764.263796,20
+205,0,1980,Scott H. Northrup,Efficient trajectory simulation methods for diffusional barrier crossing processes,The Journal of Chemical Physics,10.1063/1.439698,20
+2755,0,2025,Jing Yan,A sonar point cloud driven method for underwater steel structure defects inspection,Ocean Engineering,10.1016/j.oceaneng.2025.120770,19
+2505,0,2023,Junichi Ono,Conformational Dynamics in Proteins: Entangled Slow Fluctuations and Nonequilibrium Reaction Events,The Journal of Physical Chemistry B,10.1021/acs.jpcb.3c05307,19
+1854,0,2021,Caroline Desgranges,"Towards a machine learned thermodynamics: exploration of free energy landscapes in molecular fluids, biological systems and for gas storage and separation in metal–organic frameworks",Molecular Systems Design & Engineering,10.1039/d0me00134a,19
+1960,0,2021,R. Gregor Weiß,N-Glycosylation Enhances Conformational Flexibility of Protein Disulfide Isomerase Revealed by Microsecond Molecular Dynamics and Markov State Modeling,The Journal of Physical Chemistry B,10.1021/acs.jpcb.1c04279,19
+436,0,2019,Surl-Hee Ahn,Foldamer Architectures of Triazine-Based Sequence-Defined Polymers Investigated with Molecular Dynamics Simulations and Enhanced Sampling Methods,The Journal of Physical Chemistry B,10.1021/acs.jpcb.9b06067,19
+1641,0,2018,Andrew P. Collins,Complete Coupled Binding–Folding Pathway of the Intrinsically Disordered Transcription Factor Protein Brinker Revealed by Molecular Dynamics Simulations and Markov State Modeling,Biochemistry,10.1021/acs.biochem.8b00441,19
+1565,0,2017,Ritaban Halder,Modulation of the Conformational Dynamics of Apo-Adenylate Kinase through a π–Cation Interaction,The Journal of Physical Chemistry B,10.1021/acs.jpcb.7b01736,19
+1273,0,2012,Nathan Eidelson,Transition path sampling for discrete master equations with absorbing states,The Journal of Chemical Physics,10.1063/1.4747338,19
+2704,0,2024,Habib Ullah,"Dynamic interaction of antibiotic resistance between plant microbiome and organic fertilizers: sources, dissemination, and health risks",World Journal of Microbiology and Biotechnology,10.1007/s11274-024-04214-5,18
+2100,0,2022,Gennady M. Verkhivker,Landscape-Based Protein Stability Analysis and Network Modeling of Multiple Conformational States of the SARS-CoV-2 Spike D614G Mutant: Conformational Plasticity and Frustration-Induced Allostery as Energetic Drivers of Highly Transmissible Spike Variants,Journal of Chemical Information and Modeling,10.1021/acs.jcim.2c00124,18
+2301,0,2022,Ededet A. Eno,"Investigation on the molecular, electronic and spectroscopic properties of rosmarinic acid: an intuition from an experimental and computational perspective",Journal of Biomolecular Structure and Dynamics,10.1080/07391102.2022.2154841,18
+1606,0,2017,A. Uyar,Long-Range Changes in Neurolysin Dynamics Upon Inhibitor Binding,Journal of Chemical Theory and Computation,10.1021/acs.jctc.7b00944,18
+1489,0,2016,Victor Ovchinnikov,A Simple and Accurate Method To Calculate Free Energy Profiles and Reaction Rates from Restrained Molecular Simulations of Diffusive Processes,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6b02139,18
+1533,0,2016,Emmanuel Sapin,From Optimization to Mapping: An Evolutionary Algorithm for Protein Energy Landscapes,IEEE Transactions on Computational Biology and Bioinformatics,10.1109/tcbb.2016.2628745,18
+78,0,1994,Scott H. Northrup,Hydrodynamic motions of large molecules,Current Opinion in Structural Biology,10.1016/s0959-440x(94)90319-0,18
+2526,0,2024,Jianzhong Chen,Roles of Accelerated Molecular Dynamics Simulations in Predictions of Binding Kinetic Parameters,Mini-Reviews in Medicinal Chemistry,10.2174/0113895575252165231122095555,17
+2542,0,2024,Thomas L. Beck,All-Atom Biomolecular Simulation in the Exascale Era,Journal of Chemical Theory and Computation,10.1021/acs.jctc.3c01276,17
+2490,0,2023,Rohit Modee,MolOpt: Autonomous Molecular Geometry Optimization Using Multiagent Reinforcement Learning,The Journal of Physical Chemistry B,10.1021/acs.jpcb.3c04771,17
+2054,0,2022,Murali Aarthy,Envisaging the conformational space of proteins by coupling machine learning and molecular dynamics,Elsevier eBooks,10.1016/b978-0-323-90264-9.00028-3,17
+2010,0,2021,Xin Lv,A reinforcement learning based method for protein’s differential scanning calorimetry signal separation,Measurement,10.1016/j.measurement.2021.110391,17
+1835,0,2020,Francesco Cocina,Sapphire -Based Clustering,Journal of Chemical Theory and Computation,10.1021/acs.jctc.0c00604,17
+1870,0,2020,Navjeet Ahalawat,An Appraisal of Computer Simulation Approaches in Elucidating Biomolecular Recognition Pathways,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.0c02785,17
+1755,0,2019,Line Abildgaard Ryberg,Investigations of Albumin–Insulin Detemir Complexes Using Molecular Dynamics Simulations and Free Energy Calculations,Molecular Pharmaceutics,10.1021/acs.molpharmaceut.9b00839,17
+816,0,2015,Yu‐ming M. Huang,Electrostatic steering enhances the rate of cAMP binding to phosphodiesterase: Brownian dynamics modeling,Protein Science,10.1002/pro.2794,17
+1196,0,2012,Anu Nagarajan,Coarse‐Grained Simulations of Transitions in the E2‐to‐E1 Conformations for Ca ATPase (SERCA) Show Entropy–Enthalpy Compensation,Journal of Molecular Biology,10.1016/j.jmb.2012.06.001,17
+2397,0,2023,Arup Mondal,Hybrid computational methods combining experimental information with molecular dynamics,Current Opinion in Structural Biology,10.1016/j.sbi.2023.102609,16
+2441,0,2023,Hung Van Nguyen,Interaction of SARS-CoV-2 with host cells and antibodies: experiment and simulation,Chemical Society Reviews,10.1039/d1cs01170g,16
+2498,0,2023,Ananthaselvam Azhagesan,Assessment of polystyrene nano plastics effect on human salivary α-amylase structural alteration: Insights from an in vitro and in silico study,International Journal of Biological Macromolecules,10.1016/j.ijbiomac.2023.128650,16
+1895,0,2021,Yunhui Ge,Markov State Models to Elucidate Ligand Binding Mechanism,Methods in molecular biology,10.1007/978-1-0716-1209-5_14,16
+1815,0,2020,Juanrong Zhang,Frontier Expansion Sampling: A Method to Accelerate Conformational Search by Identifying Novel Seed Structures for Restart,Journal of Chemical Theory and Computation,10.1021/acs.jctc.0c00064,16
+1852,0,2020,Jordi Juárez‐Jiménez,Combining Virtual Reality Visualization with Ensemble Molecular Dynamics to Study Complex Protein Conformational Changes,Journal of Chemical Information and Modeling,10.1021/acs.jcim.0c00221,16
+1650,0,2018,Lin Frank Song,Detailed potential of mean force studies on host–guest systems from the SAMPL6 challenge,Journal of Computer-Aided Molecular Design,10.1007/s10822-018-0153-7,16
+1540,0,2016,Michael P. Fay,Confidence intervals for directly standardized rates using mid‐p gamma intervals,Biometrical Journal,10.1002/bimj.201600111,16
+1541,0,2016,Hyun Deok Song,Finite Temperature String Method with Umbrella Sampling: Application on a Side Chain Flipping in Mhp1 Transporter,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6b08568,16
+1010,0,2015,Martin J. Field,Technical advances in molecular simulation since the 1980s,Archives of Biochemistry and Biophysics,10.1016/j.abb.2015.03.005,16
+1142,0,2012,L. Dupuis,Understanding the EF-hand closing pathway using non-biased interatomic potentials,The Journal of Chemical Physics,10.1063/1.3671986,16
+1038,0,1998,Keith L. Constantine,Extensive molecular dynamics simulations of a β-hairpin-forming peptide,Biopolymers,10.1002/(sici)1097-0282(199610)39:4<591::aid-bip9>3.0.co;2-s,16
+738,0,2026,Soumendranath Bhakat,Accelerated Sampling of Protein Dynamics Using BioEmu-Augmented Molecular Simulation,Journal of Chemical Information and Modeling,10.1021/acs.jcim.6c01000,15
+2707,0,2024,Gautham Dharuman,MProt-DPO: Breaking the ExaFLOPS Barrier for Multimodal Protein Design Workflows with Direct Preference Optimization,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1109/sc41406.2024.00013,15
+2280,0,2022,Kyeong‐Jun Jeong,Predictive Molecular Models for Charged Materials Systems: From Energy Materials to Biomacromolecules,Advanced Materials,10.1002/adma.202204272,15
+2040,0,2021,Ganesh Lalitha Gopalakrishnan,Guarding Numerics Amidst Rising Heterogeneity,IEEE/ACM International Workshop on Software Correctness for HPC Applications (Correctness),10.1109/correctness54621.2021.00007,15
+1734,0,2019,Yang Zhou,Enhanced Sampling Simulations of Ligand Unbinding Kinetics Controlled by Protein Conformational Changes,Journal of Chemical Information and Modeling,10.1021/acs.jcim.9b00523,15
+1522,0,2016,Bhaskar Dasgupta,Flexible binding simulation by a novel and improved version of virtual-system coupled adaptive umbrella sampling,Chemical Physics Letters,10.1016/j.cplett.2016.09.059,15
+2584,0,2024,Nishank Raisinghani,AlphaFold2 Predictions of Conformational Ensembles and Atomistic Simulations of the SARS-CoV-2 Spike XBB Lineages Reveal Epistatic Couplings between Convergent Mutational Hotspots that Control ACE2 Affinity,The Journal of Physical Chemistry B,10.1021/acs.jpcb.4c01341,14
+2261,0,2022,Subhomoi Borkotoky,Unravelling viral dynamics through molecular dynamics simulations - A brief overview,Biophysical Chemistry,10.1016/j.bpc.2022.106908,14
+2292,0,2022,Huafeng Xu,The slow but steady rise of binding free energy calculations in drug discovery,Journal of Computer-Aided Molecular Design,10.1007/s10822-022-00494-x,14
+519,0,2021,Alexander Brace,Stream-AI-MD: streaming AI-driven adaptive molecular simulations for heterogeneous computing platforms,Platform for Advanced Scientific Computing Conference (PASC),10.1145/3468267.3470578,14
+1772,0,2020,P. Buijsman,Transition path sampling for non-equilibrium dynamics without predefined reaction coordinates,The Journal of Chemical Physics,10.1063/1.5130760,14
+1451,0,2016,Zhong‐Ru Xie,Multiscale Model for the Assembly Kinetics of Protein Complexes,The Journal of Physical Chemistry B,10.1021/acs.jpcb.5b08962,14
+1504,0,2016,Christopher C. Roberts,Analysis of Ligand–Receptor Association and Intermediate Transfer Rates in Multienzyme Nanostructures with All-Atom Brownian Dynamics Simulations,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6b02236,14
+773,0,2015,Yasuhiro Matsunaga,Sequential data assimilation for single-molecule FRET photon-counting data,The Journal of Chemical Physics,10.1063/1.4921983,14
+1443,0,2015,Julia Romanowska,Computational Approaches for Studying Drug Binding Kinetics,Methods and principles in medicinal chemistry,10.1002/9783527673025.ch11,14
+2731,0,2025,Jesús A. Izaguirre,Discovery of molecular glues by modeling ternary complex conformational ensembles and thermodynamic stability,Research Square,10.21203/rs.3.rs-8207749/v1,13
+2651,0,2024,Mingyuan Zhang,Enhanced Sampling of Biomolecular Slow Conformational Transitions Using Adaptive Sampling and Machine Learning,Journal of Chemical Theory and Computation,10.1021/acs.jctc.4c00764,13
+2708,0,2024,Hanfei Yu,Stellaris: Staleness-Aware Distributed Reinforcement Learning with Serverless Computing,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1109/sc41406.2024.00045,13
+2392,0,2023,Bálint Mészáros,Recent breakthroughs in computational structural biology harnessing the power of sequences and structures,Current Opinion in Structural Biology,10.1016/j.sbi.2023.102608,13
+2256,0,2022,Marian Vincenzi,Looking for SARS-CoV-2 Therapeutics Through Computational Approaches,Current Medicinal Chemistry,10.2174/0929867329666221004104430,13
+1947,0,2021,Matteo Castelli,New perspectives in cancer drug development: computational advances with an eye to design,RSC Medicinal Chemistry,10.1039/d1md00192b,13
+1978,0,2021,Min Zhou,Molecular dynamics study of conformation transition from helix to sheet of Aβ42 peptide,Journal of Molecular Graphics and Modelling,10.1016/j.jmgm.2021.108027,13
+1985,0,2021,Rajesh Dutta,What can we learn from transition path time distributions for protein folding and unfolding?,Physical Chemistry Chemical Physics,10.1039/d1cp03296h,13
+1987,0,2021,Johanna L. Miller,Deep learning opens up protein science’s next frontiers,Physics Today,10.1063/pt.3.4850,13
+1745,0,2019,Haomiao Zhang,FSATOOL: A useful tool to do the conformational sampling and trajectory analysis work for biomolecules,Journal of Computational Chemistry,10.1002/jcc.26083,13
+1750,0,2019,Y. J. Lo,Measurement of the real part of the Clausius–Mossotti factor of dielectrophoresis for Brownian particles,Electrophoresis,10.1002/elps.201900345,13
+1754,0,2019,Jianyang Kong,Role of substrate-product frustration on enzyme functional dynamics,Physical review. E,10.1103/physreve.100.052409,13
+1598,0,2017,Arthur C. Newton,The opposing effects of isotropic and anisotropic attraction on association kinetics of proteins and colloids,The Journal of Chemical Physics,10.1063/1.5006485,13
+1486,0,2016,Emanuel K. Peter,Coarse kMC-based replica exchange algorithms for the accelerated simulation of protein folding in explicit solvent,Physical Chemistry Chemical Physics,10.1039/c5cp06867c,13
+1454,0,2015,Elias Silva dos Santos,Analysis of interactions between potent inhibitors of ATP sulfurylase via molecular dynamics,Molecular Simulation,10.1080/08927022.2015.1064914,13
+1391,0,2008,Bibiana Elisabet Dallard,Effect of a biological response modifier on cellular death mechanisms at drying off,Journal of Dairy Research,10.1017/s0022029908003142,13
+2836,0,2025,Sutanu Mukhopadhyay,Harnessing Allostery to Modulate Protein–Protein Interactions: From Function to Therapeutic Innovations,Journal of Molecular Biology,10.1016/j.jmb.2025.169382,12
+2599,0,2024,Nishank Raisinghani,Exploring conformational landscapes and binding mechanisms of convergent evolution for the SARS-CoV-2 spike Omicron variant complexes with the ACE2 receptor using AlphaFold2-based structural ensembles and molecular dynamics simulations,Physical Chemistry Chemical Physics,10.1039/d4cp01372g,12
+2394,0,2023,Pengcheng Shi,Insights into the carbonization mechanism of PAN-derived carbon precursor fibers and establishment of a kinetics-driven accelerated reaction template for atomistic simulation,Physical Chemistry Chemical Physics,10.1039/d2cp05196f,12
+2193,0,2022,Gennady M. Verkhivker,Frustration-driven allosteric regulation and signal transmission in the SARS-CoV-2 spike omicron trimer structures: a crosstalk of the omicron mutation sites allosterically regulates tradeoffs of protein stability and conformational adaptability,Physical Chemistry Chemical Physics,10.1039/d2cp01893d,12
+2220,0,2022,Bojing Zhu,Structural- and Site-Specific N-Glycosylation Characterization of COVID-19 Virus Spike with StrucGP,Analytical Chemistry,10.1021/acs.analchem.2c02265,12
+2231,0,2022,Ryan E. Odstrcil,LINES: Log-Probability Estimation via Invertible Neural Networks for Enhanced Sampling,Journal of Chemical Theory and Computation,10.1021/acs.jctc.2c00254,12
+1949,0,2021,Daniel Sharpe,Numerical analysis of first-passage processes in finite Markov chains exhibiting metastability,Physical review. E,10.1103/physreve.104.015301,12
+1700,0,2019,Debayan Chakraborty,Dynamics of an adenine-adenine RNA conformational switch from discrete path sampling,The Journal of Chemical Physics,10.1063/1.5070152,12
+1684,0,2018,Toru Ekimoto,Hybrid Methods for Modeling Protein Structures Using Molecular Dynamics Simulations and Small-Angle X-Ray Scattering Data,Advances in experimental medicine and biology,10.1007/978-981-13-2200-6_15,12
+1564,0,2017,Ryuhei Harada,Structural dissimilarity sampling with dynamically self-guiding selection,Journal of Computational Chemistry,10.1002/jcc.24837,12
+1595,0,2017,Kento Kasahara,Dynamics theory for molecular liquids based on an interaction site model,Physical Chemistry Chemical Physics,10.1039/c7cp05423h,12
+914,0,2015,Emanuel K. Peter,A kMC-MD method with generalized move-sets for the simulation of folding of α-helical and β-stranded peptides,The Journal of Chemical Physics,10.1063/1.4915919,12
+3153,0,2015,Sergei Khruschev,Brownian-dynamics simulations of protein–protein interactions in the photosynthetic electron transport chain,BIOPHYSICS,10.1134/s0006350915020086,12
+1086,0,2010,Nicolas Dorsaz,Inertial effects in diffusion-limited reactions,Journal of Physics Condensed Matter,10.1088/0953-8984/22/10/104116,12
+2820,0,2025,Sian Xiao,Exploring binding and allosteric energy landscapes for the KRAS interactions with effector proteins using Markov state modeling of conformational ensembles and allosteric network modeling,Protein Science,10.1002/pro.70228,11
+2855,0,2025,Palash Bera,How good is generative diffusion model for enhanced sampling of protein conformations across scales and in all-atom resolution?,The Journal of Chemical Physics,10.1063/5.0279756,11
+2076,0,2022,Mohamed Sobeh,Dissociation Pathways of the p53 DNA Binding Domain from DNA and Critical Roles of Key Residues Elucidated by dPaCS-MD/MSM,Journal of Chemical Information and Modeling,10.1021/acs.jcim.1c01508,11
+1914,0,2021,Ai Shinobu,Coarse-Grained Modeling of Multiple Pathways in Conformational Transitions of Multi-Domain Proteins,Journal of Chemical Information and Modeling,10.1021/acs.jcim.1c00286,11
+1942,0,2021,Felix Augusto Rey,Structure-function relations of the SARS-CoV-2 spike protein and impact of mutations in the variants of concern,Comptes Rendus Biologies,10.5802/crbiol.53,11
+1725,0,2019,Ayori Mitsutake,Folding pathways of NuG2—a designed mutant of protein G—using relaxation mode analysis,The Journal of Chemical Physics,10.1063/1.5097708,11
+1572,0,2017,Yunhui Ge,Computational and Experimental Evaluation of Designed β-Cap Hairpins Using Molecular Simulations and Kinetic Network Models,Journal of Chemical Information and Modeling,10.1021/acs.jcim.7b00132,11
+1673,0,2013,Ronan Costaouec,http://aimsciences.org/article/doi/10.3934/proc.2013.2013.171,Conference Publications,10.3934/proc.2013.2013.171,11
+1403,0,2009,Giuseppe de Marco,Molecular simulation of conformational transitions in biomolecules using a combination of structure-based potential and empirical valence bond theory,Physical Chemistry Chemical Physics,10.1039/b917109f,11
+2523,0,2024,Jesper Sørensen,Orion ® A Cloud‐Native Molecular Design Platform,Wiley eBooks,10.1002/9783527840748.ch24,10
+2684,0,2024,Sadasivan Shankar,Challenging Trends in Energy of Computing for Data Centers,Computer,10.1109/mc.2024.3468568,10
+2329,0,2023,Andrew Kai-hei Yik,A Step-by-Step Guide on How to Construct Quasi-Markov State Models to Study Functional Conformational Changes of Biological Macromolecules,,10.1063/9780735425279_010,10
+2506,0,2023,Firdaus Samsudin,Mechanisms of allostery at the viral surface through the eyes of molecular simulation,Current Opinion in Structural Biology,10.1016/j.sbi.2023.102761,10
+535,0,2022,Yunhui Ge,Estimation of binding rates and affinities from multiensemble Markov models and ligand decoupling,The Journal of Chemical Physics,10.1063/5.0088024,10
+2244,0,2022,Jasdeep Singh,Energetics of Spike Protein Opening of SARS-CoV-1 and SARS-CoV-2 and Its Variants of Concern: Implications in Host Receptor Scanning and Transmission,Biochemistry,10.1021/acs.biochem.2c00301,10
+1605,0,2017,Marco Bacci,Focused conformational sampling in proteins,The Journal of Chemical Physics,10.1063/1.4996879,10
+1515,0,2016,Abhijit Mondal,Computational simulations of asymmetric fluxes of large molecules through gap junction channel pores,Journal of Theoretical Biology,10.1016/j.jtbi.2016.08.040,10
+1235,0,2009,Igor B. Kuznetsov,Simplified Computational Methods for the Analysis of Protein Flexibility,Current Protein and Peptide Science,10.2174/138920309789630552,10
+978,0,2004,Gang Zou,Robust Variance Reduction for Random Walk Methods,SIAM Journal on Scientific Computing,10.1137/s1064827503424025,10
+14,0,1984,Meketon,Overlapping batch means: something for nothing?,"Proc. 1984 Winter Simulation Conference, 227",,10
+2754,0,2025,Anupam Anand Ojha,The ManifoldEM method for cryo-EM: a step-by-step breakdown accompanied by a modern Python implementation,Acta Crystallographica Section D Structural Biology,10.1107/s2059798325001469,9
+2527,0,2024,Yuye Zhou,Rapid Profiling of the Glycosylation Effects on the Binding of SARS-CoV-2 Spike Protein to Angiotensin-Converting Enzyme 2 Using MALDI-MS with High Mass Detection,Analytical Chemistry,10.1021/acs.analchem.3c03930,9
+2543,0,2024,Junlin Dong,Machine Learning Deciphered Molecular Mechanistics with Accurate Kinetic and Thermodynamic Prediction,Journal of Chemical Theory and Computation,10.1021/acs.jctc.3c01412,9
+2593,0,2024,Joshua Casto,PELDOR to the Metal: Cu(II)-Based Labels Put a New Spin on Distance Measurements,Applied Magnetic Resonance,10.1007/s00723-024-01658-8,9
+2621,0,2024,Xuhan Liu,From predicting to decision making: Reinforcement learning in biomedicine,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.1723,9
+2314,0,2023,Victoria Thusgaard Ruhoff,"Close, but not too close: a mesoscopic description of (a)symmetry and membrane shaping mechanisms",Emerging Topics in Life Sciences,10.1042/etls20220078,9
+2420,0,2023,Silvina Caíno‐Lores,Runtime Steering of Molecular Dynamics Simulations Through In Situ Analysis and Annotation of Collective Variables,Platform for Advanced Scientific Computing Conference (PASC),10.1145/3592979.3593420,9
+2096,0,2022,Yiqiao Wang,Global Fold Switching of the RafH Protein: Diverse Structures with a Conserved Pathway,The Journal of Physical Chemistry B,10.1021/acs.jpcb.1c10965,9
+2122,0,2022,Lin Fang Shen,Machine learning in computational chemistry,Scientia Sinica Chimica,10.1360/ssc-2022-0022,9
+2157,0,2022,Norio Yoshida,Computational Analysis of the SARS-CoV-2 RBD–ACE2-Binding Process Based on MD and the 3D-RISM Theory,Journal of Chemical Information and Modeling,10.1021/acs.jcim.2c00192,9
+2201,0,2022,Erman Salih Istıflı,Molecular Docking - Recent Advances,Biomedical engineering,10.5772/intechopen.100665,9
+1953,0,2021,Rafael Doležal,Accuracy and precision of binding free energy prediction for a tacrine related lead inhibitor of acetylcholinesterase with an arsenal of supercomputerized molecular modelling methods: a comparative study,Journal of Biomolecular Structure and Dynamics,10.1080/07391102.2021.1957716,9
+2045,0,2021,Sadasivan Shankar,Lessons from Nature for Computing: Looking beyond Moore’s Law with Special Purpose Computing and Co-design,IEEE High Performance Extreme Computing Conference,10.1109/hpec49654.2021.9622865,9
+1783,0,2020,Belisa R. H. de Aquino,Networks of interbasin traffic in intrinsically disordered proteins,Physical Review Research,10.1103/physrevresearch.2.013242,9
+1679,0,2019,Qiang Zhu,A Data‐Driven Accelerated Sampling Method for Searching Functional States of Proteins,Advanced Theory and Simulations,10.1002/adts.201800171,9
+1690,0,2019,Jacob M. Remington,Molecular Dynamics Simulations of 2-Aminopurine-Labeled Dinucleoside Monophosphates Reveal Multiscale Stacking Kinetics,The Journal of Physical Chemistry B,10.1021/acs.jpcb.8b12172,9
+1505,0,2016,Maxwell I. Zimmerman,How to Run FAST Simulations,Methods in enzymology on CD-ROM/Methods in enzymology,10.1016/bs.mie.2016.05.032,9
+2799,0,2025,Rose K. Cersonsky,Machine Learning and Statistical Mechanics: Shared Synergies for Next Generation of Chemical Theory and Computation,Journal of Chemical Theory and Computation,10.1021/acs.jctc.5c00650,8
+2504,0,2024,Fu‐de Ren,Finite temperature string by K -means clustering sampling with order parameters as collective variables for molecular crystals: application to polymorphic transformation between β-CL-20 and ε-CL-20,Physical Chemistry Chemical Physics,10.1039/d3cp05389j,8
+2513,0,2024,Yiming 一鸣 Tang 唐,Recent advances in protein conformation sampling by combining machine learning with molecular simulation,Chinese Physics B,10.1088/1674-1056/ad1a92,8
+2602,0,2024,Souradeep Banerjee,Force‐regulated chaperone activity of BiP / ERdj3 is opposite to their homologs DnaK / DnaJ,Protein Science,10.1002/pro.5068,8
+2677,0,2024,Jimin Hu,Sugar Highs: Recent Notable Breakthroughs in Glycobiology,Biochemistry,10.1021/acs.biochem.4c00418,8
+2722,0,2024,Amit Ruhela,Performance Analysis of Scientific Applications on an NVIDIA Grace System,"International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",10.1109/scw63240.2024.00078,8
+584,0,2023,Praveen Ranganath Prabhakar,"Predicting residue cooperativity during protein folding: A combined, molecular dynamics and unsupervised learning approach",The Journal of Chemical Physics,10.1063/5.0140113,8
+2379,0,2023,Fanbo Sun,Probing Accuracy-Speedup Tradeoff in Machine Learning Surrogates for Molecular Dynamics Simulations,Journal of Chemical Theory and Computation,10.1021/acs.jctc.2c01282,8
+2383,0,2023,Krzysztof Rojek,Performance and Scalability Analysis of AI-Accelerated CFD Simulations Across Various Computing Platforms,Lecture notes in computer science,10.1007/978-3-031-31209-0_17,8
+2304,0,2022,Lingling Wang,Cooperation of structural motifs controls drug selectivity in cyclin-dependent kinases: an advanced theoretical analysis,Briefings in Bioinformatics,10.1093/bib/bbac544,8
+1833,0,2020,Emanuel K. Peter,"CORE-MD, a path correlated molecular dynamics simulation method",The Journal of Chemical Physics,10.1063/5.0015398,8
+1861,0,2020,Ola Aarøen,PyVisA : Visualization and Analysis of path sampling trajectories,Journal of Computational Chemistry,10.1002/jcc.26467,8
+1732,0,2019,Likun Zhao,How calcium ion binding induces the conformational transition of the calmodulin N-terminal domain—an atomic level characterization,Physical Chemistry Chemical Physics,10.1039/c9cp03917a,8
+1484,0,2016,Ryuhei Harada,TaBoo SeArch Algorithm with a Modified Inverse Histogram for Reproducing Biologically Relevant Rare Events of Proteins,Journal of Chemical Theory and Computation,10.1021/acs.jctc.6b00082,8
+1539,0,2016,Daniel Şopu,Thermodynamic and kinetic solid-liquid interface properties from transition path sampling,The Journal of Chemical Physics,10.1063/1.4972583,8
+2587,0,2024,Ian Carlosalberto Santisteban Celis,Lectibodies as antivirals,Antiviral Research,10.1016/j.antiviral.2024.105901,7
+2638,0,2024,Tingting Xu,Glycosylation in Drosophila S2 cells,Biotechnology and Bioengineering,10.1002/bit.28827,7
+2688,0,2024,Christian Hölzer,ConfRank: Improving GFN-FF Conformer Ranking with Pairwise Training,Journal of Chemical Information and Modeling,10.1021/acs.jcim.4c01524,7
+2335,0,2023,Shingo Ito,Allosteric regulation of β-reaction stage I in tryptophan synthase upon the α-ligand binding,The Journal of Chemical Physics,10.1063/5.0134117,7
+2384,0,2023,Bryant Israelsen,Efficient Trace Generation for Rare-Event Analysis in Chemical Reaction Networks,Lecture notes in computer science,10.1007/978-3-031-32157-3_5,7
+2115,0,2022,Ronen Zangi,Binding reactions at finite systems,Physical Chemistry Chemical Physics,10.1039/d1cp05984j,7
+2176,0,2022,Yao Li,Identifying a Feasible Transition Pathway between Two Conformational States for a Protein,Journal of Chemical Theory and Computation,10.1021/acs.jctc.2c00390,7
+2212,0,2022,JCS Kadupitiya,SciSpot: Scientific Computing On Temporally Constrained Cloud Preemptible VMs,IEEE Transactions on Parallel and Distributed Systems,10.1109/tpds.2022.3157272,7
+2232,0,2022,Serhan Yamaçlı,"Computation of the Binding Energies between Human ACE2 and Spike RBDs of the Original Strain, Delta and Omicron Variants of the SARS‐CoV‐2: A DFT Simulation Approach",Advanced Theory and Simulations,10.1002/adts.202200337,7
+2245,0,2022,Fang Bai,Computationally Elucidating the Binding Kinetics for Different AChE Inhibitors to Access the Rationale for Improving the Drug Efficacy,The Journal of Physical Chemistry B,10.1021/acs.jpcb.2c03632,7
+2263,0,2022,Rajesh Dutta,Microscopic origin of diffusive dynamics in the context of transition path time distributions for protein folding and unfolding,Physical Chemistry Chemical Physics,10.1039/d2cp03158b,7
+2298,0,2022,Tucker Burgin,ATESA: An Automated Aimless Shooting Workflow,Journal of Chemical Theory and Computation,10.1021/acs.jctc.2c00543,7
+1931,0,2021,Yoshihiro Matsumura,Microscopic insights into dynamic disorder in the isomerization dynamics of the protein BPTI,The Journal of Chemical Physics,10.1063/5.0055152,7
+2034,0,2021,Jure Borišek,Molecular Basis of SARS-CoV-2 Nsp1-Induced Immune Translational Shutdown as Revealed by All-Atom Simulations,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.1c03441,7
+464,0,2020,Hao Wang,Milestoning with wind: Exploring the impact of a biasing potential in exact calculation of kinetics,The Journal of Chemical Physics,10.1063/5.0011050,7
+1774,0,2020,Ariel Fernández,Deep Learning Unravels a Dynamic Hierarchy While Empowering Molecular Dynamics Simulations,Annalen der Physik,10.1002/andp.201900526,7
+372,0,2017,Reika Ito,An accurate computational method for an order parameter with a Markov state model constructed using a manifold-learning technique,Chemical Physics Letters,10.1016/j.cplett.2017.10.057,7
+1398,0,2015,Chung F. Wong,Conformational transition paths harbor structures useful for aiding drug discovery and understanding enzymatic mechanisms in protein kinases,Protein Science,10.1002/pro.2716,7
+875,0,2005,Xiaoyan Li,Multiple time step molecular dynamics simulation for interaction between dislocations and grain boundaries,Acta Mechanica Sinica,10.1007/s10409-005-0050-x,7
+775,0,2000,J.M. Hernández-Mangas,Simulación de la implantación iónica en semiconductores,UVaDOC UVaDOC University of Valladolid Documentary Repository (University of Valladolid),10.35376/10324/123,7
+1001,0,1999,Gary Huber,OOMPAA—Object-Oriented Model for Probing Assemblages of Atoms,Journal of Computational Physics,10.1006/jcph.1999.6199,7
+2730,0,2025,Jing Ma,Broad-spectrum affinity chromatography of SARS-CoV-2 and Omicron vaccines from ligand screening to purification,Journal of Chromatography A,10.1016/j.chroma.2025.465685,6
+2810,0,2025,Benjamin T. Walters,Integrating Hydrogen Exchange with Molecular Dynamics for Improved Ligand Binding Predictions,Journal of Chemical Information and Modeling,10.1021/acs.jcim.5c00397,6
+2864,0,2025,Soumendranath Bhakat,CryoPhold: CryoEM meets AlphaFold and molecular simulation to reveal protein dynamics,bioRxiv (Cold Spring Harbor Laboratory),10.1101/2025.09.12.675912,6
+2528,0,2024,Akhilesh Akhilesh,Virtual screening and molecular dynamics investigations using natural compounds against autotaxin for the treatment of chronic pain,Journal of Biomolecular Structure and Dynamics,10.1080/07391102.2024.2308761,6
+2645,0,2024,Changqing He,Synthesis and Mechanisms of Black Polyimide Films with High Mechanical and Dielectric Strength: Effects of Multicomponent Polymerization and Doping,Industrial & Engineering Chemistry Research,10.1021/acs.iecr.4c02331,6
+2678,0,2024,Jing Ma,Discovery of broad-spectrum high-affinity peptide ligands of spike protein for the vaccine purification of SARS-CoV-2 and Omicron variants,International Journal of Biological Macromolecules,10.1016/j.ijbiomac.2024.137059,6
+2338,0,2023,Sedigheh Zolaktaf,Predicting DNA kinetics with a truncated continuous-time Markov chain method,Computational Biology and Chemistry,10.1016/j.compbiolchem.2023.107837,6
+2482,0,2023,Hanuman Singh,Bispidine as a promising scaffold for designing molecular machines,Organic & Biomolecular Chemistry,10.1039/d3ob01406a,6
+2179,0,2022,Tong Li,Ionization of D571 Is Coupled with SARS-CoV-2 Spike Up/Down Equilibrium Revealing the pH-Dependent Allosteric Mechanism of Receptor-Binding Domains,The Journal of Physical Chemistry B,10.1021/acs.jpcb.2c02365,6
+2242,0,2022,Bowen Li,A diversity maximizing active learning strategy for graph neural network models of chemical properties,Molecular Systems Design & Engineering,10.1039/d2me00073c,6
+1990,0,2021,Kiyoshi Yagi,Weight average approaches for predicting dynamical properties of biomolecules,Current Opinion in Structural Biology,10.1016/j.sbi.2021.08.008,6
+1789,0,2020,Qinglu Zhong,Arbitrary Resolution with Two Bead Types Coarse-Grained Strategy and Applications to Protein Recognition,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.0c00750,6
+2139,0,2020,Mingyuan Xu,De Novo Molecule Design Through Molecular Generative Model Conditioned by 3D Information of Protein Binding Sites,ChemRxiv,10.26434/chemrxiv.13498332,6
+1599,0,2017,Gianmarc Grazioli,Automated placement of interfaces in conformational kinetics calculations using machine learning,The Journal of Chemical Physics,10.1063/1.4989857,6
+1535,0,2016,Ben Corry,Computer Simulation of Ion Channels,Royal Society of Chemistry eBooks,10.1039/9781782626695-00161,6
+1168,0,2014,Ron Elber,Molecular Dynamics at Extended Timescales,Israel Journal of Chemistry,10.1002/ijch.201400015,6
+1116,0,2012,Kevin Molloy,A robotics-inspired method to sample conformational paths connecting known functionally-relevant structures in protein systems,IEEE International Conference on Bioinformatics and Biomedicine Workshops (BIBMW),10.1109/bibmw.2012.6470380,6
+59,0,1995,Frank Traenkle,Solving microstructure electrostatics on a proposed parallel computer,Computers & Chemical Engineering,10.1016/0098-1354(94)00078-6,6
+3056,0,2026,Anupam Anand Ojha,seekrflow : Towards an End-to-End Automated Simulation Pipeline with Machine-Learned Force Fields for Accelerated Drug-Target Kinetic and Thermodynamic Predictions,Journal of Chemical Theory and Computation,10.1021/acs.jctc.6c00659,5
+2813,0,2025,Margot Riggi,Agent-based modeling of complex molecular mechanisms,Seminars in Cell and Developmental Biology,10.1016/j.semcdb.2025.103626,5
+2679,0,2024,Yuxi-Shen,Mapping and functional analysis of S1 subunit glycosylation of avian infectious bronchitis virus,International Journal of Biological Macromolecules,10.1016/j.ijbiomac.2024.137050,5
+2690,0,2024,Piotr Batys,dRama: Differential Ramachandran Plot as a Tool to Analyze Subtle Changes in Protein Secondary Structure,PROTEOMICS - CLINICAL APPLICATIONS,10.1002/prca.202400087,5
+2300,0,2023,Zhaoqian Su,Dissecting the general mechanisms of protein cage self‐assembly by coarse‐grained simulations,Protein Science,10.1002/pro.4552,5
+2408,0,2023,Elvis A. F. Martis,Understanding protein-ligand interactions using state-of-the-art computer simulation methods,Elsevier eBooks,10.1016/b978-0-443-18638-7.00015-3,5
+2445,0,2023,Martina Zappa,The old and the new: The EG.5 (‘Eris’) sub-variant of Coronavirus,European Journal of Internal Medicine,10.1016/j.ejim.2023.09.003,5
+2457,0,2023,Anushree Sinha,Intrinsically Disordered Regions Function as a Cervical Collar to Remotely Regulate the Nodding Dynamics of SARS-CoV-2 Prefusion Spike Heads,The Journal of Physical Chemistry B,10.1021/acs.jpcb.3c05338,5
+2510,0,2023,Jiazhi Jiang,HTDcr: a job execution framework for high-throughput computing on supercomputers,Science China Information Sciences,10.1007/s11432-022-3657-3,5
+2102,0,2022,Jiming Chen,Integration of machine learning with computational structural biology of plants,Biochemical Journal,10.1042/bcj20200942,5
+1956,0,2021,James Buenfil,Tangent Space Least Adaptive Clustering,International Conference on Machine Learning,,5
+1969,0,2021,Gabriel E. Aguilar-Pineda,Catalytic and binding sites prediction in globular proteins through discrete Markov chains and network centrality measures,Physical Biology,10.1088/1478-3975/ac211b,5
+1980,0,2021,Hamed Meshkin,Toward Convergence in Free Energy Calculations for Protein Conformational Changes: A Case Study on the Thin Gate of Mhp1 Transporter,Journal of Chemical Theory and Computation,10.1021/acs.jctc.1c00585,5
+1706,0,2019,Erik J. B. Landin,The Aminotriazole Antagonist Cmpd‐1 Stabilises a Distinct Inactive State of the Adenosine 2A Receptor,Angewandte Chemie International Edition,10.1002/anie.201902852,5
+1727,0,2019,Mauro Bringas,Ligand Binding Rate Constants in Heme Proteins Using Markov State Models and Molecular Dynamics Simulations,ChemPhysChem,10.1002/cphc.201900589,5
+1773,0,2019,Armin Zimmermann,Integrating Simulation and Numerical Analysis in the Evaluation of Generalized Stochastic Petri Nets,ACM Transactions on Modeling and Computer Simulation,10.1145/3321518,5
+1615,0,2018,Wenjin Li,Equipartition terms in transition path ensemble: Insights from molecular dynamics simulations of alanine dipeptide,The Journal of Chemical Physics,10.1063/1.5010408,5
+768,0,2017,Wiesław Nowak,Applications of Computational Methods to Simulations of Proteins Dynamics,Springer eBooks,10.1007/978-3-319-27282-5_31,5
+1551,0,2017,Fangqiang Zhu,Calculating transition rates from durations of transition paths,The Journal of Chemical Physics,10.1063/1.4979058,5
+1562,0,2017,Baron Peters,Reaction coordinates and mechanisms,Elsevier eBooks,10.1016/b978-0-44-456349-1.00020-9,5
+2062,0,2016,Wiesław Nowak,Applications of Computational Methods to Simulations of Protein Dynamics,Springer eBooks,10.1007/978-94-007-6169-8_31-2,5
+1239,0,2012,Jin-Uk Lee,Calculation of the Absolute Rate of Human Cu/Zn Superoxide Dismutases from Atomic-Level Molecular Dynamics Simulations,Bulletin of the Korean Chemical Society,10.5012/bkcs.2012.33.3.862,5
+766,0,2007,Ioan Andricioaei,Specialized Methods for Improving Ergodic Sampling Using Molecular Dynamics and Monte Carlo Simulations,Springer series in chemical physics,10.1007/978-3-540-38448-9_8,5
+2140,0,1997,Zhichen Xu,Shared-memory performance profiling,ACM SIGPLAN Notices,10.1145/263767.263796,5
+2988,0,2026,Gregory R. Bowman,Introduction to Markov State Modeling of Conformational Dynamics,Journal of Chemical Theory and Computation,10.1021/acs.jctc.6c00351,4
+2906,0,2025,Qia Ke,"Adaptive Allocation of Monte Carlo Samples for Efficient, Multifidelity Computational Screening of Metal–Organic Frameworks",Journal of Chemical Theory and Computation,10.1021/acs.jctc.5c01431,4
+2667,0,2024,Sukrit Singh,Running and analyzing massively parallel molecular simulations,ChemRxiv,10.26434/chemrxiv-2024-vwpww,4
+598,0,2023,Julian Widmer,Optimized reaction coordinates for analysis of enhanced sampling,The Journal of Chemical Physics,10.1063/5.0149207,4
+2438,0,2023,Dizhou Wu,Thrombin - A Molecular Dynamics Perspective,Mini-Reviews in Medicinal Chemistry,10.2174/1389557523666230821102655,4
+2452,0,2023,Nan Sheng,Microsecond Simulation in a Special-Purpose Molecular Dynamics Computer Cluster,International Conference on Bioinformatics and Computational Biology (ICBCB),10.1109/icbcb57893.2023.10246549,4
+2874,0,2023,Faiza Khurram,Role of Artificial Intelligence Bots in Digital Marketing: A Cross-Sectional Study,Business review of digital revolution.,10.70890/brdr.2023.3201,4
+2165,0,2022,Rajas Rao,How molecular modelling can better broaden the understanding of glycosylations,Current Opinion in Structural Biology,10.1016/j.sbi.2022.102393,4
+2186,0,2022,Takunori Yasuda,Structural Validation by the G-Factor Properly Regulates Boost Potentials Imposed in Conformational Sampling of Proteins,Journal of Chemical Information and Modeling,10.1021/acs.jcim.2c00573,4
+2207,0,2022,Anna Sophia Kamenik,Matching Simulations and Experiments of Conformationally Flexible Cyclic Peptides: Steps toward a Holistic View of Passive Membrane Permeability,ACS symposium series,10.1021/bk-2022-1417.ch005,4
+2281,0,2022,Pallab Dutta,Efficient Interrogation of the Kinetic Barriers Demarcating Catalytic States of a Tyrosine Kinase with Optimal Physical Descriptors and Mixture Models,ChemPhysChem,10.1002/cphc.202200595,4
+2289,0,2022,Takunori Yasuda,Protein Structure Validation Derives a Smart Conformational Search in a Physically Relevant Configurational Subspace,Journal of Chemical Information and Modeling,10.1021/acs.jcim.2c01173,4
+1944,0,2021,Edis Jakupovic,MPI-parallel Molecular Dynamics Trajectory Analysis with the H5MD Format in the MDAnalysis Python Package,Proceedings of the Python in Science Conferences,10.25080/majora-1b6fd038-005,4
+1952,0,2021,Nicolas C. Frazee,"In Silico Prediction of the Binding, Folding, Insertion, and Overall Stability of Membrane-Active Peptides",Methods in molecular biology,10.1007/978-1-0716-1468-6_10,4
+2008,0,2021,Mariangela Agamennone,Protein-protein interactions at a glance: Protocols for the visualization of biomolecular interactions,Methods in cell biology,10.1016/bs.mcb.2021.06.012,4
+2003,0,2020,Jordi Juárez‐Jiménez,A Virtual Reality Ensemble Molecular Dynamics Workflow to Study Complex Conformational Changes in Proteins,ChemRxiv,10.26434/chemrxiv.11833470.v2,4
+1697,0,2019,Lin Qin,An efficient method to reconstruct free energy profiles for diffusive processes in transition interface sampling and forward flux sampling simulations,The Journal of Chemical Physics,10.1063/1.5080933,4
+1902,0,2017,Baron Peters,Transition path sampling,Elsevier eBooks,10.1016/b978-0-44-456349-1.00019-2,4
+1352,0,2011,Ben Sauerwine,Arrhenius Lifetimes of RNA Structures from Free Energy Landscapes,Journal of Statistical Physics,10.1007/s10955-011-0174-2,4
+820,0,2001,Eric W. Fisher,Kinetic effects of mutations of charged residues on the surface of a dimeric hemoglobin: insights from Brownian dynamics simulations,Journal of Molecular Structure THEOCHEM,10.1016/s0166-1280(01)00492-4,4
+2814,0,2026,Berk A. Alpay,Amino acid exchangeability and surface accessibility underpin the effects of single substitutions,Genetics,10.1093/genetics/iyag104,3
+2955,0,2026,Mohammad Sahil,Machine Learning and Computer Simulation Disentangle the Fuzzy Inhibitor Binding by Hsp90,Journal of Chemical Theory and Computation,10.1021/acs.jctc.5c02056,3
+3061,0,2026,Amit Patel,Mitigating concept drift in malware classification: A temporal and resource-aware evaluation,Knowledge-Based Systems,10.1016/j.knosys.2026.116534,3
+2783,0,2025,Fuyan Wang,The GI-19 dominant genotype of infectious bronchitis virus in chickens from 2021 to 2023 in Sichuan province is frequently involved in recombination events,Virology,10.1016/j.virol.2025.110543,3
+2846,0,2025,Samuel S. Cho,Understanding the role of short- and long-range intermolecular interactions in novel computational drug discovery,Expert Opinion on Drug Discovery,10.1080/17460441.2025.2555271,3
+2907,0,2025,Abdullahi İbrahim Uba,Elucidating the Structure and Activation Mechanisms of GPCRs Using Modern Computational and AI Tools,Cell Biochemistry and Biophysics,10.1007/s12013-025-01977-y,3
+2519,0,2024,Agustín Ormazábal,Dynamics and Function of sRNA/mRNAs Under the Scrutiny of Computational Simulation Methods,Methods in molecular biology,10.1007/978-1-0716-3565-0_12,3
+2536,0,2024,Brajesh Narayan,Comparison of Accuracy and Efficiency of Milestoning Variants: Introducing Buffer Milestoning,The Journal of Physical Chemistry B,10.1021/acs.jpcb.3c07933,3
+2552,0,2024,Yao Hu,Allosteric pathways of SARS and SARS‐CoV ‐2 spike protein identified by neural relational inference,Proteins Structure Function and Bioinformatics,10.1002/prot.26678,3
+2597,0,2024,Yuta Shimono,NPEX: Never give up protein exploration with deep reinforcement learning,Journal of Molecular Graphics and Modelling,10.1016/j.jmgm.2024.108802,3
+2650,0,2024,Akashnathan Aranganathan,Modeling Boltzmann weighted structural ensembles of proteins using AI based methods,ChemRxiv,10.26434/chemrxiv-2024-6f9h6,3
+2701,0,2024,Bin W. Zhang,Leveraging the Thermodynamics of Protein Conformations in Drug Discovery,Journal of Chemical Information and Modeling,10.1021/acs.jcim.4c01612,3
+2400,0,2023,Nidhi Awasthi,Monte Carlo Approaches to Study Protein Conformation Ensembles,Springer eBooks,10.1007/978-981-99-2079-2_7,3
+2057,0,2022,Anil Ranu Mhashal,Computational techniques to study protein dynamics and conformations,Elsevier eBooks,10.1016/b978-0-323-90264-9.00013-1,3
+2237,0,2022,Jiří Vymětal,Iterative Landmark-Based Umbrella Sampling (ILBUS) Protocol for Sampling of Conformational Space of Biomolecules,Journal of Chemical Information and Modeling,10.1021/acs.jcim.2c00370,3
+2264,0,2022,Nathan R. McCann,Cell Entry and Unusual Replication of SARS-CoV-2,Current Drug Targets,10.2174/1389450124666221014102927,3
+2291,0,2022,İbrahim Başar Aka,An AI-Accelerated CFD Application on a Benchmark Device: FDA Nozzle,Medical Technologies Congress (TIPTEKNO),10.1109/tiptekno56568.2022.9960231,3
+1893,0,2021,Wentao Zhu,Enhanced sampling method with coarse graining of conformational space,Physical review. E,10.1103/physreve.103.032404,3
+1910,0,2021,Steve Agajanian,Development of Integrated Machine Learning and Data Science Approaches for the Prediction of Cancer Mutation and Autonomous Drug Discovery of Anti-Cancer Therapeutic Agents,Chapman University Digital Commons (Chapman University),10.36837/chapman.000220,3
+1811,0,2020,Anu George,Laplacian score and genetic algorithm based automatic feature selection for Markov State Models in adaptive sampling based molecular dynamics,PeerJ Physical Chemistry,10.7717/peerj-pchem.9,3
+1819,0,2020,Konstantin Röder,Improving double-ended transition state searches for soft-matter systems,The Journal of Chemical Physics,10.1063/5.0011829,3
+1659,0,2018,Reika Ito,"An Automatic Classification of Molecular Dynamics Simulation Data into States, and Its Application to the Construction of a Markov State Model",Journal of the Physical Society of Japan,10.7566/jpsj.87.114802,3
+904,0,2002,Eric W. Fisher,Effects of local repositioning of charged surface residues on the kinetics of protein dimerization probed by Brownian dynamics simulations,Journal of Molecular Structure THEOCHEM,10.1016/s0166-1280(02)00224-5,3
+2915,0,2026,Joseph Schuchart,A Survey of Distributed Asynchronous Many-Task Models and Their Applications,ACM Computing Surveys,10.1145/3840389,2
+2945,0,2026,Cármen Domene,Enhanced Sampling and Free Energy Calculations in Protein Simulations,Advances in experimental medicine and biology,10.1007/978-3-032-07511-6_4,2
+2985,0,2026,Fu Xiao,Prediction accuracy of ligand binding kinetics,Biophysical Journal,10.1016/j.bpj.2026.03.033,2
+2990,0,2026,Apoorva Purohit,Free energy calculations in molecular modeling: from classical methods to machine learning,Journal of Molecular Modeling,10.1007/s00894-026-06678-8,2
+3018,0,2026,Luca Gerhards,Multiscale modeling approaches in biomolecular physics,Advances in Physics X,10.1080/23746149.2026.2660655,2
+2773,0,2025,Grace Marden,Functional and structural characterization of a combination of pan-sarbecovirus antibodies with potent antiviral activity,bioRxiv (Cold Spring Harbor Laboratory),10.1101/2025.03.30.646023,2
+2781,0,2025,Philipp Andelfinger,Intelligent Modeling and Simulation Life Cycle,,10.36227/techrxiv.174123246.67204848/v2,2
+2798,0,2025,R. Shen,Bridging Dimensionality Reduction and Stochastic Sampling: The DA2-MC Algorithm for Protein Dynamics,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.5c00921,2
+2872,0,2025,Xu Pan,Enhanced Sampling Reveals Metastable Conformations Driving K417N-Mediated Class I Antibody Escape,Journal of Chemical Information and Modeling,10.1021/acs.jcim.5c01396,2
+2884,0,2025,Kunal Bhattacharya,"Druggable Ensembles of Aβ and Tau: Intrinsically Disordered Proteins Biophysics, Liquid–Liquid Phase Separation and Multiscale Modeling for Alzheimer’s",Biophysica,10.3390/biophysica5040052,2
+2917,0,2025,Ryo Urano,Molecular Insight into the Hepatitis B Virus: Coarse-Grained Simulations of the Envelope–Capsid Complex,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.5c03156,2
+2947,0,2025,Jonathan D. Colburn,Advanced Computational Methods in Protein Simulations: A Case Study of Enhanced Sampling Applied to Membrane Transporters,Advances in experimental medicine and biology,10.1007/978-3-032-07511-6_3,2
+2586,0,2024,Richard J. Bell,Two-Dimensional Fourier Transform Ion Cyclotron Resonance Mass Spectrometry of N-Linked Glycopeptides,Journal of the American Society for Mass Spectrometry,10.1021/jasms.4c00034,2
+2635,0,2024,Vicente Munizaga,The thermodynamic effects of solute on void nucleation in Mg alloys,The Journal of Chemical Physics,10.1063/5.0196513,2
+2652,0,2024,Akashnathan Aranganathan,Modeling Boltzmann weighted structural ensembles of proteins using AI based methods,ChemRxiv,10.26434/chemrxiv-2024-6f9h6-v2,2
+2512,0,2023,Orchidea Maria Lecian,Analytical Expressions of the Markov Chain of K-Ras4B Protein within the Catalytic Environment and a New Markov-State Model,IgMin Research,10.61927/igmin133,2
+2224,0,2022,Alicja Kwaśniewska,Preferred Benchmarking Criteria for Systematic Taxonomy of Embedded Platforms (STEP) in Human System Interaction Systems,Conference on Human System Interactions,10.1109/hsi55341.2022.9869470,2
+2246,0,2022,Nan Lv,RBD spatial orientation of the spike protein and its binding to ACE2: insight into the high infectivity of the SARS-CoV-2 Delta variant from MD simulations,Physical Chemistry Chemical Physics,10.1039/d2cp03425e,2
+2257,0,2022,Nicholas Ho,Learning Free Energy Pathways through Reinforcement Learning of Adaptive Steered Molecular Dynamics,bioRxiv (Cold Spring Harbor Laboratory),10.1101/2022.10.04.510845,2
+2007,0,2021,Peter J. Adams,The ΛNTON 3 ASIC: a Fire-Breathing Monster for Molecular Dynamics Simulations,IEEE Hot Chips Symposium,10.1109/hcs52781.2021.9567084,2
+1728,0,2019,Amit Srivastava,Conformational transitions of bio-molecular systems studied using adaptive bond bending elastic network model,The Journal of Chemical Physics,10.1063/1.5102135,2
+2147,0,2019,Erik J. B. Landin,The Aminotriazole Antagonist Cmpd‐1 Stabilises a Distinct Inactive State of the Adenosine 2A Receptor,Angewandte Chemie,10.1002/ange.201902852,2
+1513,0,2015,Chung F. Wong,Incorporating Receptor Flexibility into Structure-Based Drug Discovery,Methods in pharmacology and toxicology,10.1007/7653_2015_56,2
+1501,0,2014,Juan R. Perilla,Computing Ensembles of Transitions with Molecular Dynamics Simulations,Methods in molecular biology,10.1007/978-1-4939-1465-4_11,2
+1586,0,2013,"Duan, Qinglin",A Metaheuristic-Based Simulation Optimization Framework For Supply Chain Inventory Management Under Uncertainty,Louisiana State University,10.31390/gradschool_dissertations.1219,2
+3152,0,2013,Alfredo E. Cárdenas,Determination of Kinetics and Thermodynamics of Biomolecular Processes with Trajectory Fragments,Springer series in bio-/neuroinformatics,10.1007/978-3-642-28554-7_9,2
+1440,0,2010,Weihan Wang,Global Expression Profiling Reveals a Role for CTGF/CCN2 in Lactogenic Differentiation of Mouse Mammary Epithelial Cells,Springer eBooks,10.1007/978-90-481-3779-4_12,2
+765,0,2000,David S. Salomon,Epidermal Growth Factor-Related Peptides in Endocrine Neoplasias,Humana Press eBooks,10.1007/978-1-59259-223-4_9,2
+2036,0,1989,Terrell L. Hill,State Probabilities and Fluxes in Terms of the Rate Constants of the Diagram,Springer eBooks,10.1007/978-1-4612-3558-3_2,2
+2931,0,2026,Wentao Xu,Evolutionary aspect of spike glycoprotein's conformational dynamics,Physical Chemistry Chemical Physics,10.1039/d5cp04391c,1
+2946,0,2026,Han Zhang,Ligand-Binding Free Energy Simulations of Membrane Proteins,Advances in experimental medicine and biology,10.1007/978-3-032-07511-6_8,1
+3017,0,2026,R. Shen,Efficient and Accelerated Protein Free Energy Landscape Reconstruction via Conditional Variational Autoencoders,The Journal of Physical Chemistry Letters,10.1021/acs.jpclett.6c00485,1
+3032,0,2026,Han Kurt,Advanced sampling methods to study complex biomolecular systems,Elsevier eBooks,10.1016/b978-0-323-99507-8.00071-8,1
+3045,0,2026,György Hantal,Nucleation of NaCl crystals from solution: Rate prediction and influence of noisy order parameters on the committor,The Journal of Chemical Physics,10.1063/5.0326429,1
+3075,0,2026,Kolattukudy Poulose Santo,Unraveling Specific Binding Sites of Pulmonary Surfactants on the Coronavirus Spike Protein Receptor-Binding Domain,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6c02175,1
+3095,0,2026,Soumendranath Bhakat,Benchmarking Generative AI and Physics-Based Molecular Simulation for Sampling Conformational Heterogeneity in T4 Lysozyme,Journal of Chemical Information and Modeling,10.1021/acs.jcim.6c02044,1
+2724,0,2025,Akashnathan Aranganathan,Modeling Boltzmann weighted structural ensembles of proteins using AI based methods,ChemRxiv,10.26434/chemrxiv-2024-6f9h6-v3,1
+2796,0,2025,Hoang Anh Nguyen,Evaluating the protein–protein binding via the fast pulling of ligand scheme,Chemical Physics Letters,10.1016/j.cplett.2025.142136,1
+2827,0,2025,Chenghai Wang,"Cross-species recognition of squirrel ACE2 by the receptor binding domains of SARS-CoV-2, RaTG13, PCoV-GD and PCoV-GX",Structure,10.1016/j.str.2025.07.003,1
+2829,0,2025,Soledad Stagnoli,Glycoproteins in Viruses,Methods in molecular biology,10.1007/978-1-0716-4722-6_11,1
+2865,0,2025,Yawen Zou,Nanoparticle-based antigen favors high level of humoral immune responses and increases antigenicity of highly glycosylated protein,International Journal of Biological Macromolecules,10.1016/j.ijbiomac.2025.147967,1
+2871,0,2025,Xu Guo,Force Field-Driven Backmapping for Multiscale Molecular Dynamics,Journal of Chemical Theory and Computation,10.1021/acs.jctc.5c00677,1
+2876,0,2025,Yushan Xiao,Using machine learning techniques for evaluating creativity in Graphic Combination Task (GCT) among Chinese college students,Thinking Skills and Creativity,10.1016/j.tsc.2025.102050,1
+2891,0,2025,Ying Liu,Unbinding Dynamics of Large HIV Non-Nucleoside Reverse Transcriptase Inhibitors Revealed by Atomistic Milestoning Simulations,The Journal of Physical Chemistry B,10.1021/acs.jpcb.5c04843,1
+2893,0,2025,Yutao Zhou,"Dynamic insights into the structural evolution of ACE2–RBD interactions through molecular dynamics simulation, Markov state modeling, and large language model mutation prediction",The Journal of Chemical Physics,10.1063/5.0300029,1
+2524,0,2024,Steffen Wolf,MD Simulations for D rug‐Target (Un)binding Kinetics,Wiley eBooks,10.1002/9783527840748.ch3,1
+2579,0,2024,Andrew V. Marquardt,Calculating Binding Free Energies in Model Host–Guest Systems with Unrestrained Advanced Sampling,Journal of Chemical Theory and Computation,10.1021/acs.jctc.3c01186,1
+2609,0,2024,Kewin Otazu,The Malaria Box molecules: a source for targeting the RBD and NTD cryptic pocket of the spike glycoprotein in SARS-CoV-2,Journal of Molecular Modeling,10.1007/s00894-024-06006-y,1
+2669,0,2024,Carl A. Fogarty,Reconstructing Glycosylation: How to Rebuild Glycoproteins by Molecular Dynamics-generated 3D Libraries,Royal Society of Chemistry eBooks,10.1039/9781839166433-00315,1
+2673,0,2024,Francesca Scantamburlo,Design and Test of Molecules that Interfere with the Recognition Mechanisms between the SARS-CoV-2 Spike Protein and Its Host Cell Receptors,Journal of Chemical Information and Modeling,10.1021/acs.jcim.4c01511,1
+2719,0,2024,Slava Bekker,Introduction to Atomistic Modeling and Simulation of Biomolecular Systems,Springer eBooks,10.1007/978-3-031-73730-5_1,1
+2355,0,2023,Agastya P. Bhati,Long timescale ensemble methods in molecular dynamics: Ligand-protein interactions and allostery in SARS-CoV-2 targets,ChemRxiv,10.26434/chemrxiv-2022-332f2-v2,1
+2373,0,2023,Yohei Munei,A Variety of Initial Velocities in Restarting Molecular Dynamics Simulations Promotes Protein Transitions,Chemistry Letters,10.1246/cl.230104,1
+2404,0,2023,Christophe J. Chipot,Equilibrium and Nonequilibrium Methods for Free-Energy Calculations With Molecular Dynamics,Elsevier eBooks,10.1016/b978-0-12-821978-2.00112-4,1
+2472,0,2023,Jiapu Zhang,Spike (S) Glycoprotein N165A and N234A Mutant,Springer series in biophysics,10.1007/978-3-031-36773-1_10,1
+2473,0,2023,Mandira Dutta,Divergent spike mutations impact the activation of the fusion core in Delta and Omicron variants of SARS-CoV-2,bioRxiv (Cold Spring Harbor Laboratory),10.1101/2023.10.19.563184,1
+2275,0,2022,Sergio Pantano,Back and forth modeling through biological scales,Biochemical and Biophysical Research Communications,10.1016/j.bbrc.2022.09.037,1
+2278,0,2022,Agastya P. Bhati,Long timescale ensemble methods in molecular dynamics: Ligand-protein interactions and allostery in SARS-CoV-2 targets,ChemRxiv,10.26434/chemrxiv-2022-332f2,1
+1967,0,2021,Tomasz Kalwarczyk,Influence of molecular rebinding on the reaction rate of complex formation,Physical Chemistry Chemical Physics,10.1039/d1cp02820k,1
+2031,0,2021,Sagar Kania,Flow-regulated nucleation protrusion theory for collapsed polymers,Physical review. E,10.1103/physreve.104.054504,1
+2038,0,2021,Guillermo Antonio Huerta-Miranda,Use of simplified models for theoretical prediction of the interactions between available antibodies and the receptor-binding domain of SARS-CoV-2 spike protein,Journal of Biomolecular Structure and Dynamics,10.1080/07391102.2021.2019123,1
+2056,0,2021,Harsh Bhatia,Adaptable Coordination of Large Multiscale Ensembles: Challenges and Learnings at Scale,OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information),,1
+2064,0,2021,Peijun Xu,Coarse-grained molecular dynamics study based on TorchMD,Chinese Journal of Chemical Physics,10.1063/1674-0068/cjcp2110218,1
+2547,0,2019,Laura J. S. Lopes,Méthodes numériques pour la simulation d'évènements rares en dynamique moléculaire,theses.fr (ABES),10.70675/2fd81791zd18az416bz8430z9ac2023ecb94,1
+1678,0,2018,Vojtěch Spiwok,Predictive Power of Biomolecular Simulations,Methods and principles in medicinal chemistry,10.1002/9783527806836.ch1,1
+2153,0,2018,Alfredo E. Cárdenas,Determination of Kinetics and Thermodynamics of Biomolecular Processes with Trajectory Fragments,Springer series on bio- and neurosystems,10.1007/978-3-319-95843-9_9,1
+1574,0,2017,Shelly DeForte,"Quarterly intrinsic disorder digest (April–May–June, 2014)",Intrinsically Disordered Proteins,10.1080/21690707.2017.1287505,1
+1550,0,2016,Mahmoud Moqadam,Mechanistic Study of Chemical Reactions Using Path Sampling,NVA (Nasjonalt vitenarkiv),,1
+809,0,2015,Ben Corry,Long Timescale Molecular Simulations for Understanding Ion Channel Function,Wiley eBooks,10.1002/9781119085126.ch15,1
+2072,0,2012,Ron Elber,9.2 Coarse-Grained Methods: Theory,Elsevier eBooks,10.1016/b978-0-12-374920-8.00902-4,1
+2133,0,2012,Mark A. Johnson,Preface,Annual Review of Physical Chemistry,10.1146/annurev-pc-63-040412-100001,1
+2150,0,2011,Unknown,Preface,Annual Review of Physical Chemistry,10.1146/annurev-pc-62-033111-100001,1
+851,0,2010,Ruibin Jiang,Biosensor regeneration via substrate electric potential: A physical mechanism,Applied Physics Letters,10.1063/1.3457473,1
+2141,0,1987,Unknown,Preface,Annual Review of Physical Chemistry,10.1146/annurev.pc.38.042606.100001,1
+2940,0,2026,Èric Catalina-Hernández,Perspectives on TRPV Channels in the Structural and Computational Revolution Era,Advances in experimental medicine and biology,10.1007/978-3-032-07523-9_10,0
+2956,0,2026,Guillaume Graciani,Real-World Application to Single-Molecule Research: Protein (mis)folding,Springer briefs in molecular science,10.1007/978-3-032-10426-7_8,0
+2969,0,2026,Shuonan Pan,Modification of N-glycosylation site in the spike protein enhances the neutralizing antibody response against PEDV,Veterinary Microbiology,10.1016/j.vetmic.2026.110972,0
+2972,0,2026,Javier Ruiz,Reinforcement Learning-Guided Input Scheduling for Kernel Fuzzing,Preprints.org,10.20944/preprints202603.0065.v1,0
+2977,0,2026,Michael Kim,Accelerated Langevin Dynamics Simulation via Neural Network-Driven Importance Sampling,ChemRxiv,10.26434/chemrxiv.15000772/v1,0
+2981,0,2026,Saad Amin,"Identification of Novel Inhibitory Compounds against NDM-1, From High-Throughput Docking To Stability Analysis via Molecular Dynamics",Journal of Pharmaceutical Innovation,10.1007/s12247-026-10554-6,0
+3011,0,2026,Ankur Agarwal,Fundamental mechanisms during EUV exposure and crosslinking of model organometallic photoresists,Advances in Patterning Materials and Processes,10.1117/12.3090457,0
+3016,0,2026,Fiona L. Kearns,Molecular dynamics simulations of mucins,Methods in enzymology on CD-ROM/Methods in enzymology,10.1016/bs.mie.2026.03.011,0
+3028,0,2026,Miranda L. Lynch,Contributions from Structural Biology to the Pandemic Response During the SARS-CoV-2 Pandemic: Lessons Learned for the Future,Sustainable development goals series,10.1007/978-3-032-06125-6_3,0
+3030,0,2026,Vanda Boršová,Integrated computational protocol for sampling molecular databases towards allosteric inhibition of SARS-CoV-2 spike activation,Journal of Biomolecular Structure and Dynamics,10.1080/07391102.2026.2658697,0
+3035,0,2026,Kolattukudy Poulose Santo,Identification and Characterization of Surfactant Binding Sites on the SARS-CoV-2 Spike Protein and Its Variants by Microseconds-Long Molecular Dynamics Simulations,The Journal of Physical Chemistry B,10.1021/acs.jpcb.6c03373,0
+3062,0,2026,Xuxuan Yuan,DynaGene: An Adaptive Scheduling Framework for AI-Coupled Workflows on Heterogeneous Resources,IEEE International Parallel and Distributed Processing Symposium (IPDPS),10.1109/ipdps65963.2026.00103,0
+3068,0,2026,Sutanu Mukhopadhyay,Computational strategies for allosteric drug discovery: from cryptic pocket detection to rational design,Chemical Communications,10.1039/d5cc06159h,0
+3069,0,2026,Sangita Kachhap,Germline-somatic residue synergy reshapes antibody encounter-state pathways to enhance HIV-1 recognition,eLife,10.7554/elife.111706.1,0
+3072,0,2026,Sarah Anne Harris,Meso-Soup: A community approach to building a computational description of the biological mesoscale,Biophysical Journal,10.1016/j.bpj.2026.07.016,0
+3073,0,2026,Teruo Hirakawa,Efficient simulation method for analyzing reaction products via molecular dynamics with tunable reaction probability parameters,MRS Advances,10.1557/s43580-026-01715-3,0
+3078,0,2026,Nitin Malapally,Molecular Simulations‐based Predictions of Drug's Residence Times in the Exascale Era: Current Status and Recent Advances,Wiley eBooks,10.1002/9781394316632.ch09,0
+3079,0,2026,Suvankar Ghosh,Atomistic Force Fields for Molecular Simulations with Emphasis on the CHARMM Additive and Drude Polarizable Models,Wiley eBooks,10.1002/9781394316632.ch01,0
+3080,0,2026,Aamir Mehmood,Transforming Drug Binding with AI ‐enhanced Computational Modeling,Wiley eBooks,10.1002/9781394316632.ch08,0
+3081,0,2026,Dibyendu Maity,TRAILS-MD: Mapping complex conformational landscapes and transition pathways via lightweight lineage-aware adaptive sampling,The Journal of Chemical Physics,10.1063/5.0350663,0
+3084,0,2026,Manal A. Nael,"What Limits a Reference Rate: The State Definition, Not the Estimator",The Journal of Physical Chemistry B,10.1021/acs.jpcb.6c05431,0
+3088,0,2026,Lan Yang,Autotransporter folding avoids a kinetic trap during vectorial translocation across the bacterial outer membrane,bioRxiv (Cold Spring Harbor Laboratory),10.64898/2026.08.22.746429,0
+3093,0,2026,Soumyajit Karmakar,Halogen-Bonding-like Interactions Complement Hydrogen Bonding in a Human Flavin-Dependent Dehalogenase,Journal of Chemical Information and Modeling,10.1021/acs.jcim.6c00986,0
+3097,0,2026,Linjie Li,"Increased receptor binding and spike glycosylation, remodeled immune escape of surging SARS-CoV-2 subvariant BA.3.2.2/RE.2.2/Cicada",Proceedings of the National Academy of Sciences,10.1073/pnas.2614163123,0
+3099,0,2026,Yoshitake Sakae,Diffusion-Model-Guided Adaptive Sampling of Rare Conformational States in Adenylate Kinase,ChemRxiv,10.26434/chemrxiv.15008478/v1,0
+3103,0,2026,Yoshitake Sakae,Diffusion-Model-Guided Adaptive Sampling of Rare Conformational States in Adenylate Kinase,ChemRxiv,10.26434/chemrxiv.15008478/v2,0
+3105,0,2026,Faiza Iram,Unraveling protein folding and structural dynamics,Elsevier eBooks,10.1016/b978-0-443-44988-8.00019-8,0
+3106,0,2026,Alaa Elmetwalli,"Deep learning forecasts and experimentally validates antimicrobial resistance evolution, enabling design of mutation-refractory therapeutics",Chemical Engineering Journal,10.1016/j.cej.2026.182165,0
+3112,0,2026,Rik S. Breebaart,"Training, validation, and interpretation of committor models based on reweighted path ensembles",The Journal of Chemical Physics,10.1063/5.0350496,0
+3120,0,2026,Premila P. Samuel Russell,Simulating metabolon formation within atomistic models of cell cytoplasm,Methods in enzymology on CD-ROM/Methods in enzymology,10.1016/bs.mie.2026.09.024,0
+3129,0,2026,Wentao Xu,RNADaemon: Reinforcement Learning-Guided Molecular Dynamics for RNA Tertiary Structure Prediction,Journal of Chemical Information and Modeling,10.1021/acs.jcim.6c02247,0
+3138,0,2026,Hezrone Mujawo,Gas Compressor Reliability Assessment Using Hybrid Predictive Analytics and Dynamic Modeling,IEEE Access,10.1109/access.2026.3748705,0
+3141,0,2026,Sana Manzoor,Molecular insights into antiamyloidogenic properties of epigallocatechin gallate (EGCG) against zinc-bound $$\beta$$-amyloid using molecular dynamics simulations and Markov state model,European Biophysics Journal,10.1007/s00249-026-01865-0,0
+3142,0,2026,Meghna Bajaj,Backbone Expansion via Enzyme-Mediated Side-Chain Transfer,ChemRxiv,10.26434/chemrxiv.15011917/v1,0
+3144,0,2026,Reshma Mathew,Ultrafast Non-Förster Energy Transfer in a DNA-Templated Cy3-Cy5 Assembly,ChemRxiv,10.26434/chemrxiv.15011960/v1,0
+3145,0,2026,Jaeyin Yoo,Structural Determinants of Conformational Diversity in OXA Carbapenemases,ACS Infectious Diseases,10.1021/acsinfecdis.6c00639,0
+3147,0,2026,Sumira Jan,Structural Plant Analysis: Tools and Techniques,Springer eBooks,10.1007/978-981-95-9253-1_2,0
+3149,0,2026,Bhumika Singh,Simulations of Protein Structure and Dynamics Beyond AlphaFold : From Structure to Function,Wiley Interdisciplinary Reviews Computational Molecular Science,10.1002/wcms.70091,0
+2757,0,2025,Philipp Andelfinger,Intelligent Modeling and Simulation Life Cycle,,10.36227/techrxiv.174123246.67204848/v1,0
+2767,0,2025,Robin Bisht,"Smart Cities, Smarter AI: Edge Defense That Adapts",Preprints.org,10.20944/preprints202503.1152.v1,0
+2812,0,2025,Elena Frasnetti,The potential of AI techniques in biomolecular simulations,Elsevier eBooks,10.1016/b978-0-443-29808-0.00033-9,0
+2830,0,2025,Reyes Núñez‐Franco,Integration of Experimental and Computational Methods to Characterize Glycoproteins,Methods in molecular biology,10.1007/978-1-0716-4722-6_10,0
+2837,0,2025,Xueyang Wang,A forward flux sampling based iterative method to reconstruct recrossing eliminated evaluation of reaction rate,The Journal of Chemical Physics,10.1063/5.0273627,0
+2847,0,2025,Jayapriya Venkatesan,Markovian Timescales of Intramolecular Disulfide Pairing in Cyclotides,Proteins Structure Function and Bioinformatics,10.1002/prot.70041,0
+2852,0,2025,Adisa Mumeen Suleiman,Assessment of Phytochemicals in Thymus vulgaris for anti-inflammatory activities against rheumatoid- In Silico Approach,SSRN Electronic Journal,10.2139/ssrn.5430949,0
+2863,0,2025,Amal Hadj Kacem,Sonification of Motion of Robotic Systems with Many Degrees-of-Freedom,Deep Blue (University of Michigan),10.7302/25802,0
+2890,0,2025,YooJin C. Sheen,Transition Path Sampling Guided by Structural Motifs,Journal of Chemical Theory and Computation,10.1021/acs.jctc.5c01226,0
+2894,0,2025,Marina Guenza,Capturing atomistic dynamics of macromolecules via coarse-grained modeling,Elsevier eBooks,10.1016/b978-0-44-327314-8.00008-7,0
+2895,0,2025,Alexander V. Neimark,Multiscale simulations,Elsevier eBooks,10.1016/b978-0-443-13665-8.00003-2,0
+2912,0,2025,"Ahmadi, Mohammad",Efficient Methods and Algorithms for Analyzing Stochastic Systems,Digital Commons - University of South Florida (University of South Florida),,0
+2916,0,2025,Praffulla Kumar Arya,Targeting spermidine synthase in Leishmania donovani: molecular docking and molecular dynamics simulation-based evaluation of Indian medicinal plant phytochemicals,In Silico Pharmacology,10.1007/s40203-025-00525-z,0
+3012,0,2025,Nazanin Abbasi,Unraveling Nucleation Mechanisms in Membrane Distillation: A Molecular Dynamics and Enhanced Sampling Approach,Journal of the Arkansas Academy of Science,,0
+2503,0,2024,Matthew R. Walsh,Comparing brute force to transition path sampling for gas hydrate nucleation with a flat interface: comments on time reversal symmetry,Physical Chemistry Chemical Physics,10.1039/d3cp05059a,0
+2553,0,2024,Xi-Le Hu,糖动态修饰与生物识别的原位化学探测,Scientia Sinica Chimica,10.1360/ssc-2023-0241,0
+2578,0,2024,Bence Balázs Mészáros,Emerging conformational analysis protocols fromthe RTCONF-16K reaction thermochemistryconformational benchmark set,ChemRxiv,10.26434/chemrxiv-2024-s0tcv,0
+2653,0,2024,Yui Tik Pang,Conclusions and Future Work,Springer theses,10.1007/978-3-031-70602-8_5,0
+2654,0,2024,Yui Tik Pang,SARS-CoV-2 Spike Opening Dynamics and Energetics Reveal the Individual Roles of Glycans and Their Collective Impact,Springer theses,10.1007/978-3-031-70602-8_4,0
+2670,0,2024,Lauren E. Pepi,Overview of Glycosylation Studies of SARS-CoV-2,Royal Society of Chemistry eBooks,10.1039/9781839166433-00001,0
+2687,0,2024,David Cummins,Analysis of transition rates from variational flooding using analytical theory,The Journal of Chemical Physics,10.1063/5.0238289,0
+2712,0,2024,Danilo Roccatano,A Short Introduction to the Molecular Dynamics Simulation of Nanomaterials,Springer eBooks,10.1007/978-3-031-70499-4_5,0
+2914,0,2024,"Кореньков, В.А.",Моделирование взаимодействия эпоксидной смолы ЭД-20 с поверхностью модифицированного графена,Электронный архив ЮУрГУ (South Ural State University),,0
+3003,0,2024,Adam Lahouari,Use of reactive force fields for the simulation of metallic nanoparticles,theses.fr (ABES),10.70675/9ba1a06cz6cb4z4ef3z8d12z6d610f59ae88,0
+3007,0,2024,Léon Huet,Prebiotic chemistry kinetics from stochastic sampling (PROCESS),theses.fr (ABES),10.70675/1e75e4b8z9e09z4722z9db9z8a9820a3ec31,0
+2343,0,2023,Divya Rai,In silico approaches to biomacromolecules through conformational dynamics and catalysis,Elsevier eBooks,10.1016/b978-0-323-90995-2.00016-3,0
+2344,0,2023,Maciej Staszak,In silico approaches for carbohydrates,Elsevier eBooks,10.1016/b978-0-323-90995-2.00005-9,0
+2360,0,2023,Universitas Indonesia,Potential of Dietary Flavonoids in The Prevention and Therapy of COVID-19 : Focusing in Mast Cell - Calcium Ion Channel Axis,Indonesian Journal of Medical Chemistry and Bioinformatics,10.7454/ijmcb.v1i2.1016,0
+2448,0,2023,Elena Gómez-Rubio,Computational Simulations of Glycan Recognition by Lectins and Other Carbohydrate Binding Proteins,Elsevier eBooks,10.1016/b978-0-12-821978-2.00084-2,0
+2476,0,2023,Chuanbo Liu,Error-Controlled Coarse-Graining Dynamics with Mean-Field Randomization,Journal of Chemical Theory and Computation,10.1021/acs.jctc.3c00470,0
+2520,0,2023,Georgia D. Tourassi,Computational Medicine in the Exascale Computing Era: Applications at the Oak Ridge Leadership Computing Facility,IEEE John Vincent Atanasoff International Symposium on Modern Computing (JVA),10.1109/jva60410.2023.00023,0
+2971,0,2023,Camilo Andrés Ruiz Hernandez,Determination of secondary metabolites from plants as possible inhibitors of SARS-CoV-2 spike glycoprotein,Universidad Industrial de Santander,,0
+3001,0,2023,Thomas Pigeon,Rare event sampling methods and machine learning to study catalytic reaction mechanisms,theses.fr (ABES),10.70675/a2f31151z7832z4731za747z1eccf916595e,0
+3005,0,2023,Théo Jaffrelot Inizan,Advancing Large-Scale Molecular Dynamics through Machine Learning,theses.fr (ABES),10.70675/d0667c2cz9cd4z4283za82bzd632c430f26b,0
+3008,0,2023,Rémi Vuillemot,Molecular dynamics simulation based image analysis methods for structural studies of biological macromolecular complexesolecular complexes,theses.fr (ABES),10.70675/ad072516zc099z436fzab3bz1f2c206d814d,0
+3117,0,2023,Fabian Alfonso Parra Ahumada,Termodinámica de la unión de Ca2+ a hemicanales de hCx2,"Repositorio Institucional Académico , Sistema de Bibliotecas Universidad Andrés Bello (UNAB) (Universidad Andrés Bello (UNAB))",,0
+2053,0,2022,Frédérique Lisacek,Bioinformatics Resources for the Study of Glycan-Mediated Protein Interactions,Journal of Visualized Experiments,10.3791/63356,0
+2238,0,2022,Unknown,Review: Challenges and Frontiers of Computational Modeling of Biomolecular Recognition — R0/PR1,QRB Discovery,10.1017/qrd.2022.11.pr1,0
+2240,0,2022,Unknown,Review: Challenges and Frontiers of Computational Modeling of Biomolecular Recognition — R0/PR2,QRB Discovery,10.1017/qrd.2022.11.pr2,0
+2247,0,2022,Unknown,Recommendation: Challenges and Frontiers of Computational Modeling of Biomolecular Recognition — R0/PR3,QRB Discovery,10.1017/qrd.2022.11.pr3,0
+2729,0,2022,Emmett M. Leddin,Computational Modeling of Cancer-Related Mutations in DNA Repair Enzymes Using Molecular Dynamics and Quantum Mechanics/Molecular Mechanics,University of North Texas Digital Library (University of North Texas),10.12794/metadc1944361,0
+3002,0,2022,Zineb Belkacemi,Machine Learning Methods for Molecular Dynamic Simulations,theses.fr (ABES),10.70675/df72a073z4c4az496czad04z5eb4bd2c58c4,0
+3121,0,2022,Unknown,"XSEDE: The eXtreme science and engineering discovery environment (OAC 15-48562) annual report: Report year 6; May 1, 2021 – April 30 , 2022",Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),,0
+3124,0,2022,Unknown,"XSEDE: The eXtreme science and engineering discovery environment (OAC 15-48562) interim project report 18: Report year 6, carryover period, May 1, 2022 – July 31, 2022",Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),,0
+2002,0,2021,Catherine R. Knoverek,The Role of Excited States in Determining β-lactamase Function and Bacterial Fitness,Open Scholarship Institutional Repository (Washington University in St. Louis),10.7936/rjg6-py33,0
+1855,0,2020,Herrera Nieto,A Study of intrinsically disordered proteins using molecular dynamics simulations,Repositori digital de la UPF (Universitat Pompeu Fabra),,0
+1868,0,2020,Belisa R. H. de Aquino,Network of inter-basin traffic in intrinsically disordered PUMA protein,Europhysics Letters (EPL),10.1209/0295-5075/132/28002,0
+1879,0,2020,Maryssa A. Beasley,The effects of membrane physicochemical properties on huntingtin membrane association and downstream aggregation,The Research Repository @ WVU (West Virginia University),10.33915/etd.7968,0
+1954,0,2020,Victoria T. Lim,Computational Characterization of Hv1 Proton Channel Inhibitors and Investigation of the Tools in Molecular Simulations,eScholarship (California Digital Library),10.5281/zenodo.3833234,0
+2130,0,2020,Helmut Grubmüller,Faculty Opinions recommendation of Best Practices for Foundations in Molecular Simulations [Article v1.0],Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature,10.3410/f.734674523.793576304,0
+2146,0,2020,Ron Elber,Celling,Wiley eBooks,10.1002/9781119176800.ch18,0
+2992,0,2020,Kenichiro Takaba,エッジ拡張型並列カスケード選択分子動力学法（eePaCS-MD）を用いたタンパク質の動的構造探索,Institutional Repositories DataBase (IRDB),10.15083/0002006281,0
+2997,0,2020,Jaysen Sawmynaden,Conception de peptide cyclique et étude de l'interaction protéine-protéine par des méthodes d'échantillonnage accélérée,theses.fr (ABES),10.70675/28d9cdbbz505dz4c60z9d24zbd11875b9926,0
+1694,0,2019,Kai-Yang Leong,On approximating a weak Markovian process as Markovian: Are we justified when discarding longtime correlations,The Journal of Chemical Physics,10.1063/1.5056242,0
+1704,0,2019,Liangzhen Zheng,Progesterone receptor ligand binding domain : from conformational dynamics to drug discovery,,10.32657/10220/48075,0
+1717,0,2019,Xiaorong Liu,Multiscale Simulations of Intrinsically Disordered Proteins,Scholarworks (University of Massachusetts Amherst),10.7275/14020756,0
+1721,0,2019,James McSally,Computational Studies of Hoogsteen Base Pairs in Nucleic Acids and Developments in Enhanced Sampling Simulation Techniques,eScholarship (California Digital Library),,0
+1723,0,2019,Brian K Chu,Improved Methods of Simulation and Analysis For Stochastic Processes in Cell Biology,eScholarship (California Digital Library),,0
+1785,0,2019,Jacob M. Remington,Fluorescence quenching in 2-aminopurine-labeled model DNA systems,,,0
+2128,0,2019,Piotr Setny,Faculty Opinions recommendation of Predicting the Conformational Variability of Abl Tyrosine Kinase using Molecular Dynamics Simulations and Markov State Models.,Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature,10.3410/f.732740770.793558307,0
+2996,0,2019,Maxime Woringer,Tools to analyze single-particle tracking data in mammalian cells,theses.fr (ABES),10.70675/bf8f07fdzcbc2z44f3z96bcz2a51c16db330,0
+1639,0,2018,Ariane Nunes‐Alves,Simulações computacionais de desenovelamento de proteína e complexação de ligantes com amostragem aumentada,Digital Library of Theses and Dissertations  (Universidade de São Paulo),10.11606/t.46.2018.tde-14122017-135400,0
+1675,0,2018,Kai-Yang Leong,Molecular Dynamics Investigation of the Thermodynamics of Nanoscale Droplets and Kinetics of Weakly Correlated Systems,Journal of the Arkansas Academy of Science,,0
+1738,0,2018,Benjamin E. Brummel,The Effect of α-Synuclein on Lipid Membrane Properties Characterized by Molecular Dynamics and Atomic Force Microscopy,University of Minnesota Digital Conservancy (University of Minnesota),,0
+2991,0,2018,Phuoc Duy Tran,Association and dissociation simulations of bio-molecular complex using parallel cascade selection molecular dynamics,Institutional Repositories DataBase (IRDB),10.15083/00078466,0
+1580,0,2017,Min K. Roh,Data-driven initialization of SParSE,AIP conference proceedings,10.1063/1.4992657,0
+1628,0,2017,Margaret J. Tse,Computational Methods for Modeling and Mapping Cellular Decision Networks,eScholarship (California Digital Library),,0
+1696,0,2017,Martínez Rosell,Applications of molecular dynamics in drug discovery and technology transfer via a web-based platform,LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas),,0
+1665,0,2016,Zhiye Tang,"Modeling Molecular Recognition From Thermodynamics to Kinetics: Affinity, Selectivity, Binding Rates and Binding Pathways",eScholarship (California Digital Library),,0
+763,0,2015,Brandon Michael Mills,Molecular Simulations of Alternate Frame Folding in Engineered Protein-Based Switches,D-Scholarship@Pitt (University of Pittsburgh),,0
+3123,0,2015,Unknown,XSEDE 2014 q4 quarterly report,Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),,0
+779,0,2014,Kai Kratzer,Crystallization pathways and mechanisms of charged macromolecules at low supersaturations,OPUS Publication Server of the University of Stuttgart (University of Stuttgart),10.18419/opus-5142,0
+2037,0,2014,Yasutaka Nishihara,カスケード型超並列シミュレーションによるタンパク質構造遷移のパスウェイ探索 (特集 生体高分子の揺らぎとダイナミクス : シミュレーションと実験の統計解析),統計数理,,0
+2909,0,2013,Reza Salari,Computational Studies of the Energetics and Dynamics of Protein-Protein Binding,D-Scholarship@Pitt (University of Pittsburgh),,0
+3122,0,2013,Unknown,XSEDE program year 2 annual report,Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),,0
+1373,0,2011,Ben Sauerwine,Secondary Structure Models of Nucleic Acid Folding Kinetics,KiltHub Repository,10.1184/r1/6721436,0
+1468,0,2011,In‐Ho Lee,Protein Folding Simulations: Numerical Experiments,Physics and High Technology,10.3938/phit.20.021,0
+767,0,2009,Zheng Yang,"Symmetry, dynamics and function: Biological macromolecules studied by elastic network models",D-Scholarship@Pitt (University of Pittsburgh),,0
