@@ -113,20 +113,6 @@
         "author": "Miguel A. Gonz\u00e1lez",
         "kind": "extends",
         "text": "Gonz\u00e1lez et al. evaluated explicit water transport models referencing the SPC/E polarization-corrected parameterization of Berendsen, Grigera, and Straatsma (1987)."
-      },
-      {
-        "citing_idx": 1831,
-        "year": 2020,
-        "author": "Vytautas Gapsys",
-        "kind": "extends",
-        "text": "Gapsys et al. confirmed periodic boundary box-size dependence of bulk water diffusion in pure-water simulations matching Yeh and Hummer (2004)."
-      },
-      {
-        "citing_idx": 607,
-        "year": 2023,
-        "author": "Tadashi Ando",
-        "kind": "extends",
-        "text": "Ando evaluated OPC and OPC3 water shear viscosities under periodic boundary box-size corrections referencing Yeh and Hummer (2004)."
       }
     ]
   },
@@ -166,13 +152,6 @@
         "author": "Berk Hess",
         "kind": "extends",
         "text": "Hess et al. contrasted general-topology LINCS linear bond constraints against analytical three-site water SETTLE constraints."
-      },
-      {
-        "citing_idx": 3119,
-        "year": 2026,
-        "author": "Jinwoo Kim",
-        "kind": "extends",
-        "text": "Reaffirms that systematic resampling correlates offspring counts via the shared random offset and fails guaranteed variance reduction with larger population size."
       }
     ]
   },
@@ -251,13 +230,6 @@
         "author": "Ali Sinan Saglam",
         "kind": "extends",
         "text": "Saglam and Chong (2015) adapt Weighted Ensemble bimolecular rate estimation to flexible protein-protein association models."
-      },
-      {
-        "citing_idx": 373,
-        "year": 2017,
-        "author": "Daniel M. Zuckerman",
-        "kind": "extends",
-        "text": "Zuckerman (2017) confirms the 2010 statistical exactness theorem covers broad non-Markovian stochastic processes beyond Brownian dynamics."
       }
     ]
   },
@@ -302,13 +274,6 @@
         "author": "Vytautas Gapsys",
         "kind": "extends",
         "text": "Gapsys et al. confirmed periodic boundary box-size dependence of bulk water diffusion in pure-water simulations matching Yeh and Hummer (2004)."
-      },
-      {
-        "citing_idx": 745,
-        "year": 2026,
-        "author": "Anugraha Thyagatur",
-        "kind": "extends",
-        "text": "Thyagatur et al. (2026) apply the Bhatt 2010 resampling interval criterion to bound tau short enough to resolve transition events during hybrid ParGaMD propagation."
       }
     ],
     "module_switch": "Dynamics, Solvent & GPU",
@@ -428,20 +393,6 @@
         "author": "Divesh Bhatt",
         "kind": "extends",
         "text": "Bhatt et al. adapted bin-reweighted steady-state Weighted Ensemble sampling for free energies and first-passage rates alongside nonequilibrium umbrella sampling."
-      },
-      {
-        "citing_idx": 2216,
-        "year": 2022,
-        "author": "Jinan Wang",
-        "kind": "extends",
-        "text": "Wang et al. (2022) cite the 18 microsecond barnase-barstar association rate constant benchmark while noting slow protein-peptide dissociation remains difficult for standard Weighted Ensemble."
-      },
-      {
-        "citing_idx": 502,
-        "year": 2021,
-        "author": "Lorenzo Casalino",
-        "kind": "extends",
-        "text": "Casalino et al. cited Saglam and Chong (2019) on the 100,000-atom barnase-barstar benchmark prior to scaling Weighted Ensemble to the 500,000-atom spike complex."
       }
     ]
   },
@@ -474,13 +425,6 @@
         "author": "Finlay Clark",
         "kind": "extends",
         "text": "Clark et al. applied the corrected dependent block-length selection framework to automated equilibration truncation point estimation in molecular simulations."
-      },
-      {
-        "citing_idx": 463,
-        "year": 2020,
-        "author": "Robert Hall",
-        "kind": "extends",
-        "text": "Hall, Dixon & Dickson (2020) deploy REVO pairwise variation optimization to clone and merge small trajectory ensembles evolving in high-dimensional unbinding coordinates."
       }
     ]
   },
@@ -527,27 +471,6 @@
         "author": "Katya Ahmad",
         "kind": "extends",
         "text": "Ahmad et al. document millisecond-scale Langevin rate benchmarks performed with the AMBER ff99SB* force field of Best and Hummer (2009)."
-      },
-      {
-        "citing_idx": 475,
-        "year": 2020,
-        "author": "Jeremy Copperman",
-        "kind": "extends",
-        "text": "Copperman and Zuckerman explicitly noted in 2020 that the experimental protein folding time reported in Adhikari et al. (2019) was erroneous ahead of the 2021 JACS correction."
-      },
-      {
-        "citing_idx": 563,
-        "year": 2022,
-        "author": "Abigail C. Dommer",
-        "kind": "extends",
-        "text": "Dommer et al. cited Adhikari et al. (2019) for Weighted Ensemble protein folding without citing the 2021 JACS erratum."
-      },
-      {
-        "citing_idx": 745,
-        "year": 2026,
-        "author": "Anugraha Thyagatur",
-        "kind": "extends",
-        "text": "Thyagatur et al. cite Adhikari et al. (2019) among atomistic biophysical applications of Weighted Ensemble simulation."
       }
     ]
   },
@@ -599,13 +522,6 @@
         "author": "Anugraha Thyagatur",
         "kind": "extends",
         "text": "Thyagatur et al. (2026) apply the Bhatt 2010 resampling interval criterion to bound tau short enough to resolve transition events during hybrid ParGaMD propagation."
-      },
-      {
-        "citing_idx": 557,
-        "year": 2022,
-        "author": "Katya Ahmad",
-        "kind": "extends",
-        "text": "Cites Weighted Ensemble Milestoning inter-milestone binning and reports sub-microsecond ligand dissociation rate estimates."
       }
     ],
     "module_switch": "MSM, haMSM & RiteWeight",
@@ -640,13 +556,6 @@
         "author": "Aaron R. Dinner",
         "kind": "extends",
         "text": "Dinner et al. (2018) formalize trajectory stratification across stochastic dynamics with general intermediate-state weight accounting."
-      },
-      {
-        "citing_idx": 563,
-        "year": 2022,
-        "author": "Abigail C. Dommer",
-        "kind": "extends",
-        "text": "Dommer et al. (2022) parallelize, memory-optimize, and stream history-augmented Markov state model analysis across terabyte-scale SARS-CoV-2 spike-opening datasets."
       }
     ]
   },
@@ -757,27 +666,6 @@
         "author": "Surl-Hee Ahn",
         "kind": "extends",
         "text": "Ahn et al. (2017) adapt Voronoi-cell Weighted Ensemble into Concurrent Adaptive Sampling without predefined global grids."
-      },
-      {
-        "citing_idx": 532,
-        "year": 2022,
-        "author": "Nicole M. Roussey",
-        "kind": "extends",
-        "text": "Roussey et al. (2022) reanalyze the OA-G6 host-guest Weighted Ensemble dataset from Hall et al. (2020) to quantify how local ion densities modulate binding transition paths."
-      },
-      {
-        "citing_idx": 611,
-        "year": 2023,
-        "author": "Samik Bose",
-        "kind": "extends",
-        "text": "Bose and Dickson (2023) cite Hall et al. (2020) while quantifying ligand binding transition state ensembles and residence-time underestimates."
-      },
-      {
-        "citing_idx": 673,
-        "year": 2026,
-        "author": "Seref Berk Atik",
-        "kind": "extends",
-        "text": "Atik et al. (2026) cite Hall et al. (2020) in assessing ternary complex stability of molecular glues with Weighted Ensemble simulations."
       }
     ]
   },
@@ -796,29 +684,7 @@
     "corrected": "Ng et al. (2013) restored the Davison and Hinkley shrinkage correction across arbitrary unbalanced cluster sizes and paired two-stage resampling with bias-corrected and accelerated confidence intervals to prevent variance overestimation.",
     "engine_guardrail": "The switchable Grand Unified weighted/ genealogy uncertainty module applies shrinkage-corrected two-stage bootstrap resampling across unbalanced Weighted Ensemble ancestor families to prevent second-stage confidence-interval inflation.",
     "math_tex": "\\widehat{\\mathrm{Var}}_{\\mathrm{TSB,shrink}} = \\widehat{\\mathrm{Var}}_{\\mathrm{cluster}} + \\lambda_{\\mathrm{shrink}}\\,\\widehat{\\mathrm{Var}}_{\\mathrm{within}}",
-    "events": [
-      {
-        "citing_idx": 538,
-        "year": 2021,
-        "author": "Dhiman Ray",
-        "kind": "extends",
-        "text": "Ray et al. extended Weighted Ensemble Milestoning into Markovian Weighted Ensemble Milestoning (M-WEM) for long-timescale ligand kinetics."
-      },
-      {
-        "citing_idx": 3146,
-        "year": 2026,
-        "author": "Catherine Etchebest",
-        "kind": "extends",
-        "text": "Etchebest et al. cited Ray et al. (2020) for accelerating intermilestone transition statistics via Weighted Ensemble Milestoning."
-      },
-      {
-        "citing_idx": 654,
-        "year": 2024,
-        "author": "Marion Silvestrini",
-        "kind": "extends",
-        "text": "Silvestrini et al. (2024) cite Ray et al. (2020) when characterizing gating-residue control of internal-cavity ligand unbinding in HIF-2alpha PAS-B."
-      }
-    ]
+    "events": []
   },
   {
     "id": "A19",
@@ -881,20 +747,6 @@
         "author": "Javier Aguilar",
         "kind": "extends",
         "text": "Aguilar et al. (2022) cite Weighted Ensemble Brownian dynamics tail sampling in benchmarking stochastic bridge estimators."
-      },
-      {
-        "citing_idx": 563,
-        "year": 2022,
-        "author": "Abigail C. Dommer",
-        "kind": "extends",
-        "text": "Dommer et al. (2022) deploy automated Minimal Adaptive Binning to isolate bottleneck walkers and cross large SARS-CoV-2 spike-opening barriers without manual bin edges."
-      },
-      {
-        "citing_idx": 604,
-        "year": 2023,
-        "author": "Xiaowei Bogetti",
-        "kind": "extends",
-        "text": "Xiaowei Bogetti et al. (2023) run Minimal Adaptive Binning with five evenly spaced interior bins alongside isolated trailing, leading, and bottleneck walkers along RMSD."
       }
     ]
   },
@@ -927,20 +779,6 @@
         "author": "Surl-Hee Ahn",
         "kind": "extends",
         "text": "Ahn et al. (2017) build Voronoi-cell Concurrent Adaptive Sampling atop Accelerated Weighted Ensemble principles for high-dimensional transitions."
-      },
-      {
-        "citing_idx": 2540,
-        "year": 2024,
-        "author": "Artur Meller",
-        "kind": "extends",
-        "text": "Cites Su\u00e1rez et al. 2021 alongside standard Markov state model literature for parallel conformational mapping without flagging short-lag reversible mean first-passage time bias."
-      },
-      {
-        "citing_idx": 661,
-        "year": 2025,
-        "author": "Samik Bose",
-        "kind": "extends",
-        "text": "Builds on Markov state model versus history-augmented Markov state model diagnostics to address trajectory merging bias in Weighted Ensemble data."
       }
     ]
   },
@@ -973,27 +811,6 @@
         "author": "Robert Hall",
         "kind": "extends",
         "text": "Hall, Dixon & Dickson (2020) apply color-labeled bound and unbound directional flux decomposition to ligand binding and unbinding calculations."
-      },
-      {
-        "citing_idx": 733,
-        "year": 2026,
-        "author": "Sagar Kania",
-        "kind": "extends",
-        "text": "Cites the unpublished 2021 arXiv source-sink Markov state model preprint during development of RiteWeight discretization-free steady-state reweighting."
-      },
-      {
-        "citing_idx": 742,
-        "year": 2026,
-        "author": "David Aristoff",
-        "kind": "extends",
-        "text": "Cites the 2021 arXiv source-sink framework when formalizing exact coarse Markov state model versus directional steady-state flux theorems."
-      },
-      {
-        "citing_idx": 756,
-        "year": 2026,
-        "author": "Daniel M. Zuckerman",
-        "kind": "extends",
-        "text": "Cites the 2021 source-sink Markov state model preprint in the 2026 LiveCoMS Markov state model Roundtable consensus review."
       }
     ]
   },
@@ -1033,27 +850,6 @@
         "author": "David Aristoff",
         "kind": "extends",
         "text": "Incorporates color-labeled Weighted Ensemble comparisons into mathematical variance and unbiasedness analysis for Weighted Ensemble."
-      },
-      {
-        "citing_idx": 563,
-        "year": 2022,
-        "author": "Abigail C. Dommer",
-        "kind": "extends",
-        "text": "Dommer et al. cite Sztain et al. (2021) SARS-CoV-2 spike opening simulations and motivate two WESTPA software advances for million-atom viral systems."
-      },
-      {
-        "citing_idx": 2033,
-        "year": 2021,
-        "author": "Yuan Tian",
-        "kind": "extends",
-        "text": "Tian et al. cite Sztain et al. (2021) regarding N343 glycan gating and reduced receptor-binding motif shielding during spike opening."
-      },
-      {
-        "citing_idx": 745,
-        "year": 2026,
-        "author": "Anugraha Thyagatur",
-        "kind": "extends",
-        "text": "Thyagatur et al. cite Sztain et al. (2021) among biophysical rare-event conformational transitions sampled by Weighted Ensemble."
       }
     ]
   },
@@ -1132,20 +928,6 @@
         "author": "Nicole M. Roussey",
         "kind": "extends",
         "text": "Roussey cites Dickson et al. (2015) alongside Weighted Ensemble pathway studies of local ion density effects."
-      },
-      {
-        "citing_idx": 563,
-        "year": 2022,
-        "author": "Abigail C. Dommer",
-        "kind": "extends",
-        "text": "Dommer et al. (2022) run WESTPA 2.0 to capture Delta-variant spike opening and accelerate spike-opening kinetic analysis."
-      },
-      {
-        "citing_idx": 745,
-        "year": 2026,
-        "author": "Anugraha Thyagatur",
-        "kind": "extends",
-        "text": "Thyagatur et al. (2026) execute independent parallel Gaussian accelerated molecular dynamics walkers inside WESTPA 2.0 over resampling interval tau."
       }
     ]
   },
@@ -1178,20 +960,6 @@
         "author": "Jeremy Copperman",
         "kind": "extends",
         "text": "Copperman & Zuckerman (2020) partition the intermediate transition region into fine history-labeled microbins to preserve path memory in haMSM kinetic estimation."
-      },
-      {
-        "citing_idx": 654,
-        "year": 2024,
-        "author": "Marion Silvestrini",
-        "kind": "extends",
-        "text": "Silvestrini et al. (2024) cite Zhang et al. (2022) in Weighted Ensemble dissociation kinetics analysis of internal protein cavities."
-      },
-      {
-        "citing_idx": 690,
-        "year": 2025,
-        "author": "Marcelo D. Pol\u00eato",
-        "kind": "extends",
-        "text": "Poleto et al. (2025) cite Zhang et al. (2022) while extending Weighted Ensemble simulations to the Drude polarizable force field."
       }
     ]
   },
@@ -1316,27 +1084,6 @@
         "author": "David Aristoff",
         "kind": "extends",
         "text": "Connects exact Milestoning renewal operators with modern Weighted Ensemble mathematical analysis."
-      },
-      {
-        "citing_idx": 647,
-        "year": 2024,
-        "author": "John Strahan",
-        "kind": "extends",
-        "text": "Cites the 2023 Weighted Ensemble variance-bound framework when formulating basis-accelerated trajectory stratification."
-      },
-      {
-        "citing_idx": 705,
-        "year": 2026,
-        "author": "Won Hee Ryu",
-        "kind": "extends",
-        "text": "Cites the 2023 variance-bound analysis when designing optimal trajectory management rules to reduce Weighted Ensemble estimator variance."
-      },
-      {
-        "citing_idx": 2964,
-        "year": 2026,
-        "author": "Jakob Steuer",
-        "kind": "extends",
-        "text": "Cites Aristoff et al. 2023 for a general unbiased Weighted Ensemble kinetics overview without invoking discrepancy-variation binning requirements."
       }
     ]
   },
@@ -1521,34 +1268,6 @@
         "author": "Jinwoo Kim",
         "kind": "extends",
         "text": "Kim (2026) cites Aristoff (2018) Weighted Ensemble selection weights for variance-reduction precedents in sequential trajectory resampling."
-      },
-      {
-        "citing_idx": 672,
-        "year": 2025,
-        "author": "Jeremy M. G. Leung",
-        "kind": "extends",
-        "text": "Leung et al. cite Wang and Tiwary (2024) while implementing unsupervised variational autoencoder progress-coordinate learning during NTL9 folding Weighted Ensemble runs."
-      },
-      {
-        "citing_idx": 678,
-        "year": 2025,
-        "author": "Anthony T. Bogetti",
-        "kind": "extends",
-        "text": "Bogetti et al. cite Wang and Tiwary (2024) during the kinesin Eg5 ligand-unbinding benchmark of adaptive Weighted Ensemble binning."
-      },
-      {
-        "citing_idx": 725,
-        "year": 2026,
-        "author": "Lisa Otten",
-        "kind": "extends",
-        "text": "Otten et al. cite Wang and Tiwary (2024) in physics-based equilibrium rectification of AI-generated protein structure ensembles."
-      },
-      {
-        "citing_idx": 759,
-        "year": 2026,
-        "author": "Jacky Chen",
-        "kind": "extends",
-        "text": "Chen et al. cite Wang and Tiwary (2024) in WELP Weighted Ensemble in-the-loop committor learning."
       }
     ]
   },
@@ -1595,41 +1314,6 @@
         "author": "Joan F. Gilabert",
         "kind": "extends",
         "text": "Gilabert cites REAP dynamic multi-order-parameter reward weighting in a review of enhanced sampling frameworks."
-      },
-      {
-        "citing_idx": 707,
-        "year": 2026,
-        "author": "Ceren K\u0131l\u0131n\u00e7",
-        "kind": "extends",
-        "text": "Kilinc et al. apply merging-bias-aware Markov state modeling on unbiased Weighted Ensemble trajectories to estimate CGRP peptide binding committors."
-      },
-      {
-        "citing_idx": 733,
-        "year": 2026,
-        "author": "Sagar Kania",
-        "kind": "extends",
-        "text": "Kania et al. cite Bose, Kilinc & Dickson merging-bias elimination when motivating discretization-free RiteWeight trajectory reweighting."
-      },
-      {
-        "citing_idx": 741,
-        "year": 2026,
-        "author": "Dibyendu Maity",
-        "kind": "extends",
-        "text": "Maity et al. cite Bose, Kilinc & Dickson merging-bias correction when formulating channel-resolved kinetic postprocessing for neural-guided Weighted Ensemble runs."
-      },
-      {
-        "citing_idx": 2964,
-        "year": 2026,
-        "author": "Jakob Steuer",
-        "kind": "extends",
-        "text": "Steuer and Kahraman cited Bose, Kilinc, and Dickson (2025) for Markov state model analysis of aggregate Weighted Ensemble data."
-      },
-      {
-        "citing_idx": 673,
-        "year": 2026,
-        "author": "Seref Berk Atik",
-        "kind": "extends",
-        "text": "Atik et al. (2026) cite Bose, Kilinc and Dickson (2025) on eliminating trajectory merging bias in Markov state models built from Weighted Ensemble molecular glue trajectories."
       }
     ]
   },
@@ -1669,41 +1353,6 @@
         "author": "Joan F. Gilabert",
         "kind": "extends",
         "text": "Gilabert et al. (2020) review Dickson (2018) alongside multi-minute WExplore ligand unbinding simulations."
-      },
-      {
-        "citing_idx": 691,
-        "year": 2025,
-        "author": "Lillian T. Chong",
-        "kind": "extends",
-        "text": "Chong & Zuckerman incorporate lessons from the Bogetti et al. ligand-unbinding benchmark and binless MABL scoring into the 2025 WIREs Weighted Ensemble review."
-      },
-      {
-        "citing_idx": 741,
-        "year": 2026,
-        "author": "Dibyendu Maity",
-        "kind": "extends",
-        "text": "Maity et al. reference Bogetti et al. binless adaptive resampling when designing neural-guided Weighted Ensemble channel strategies."
-      },
-      {
-        "citing_idx": 754,
-        "year": 2026,
-        "author": "Anupam Anand Ojha",
-        "kind": "extends",
-        "text": "Ojha et al. cite Bogetti et al. resampling caveats when diagnosing walker weight degeneracy in cryoWEight ensemble simulations."
-      },
-      {
-        "citing_idx": 701,
-        "year": 2026,
-        "author": "Neha Vithani",
-        "kind": "extends",
-        "text": "Vithani et al. (2026) cite Bogetti et al. (2025) in enhanced sampling and ligandability assessment of cryptic pockets."
-      },
-      {
-        "citing_idx": 3056,
-        "year": 2026,
-        "author": "Anupam Anand Ojha",
-        "kind": "extends",
-        "text": "Ojha et al. (2026) cite Bogetti et al. (2025) in automated kinetics workflows integrating machine-learned force fields."
       }
     ]
   },
@@ -1780,20 +1429,6 @@
         "author": "Copperman & Zuckerman",
         "kind": "extends",
         "text": "Motivates microbin haMSM steady state extraction from slow pre steady state current relaxation across multidimensional biomolecular coordinates."
-      },
-      {
-        "citing_idx": 756,
-        "year": 2026,
-        "author": "Daniel M. Zuckerman",
-        "kind": "extends",
-        "text": "Zuckerman et al. synthesize the Aristoff, Webber & Zuckerman unbiased coarse observable framework within the 2026 LiveCoMS Markov state model roundtable."
-      },
-      {
-        "citing_idx": 3104,
-        "year": 2026,
-        "author": "Jonathan Weare",
-        "kind": "extends",
-        "text": "Weare et al. cite Aristoff, Webber & Zuckerman unbiased observable formulations when reviewing machine-learned kinetic estimators from molecular dynamics."
       }
     ],
     "module_switch": "Rates, Hill & RED",
@@ -1854,41 +1489,6 @@
         "author": "Lorenzo Casalino",
         "kind": "extends",
         "text": "Casalino et al. cited Saglam and Chong (2019) on the 100,000-atom barnase-barstar benchmark prior to scaling Weighted Ensemble to the 500,000-atom spike complex."
-      },
-      {
-        "citing_idx": 720,
-        "year": 2026,
-        "author": "Lisa Otten",
-        "kind": "extends",
-        "text": "Otten et al. introduce Regularized RiteWeight to suppress sparse-dataset weight fluctuations while quantifying the resulting tunable smoothing bias."
-      },
-      {
-        "citing_idx": 728,
-        "year": 2026,
-        "author": "David Aristoff",
-        "kind": "extends",
-        "text": "Aristoff & Zuckerman extend RiteWeight to biased trajectory snippets through bRiteWeight Girsanov importance reweighting."
-      },
-      {
-        "citing_idx": 749,
-        "year": 2026,
-        "author": "John Strahan",
-        "kind": "extends",
-        "text": "Strahan et al. differentiate the RiteWeight update recursion with respect to force-field parameters to eliminate coarse Markov gradient bias in rare-event sensitivity analysis."
-      },
-      {
-        "citing_idx": 752,
-        "year": 2026,
-        "author": "Sagar Kania",
-        "kind": "extends",
-        "text": "Kania accelerates RiteWeight mean first passage time convergence by learning slow DeepTICA latent coordinates for randomized clustering."
-      },
-      {
-        "citing_idx": 725,
-        "year": 2026,
-        "author": "Lisa Otten",
-        "kind": "extends",
-        "text": "Otten et al. apply RiteWeight physics-based trajectory reweighting to rectify AI-generated protein structure ensembles toward equilibrium."
       }
     ],
     "module_switch": "Dynamics, Solvent & GPU",
