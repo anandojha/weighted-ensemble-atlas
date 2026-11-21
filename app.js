@@ -40,6 +40,7 @@
     activeSubfieldTab: 0,
     activeAuditIdx: 0,
     auditFilter: "all",
+    auditModuleFilter: "all",
     activeReviewIdx: 0,
     oppFilter: "all",
     methodTab: "corpus"
@@ -1280,7 +1281,9 @@
     if (name === "audits") {
       titleEl.textContent = "Audit & Citation Propagation Browser (" + state.audits.length + " Verified)";
       var filtered = state.audits.filter(function (a) {
-        return state.auditFilter === "all" || a.severity === state.auditFilter;
+        var okSev = state.auditFilter === "all" || a.severity === state.auditFilter;
+        var okMod = state.auditModuleFilter === "all" || a.module_switch === state.auditModuleFilter;
+        return okSev && okMod;
       });
       if (!filtered.length) filtered = state.audits;
       if (state.activeAuditIdx >= filtered.length) state.activeAuditIdx = 0;
@@ -1295,6 +1298,32 @@
             sv +
             '">' +
             (sv === "all" ? "All (" + state.audits.length + ")" : sv) +
+            "</button>"
+          );
+        })
+        .join("");
+
+      var modules = [
+        "all",
+        "Allocation & Binning",
+        "Rates, Hill & RED",
+        "MSM, haMSM & RiteWeight",
+        "Phase Space Network & CVs",
+        "Recycling & Boundaries",
+        "Error Bars & Genealogy",
+        "Dynamics, Solvent & GPU"
+      ];
+      var modulePills = modules
+        .map(function (md) {
+          var cnt = md === "all" ? state.audits.length : state.audits.filter(function (x) { return x.module_switch === md; }).length;
+          if (md !== "all" && cnt === 0) return "";
+          return (
+            '<button class="pill-btn ' +
+            (state.auditModuleFilter === md ? "active" : "") +
+            '" data-mod-filt="' +
+            md +
+            '">' +
+            (md === "all" ? "All Engine Switches" : md + " (" + cnt + ")") +
             "</button>"
           );
         })
@@ -1365,6 +1394,7 @@
         '<div class="pill-strip">' +
         filterPills +
         "</div>" +
+        (modulePills ? '<div class="pill-strip" style="margin-top:4px;">' + modulePills + "</div>" : "") +
         '<div class="spark-bar-wrap">' +
         '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">' +
         '<span class="hud-section-label">Click any bar to inspect (' +
@@ -1381,11 +1411,14 @@
         '<div class="audit-card">' +
         '<div class="badge-row" style="margin:0 0 7px 0;">' +
         '<span class="badge badge-check">' + curA.category + "</span>" +
-        '<span class="badge badge-seed">' + curA.severity + "</span></div>" +
+        '<span class="badge badge-seed">' + curA.severity + "</span>" +
+        (curA.module_switch ? '<span class="badge badge-pdf">' + curA.module_switch + "</span>" : "") +
+        "</div>" +
         "<h4>" + curA.title + "</h4>" +
         '<div style="font-size:11.8px;color:var(--accent);margin-bottom:6px;">' + curA.paper_label + "</div>" +
         "<p><strong>Paper or literature pattern</strong> " + curA.claimed + "</p>" +
         "<p><strong>Verified resolution</strong> " + curA.corrected + "</p>" +
+        (curA.engine_guardrail ? '<p style="border-left:2px solid var(--green);padding-left:8px;margin-top:6px;"><strong>Grand Unified Engine Guardrail</strong> ' + curA.engine_guardrail + "</p>" : "") +
         '<div class="math-box">' + renderMath(curA.math_tex, true) + "</div>" +
         '<div style="display:flex;gap:7px;flex-wrap:wrap;margin-top:8px;">' +
         (curA.src_idx >= 0 ? '<button class="card-link" id="aud-locate">Illuminate propagation arcs on 3D cylinder</button>' : "") +
@@ -1393,7 +1426,7 @@
         (evHtml ? '<div class="hud-section-label" style="margin-top:11px;"><span>Verified Citation &amp; Lineage Events</span></div>' + evHtml : "") +
         "</div>" +
         '<div class="hud-section-label" style="margin:12px 0 6px;"><span>All records in current view</span></div>' +
-        '<table class="data-table"><thead><tr><th>Year</th><th>Severity</th><th>Finding</th></tr></thead><tbody>' +
+        '<table class="data-table"><thead><tr><th>Year</th><th>Severity</th><th>Engine Switch</th><th>Finding</th></tr></thead><tbody>' +
         filtered
           .map(function (a, idx) {
             return (
@@ -1406,6 +1439,8 @@
               "</td><td>" +
               a.severity +
               "</td><td>" +
+              (a.module_switch || "") +
+              "</td><td>" +
               a.title +
               "</td></tr>"
             );
@@ -1416,6 +1451,13 @@
       bodyEl.querySelectorAll("[data-aud-filt]").forEach(function (b) {
         b.onclick = function () {
           state.auditFilter = b.getAttribute("data-aud-filt");
+          state.activeAuditIdx = 0;
+          populateDrawer("audits");
+        };
+      });
+      bodyEl.querySelectorAll("[data-mod-filt]").forEach(function (b) {
+        b.onclick = function () {
+          state.auditModuleFilter = b.getAttribute("data-mod-filt");
           state.activeAuditIdx = 0;
           populateDrawer("audits");
         };
@@ -1718,7 +1760,7 @@
           '<div class="audit-card">' +
           "<h4>Four Depth Literature &amp; Physics Audit Architecture</h4>" +
           "<p><strong>Depth 1 · Seed &amp; Citation Graph Construction</strong> Anchored on the 1951 to 1989 splitting and Brownian dynamics ancestors, Huber &amp; Kim (1996), 29 landmark Weighted Ensemble method and software works, and an institutional reference archive of 257 Weighted Ensemble files, expanded via OpenAlex to 3,154 works and 51,535 citation edges.</p>" +
-          "<p><strong>Depth 2 · Multi Channel Full Text &amp; Equation Ingestion</strong> Extracted " + ftN.toLocaleString() + " full texts across lossless arXiv <code>.tex</code> source packages, Europe PMC and NIH PMC JATS XML articles, Open Access publisher PDFs, TDM licensed full texts, and institutional journal PDFs, indexing " + eqN.toLocaleString() + " equations and " + ctxN.toLocaleString() + " citing sentences inside <code>corpus.sqlite</code>.</p>" +
+          "<p><strong>Depth 2 · Multi Channel Full Text &amp; Equation Ingestion</strong> Extracted " + ftN.toLocaleString() + " full texts across lossless arXiv <code>.tex</code> source packages, Europe PMC and NIH PMC JATS XML articles, Open Access publisher PDFs, TDM licensed full texts, and institutional journal PDFs, indexing " + eqN.toLocaleString() + " equations and " + ctxN.toLocaleString() + " citing sentences inside the local SQLite database.</p>" +
           "<p><strong>Depth 3 · Two Pass Equation, Estimator &amp; Propagation Verification</strong> Five domain auditors inspected equations, published errata, and estimator validity conditions, paired with cross verification of every node index, DOI, and citing sentence excerpt.</p>" +
           "<p><strong>Depth 4 · Synthesis Into Subfield Dossiers, Field Review, Unified Equation &amp; Research Briefs</strong> Compiled into 12 subfield dossiers, a Grand Unified Weighted Ensemble Equation synthesis plus 13 hover cited chapters, a 6 stage 3D Story camera tour, and 16 downloadable Markdown research briefs.</p>" +
           "</div>" +

@@ -1054,7 +1054,7 @@
       ]
     }
   ],
-  "n_audits": 39,
+  "n_audits": 100,
   "n_fulltexts": 2129,
   "n_equations": 6144,
   "n_latex_equations": 2359,
@@ -1072,5 +1072,15 @@
     "journal_tdm_pdf": 149,
     "accepted_postprint_pdf": 80,
     "journal_pmc_xml": 9
+  },
+  "n_audit_events": 347,
+  "module_switch_counts": {
+    "Phase Space Network & CVs": 13,
+    "Recycling & Boundaries": 8,
+    "Dynamics, Solvent & GPU": 16,
+    "Error Bars & Genealogy": 11,
+    "Allocation & Binning": 13,
+    "Rates, Hill & RED": 17,
+    "MSM, haMSM & RiteWeight": 22
   }
 }
